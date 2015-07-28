@@ -1,0 +1,567 @@
+package com.google.android.gtalkservice;
+
+import android.os.IBinder;
+import android.os.Parcel;
+import android.os.RemoteException;
+
+class IChatSession$Stub$Proxy
+  implements IChatSession
+{
+  private IBinder mRemote;
+  
+  IChatSession$Stub$Proxy(IBinder paramIBinder)
+  {
+    mRemote = paramIBinder;
+  }
+  
+  /* Error */
+  public void addRemoteChatListener(IChatListener paramIChatListener)
+    throws RemoteException
+  {
+    // Byte code:
+    //   0: invokestatic 30	android/os/Parcel:obtain	()Landroid/os/Parcel;
+    //   3: astore_2
+    //   4: invokestatic 30	android/os/Parcel:obtain	()Landroid/os/Parcel;
+    //   7: astore_3
+    //   8: aload_2
+    //   9: ldc 32
+    //   11: invokevirtual 36	android/os/Parcel:writeInterfaceToken	(Ljava/lang/String;)V
+    //   14: aload_1
+    //   15: ifnull +43 -> 58
+    //   18: aload_1
+    //   19: invokeinterface 42 1 0
+    //   24: astore_1
+    //   25: aload_2
+    //   26: aload_1
+    //   27: invokevirtual 45	android/os/Parcel:writeStrongBinder	(Landroid/os/IBinder;)V
+    //   30: aload_0
+    //   31: getfield 19	com/google/android/gtalkservice/IChatSession$Stub$Proxy:mRemote	Landroid/os/IBinder;
+    //   34: bipush 9
+    //   36: aload_2
+    //   37: aload_3
+    //   38: iconst_0
+    //   39: invokeinterface 51 5 0
+    //   44: pop
+    //   45: aload_3
+    //   46: invokevirtual 54	android/os/Parcel:readException	()V
+    //   49: aload_3
+    //   50: invokevirtual 57	android/os/Parcel:recycle	()V
+    //   53: aload_2
+    //   54: invokevirtual 57	android/os/Parcel:recycle	()V
+    //   57: return
+    //   58: aconst_null
+    //   59: astore_1
+    //   60: goto -35 -> 25
+    //   63: astore_1
+    //   64: aload_3
+    //   65: invokevirtual 57	android/os/Parcel:recycle	()V
+    //   68: aload_2
+    //   69: invokevirtual 57	android/os/Parcel:recycle	()V
+    //   72: aload_1
+    //   73: athrow
+    // Local variable table:
+    //   start	length	slot	name	signature
+    //   0	74	0	this	Proxy
+    //   0	74	1	paramIChatListener	IChatListener
+    //   3	66	2	localParcel1	Parcel
+    //   7	58	3	localParcel2	Parcel
+    // Exception table:
+    //   from	to	target	type
+    //   8	14	63	finally
+    //   18	25	63	finally
+    //   25	49	63	finally
+  }
+  
+  public IBinder asBinder()
+  {
+    return mRemote;
+  }
+  
+  /* Error */
+  public void clearChatHistory(android.net.Uri paramUri)
+    throws RemoteException
+  {
+    // Byte code:
+    //   0: invokestatic 30	android/os/Parcel:obtain	()Landroid/os/Parcel;
+    //   3: astore_2
+    //   4: aload_2
+    //   5: ldc 32
+    //   7: invokevirtual 36	android/os/Parcel:writeInterfaceToken	(Ljava/lang/String;)V
+    //   10: aload_1
+    //   11: ifnull +34 -> 45
+    //   14: aload_2
+    //   15: iconst_1
+    //   16: invokevirtual 64	android/os/Parcel:writeInt	(I)V
+    //   19: aload_1
+    //   20: aload_2
+    //   21: iconst_0
+    //   22: invokevirtual 70	android/net/Uri:writeToParcel	(Landroid/os/Parcel;I)V
+    //   25: aload_0
+    //   26: getfield 19	com/google/android/gtalkservice/IChatSession$Stub$Proxy:mRemote	Landroid/os/IBinder;
+    //   29: bipush 16
+    //   31: aload_2
+    //   32: aconst_null
+    //   33: iconst_1
+    //   34: invokeinterface 51 5 0
+    //   39: pop
+    //   40: aload_2
+    //   41: invokevirtual 57	android/os/Parcel:recycle	()V
+    //   44: return
+    //   45: aload_2
+    //   46: iconst_0
+    //   47: invokevirtual 64	android/os/Parcel:writeInt	(I)V
+    //   50: goto -25 -> 25
+    //   53: astore_1
+    //   54: aload_2
+    //   55: invokevirtual 57	android/os/Parcel:recycle	()V
+    //   58: aload_1
+    //   59: athrow
+    // Local variable table:
+    //   start	length	slot	name	signature
+    //   0	60	0	this	Proxy
+    //   0	60	1	paramUri	android.net.Uri
+    //   3	52	2	localParcel	Parcel
+    // Exception table:
+    //   from	to	target	type
+    //   4	10	53	finally
+    //   14	25	53	finally
+    //   25	40	53	finally
+    //   45	50	53	finally
+  }
+  
+  public void ensureNonZeroLastMessageDate()
+    throws RemoteException
+  {
+    Parcel localParcel = Parcel.obtain();
+    try
+    {
+      localParcel.writeInterfaceToken("com.google.android.gtalkservice.IChatSession");
+      mRemote.transact(15, localParcel, null, 1);
+      return;
+    }
+    finally
+    {
+      localParcel.recycle();
+    }
+  }
+  
+  public boolean getLightweightNotify()
+    throws RemoteException
+  {
+    boolean bool = false;
+    Parcel localParcel1 = Parcel.obtain();
+    Parcel localParcel2 = Parcel.obtain();
+    try
+    {
+      localParcel1.writeInterfaceToken("com.google.android.gtalkservice.IChatSession");
+      mRemote.transact(12, localParcel1, localParcel2, 0);
+      localParcel2.readException();
+      int i = localParcel2.readInt();
+      if (i != 0) {
+        bool = true;
+      }
+      return bool;
+    }
+    finally
+    {
+      localParcel2.recycle();
+      localParcel1.recycle();
+    }
+  }
+  
+  public String[] getParticipants()
+    throws RemoteException
+  {
+    Parcel localParcel1 = Parcel.obtain();
+    Parcel localParcel2 = Parcel.obtain();
+    try
+    {
+      localParcel1.writeInterfaceToken("com.google.android.gtalkservice.IChatSession");
+      mRemote.transact(3, localParcel1, localParcel2, 0);
+      localParcel2.readException();
+      String[] arrayOfString = localParcel2.createStringArray();
+      return arrayOfString;
+    }
+    finally
+    {
+      localParcel2.recycle();
+      localParcel1.recycle();
+    }
+  }
+  
+  public String getUnsentComposedMessage()
+    throws RemoteException
+  {
+    Parcel localParcel1 = Parcel.obtain();
+    Parcel localParcel2 = Parcel.obtain();
+    try
+    {
+      localParcel1.writeInterfaceToken("com.google.android.gtalkservice.IChatSession");
+      mRemote.transact(8, localParcel1, localParcel2, 0);
+      localParcel2.readException();
+      String str = localParcel2.readString();
+      return str;
+    }
+    finally
+    {
+      localParcel2.recycle();
+      localParcel1.recycle();
+    }
+  }
+  
+  public void inviteContact(String paramString)
+    throws RemoteException
+  {
+    Parcel localParcel = Parcel.obtain();
+    try
+    {
+      localParcel.writeInterfaceToken("com.google.android.gtalkservice.IChatSession");
+      localParcel.writeString(paramString);
+      mRemote.transact(4, localParcel, null, 1);
+      return;
+    }
+    finally
+    {
+      localParcel.recycle();
+    }
+  }
+  
+  /* Error */
+  public boolean isGroupChat()
+    throws RemoteException
+  {
+    // Byte code:
+    //   0: iconst_1
+    //   1: istore_2
+    //   2: invokestatic 30	android/os/Parcel:obtain	()Landroid/os/Parcel;
+    //   5: astore_3
+    //   6: invokestatic 30	android/os/Parcel:obtain	()Landroid/os/Parcel;
+    //   9: astore 4
+    //   11: aload_3
+    //   12: ldc 32
+    //   14: invokevirtual 36	android/os/Parcel:writeInterfaceToken	(Ljava/lang/String;)V
+    //   17: aload_0
+    //   18: getfield 19	com/google/android/gtalkservice/IChatSession$Stub$Proxy:mRemote	Landroid/os/IBinder;
+    //   21: iconst_1
+    //   22: aload_3
+    //   23: aload 4
+    //   25: iconst_0
+    //   26: invokeinterface 51 5 0
+    //   31: pop
+    //   32: aload 4
+    //   34: invokevirtual 54	android/os/Parcel:readException	()V
+    //   37: aload 4
+    //   39: invokevirtual 77	android/os/Parcel:readInt	()I
+    //   42: istore_1
+    //   43: iload_1
+    //   44: ifeq +14 -> 58
+    //   47: aload 4
+    //   49: invokevirtual 57	android/os/Parcel:recycle	()V
+    //   52: aload_3
+    //   53: invokevirtual 57	android/os/Parcel:recycle	()V
+    //   56: iload_2
+    //   57: ireturn
+    //   58: iconst_0
+    //   59: istore_2
+    //   60: goto -13 -> 47
+    //   63: astore 5
+    //   65: aload 4
+    //   67: invokevirtual 57	android/os/Parcel:recycle	()V
+    //   70: aload_3
+    //   71: invokevirtual 57	android/os/Parcel:recycle	()V
+    //   74: aload 5
+    //   76: athrow
+    // Local variable table:
+    //   start	length	slot	name	signature
+    //   0	77	0	this	Proxy
+    //   42	2	1	i	int
+    //   1	59	2	bool	boolean
+    //   5	66	3	localParcel1	Parcel
+    //   9	57	4	localParcel2	Parcel
+    //   63	12	5	localObject	Object
+    // Exception table:
+    //   from	to	target	type
+    //   11	43	63	finally
+  }
+  
+  public boolean isOffTheRecord()
+    throws RemoteException
+  {
+    boolean bool = false;
+    Parcel localParcel1 = Parcel.obtain();
+    Parcel localParcel2 = Parcel.obtain();
+    try
+    {
+      localParcel1.writeInterfaceToken("com.google.android.gtalkservice.IChatSession");
+      mRemote.transact(11, localParcel1, localParcel2, 0);
+      localParcel2.readException();
+      int i = localParcel2.readInt();
+      if (i != 0) {
+        bool = true;
+      }
+      return bool;
+    }
+    finally
+    {
+      localParcel2.recycle();
+      localParcel1.recycle();
+    }
+  }
+  
+  public void leave()
+    throws RemoteException
+  {
+    Parcel localParcel = Parcel.obtain();
+    try
+    {
+      localParcel.writeInterfaceToken("com.google.android.gtalkservice.IChatSession");
+      mRemote.transact(5, localParcel, null, 1);
+      return;
+    }
+    finally
+    {
+      localParcel.recycle();
+    }
+  }
+  
+  public void markAsRead()
+    throws RemoteException
+  {
+    Parcel localParcel = Parcel.obtain();
+    try
+    {
+      localParcel.writeInterfaceToken("com.google.android.gtalkservice.IChatSession");
+      mRemote.transact(2, localParcel, null, 1);
+      return;
+    }
+    finally
+    {
+      localParcel.recycle();
+    }
+  }
+  
+  /* Error */
+  public void removeRemoteChatListener(IChatListener paramIChatListener)
+    throws RemoteException
+  {
+    // Byte code:
+    //   0: invokestatic 30	android/os/Parcel:obtain	()Landroid/os/Parcel;
+    //   3: astore_2
+    //   4: invokestatic 30	android/os/Parcel:obtain	()Landroid/os/Parcel;
+    //   7: astore_3
+    //   8: aload_2
+    //   9: ldc 32
+    //   11: invokevirtual 36	android/os/Parcel:writeInterfaceToken	(Ljava/lang/String;)V
+    //   14: aload_1
+    //   15: ifnull +43 -> 58
+    //   18: aload_1
+    //   19: invokeinterface 42 1 0
+    //   24: astore_1
+    //   25: aload_2
+    //   26: aload_1
+    //   27: invokevirtual 45	android/os/Parcel:writeStrongBinder	(Landroid/os/IBinder;)V
+    //   30: aload_0
+    //   31: getfield 19	com/google/android/gtalkservice/IChatSession$Stub$Proxy:mRemote	Landroid/os/IBinder;
+    //   34: bipush 10
+    //   36: aload_2
+    //   37: aload_3
+    //   38: iconst_0
+    //   39: invokeinterface 51 5 0
+    //   44: pop
+    //   45: aload_3
+    //   46: invokevirtual 54	android/os/Parcel:readException	()V
+    //   49: aload_3
+    //   50: invokevirtual 57	android/os/Parcel:recycle	()V
+    //   53: aload_2
+    //   54: invokevirtual 57	android/os/Parcel:recycle	()V
+    //   57: return
+    //   58: aconst_null
+    //   59: astore_1
+    //   60: goto -35 -> 25
+    //   63: astore_1
+    //   64: aload_3
+    //   65: invokevirtual 57	android/os/Parcel:recycle	()V
+    //   68: aload_2
+    //   69: invokevirtual 57	android/os/Parcel:recycle	()V
+    //   72: aload_1
+    //   73: athrow
+    // Local variable table:
+    //   start	length	slot	name	signature
+    //   0	74	0	this	Proxy
+    //   0	74	1	paramIChatListener	IChatListener
+    //   3	66	2	localParcel1	Parcel
+    //   7	58	3	localParcel2	Parcel
+    // Exception table:
+    //   from	to	target	type
+    //   8	14	63	finally
+    //   18	25	63	finally
+    //   25	49	63	finally
+  }
+  
+  /* Error */
+  public void reportEndCause(String paramString, boolean paramBoolean, int paramInt)
+    throws RemoteException
+  {
+    // Byte code:
+    //   0: iconst_1
+    //   1: istore 4
+    //   3: invokestatic 30	android/os/Parcel:obtain	()Landroid/os/Parcel;
+    //   6: astore 5
+    //   8: aload 5
+    //   10: ldc 32
+    //   12: invokevirtual 36	android/os/Parcel:writeInterfaceToken	(Ljava/lang/String;)V
+    //   15: aload 5
+    //   17: aload_1
+    //   18: invokevirtual 91	android/os/Parcel:writeString	(Ljava/lang/String;)V
+    //   21: iload_2
+    //   22: ifeq +38 -> 60
+    //   25: aload 5
+    //   27: iload 4
+    //   29: invokevirtual 64	android/os/Parcel:writeInt	(I)V
+    //   32: aload 5
+    //   34: iload_3
+    //   35: invokevirtual 64	android/os/Parcel:writeInt	(I)V
+    //   38: aload_0
+    //   39: getfield 19	com/google/android/gtalkservice/IChatSession$Stub$Proxy:mRemote	Landroid/os/IBinder;
+    //   42: bipush 13
+    //   44: aload 5
+    //   46: aconst_null
+    //   47: iconst_1
+    //   48: invokeinterface 51 5 0
+    //   53: pop
+    //   54: aload 5
+    //   56: invokevirtual 57	android/os/Parcel:recycle	()V
+    //   59: return
+    //   60: iconst_0
+    //   61: istore 4
+    //   63: goto -38 -> 25
+    //   66: astore_1
+    //   67: aload 5
+    //   69: invokevirtual 57	android/os/Parcel:recycle	()V
+    //   72: aload_1
+    //   73: athrow
+    // Local variable table:
+    //   start	length	slot	name	signature
+    //   0	74	0	this	Proxy
+    //   0	74	1	paramString	String
+    //   0	74	2	paramBoolean	boolean
+    //   0	74	3	paramInt	int
+    //   1	61	4	i	int
+    //   6	62	5	localParcel	Parcel
+    // Exception table:
+    //   from	to	target	type
+    //   8	21	66	finally
+    //   25	54	66	finally
+  }
+  
+  /* Error */
+  public void reportMissedCall(String paramString1, String paramString2, boolean paramBoolean1, boolean paramBoolean2)
+    throws RemoteException
+  {
+    // Byte code:
+    //   0: iconst_1
+    //   1: istore 6
+    //   3: invokestatic 30	android/os/Parcel:obtain	()Landroid/os/Parcel;
+    //   6: astore 7
+    //   8: aload 7
+    //   10: ldc 32
+    //   12: invokevirtual 36	android/os/Parcel:writeInterfaceToken	(Ljava/lang/String;)V
+    //   15: aload 7
+    //   17: aload_1
+    //   18: invokevirtual 91	android/os/Parcel:writeString	(Ljava/lang/String;)V
+    //   21: aload 7
+    //   23: aload_2
+    //   24: invokevirtual 91	android/os/Parcel:writeString	(Ljava/lang/String;)V
+    //   27: iload_3
+    //   28: ifeq +51 -> 79
+    //   31: iconst_1
+    //   32: istore 5
+    //   34: aload 7
+    //   36: iload 5
+    //   38: invokevirtual 64	android/os/Parcel:writeInt	(I)V
+    //   41: iload 4
+    //   43: ifeq +42 -> 85
+    //   46: iload 6
+    //   48: istore 5
+    //   50: aload 7
+    //   52: iload 5
+    //   54: invokevirtual 64	android/os/Parcel:writeInt	(I)V
+    //   57: aload_0
+    //   58: getfield 19	com/google/android/gtalkservice/IChatSession$Stub$Proxy:mRemote	Landroid/os/IBinder;
+    //   61: bipush 14
+    //   63: aload 7
+    //   65: aconst_null
+    //   66: iconst_1
+    //   67: invokeinterface 51 5 0
+    //   72: pop
+    //   73: aload 7
+    //   75: invokevirtual 57	android/os/Parcel:recycle	()V
+    //   78: return
+    //   79: iconst_0
+    //   80: istore 5
+    //   82: goto -48 -> 34
+    //   85: iconst_0
+    //   86: istore 5
+    //   88: goto -38 -> 50
+    //   91: astore_1
+    //   92: aload 7
+    //   94: invokevirtual 57	android/os/Parcel:recycle	()V
+    //   97: aload_1
+    //   98: athrow
+    // Local variable table:
+    //   start	length	slot	name	signature
+    //   0	99	0	this	Proxy
+    //   0	99	1	paramString1	String
+    //   0	99	2	paramString2	String
+    //   0	99	3	paramBoolean1	boolean
+    //   0	99	4	paramBoolean2	boolean
+    //   32	55	5	i	int
+    //   1	46	6	j	int
+    //   6	87	7	localParcel	Parcel
+    // Exception table:
+    //   from	to	target	type
+    //   8	27	91	finally
+    //   34	41	91	finally
+    //   50	73	91	finally
+  }
+  
+  public void saveUnsentComposedMessage(String paramString)
+    throws RemoteException
+  {
+    Parcel localParcel = Parcel.obtain();
+    try
+    {
+      localParcel.writeInterfaceToken("com.google.android.gtalkservice.IChatSession");
+      localParcel.writeString(paramString);
+      mRemote.transact(7, localParcel, null, 1);
+      return;
+    }
+    finally
+    {
+      localParcel.recycle();
+    }
+  }
+  
+  public void sendChatMessage(String paramString)
+    throws RemoteException
+  {
+    Parcel localParcel = Parcel.obtain();
+    try
+    {
+      localParcel.writeInterfaceToken("com.google.android.gtalkservice.IChatSession");
+      localParcel.writeString(paramString);
+      mRemote.transact(6, localParcel, null, 1);
+      return;
+    }
+    finally
+    {
+      localParcel.recycle();
+    }
+  }
+}
+
+/* Location:
+ * Qualified Name:     com.google.android.gtalkservice.IChatSession.Stub.Proxy
+ * Java Class Version: 6 (50.0)
+ * JD-Core Version:    0.7.1
+ */

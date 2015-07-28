@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/switcher_root" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v4.view.ViewPager android:id="@id/gallery" android:background="@color/chatview_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <android.support.v4.view.PagerTitleStrip android:textAppearance="?android:textAppearanceSmallInverse" android:layout_gravity="top" android:id="@id/title_strip" android:background="#ff3d3d3d" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:layout_width="fill_parent" android:layout_height="24.0dip" />
+    </android.support.v4.view.ViewPager>
+    <View android:background="#ffcccccc" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <include layout="@layout/input_field_phone" />
+</LinearLayout>
