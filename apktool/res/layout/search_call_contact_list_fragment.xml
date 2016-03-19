@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@android:id/list" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@color/conversation_bg_color" android:divider="@null" android:dividerHeight="0.0px" android:fastScrollEnabled="true" android:headerDividersEnabled="false" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/make_phone_call_hint_color" android:gravity="center" android:layout_gravity="center" android:id="@id/not_found_hint" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/contact_not_found_text" />
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.hangouts.views.OtrModificationMessageListItemView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/ConversationMessageListItemViewContainerStyle">
+        <ImageView android:id="@id/icon" android:src="@drawable/quantum_ic_schedule_black_24" style="@style/ConversationMessageListItemViewIconStyle" />
+        <TextView android:id="@id/text" style="@style/ConversationMessageListItemViewTextStyle" />
+    </LinearLayout>
+</com.google.android.apps.hangouts.views.OtrModificationMessageListItemView>

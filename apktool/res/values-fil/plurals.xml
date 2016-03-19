@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="conv_invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">Inimbitahan ka sa isang Hangout kasama ang %1$d (na) iba pa</item>
+        <item quantity="one">Inimbitahan ka sa isang Hangout kasama ang %1$d iba pa</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation_invite_list">
+        <item quantity="other">Gustong mag-Hangout ng %1$d (na) iba pa</item>
+        <item quantity="one">Gustong mag-Hangout ng %1$d iba pa</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation_invite_list">
+        <item quantity="other">kasama ang %1$d (na) iba pa</item>
+        <item quantity="one">kasama ang %1$d iba pa</item>
+    </plurals>
+    <plurals name="gallery_picker_max_count_reached_message">
+        <item quantity="other">Maaari ka lang pumili ng maximum na %d (na) attachment.</item>
+        <item quantity="one">Maaari ka lang pumili ng maximum na 1 attachment.</item>
+    </plurals>
+    <plurals name="num_minutes_in_the_past">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="elapsed_minutes">
+        <item quantity="other">%dm ang nakalipas</item>
+        <item quantity="one">Nakaraang %dm</item>
+    </plurals>
+    <plurals name="elapsed_minutes_announce">
+        <item quantity="other">%d (na) minuto ang nakalipas</item>
+        <item quantity="one">%d minuto ang nakalipas</item>
+    </plurals>
+    <plurals name="elapsed_hours">
+        <item quantity="other">%dh ang nakalipas</item>
+        <item quantity="one">Nakaraang %do</item>
+    </plurals>
+    <plurals name="elapsed_hours_announce">
+        <item quantity="other">%d (na) oras ang nakalipas</item>
+        <item quantity="one">%d oras ang nakalipas</item>
+    </plurals>
+    <plurals name="elapsed_days">
+        <item quantity="other">%dd ang nakalipas</item>
+        <item quantity="one">Nakaraang %da</item>
+    </plurals>
+    <plurals name="elapsed_days_announce">
+        <item quantity="other">%d (na) araw ang nakalipas</item>
+        <item quantity="one">%d araw ang nakalipas</item>
+    </plurals>
+    <plurals name="elapsed_weeks">
+        <item quantity="other">%dw ang nakalipas</item>
+        <item quantity="one">Nakaraang %dl</item>
+    </plurals>
+    <plurals name="elapsed_weeks_announce">
+        <item quantity="other">%d (na) linggo ang nakalipas</item>
+        <item quantity="one">%d linggo ang nakalipas</item>
+    </plurals>
+    <plurals name="elapsed_months">
+        <item quantity="other">%dmo ang nakalipas</item>
+        <item quantity="one">Nakaraang %dbu</item>
+    </plurals>
+    <plurals name="elapsed_months_announce">
+        <item quantity="other">%d (na) buwan ang nakalipas</item>
+        <item quantity="one">%d buwan ang nakalipas</item>
+    </plurals>
+    <plurals name="num_seconds_duration">
+        <item quantity="other">%d seg</item>
+        <item quantity="one">%d seg</item>
+    </plurals>
+    <plurals name="a11y_num_seconds_duration">
+        <item quantity="other">%d (na) segundo</item>
+        <item quantity="one">%d segundo</item>
+    </plurals>
+    <plurals name="num_minutes_duration">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_duration">
+        <item quantity="other">%d (na) minuto</item>
+        <item quantity="one">%d minuto</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_in_the_past">
+        <item quantity="other">%d (na) minuto</item>
+        <item quantity="one">%d minuto</item>
+    </plurals>
+    <plurals name="num_hours_in_the_past">
+        <item quantity="other">%d (na) oras</item>
+        <item quantity="one">%d oras</item>
+    </plurals>
+    <plurals name="num_days_in_the_past">
+        <item quantity="other">%d (na) araw</item>
+        <item quantity="one">%d araw</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_attachment">
+        <item quantity="other">Magpadala ng %d (na) attachment</item>
+        <item quantity="one">Magpadala ng %d attachment</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_message_and_attachment">
+        <item quantity="other">Magpadala ng mensaheng may kasamang %d (na) attachment</item>
+        <item quantity="one">Magpadala ng mensaheng may kasamang %d attachment</item>
+    </plurals>
+    <plurals name="comments">
+        <item quantity="other">%d (na) komento</item>
+        <item quantity="one">%d komento</item>
+    </plurals>
+    <plurals name="notification_multi_hangout">
+        <item quantity="other">Inimbitahan kang sumali sa isang Hangout kasama ng %d pang iba</item>
+        <item quantity="one">Inimbitahan kang sumali sa isang Hangout kasama ng 1 pa</item>
+    </plurals>
+    <plurals name="realtimechat_notification_new_messages">
+        <item quantity="other">%d (na) bagong mensahe</item>
+        <item quantity="one">%d bagong mensahe</item>
+    </plurals>
+    <plurals name="redacted_multi_convo_text">
+        <item quantity="other">Mula sa %d (na) pag-uusap</item>
+        <item quantity="one">Mula sa %d pag-uusap</item>
+    </plurals>
+    <plurals name="realtimechat_message_num_attachments">
+        <item quantity="other">%d (na) attachment</item>
+        <item quantity="one">%d attachment</item>
+    </plurals>
+    <plurals name="realtimechat_invitation_notification_multiconversation_sender">
+        <item quantity="other">%d bagong Hangouts</item>
+        <item quantity="one">%d bagong Hangout</item>
+    </plurals>
+    <plurals name="hangout_on_air_viewer_count">
+        <item quantity="other">%d (na) viewer</item>
+        <item quantity="one">1 viewer</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">Video call mula kay %2$s kasama si %3$s at %1$d (na) iba pa</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">Video call mula kay %2$s kasama ang %1$d (na) iba pa</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">Voice call mula kay %2$s kasama si %3$s at %1$d (na) iba pa</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">Voice call mula kay %2$s kasama ang %1$d (na) iba pa</item>
+    </plurals>
+    <plurals name="dnd_hours">
+        <item quantity="other">%d (na) oras</item>
+        <item quantity="one">1 oras</item>
+    </plurals>
+    <plurals name="dnd_minutes">
+        <item quantity="other">%d (na) minuto</item>
+        <item quantity="one">1 minuto</item>
+    </plurals>
+    <plurals name="watermark_gallery_label">
+        <item quantity="other">Nakita nina %s</item>
+        <item quantity="one">Nakita nina %s</item>
+    </plurals>
+    <plurals name="focus_gallery_label">
+        <item quantity="other">Nabasa nina %s ang lahat ng mensahe.</item>
+        <item quantity="one">Nabasa nina %s ang lahat ng mensahe.</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="other">%1$d (na) mensahe sa %2$d (na) pag-uusap</item>
+        <item quantity="one">%d (na) mensahe sa isang pag-uusap</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">Inimbitahan ka sa isang Hangout kasama ang %1$d (na) iba pa</item>
+        <item quantity="one">Inimbitahan ka sa isang Hangout kasama ang %1$d iba pa</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation">
+        <item quantity="other">Gustong mag-Hangout ni %2$s at ng %1$d (na) iba pa</item>
+        <item quantity="one">Gustong mag-Hangout ni %2$s at ng %1$d iba pa</item>
+        <item quantity="few">Gustong mag-Hangout ni %2$s at ng %1$d (na) iba pa</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation">
+        <item quantity="other">Gustong mag-Hangout ng %1$d pang iba</item>
+        <item quantity="one">Gustong mag-Hangout ng %1$d pang iba</item>
+        <item quantity="few">Gustong mag-Hangout ng %1$d pang iba</item>
+    </plurals>
+    <plurals name="items_attached_count">
+        <item quantity="other">%d (na) item ang naka-attach</item>
+        <item quantity="zero">%d (na) item ang naka-attach</item>
+        <item quantity="one">%d item ang naka-attach</item>
+    </plurals>
+    <plurals name="items_forwarded_count">
+        <item quantity="other">%d (na) item ang ipinasa</item>
+        <item quantity="zero">%d (na) item ang ipinasa</item>
+        <item quantity="one">%d item ang ipinasa</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="other">%d (na) linggo</item>
+        <item quantity="one">isang linggo</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="other">%d (na) buwan</item>
+        <item quantity="one">isang buwan</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="other">%d (na) taon</item>
+        <item quantity="one">isang taon</item>
+    </plurals>
+    <plurals name="participant_count">
+        <item quantity="other">%d (na) kalahok</item>
+        <item quantity="one">%d kalahok</item>
+    </plurals>
+    <plurals name="participant_count_history_off">
+        <item quantity="other">%d (na) kalahok, naka-off ang history</item>
+        <item quantity="one">%d kalahok, naka-off ang history</item>
+    </plurals>
+    <plurals name="group_chat_additional_participant_count">
+        <item quantity="other">at %d (na) iba pa</item>
+        <item quantity="one">at %d iba pa</item>
+    </plurals>
+</resources>

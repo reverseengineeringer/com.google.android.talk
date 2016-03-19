@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/list_container" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/m_space" android:layout_marginRight="@dimen/m_space" android:layoutDirection="locale">
+            <TextView android:textStyle="bold" android:textColor="@color/text_secondary_default_color_dark" android:paddingTop="16.0dip" android:paddingBottom="8.0dip" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/recent_calls_text" android:layout_alignParentLeft="true" android:textAllCaps="true" android:layout_alignParentStart="true" />
+            <TextView android:textColor="@color/text_secondary_default_color_dark" android:id="@id/clear_recent_calls" android:paddingTop="16.0dip" android:paddingBottom="8.0dip" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/recent_clear_text" android:layout_alignParentRight="true" android:textAllCaps="false" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <View android:id="@id/recent_calls_divider" android:background="@color/text_secondary_default_color_dark" android:layout_width="fill_parent" android:layout_height="2.0dip" android:color="@color/text_secondary_default_color_dark" />
+        <ListView android:id="@android:id/list" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:cacheColorHint="@color/conversation_bg_color" android:divider="@null" android:dividerHeight="0.0px" android:layout_weight="1.0" android:fastScrollEnabled="true" android:headerDividersEnabled="false" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/not_found_hint" android:focusableInTouchMode="true" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/no_overlap_fab_margin_bottom">
+        <ImageView android:id="@id/not_found_hint_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_dial_empty_recent_calls" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/make_phone_call_hint_color" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/recent_calls_not_found_text" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/make_phone_call_hint_color" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/make_a_call_instruction_text" />
+    </LinearLayout>
+</FrameLayout>

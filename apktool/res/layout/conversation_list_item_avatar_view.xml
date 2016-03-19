@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:id="@id/avatarView" android:paddingTop="38.0dip" android:paddingBottom="@dimen/xs_space" android:layout_width="@dimen/conversation_list_avatar_dimension" android:layout_height="@dimen/conversation_list_avatar_dimension" android:layout_margin="16.0dip" hangouts:fadeOutDurationMs="0" hangouts:fadeInDurationMs="100" hangouts:fadeStartPercent="0.25" style="@style/ConversationListItemAvatarViewStyle" class="com.google.android.apps.hangouts.views.FadeImageView"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:hangouts="http://schemas.android.com/apk/res-auto" />

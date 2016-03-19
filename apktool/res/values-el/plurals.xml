@@ -1,7 +1,215 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="messages_read">
-        <item quantity="other">%s αναγνωσμένα μηνύματα</item>
-        <item quantity="one">%s αναγνωσμένο μήνυμα</item>
+    <plurals name="conv_invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">Σας κάλεσε σε Hangout με %1$d ακόμη άτομα</item>
+        <item quantity="one">Σας κάλεσε σε Hangout με %1$d ακόμη άτομο</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation_invite_list">
+        <item quantity="other">%1$d ακόμη άτομα επιθυμούν να λάβουν μέρος στο Hangout</item>
+        <item quantity="one">%1$d ακόμη άτομο επιθυμεί να λάβει μέρος στο Hangout</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation_invite_list">
+        <item quantity="other">με %1$d ακόμη</item>
+        <item quantity="one">με %1$d ακόμη</item>
+    </plurals>
+    <plurals name="gallery_picker_max_count_reached_message">
+        <item quantity="other">Μπορείτε να επιλέξετε μόνο έως %d συνημμένα το πολύ.</item>
+        <item quantity="one">Μπορείτε να επιλέξετε μόνο 1 συνημμένο το πολύ.</item>
+    </plurals>
+    <plurals name="num_minutes_in_the_past">
+        <item quantity="other">%d λεπτά</item>
+        <item quantity="one">%d λεπτό</item>
+    </plurals>
+    <plurals name="elapsed_minutes">
+        <item quantity="other">%d λεπτά πριν</item>
+        <item quantity="one">%d λεπτά πριν</item>
+    </plurals>
+    <plurals name="elapsed_minutes_announce">
+        <item quantity="other">%d λεπτά πριν</item>
+        <item quantity="one">%d λεπτό πριν</item>
+    </plurals>
+    <plurals name="elapsed_hours">
+        <item quantity="other">%d ώρες πριν</item>
+        <item quantity="one">%d ώρες πριν</item>
+    </plurals>
+    <plurals name="elapsed_hours_announce">
+        <item quantity="other">%d ώρες πριν</item>
+        <item quantity="one">%d ώρα πριν</item>
+    </plurals>
+    <plurals name="elapsed_days">
+        <item quantity="other">%d ημέρες πριν</item>
+        <item quantity="one">%d ημέρες πριν</item>
+    </plurals>
+    <plurals name="elapsed_days_announce">
+        <item quantity="other">%d ημέρες πριν</item>
+        <item quantity="one">%d ημέρα πριν</item>
+    </plurals>
+    <plurals name="elapsed_weeks">
+        <item quantity="other">%d εβδομάδες πριν</item>
+        <item quantity="one">%d εβδομάδες πριν</item>
+    </plurals>
+    <plurals name="elapsed_weeks_announce">
+        <item quantity="other">%d εβδομάδες πριν</item>
+        <item quantity="one">%d εβδομάδα πριν</item>
+    </plurals>
+    <plurals name="elapsed_months">
+        <item quantity="other">%d μήνες πριν</item>
+        <item quantity="one">%d μήνες πριν</item>
+    </plurals>
+    <plurals name="elapsed_months_announce">
+        <item quantity="other">%d μήνες πριν</item>
+        <item quantity="one">%d μήνας πριν</item>
+    </plurals>
+    <plurals name="num_seconds_duration">
+        <item quantity="other">%d δευτερόλεπτα</item>
+        <item quantity="one">%d δευτερόλεπτο</item>
+    </plurals>
+    <plurals name="a11y_num_seconds_duration">
+        <item quantity="other">%d δευτερόλεπτα</item>
+        <item quantity="one">%d δευτερόλεπτο</item>
+    </plurals>
+    <plurals name="num_minutes_duration">
+        <item quantity="other">%d λεπτά</item>
+        <item quantity="one">%d λεπτό</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_duration">
+        <item quantity="other">%d λεπτά</item>
+        <item quantity="one">%d λεπτό</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_in_the_past">
+        <item quantity="other">%d λεπτά</item>
+        <item quantity="one">%d λεπτό</item>
+    </plurals>
+    <plurals name="num_hours_in_the_past">
+        <item quantity="other">%d ώρες</item>
+        <item quantity="one">%d ώρα</item>
+    </plurals>
+    <plurals name="num_days_in_the_past">
+        <item quantity="other">%d ημέρες</item>
+        <item quantity="one">%d ημέρα</item>
+    </plurals>
+    <plurals name="one_up_comment_count">
+        <item quantity="other">%d σχόλια</item>
+        <item quantity="one">%d σχόλιο</item>
+    </plurals>
+    <plurals name="audience_hidden_user_count">
+        <item quantity="other">+%d ακόμη</item>
+        <item quantity="one">+1 ακόμη</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_attachment">
+        <item quantity="other">Αποστολή %d συνημμένων</item>
+        <item quantity="one">Αποστολή %d συνημμένου</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_message_and_attachment">
+        <item quantity="other">Αποστολή μηνύματος με %d συνημμένα</item>
+        <item quantity="one">Αποστολή μηνύματος με %d συνημμένο</item>
+    </plurals>
+    <plurals name="comments">
+        <item quantity="other">%d σχόλια</item>
+        <item quantity="one">%d σχόλιο</item>
+    </plurals>
+    <plurals name="notification_multi_hangout">
+        <item quantity="other">Σας κάλεσε να συμμετάσχετε σε Hangout με %d ακόμη άτομα</item>
+        <item quantity="one">Σας κάλεσε να συμμετάσχετε σε Hangout με 1 ακόμη άτομο</item>
+    </plurals>
+    <plurals name="realtimechat_notification_new_messages">
+        <item quantity="other">%d νέα μηνύματα</item>
+        <item quantity="one">%d νέο μήνυμα</item>
+    </plurals>
+    <plurals name="redacted_multi_convo_text">
+        <item quantity="other">Από %d συνομιλίες</item>
+        <item quantity="one">Από %d συνομιλία</item>
+    </plurals>
+    <plurals name="realtimechat_message_num_attachments">
+        <item quantity="other">%d συνημμένα</item>
+        <item quantity="one">%d συνημμένο</item>
+    </plurals>
+    <plurals name="realtimechat_invitation_notification_multiconversation_sender">
+        <item quantity="other">%d νέα Hangout</item>
+        <item quantity="one">%d νέο Hangout</item>
+    </plurals>
+    <plurals name="hangout_on_air_viewer_count">
+        <item quantity="other">%d θεατές</item>
+        <item quantity="one">1 θεατής</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">Βιντεοκλήση από το χρήστη %2$s με το χρήστη %3$s και %1$d ακόμη</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">Βιντεοκλήση από %2$s με %1$d άλλους</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">Φωνητική κλήση από %2$s με %3$s και %1$d ακόμη</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">Φωνητική κλήση από %2$s με %1$d ακόμη</item>
+    </plurals>
+    <plurals name="dnd_hours">
+        <item quantity="other">%d ώρες</item>
+        <item quantity="one">1 ώρα</item>
+    </plurals>
+    <plurals name="dnd_minutes">
+        <item quantity="other">%d λεπτά</item>
+        <item quantity="one">1 λεπτό</item>
+    </plurals>
+    <plurals name="watermark_gallery_label">
+        <item quantity="other">Προβλήθηκε από %s</item>
+        <item quantity="one">Προβλήθηκε από %s</item>
+    </plurals>
+    <plurals name="focus_gallery_label">
+        <item quantity="other">Οι χρήστες %s έχουν διαβάσει όλα τα μηνύματα.</item>
+        <item quantity="one">Ο χρήστης %s έχει διαβάσει όλα τα μηνύματα.</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="other">%1$d μηνύματα σε %2$d συνομιλίες</item>
+        <item quantity="one">%d μηνύματα σε μία συνομιλία</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">Σας κάλεσε σε Hangout με %1$d ακόμη άτομα</item>
+        <item quantity="one">Σας κάλεσε σε Hangout με %1$d ακόμη άτομο</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation">
+        <item quantity="other">Ο χρήστης %2$s και %1$d ακόμη επιθυμούν να λάβουν μέρος στο Hangout</item>
+        <item quantity="one">Ο χρήστης %2$s και %1$d ακόμη επιθυμούν να λάβουν μέρος στο Hangout</item>
+        <item quantity="few">Ο χρήστης %2$s και %1$d ακόμη επιθυμούν να λάβουν μέρος στο Hangout</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation">
+        <item quantity="other">%1$d ακόμη επιθυμούν να λάβουν μέρος στο Hangout</item>
+        <item quantity="one">%1$d ακόμη επιθυμεί να λάβει μέρος στο Hangout</item>
+        <item quantity="few">%1$d ακόμη επιθυμούν να λάβουν μέρος στο Hangout</item>
+    </plurals>
+    <plurals name="items_attached_count">
+        <item quantity="other">%d συνημμένα στοιχεία</item>
+        <item quantity="zero">%d συνημμένα στοιχεία</item>
+        <item quantity="one">%d συνημμένο στοιχείο</item>
+    </plurals>
+    <plurals name="items_forwarded_count">
+        <item quantity="other">%d προωθημένα στοιχεία</item>
+        <item quantity="zero">%d προωθημένα στοιχεία</item>
+        <item quantity="one">%d προωθημένο στοιχείο</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="other">%d εβδομάδες</item>
+        <item quantity="one">μία εβδομάδα</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="other">%d μήνες</item>
+        <item quantity="one">ένα μήνα</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="other">%d έτη</item>
+        <item quantity="one">ένα έτος</item>
+    </plurals>
+    <plurals name="participant_count">
+        <item quantity="other">%d συμμετέχοντες</item>
+        <item quantity="one">%d συμμετέχοντας</item>
+    </plurals>
+    <plurals name="participant_count_history_off">
+        <item quantity="other">%d συμμετέχοντες, ανενεργό ιστορικό</item>
+        <item quantity="one">%d συμμετέχοντας, ανενεργό ιστορικό</item>
+    </plurals>
+    <plurals name="group_chat_additional_participant_count">
+        <item quantity="other">και %d άλλοι</item>
+        <item quantity="one">και %d άλλος</item>
     </plurals>
 </resources>

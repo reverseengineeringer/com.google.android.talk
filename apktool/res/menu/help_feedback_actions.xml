@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:hangouts="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/feedback_action" android:title="@string/menu_send_feedback" hangouts:showAsAction="always|withText" />
+    <item android:id="@id/view_in_store_action" android:title="@string/menu_view_in_store" hangouts:showAsAction="never" />
+    <item android:id="@id/menu_privacy_policy" android:title="@string/menu_privacy_policy" hangouts:showAsAction="never" />
+    <item android:id="@id/menu_license" android:title="@string/menu_license" hangouts:showAsAction="never" />
+    <item android:id="@id/location_tos" android:visible="false" android:title="@string/location_tos" hangouts:showAsAction="never" />
+    <item android:id="@id/maps_tos" android:title="@string/maps_tos" hangouts:showAsAction="never" />
+    <item android:id="@id/menu_terms_of_service" android:title="@string/menu_terms_of_service" hangouts:showAsAction="never" />
+</menu>

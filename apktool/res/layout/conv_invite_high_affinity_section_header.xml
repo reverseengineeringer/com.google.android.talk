@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/header_padding_horizontal" android:paddingTop="@dimen/header_padding_vertical" android:paddingRight="@dimen/header_padding_horizontal" android:paddingBottom="@dimen/header_padding_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/section_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/ConversationInviteHeaderTitleStyle" />
+    <ImageButton android:id="@id/dismiss_all_high" android:background="?android:selectableItemBackground" android:padding="@dimen/invite_dismiss_all_half" android:layout_width="@dimen/invite_dismiss_all" android:layout_height="@dimen/invite_dismiss_all" android:src="@drawable/quantum_ic_clear_all_black_24" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/decline_all_image_button" android:alpha="0.54" />
+</RelativeLayout>

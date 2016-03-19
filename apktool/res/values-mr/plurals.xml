@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="conv_invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">आपल्याला अन्य %1$d जणांसह एका Hangout मध्ये आमंत्रित केले</item>
+        <item quantity="one">आपल्याला अन्य %1$d जणांसह एका Hangout मध्ये आमंत्रित केले</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation_invite_list">
+        <item quantity="other">अन्य %1$d जण Hangout करू इच्छित आहेत</item>
+        <item quantity="one">अन्य %1$d जण Hangout करू इच्छित आहेत</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation_invite_list">
+        <item quantity="other">अन्य %1$d जणांसह</item>
+        <item quantity="one">अन्य %1$d जणांसह</item>
+    </plurals>
+    <plurals name="gallery_picker_max_count_reached_message">
+        <item quantity="other">आपण केवळ कमाल %d संलग्नके निवडू शकता.</item>
+        <item quantity="one">आपण केवळ कमाल 1 संलग्नक निवडू शकता.</item>
+    </plurals>
+    <plurals name="num_minutes_in_the_past">
+        <item quantity="other">%d मि</item>
+        <item quantity="one">%d मि</item>
+    </plurals>
+    <plurals name="elapsed_minutes">
+        <item quantity="other">%dमि पूर्वी</item>
+        <item quantity="one">%dमि पूर्वी</item>
+    </plurals>
+    <plurals name="elapsed_minutes_announce">
+        <item quantity="other">%d मिनिटांपूर्वी</item>
+        <item quantity="one">%d मिनिटापूर्वी</item>
+    </plurals>
+    <plurals name="elapsed_hours">
+        <item quantity="other">%dता पूर्वी</item>
+        <item quantity="one">%dता पूर्वी</item>
+    </plurals>
+    <plurals name="elapsed_hours_announce">
+        <item quantity="other">%d तासांपूर्वी</item>
+        <item quantity="one">%d तासापूर्वी</item>
+    </plurals>
+    <plurals name="elapsed_days">
+        <item quantity="other">%dदि पूर्वी</item>
+        <item quantity="one">%dदि पूर्वी</item>
+    </plurals>
+    <plurals name="elapsed_days_announce">
+        <item quantity="other">%d दिवसांपूर्वी</item>
+        <item quantity="one">%d दिवसापूर्वी</item>
+    </plurals>
+    <plurals name="elapsed_weeks">
+        <item quantity="other">%dआ पूर्वी</item>
+        <item quantity="one">%dआ पूर्वी</item>
+    </plurals>
+    <plurals name="elapsed_weeks_announce">
+        <item quantity="other">%d आठवड्यांपूर्वी</item>
+        <item quantity="one">%d आठवड्यापूर्वी</item>
+    </plurals>
+    <plurals name="elapsed_months">
+        <item quantity="other">%dम पूर्वी</item>
+        <item quantity="one">%dम पूर्वी</item>
+    </plurals>
+    <plurals name="elapsed_months_announce">
+        <item quantity="other">%d महिन्यांपूर्वी</item>
+        <item quantity="one">%d महिन्यापूर्वी</item>
+    </plurals>
+    <plurals name="num_seconds_duration">
+        <item quantity="other">%d से</item>
+        <item quantity="one">%d से</item>
+    </plurals>
+    <plurals name="a11y_num_seconds_duration">
+        <item quantity="other">%d सेकंद</item>
+        <item quantity="one">%d सेकंद</item>
+    </plurals>
+    <plurals name="num_minutes_duration">
+        <item quantity="other">%d मि</item>
+        <item quantity="one">%d मि</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_duration">
+        <item quantity="other">%d मिनिटे</item>
+        <item quantity="one">%d मिनिट</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_in_the_past">
+        <item quantity="other">%d मिनिटे</item>
+        <item quantity="one">%d मिनिट</item>
+    </plurals>
+    <plurals name="num_hours_in_the_past">
+        <item quantity="other">%d तास</item>
+        <item quantity="one">%d तास</item>
+    </plurals>
+    <plurals name="num_days_in_the_past">
+        <item quantity="other">%d दिवस</item>
+        <item quantity="one">%d दिवस</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_attachment">
+        <item quantity="other">%d संलग्नके पाठवा</item>
+        <item quantity="one">%d संलग्नक पाठवा</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_message_and_attachment">
+        <item quantity="other">%d संलग्नकांसह संदेश पाठवा</item>
+        <item quantity="one">%d संलग्नकासह संदेश पाठवा</item>
+    </plurals>
+    <plurals name="comments">
+        <item quantity="other">%d टिप्पण्या</item>
+        <item quantity="one">%d टिप्पणी</item>
+    </plurals>
+    <plurals name="notification_multi_hangout">
+        <item quantity="other">आपल्याला इतर %d सह Hangout साठी आमंत्रित केले आहे</item>
+        <item quantity="one">आपल्याला अन्य 1 सह Hangout साठी आमंत्रित केले आहे</item>
+    </plurals>
+    <plurals name="realtimechat_notification_new_messages">
+        <item quantity="other">%d नवीन संदेश</item>
+        <item quantity="one">%d नवीन संदेश</item>
+    </plurals>
+    <plurals name="redacted_multi_convo_text">
+        <item quantity="other">%d संभाषणांवरून</item>
+        <item quantity="one">%d संभाषणावरून</item>
+    </plurals>
+    <plurals name="realtimechat_message_num_attachments">
+        <item quantity="other">%d संलग्नके</item>
+        <item quantity="one">%d संलग्नक</item>
+    </plurals>
+    <plurals name="realtimechat_invitation_notification_multiconversation_sender">
+        <item quantity="other">%d नवीन Hangouts</item>
+        <item quantity="one">%d नवीन Hangout</item>
+    </plurals>
+    <plurals name="hangout_on_air_viewer_count">
+        <item quantity="other">%d दर्शक</item>
+        <item quantity="one">1 दर्शक</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">%2$s कडून %3$s आणि इतर %1$d सह व्हि‍डिओ कॉल</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">इतर %1$d सह %2$s कडील व्हिडिओ कॉल</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">%2$s कडून %3$s आणि इतर %1$d सह व्हॉईस कॉल</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">इतर %2$s सह %1$d कडील व्हॉईस कॉल</item>
+    </plurals>
+    <plurals name="dnd_hours">
+        <item quantity="other">%d तास</item>
+        <item quantity="one">1 तास</item>
+    </plurals>
+    <plurals name="dnd_minutes">
+        <item quantity="other">%d मिनिटे</item>
+        <item quantity="one">1 मिनिट</item>
+    </plurals>
+    <plurals name="watermark_gallery_label">
+        <item quantity="other">%s नी पाहिले</item>
+        <item quantity="one">%s नी पाहिले</item>
+    </plurals>
+    <plurals name="focus_gallery_label">
+        <item quantity="other">%s नी सर्व संदेश वाचले आहेत.</item>
+        <item quantity="one">%s नी सर्व संदेश वाचले आहेत.</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="other">%1$d संभाषणांमधील %2$d संदेश</item>
+        <item quantity="one">एका संभाषणातील %d संदेश</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">आपल्याला अन्य %1$d जणांसह एका Hangout मध्ये आमंत्रित केले</item>
+        <item quantity="one">आपल्याला अन्य %1$d जणांसह एका Hangout मध्ये आमंत्रित केले</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation">
+        <item quantity="other">%2$s आणि अन्य %1$d जण Hangout करू इच्छितात</item>
+        <item quantity="one">%2$s आणि अन्य %1$d जण Hangout करू इच्छितात</item>
+        <item quantity="few">%2$s आणि अन्य %1$d जण Hangout करू इच्छितात</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation">
+        <item quantity="other">इतर %1$d Hangout करू इच्छितात</item>
+        <item quantity="one">इतर %1$d Hangout करू इच्छितात</item>
+        <item quantity="few">इतर %1$d Hangout करू इच्छितात</item>
+    </plurals>
+    <plurals name="items_attached_count">
+        <item quantity="other">%d आयटम संलग्न केले</item>
+        <item quantity="zero">%d आयटम संलग्न केले</item>
+        <item quantity="one">%d आयटम संलग्न केला</item>
+    </plurals>
+    <plurals name="items_forwarded_count">
+        <item quantity="other">%d आयटम अग्रेषित केले</item>
+        <item quantity="zero">%d आयटम अग्रेषित केले</item>
+        <item quantity="one">%d आयटम अग्रेषित केला</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="other">%d आठवडे</item>
+        <item quantity="one">एक आठवडा</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="other">%d महिने</item>
+        <item quantity="one">एक महिना</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="other">%d वर्षे</item>
+        <item quantity="one">एक वर्ष</item>
+    </plurals>
+    <plurals name="participant_count">
+        <item quantity="other">%d सहभागी</item>
+        <item quantity="one">%d सहभागी</item>
+    </plurals>
+    <plurals name="participant_count_history_off">
+        <item quantity="other">%d सहभागी, इतिहास बंद</item>
+        <item quantity="one">%d सहभागी, इतिहास बंद</item>
+    </plurals>
+    <plurals name="group_chat_additional_participant_count">
+        <item quantity="other">आणि अन्य %d</item>
+        <item quantity="one">आणि अन्य %d</item>
+    </plurals>
+</resources>

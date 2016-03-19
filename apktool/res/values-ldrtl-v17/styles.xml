@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ConversationListItemAvatarViewStyle">
+        <item name="android:paddingStart">30.0dip</item>
+        <item name="android:paddingEnd">@dimen/xs_space</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+    <style name="LayoutAlignParentEndStyle">
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+    <style name="ComposeMessageViewTextCounterStyle">
+        <item name="android:gravity">end|bottom|center</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:paddingStart">3.0dip</item>
+        <item name="android:paddingEnd">5.0dip</item>
+    </style>
+    <style name="InvitationFragmentParticipantsGalleryViewStyle">
+        <item name="android:paddingStart">12.0dip</item>
+        <item name="android:paddingEnd">8.0dip</item>
+        <item name="android:layout_toStartOf">@id/profile_photo</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+    <style name="InvitationFragmentNameTextViewStyle">
+        <item name="android:paddingStart">16.0dip</item>
+        <item name="android:paddingEnd">8.0dip</item>
+        <item name="android:layout_toStartOf">@id/profile_photo</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+    <style name="InvitationFragmentOrganizationStyle">
+        <item name="android:paddingStart">16.0dip</item>
+        <item name="android:paddingEnd">8.0dip</item>
+        <item name="android:layout_toStartOf">@id/button_container</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+    <style name="PhoneNumberItemViewPhoneStyle">
+        <item name="android:paddingStart">@dimen/avatar_dimension</item>
+        <item name="android:layout_toStartOf">@id/sms_icon</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+    <style name="ConversationListItemViewMarginEndStyle">
+        <item name="android:layout_marginEnd">@dimen/l_space</item>
+    </style>
+    <style name="ConversationListItemViewConversationNameStyle" parent="@style/RealTimeChat.ConversationList.ConversationName">
+        <item name="android:layout_marginEnd">@dimen/m_space</item>
+    </style>
+    <style name="ConversationListItemViewHangoutButtonStyle">
+        <item name="android:paddingStart">@dimen/hangout_btn_padding_left</item>
+        <item name="android:paddingEnd">@dimen/hangout_btn_padding_right</item>
+    </style>
+    <style name="SystemMessageListItemViewStyle">
+        <item name="android:gravity">start</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+</resources>

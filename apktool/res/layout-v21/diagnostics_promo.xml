@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/promo_text" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/promo_header_text_size" android:textColor="@color/quantum_white_text" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/diagnostics_promo_title" />
+        <TextView android:textSize="@dimen/promo_body_text_size" android:textColor="@color/quantum_white_secondary_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/diagnostics_promo_body" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="40.0dip" android:layout_below="@id/promo_text" android:layout_alignParentBottom="true">
+        <CheckBox android:textSize="@dimen/promo_body_text_size" android:textColor="@color/quantum_white_secondary_text" android:id="@id/diagnostics_promo_checkbox" android:paddingLeft="@dimen/checkbox_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:button="@drawable/custom_checkbox" android:text="@string/diagnostics_improve_hangouts_summary" android:layout_alignParentBottom="true" android:paddingStart="@dimen/checkbox_padding" android:buttonTint="@color/quantum_white_secondary_text" />
+    </RelativeLayout>
+</RelativeLayout>

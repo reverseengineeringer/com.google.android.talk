@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/ongoing_hangout_background_v2" />
+    <item android:drawable="@color/bg_item_pressed_v2" />
+</layer-list>

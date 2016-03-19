@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="24.0dip" android:textColor="@color/solid_white" android:id="@id/sms_recipient_issue_dialog_title" android:background="@color/primary_dark" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/gv_sms_alert_dialog_title" />
+    <TextView android:textSize="16.0dip" android:id="@id/sms_recipient_issue_message" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/gv_sms_unsupported_destination_message" android:layout_below="@id/sms_recipient_issue_dialog_title" />
+    <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="@color/primary_dark" android:id="@id/ok" android:paddingRight="20.0dip" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/ok" android:layout_below="@id/sms_recipient_issue_message" android:layout_alignParentRight="true" android:textAllCaps="true" />
+</RelativeLayout>

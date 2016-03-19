@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Oob.Entry.Label" parent="@style/Oob.Entry">
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_normal</item>
+        <item name="android:background">@color/default_bg</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">2.0dip</item>
+        <item name="android:layout_marginTop">2.0dip</item>
+        <item name="android:layout_marginStart">2.0dip</item>
+    </style>
+    <style name="Oob.Entry.Button" parent="@style/Oob.Entry">
+        <item name="android:textSize">@dimen/text_size_20</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_gray</item>
+        <item name="android:textColorLink">@color/text_blue</item>
+        <item name="android:linksClickable">true</item>
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:saveEnabled">false</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48.0dip</item>
+        <item name="android:paddingStart">16.0dip</item>
+        <item name="android:paddingEnd">16.0dip</item>
+    </style>
+    <style name="InviteListItemViewInviterStyle" parent="@style/RealTimeChat.ConversationList.ConversationName">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">@integer/appcompat_sans_serif_medium_textStyle</item>
+        <item name="android:layout_marginRight">@dimen/l_space</item>
+        <item name="android:layout_toRightOf">@id/avatarView</item>
+        <item name="android:fontFamily">@string/appcompat_sans_serif_medium_fontFamily</item>
+        <item name="android:layout_marginEnd">@dimen/l_space</item>
+        <item name="android:layout_toEndOf">@id/avatarView</item>
+    </style>
+    <style name="InviteListItemViewInviteTextStyle" parent="@style/RealTimeChat.ConversationList.LastMessage">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:layout_marginRight">@dimen/l_space</item>
+        <item name="android:layout_toRightOf">@id/avatarView</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:layout_marginEnd">@dimen/l_space</item>
+        <item name="android:layout_toEndOf">@id/avatarView</item>
+    </style>
+    <style name="ConvInviteListItemViewInviterStyle" parent="@style/InviteListItemViewInviterStyle">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">@integer/appcompat_sans_serif_medium_textStyle</item>
+        <item name="android:paddingLeft">@dimen/zero</item>
+        <item name="android:paddingTop">@dimen/invite_card_inner_margins</item>
+        <item name="android:paddingRight">@dimen/zero</item>
+        <item name="android:layout_margin">@dimen/zero</item>
+        <item name="android:fontFamily">@string/appcompat_sans_serif_medium_fontFamily</item>
+        <item name="android:paddingStart">@dimen/zero</item>
+        <item name="android:paddingEnd">@dimen/zero</item>
+    </style>
+    <style name="ConvInviteListItemViewInviteTextWrapperStyle" parent="@style/RealTimeChat.ConversationList.LastMessage">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:padding">@dimen/zero</item>
+        <item name="android:layout_marginTop">@dimen/invite_card_inner_margins_half</item>
+        <item name="android:layout_marginRight">@dimen/invite_card_inner_margins</item>
+        <item name="android:layout_marginBottom">@dimen/invite_card_inner_margins</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:layout_marginEnd">@dimen/invite_card_inner_margins</item>
+    </style>
+    <style name="quick_button_text_base">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/quick_button_text_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_gravity">end|center</item>
+        <item name="android:background">@drawable/quick_button_text_background</item>
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingTop">4.0dip</item>
+        <item name="android:paddingRight">8.0dip</item>
+        <item name="android:paddingBottom">4.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/quick_button_margin</item>
+        <item name="android:layout_marginBottom">8.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:layout_marginStart">@dimen/quick_button_margin</item>
+    </style>
+    <style name="SpinnerHeaderStyle">
+        <item name="android:layout_gravity">start|center</item>
+        <item name="android:paddingEnd">8.0dip</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.SearchView.MagIcon" parent="@android:style/Widget">
+        <item name="android:layout_marginStart">@dimen/abc_dropdownitem_text_padding_left</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown" parent="@android:style/Widget">
+        <item name="android:paddingStart">@dimen/abc_dropdownitem_text_padding_left</item>
+        <item name="android:paddingEnd">4.0dip</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Query" parent="@android:style/Widget">
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Icon1" parent="@android:style/Widget">
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Icon2" parent="@android:style/Widget">
+        <item name="android:layout_toStartOf">@id/edit_query</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Text" parent="@style/Base.Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:layout_toStartOf">@android:id/icon2</item>
+        <item name="android:layout_toEndOf">@android:id/icon1</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.ActionBar.TitleItem" parent="@android:style/Widget">
+        <item name="android:layout_gravity">start|center</item>
+        <item name="android:paddingEnd">8.0dip</item>
+    </style>
+    <style name="RtlUnderlay.Widget.AppCompat.ActionButton" parent="@android:style/Widget">
+        <item name="android:paddingStart">12.0dip</item>
+        <item name="android:paddingEnd">12.0dip</item>
+    </style>
+    <style name="RtlUnderlay.Widget.AppCompat.ActionButton.Overflow" parent="@style/Base.Widget.AppCompat.ActionButton">
+        <item name="android:paddingStart">@dimen/abc_action_bar_overflow_padding_start_material</item>
+        <item name="android:paddingEnd">@dimen/abc_action_bar_overflow_padding_end_material</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem" parent="@android:style/Widget">
+        <item name="android:paddingEnd">16.0dip</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem.InternalGroup" parent="@android:style/Widget">
+        <item name="android:layout_marginStart">16.0dip</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem.Text" parent="@android:style/Widget">
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.DialogTitle.Icon" parent="@android:style/Widget">
+        <item name="android:layout_marginEnd">8.0dip</item>
+    </style>
+    <style name="RtlOverlay.DialogWindowTitle.AppCompat" parent="@style/Base.DialogWindowTitle.AppCompat">
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="AccountsSwitcher.AccountDetailsStyle" parent="@style/AccountsSwitcher">
+        <item name="android:textColor">@color/account_text_color</item>
+        <item name="android:layout_marginStart">@dimen/start_horiz_padding</item>
+    </style>
+    <style name="AccountsSwitcher.AvatarStyle" parent="@style/AccountsSwitcher">
+        <item name="android:layout_width">@dimen/selected_account_avatar_size</item>
+        <item name="android:layout_height">@dimen/selected_account_avatar_size</item>
+        <item name="android:layout_marginTop">@dimen/avatar_margin_top</item>
+        <item name="android:layout_marginStart">@dimen/start_horiz_padding</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+    <style name="AccountsSwitcher.RecentsOneStyle" parent="@style/AccountsSwitcher">
+        <item name="android:layout_width">@dimen/recent_account_avatar_size</item>
+        <item name="android:layout_height">@dimen/recent_account_avatar_size</item>
+        <item name="android:layout_marginTop">@dimen/avatar_margin_top</item>
+        <item name="android:layout_marginStart">@dimen/recents_start_horiz_padding</item>
+        <item name="android:layout_marginEnd">@dimen/recents_end_horiz_padding</item>
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+    <style name="AccountsSwitcher.RecentsTwoStyle" parent="@style/AccountsSwitcher">
+        <item name="android:layout_width">@dimen/recent_account_avatar_size</item>
+        <item name="android:layout_height">@dimen/recent_account_avatar_size</item>
+        <item name="android:layout_marginTop">@dimen/avatar_margin_top</item>
+        <item name="android:layout_toStartOf">@id/avatar_recents_one</item>
+    </style>
+    <style name="AccountsSwitcher.ManageAccountsTextStyle" parent="@style/AccountsSwitcher">
+        <item name="android:textColor">@color/manage_accounts_text_color</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:layout_marginStart">@dimen/start_horiz_padding</item>
+    </style>
+    <style name="AccountsSwitcher.AccountTextStyle" parent="@style/AccountsSwitcher">
+        <item name="android:textColor">@color/add_accounts_text_color</item>
+        <item name="android:layout_marginStart">@dimen/start_horiz_padding</item>
+    </style>
+    <style name="AccountsSwitcher.SelectedAccountStyle" parent="@style/AccountsSwitcher">
+        <item name="android:layout_marginStart">@dimen/start_horiz_padding</item>
+    </style>
+    <style name="AccountsSwitcher.SelectedAccountButtonStyle" parent="@style/AccountsSwitcher">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:layout_width">@dimen/expander_icon_width</item>
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+    <style name="AccountsSwitcher.SignInTextStyle" parent="@style/AccountsSwitcher">
+        <item name="android:layout_marginStart">@dimen/start_horiz_padding</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+    <style name="NavigationDrawerMenuItemPaddingStyle">
+        <item name="android:paddingStart">@dimen/navigation_drawer_menu_item_text_start</item>
+    </style>
+    <style name="ApnPreferenceLayoutPaddingStyle">
+        <item name="android:paddingStart">@dimen/apn_preference_layout_start</item>
+        <item name="android:paddingEnd">@dimen/apn_preference_layout_end</item>
+    </style>
+    <style name="ContactDetailsPickerTabItemPaddingStyle">
+        <item name="android:paddingStart">@dimen/contact_details_picker_tab_item_start</item>
+        <item name="android:paddingEnd">@dimen/contact_details_picker_tab_item_end</item>
+    </style>
+    <style name="TextShadowLight4dpPaddingStyle" parent="@style/TextShadowLight">
+        <item name="android:paddingStart">@dimen/text_shadow_light_4dp_padding_start</item>
+        <item name="android:paddingEnd">@dimen/text_shadow_light_4dp_padding_end</item>
+    </style>
+    <style name="TwoLineListPreferenceItemPaddingStyle">
+        <item name="android:paddingStart">@dimen/two_line_list_preference_item_start</item>
+        <item name="android:paddingEnd">@dimen/two_line_list_preference_item_end</item>
+    </style>
+    <style name="WidgetInviteImagePaddingStyle">
+        <item name="android:paddingStart">@dimen/xs_space</item>
+    </style>
+</resources>

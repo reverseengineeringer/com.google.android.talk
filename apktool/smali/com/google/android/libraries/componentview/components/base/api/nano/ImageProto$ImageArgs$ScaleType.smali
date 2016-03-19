@@ -1,0 +1,3 @@
+.class public interface abstract Lcom/google/android/libraries/componentview/components/base/api/nano/ImageProto$ImageArgs$ScaleType;
+.super Ljava/lang/Object;
+.source "SourceFile"

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout android:id="@id/dialpad" android:background="@android:color/transparent" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:rowCount="4" android:columnCount="3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/one" layout="@layout/dialpad_key" />
+    <include android:id="@id/two" layout="@layout/dialpad_key" />
+    <include android:id="@id/three" layout="@layout/dialpad_key" />
+    <include android:id="@id/four" layout="@layout/dialpad_key" />
+    <include android:id="@id/five" layout="@layout/dialpad_key" />
+    <include android:id="@id/six" layout="@layout/dialpad_key" />
+    <include android:id="@id/seven" layout="@layout/dialpad_key" />
+    <include android:id="@id/eight" layout="@layout/dialpad_key" />
+    <include android:id="@id/nine" layout="@layout/dialpad_key" />
+    <include android:id="@id/star" layout="@layout/dialpad_key" />
+    <include android:id="@id/zero" layout="@layout/dialpad_key" />
+    <include android:id="@id/pound" layout="@layout/dialpad_key" />
+</GridLayout>

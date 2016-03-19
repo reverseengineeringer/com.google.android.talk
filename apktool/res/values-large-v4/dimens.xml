@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="country_input_size">84.0dip</dimen>
+    <dimen name="invalid_pin_warning">21.0sp</dimen>
+    <dimen name="phone_input_size">240.0dip</dimen>
+    <dimen name="pin_input_text_size">48.0sp</dimen>
+    <dimen name="image_padding_top">16.0dip</dimen>
+    <dimen name="landscape_image_padding_top">48.0dip</dimen>
+    <dimen name="promo_header_text_size">32.0sp</dimen>
+    <dimen name="promo_body_text_size">24.0sp</dimen>
+    <dimen name="promo_small_text_size">20.0sp</dimen>
+    <dimen name="promo_button_padding">48.0dip</dimen>
+    <dimen name="promo_edge_padding">100.0dip</dimen>
+    <dimen name="promo_bottom_edge_padding">48.0dip</dimen>
+    <dimen name="abc_config_prefDialogWidth">440.0dip</dimen>
+    <dimen name="abc_search_view_text_min_width">192.0dip</dimen>
+    <item type="dimen" name="abc_dialog_fixed_width_major">60.000004%</item>
+    <item type="dimen" name="abc_dialog_fixed_width_minor">90.0%</item>
+    <item type="dimen" name="abc_dialog_fixed_height_major">60.000004%</item>
+    <item type="dimen" name="abc_dialog_fixed_height_minor">90.0%</item>
+    <item type="dimen" name="abc_dialog_min_width_major">55.000008%</item>
+    <item type="dimen" name="abc_dialog_min_width_minor">79.99999%</item>
+    <dimen name="hangout_calling_participant_text_size">20.0sp</dimen>
+</resources>

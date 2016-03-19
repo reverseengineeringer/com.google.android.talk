@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="start|center|top" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/offscreen_avatar" android:layout_marginTop="16.0dip" android:layout_alignParentTop="true" style="@style/AccountsSwitcher.AvatarStyle">
+        <include layout="@layout/account_list_avatar_view" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/avatar" android:layout_marginTop="16.0dip" android:layout_alignParentTop="true" style="@style/AccountsSwitcher.AvatarStyle">
+        <include layout="@layout/account_list_avatar_view" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/crossfade_avatar_recents_one" android:visibility="gone" android:layout_marginTop="16.0dip" android:layout_alignParentTop="true" style="@style/AccountsSwitcher.RecentsOneStyle">
+        <include layout="@layout/account_list_avatar_view" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/avatar_recents_one" android:layout_marginTop="16.0dip" android:layout_alignParentTop="true" style="@style/AccountsSwitcher.RecentsOneStyle">
+        <include layout="@layout/account_list_avatar_view" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/crossfade_avatar_recents_two" android:visibility="gone" android:layout_marginTop="16.0dip" android:layout_alignParentTop="true" style="@style/AccountsSwitcher.RecentsTwoStyle">
+        <include layout="@layout/account_list_avatar_view" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/avatar_recents_two" android:layout_marginTop="16.0dip" android:layout_alignParentTop="true" style="@style/AccountsSwitcher.RecentsTwoStyle">
+        <include layout="@layout/account_list_avatar_view" />
+    </FrameLayout>
+</RelativeLayout>

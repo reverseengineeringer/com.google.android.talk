@@ -1,7 +1,219 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="messages_read">
-        <item quantity="other">Perskaityta pranešimų: %s</item>
-        <item quantity="one">%s perskaitytas pranešimas</item>
+    <plurals name="conv_invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">Pakvietė jus ir dar %1$d žm. į „Hangout“</item>
+        <item quantity="one">Pakvietė jus ir dar %1$d žm. į „Hangout“</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation_invite_list">
+        <item quantity="other">Dar %1$d žm. nori dalyvauti „Hangout“</item>
+        <item quantity="one">Dar %1$d žm. nori dalyvauti „Hangout“</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation_invite_list">
+        <item quantity="other">ir dar %1$d žm.</item>
+        <item quantity="one">ir dar %1$d žm.</item>
+    </plurals>
+    <plurals name="gallery_picker_max_count_reached_message">
+        <item quantity="other">Galite pasirinkti daugiausia %d pried.</item>
+        <item quantity="one">Galite pasirinkti daugiausia 1 priedą.</item>
+    </plurals>
+    <plurals name="num_minutes_in_the_past">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">%d min.</item>
+    </plurals>
+    <plurals name="elapsed_minutes">
+        <item quantity="other">Prieš %d min.</item>
+        <item quantity="one">Prieš %d min.</item>
+    </plurals>
+    <plurals name="elapsed_minutes_announce">
+        <item quantity="other">Prieš %d min.</item>
+        <item quantity="one">Prieš %d min.</item>
+    </plurals>
+    <plurals name="elapsed_hours">
+        <item quantity="other">Prieš %d val.</item>
+        <item quantity="one">Prieš %d val.</item>
+    </plurals>
+    <plurals name="elapsed_hours_announce">
+        <item quantity="other">Prieš %d val.</item>
+        <item quantity="one">Prieš %d val.</item>
+    </plurals>
+    <plurals name="elapsed_days">
+        <item quantity="other">Prieš %d d.</item>
+        <item quantity="one">Prieš %d d.</item>
+    </plurals>
+    <plurals name="elapsed_days_announce">
+        <item quantity="other">Prieš %d d.</item>
+        <item quantity="one">Prieš %d d.</item>
+    </plurals>
+    <plurals name="elapsed_weeks">
+        <item quantity="other">Prieš %d sav.</item>
+        <item quantity="one">Prieš %d sav.</item>
+    </plurals>
+    <plurals name="elapsed_weeks_announce">
+        <item quantity="other">Prieš %d sav.</item>
+        <item quantity="one">Prieš %d sav.</item>
+    </plurals>
+    <plurals name="elapsed_months">
+        <item quantity="other">Prieš %d mėn.</item>
+        <item quantity="one">Prieš %d mėn.</item>
+    </plurals>
+    <plurals name="elapsed_months_announce">
+        <item quantity="other">Prieš %d mėn.</item>
+        <item quantity="one">Prieš %d mėn.</item>
+    </plurals>
+    <plurals name="num_seconds_duration">
+        <item quantity="other">%d sek.</item>
+        <item quantity="one">%d sek.</item>
+    </plurals>
+    <plurals name="a11y_num_seconds_duration">
+        <item quantity="other">%d sek.</item>
+        <item quantity="one">%d sek.</item>
+    </plurals>
+    <plurals name="num_minutes_duration">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">%d min.</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_duration">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">%d min.</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_in_the_past">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">%d min.</item>
+    </plurals>
+    <plurals name="num_hours_in_the_past">
+        <item quantity="other">%d val.</item>
+        <item quantity="one">%d val.</item>
+    </plurals>
+    <plurals name="num_days_in_the_past">
+        <item quantity="other">%d d.</item>
+        <item quantity="one">%d d.</item>
+    </plurals>
+    <plurals name="one_up_comment_count">
+        <item quantity="other">%d komentarų</item>
+        <item quantity="one">%d komentaras</item>
+        <item quantity="few">%d komentarai</item>
+        <item quantity="many">%d comments</item>
+    </plurals>
+    <plurals name="audience_hidden_user_count">
+        <item quantity="other">Dar %d kitų</item>
+        <item quantity="one">Dar %d kitas</item>
+        <item quantity="few">Dar %d kiti</item>
+        <item quantity="many">+%d others</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_attachment">
+        <item quantity="other">Siųsti priedų: %d</item>
+        <item quantity="one">Siųsti priedų: %d</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_message_and_attachment">
+        <item quantity="other">Siųsti pranešimą su priedais (%d)</item>
+        <item quantity="one">Siųsti pranešimą su priedais (%d)</item>
+    </plurals>
+    <plurals name="comments">
+        <item quantity="other">Komentarų: %d</item>
+        <item quantity="one">Komentarų: %d</item>
+    </plurals>
+    <plurals name="notification_multi_hangout">
+        <item quantity="other">Pakvietė jus prisijungti prie „Hangout“ su dar %d asm.</item>
+        <item quantity="one">Pakvietė jus į „Hangout“ su dar 1 asmeniu</item>
+    </plurals>
+    <plurals name="realtimechat_notification_new_messages">
+        <item quantity="other">Naujų pranešimų: %d</item>
+        <item quantity="one">%d naujas pranešimas</item>
+    </plurals>
+    <plurals name="redacted_multi_convo_text">
+        <item quantity="other">Iš %d pokalb.</item>
+        <item quantity="one">Iš %d pokalbio</item>
+    </plurals>
+    <plurals name="realtimechat_message_num_attachments">
+        <item quantity="other">Priedų: %d</item>
+        <item quantity="one">Priedų: %d</item>
+    </plurals>
+    <plurals name="realtimechat_invitation_notification_multiconversation_sender">
+        <item quantity="other">Naujų „Hangout“: %d</item>
+        <item quantity="one">Naujas „Hangout“: %d</item>
+    </plurals>
+    <plurals name="hangout_on_air_viewer_count">
+        <item quantity="other">Žiūrinčiųjų: %d</item>
+        <item quantity="one">1 žiūrintysis</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">Vaizdo skambutis nuo %2$s su %3$s ir dar %1$d žm.</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">Vaizdo skambutis nuo %2$s su dar %1$d žm.</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">Balso skambutis nuo %2$s su %3$s ir dar %1$d žm.</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">Balso skambutis nuo %2$s su dar %1$d žm.</item>
+    </plurals>
+    <plurals name="dnd_hours">
+        <item quantity="other">%d val.</item>
+        <item quantity="one">1 val.</item>
+    </plurals>
+    <plurals name="dnd_minutes">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">1 min.</item>
+    </plurals>
+    <plurals name="watermark_gallery_label">
+        <item quantity="other">Peržiūrėjo: %s</item>
+        <item quantity="one">Peržiūrėjo: %s</item>
+    </plurals>
+    <plurals name="focus_gallery_label">
+        <item quantity="other">%s perskaitė visus pranešimus.</item>
+        <item quantity="one">%s perskaitė visus pranešimus.</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="other">%1$d pranešim. %2$d pokalb.</item>
+        <item quantity="one">%d pranešim. viename pokalbyje</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">Pakvietė jus ir dar %1$d žm. į „Hangout“</item>
+        <item quantity="one">Pakvietė jus ir dar %1$d žm. į „Hangout“</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation">
+        <item quantity="other">%2$s ir dar %1$d žm. nori dalyvauti „Hangout“</item>
+        <item quantity="one">%2$s ir dar %1$d žm. nori dalyvauti „Hangout“</item>
+        <item quantity="few">%2$s ir dar %1$d žm. nori dalyvauti „Hangout“</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation">
+        <item quantity="other">Dar %1$d žm. nori dalyvauti „Hangout“</item>
+        <item quantity="one">Dar %1$d žm. nori dalyvauti „Hangout“</item>
+        <item quantity="few">Dar %1$d žm. nori dalyvauti „Hangout“</item>
+    </plurals>
+    <plurals name="items_attached_count">
+        <item quantity="other">Pridėta elementų: %d</item>
+        <item quantity="zero">Pridėta elementų: %d</item>
+        <item quantity="one">Pridėta elementų: %d</item>
+    </plurals>
+    <plurals name="items_forwarded_count">
+        <item quantity="other">Persiųsta elementų: %d</item>
+        <item quantity="zero">Persiųsta elementų: %d</item>
+        <item quantity="one">Persiųsta elementų: %d</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="other">%d sav.</item>
+        <item quantity="one">savaitė</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="other">%d mėn.</item>
+        <item quantity="one">mėnuo</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="other">%d m.</item>
+        <item quantity="one">metai</item>
+    </plurals>
+    <plurals name="participant_count">
+        <item quantity="other">Dalyvių: %d</item>
+        <item quantity="one">Dalyvių: %d</item>
+    </plurals>
+    <plurals name="participant_count_history_off">
+        <item quantity="other">Dalyvių: %d, istorija išjungta</item>
+        <item quantity="one">Dalyvių: %d, istorija išjungta</item>
+    </plurals>
+    <plurals name="group_chat_additional_participant_count">
+        <item quantity="other">ir dar %d dalyv.</item>
+        <item quantity="one">ir dar %d dalyv.</item>
     </plurals>
 </resources>

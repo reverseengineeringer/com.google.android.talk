@@ -1,7 +1,215 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="messages_read">
-        <item quantity="other">%s پیام خوانده شده</item>
-        <item quantity="one">%s پیام خوانده شده</item>
+    <plurals name="conv_invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">‏شما را به Hangout با %1$d نفر دیگر دعوت کرد</item>
+        <item quantity="one">‏شما را به به Hangout با %1$d نفر دیگر دعوت کرد</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation_invite_list">
+        <item quantity="other">‏%1$d نفر دیگر می‌خواهند Hangout برگزار کنند</item>
+        <item quantity="one">‏%1$d نفر دیگر می‌خواهد Hangout برگزار کند</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation_invite_list">
+        <item quantity="other">با %1$d نفر دیگر</item>
+        <item quantity="one">با %1$d نفر دیگر</item>
+    </plurals>
+    <plurals name="gallery_picker_max_count_reached_message">
+        <item quantity="other">حداکثر می‌توانید فقط %d پیوست انتخاب کنید.</item>
+        <item quantity="one">حداکثر می‌توانید فقط ۱ پیوست انتخاب کنید.</item>
+    </plurals>
+    <plurals name="num_minutes_in_the_past">
+        <item quantity="other">%d دقیقه</item>
+        <item quantity="one">%d دقیقه</item>
+    </plurals>
+    <plurals name="elapsed_minutes">
+        <item quantity="other">%d دقیقه قبل</item>
+        <item quantity="one">%d دقیقه قبل</item>
+    </plurals>
+    <plurals name="elapsed_minutes_announce">
+        <item quantity="other">%d دقیقه قبل</item>
+        <item quantity="one">%d دقیقه قبل</item>
+    </plurals>
+    <plurals name="elapsed_hours">
+        <item quantity="other">%d ساعت قبل</item>
+        <item quantity="one">%d ساعت قبل</item>
+    </plurals>
+    <plurals name="elapsed_hours_announce">
+        <item quantity="other">%d ساعت قبل</item>
+        <item quantity="one">%d ساعت قبل</item>
+    </plurals>
+    <plurals name="elapsed_days">
+        <item quantity="other">%d روز قبل</item>
+        <item quantity="one">%d روز قبل</item>
+    </plurals>
+    <plurals name="elapsed_days_announce">
+        <item quantity="other">%d روز قبل</item>
+        <item quantity="one">%d روز قبل</item>
+    </plurals>
+    <plurals name="elapsed_weeks">
+        <item quantity="other">%d هفته قبل</item>
+        <item quantity="one">%d هفته قبل</item>
+    </plurals>
+    <plurals name="elapsed_weeks_announce">
+        <item quantity="other">%d هفته قبل</item>
+        <item quantity="one">%d هفته قبل</item>
+    </plurals>
+    <plurals name="elapsed_months">
+        <item quantity="other">%d ماه قبل</item>
+        <item quantity="one">%d ماه قبل</item>
+    </plurals>
+    <plurals name="elapsed_months_announce">
+        <item quantity="other">%d ماه قبل</item>
+        <item quantity="one">%d ماه قبل</item>
+    </plurals>
+    <plurals name="num_seconds_duration">
+        <item quantity="other">%d ثانیه</item>
+        <item quantity="one">%d ثانیه</item>
+    </plurals>
+    <plurals name="a11y_num_seconds_duration">
+        <item quantity="other">%d ثانیه</item>
+        <item quantity="one">%d ثانیه</item>
+    </plurals>
+    <plurals name="num_minutes_duration">
+        <item quantity="other">%d دقیقه</item>
+        <item quantity="one">%d دقیقه</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_duration">
+        <item quantity="other">%d دقیقه</item>
+        <item quantity="one">%d دقیقه</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_in_the_past">
+        <item quantity="other">%d دقیقه</item>
+        <item quantity="one">%d دقیقه</item>
+    </plurals>
+    <plurals name="num_hours_in_the_past">
+        <item quantity="other">%d ساعت</item>
+        <item quantity="one">%d ساعت</item>
+    </plurals>
+    <plurals name="num_days_in_the_past">
+        <item quantity="other">%d روز</item>
+        <item quantity="one">%d روز</item>
+    </plurals>
+    <plurals name="one_up_comment_count">
+        <item quantity="other">%d نظر</item>
+        <item quantity="one">%d نظر</item>
+    </plurals>
+    <plurals name="audience_hidden_user_count">
+        <item quantity="other">+%d نفر دیگر</item>
+        <item quantity="one">+%d نفر دیگر</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_attachment">
+        <item quantity="other">ارسال %d پیوست</item>
+        <item quantity="one">ارسال %d پیوست</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_message_and_attachment">
+        <item quantity="other">ارسال پیام با %d پیوست</item>
+        <item quantity="one">ارسال پیام با %d پیوست</item>
+    </plurals>
+    <plurals name="comments">
+        <item quantity="other">%d نظر</item>
+        <item quantity="one">%d نظر</item>
+    </plurals>
+    <plurals name="notification_multi_hangout">
+        <item quantity="other">‏شما را به Hangout با %d نفر دیگر دعوت کرد</item>
+        <item quantity="one">‏شما را به Hangout با یک نفر دیگر دعوت کرد</item>
+    </plurals>
+    <plurals name="realtimechat_notification_new_messages">
+        <item quantity="other">%d پیام جدید</item>
+        <item quantity="one">%d پیام جدید</item>
+    </plurals>
+    <plurals name="redacted_multi_convo_text">
+        <item quantity="other">از %d مکالمه</item>
+        <item quantity="one">از %d مکالمه</item>
+    </plurals>
+    <plurals name="realtimechat_message_num_attachments">
+        <item quantity="other">%d پیوست</item>
+        <item quantity="one">%d پیوست</item>
+    </plurals>
+    <plurals name="realtimechat_invitation_notification_multiconversation_sender">
+        <item quantity="other">‏%d ‏Hangout جدید</item>
+        <item quantity="one">‏%d ‏Hangout جدید</item>
+    </plurals>
+    <plurals name="hangout_on_air_viewer_count">
+        <item quantity="other">%d بیننده</item>
+        <item quantity="one">۱ بیننده</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">تماس ویدیویی از %2$s با %3$s و %1$d نفر دیگر</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">تماس ویدیویی از %2$s با %1$d نفر دیگر</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">تماس صوتی از طرف %2$s با %3$s و %1$d نفر دیگر</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">تماس صوتی از طرف %2$s با %1$d نفر دیگر</item>
+    </plurals>
+    <plurals name="dnd_hours">
+        <item quantity="other">%d ساعت</item>
+        <item quantity="one">۱ ساعت</item>
+    </plurals>
+    <plurals name="dnd_minutes">
+        <item quantity="other">%d دقیقه</item>
+        <item quantity="one">۱ دقیقه</item>
+    </plurals>
+    <plurals name="watermark_gallery_label">
+        <item quantity="other">مشاهده توسط %s</item>
+        <item quantity="one">مشاهده توسط %s</item>
+    </plurals>
+    <plurals name="focus_gallery_label">
+        <item quantity="other">%s همه پیام‌ها را خوانده‌اند.</item>
+        <item quantity="one">%s همه پیام‌ها را خوانده است.</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="other">%1$d پیام در %2$d مکالمه</item>
+        <item quantity="one">%d پیام در یک مکالمه</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">‏شما را به Hangout با %1$d نفر دیگر دعوت کرد</item>
+        <item quantity="one">‏شما را به Hangout با %1$d نفر دیگر دعوت کرد</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation">
+        <item quantity="other">‏%2$s و %1$d نفر دیگر می‌خواهند Hangout برگزار کنند</item>
+        <item quantity="one">‏%2$s و %1$d نفر دیگر می‌خواهند Hangout برگزار کنند</item>
+        <item quantity="few">‏%2$s و %1$d نفر دیگر می‌خواهند Hangout برگزار کنند</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation">
+        <item quantity="other">‏%1$d نفر دیگر می‌خواهند Hangout کنند</item>
+        <item quantity="one">‏%1$d نفر دیگر می‌خواهد Hangout کند</item>
+        <item quantity="few">‏%1$d نفر دیگر می‌خواهند Hangout کنند</item>
+    </plurals>
+    <plurals name="items_attached_count">
+        <item quantity="other">%d مورد پیوست شد</item>
+        <item quantity="zero">%d مورد پیوست شد</item>
+        <item quantity="one">%d مورد پیوست شد</item>
+    </plurals>
+    <plurals name="items_forwarded_count">
+        <item quantity="other">%d مورد بازارسال شد</item>
+        <item quantity="zero">%d مورد بازارسال شد</item>
+        <item quantity="one">%d مورد بازارسال شد</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="other">%d هفته</item>
+        <item quantity="one">یک هفته</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="other">%d ماه</item>
+        <item quantity="one">یک ماه</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="other">%d سال</item>
+        <item quantity="one">یک سال</item>
+    </plurals>
+    <plurals name="participant_count">
+        <item quantity="other">%d شرکت‌کننده</item>
+        <item quantity="one">%d شرکت‌کننده</item>
+    </plurals>
+    <plurals name="participant_count_history_off">
+        <item quantity="other">%d شرکت‌کننده، سابقه خاموش</item>
+        <item quantity="one">%d شرکت‌کننده، سابقه خاموش</item>
+    </plurals>
+    <plurals name="group_chat_additional_participant_count">
+        <item quantity="other">و %d نفر دیگر</item>
+        <item quantity="one">و %d نفر دیگر</item>
     </plurals>
 </resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/conversationOptionsHeader" android:paddingTop="@dimen/l_space" android:paddingBottom="@dimen/l_space" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/list_divider" />
+    <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="?colorPrimaryDark" android:id="@id/header_text" android:paddingLeft="@dimen/l_space" android:paddingTop="@dimen/m_space" android:paddingRight="@dimen/l_space" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

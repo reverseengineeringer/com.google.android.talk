@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:appcompat="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/send_hangouts_sms_invite" android:visible="false" android:title="@string/offnetwork_invite_without_name_title" />
+    <item android:icon="@drawable/ic_menu_people_options" android:id="@id/show_participants_and_options" android:title="@string/menu_show_participants_and_options" />
+    <item android:id="@id/add_to_contacts_menu_item" android:title="@string/add_to_contacts_menu_item_text" />
+    <item android:icon="@drawable/ic_menu_add_people" android:id="@id/realtimechat_conversation_invite_menu_item" android:title="@string/realtimechat_conversation_invite_menu_item_text" appcompat:showAsAction="never" />
+    <item android:icon="@drawable/ic_menu_history_on" android:id="@id/realtimechat_go_on_the_record_menu_item" android:visible="false" android:title="@string/realtimechat_go_on_the_record_menu_item_text" appcompat:showAsAction="never" />
+    <item android:icon="@drawable/ic_menu_history_off" android:id="@id/realtimechat_go_off_the_record_menu_item" android:visible="false" android:title="@string/realtimechat_go_off_the_record_menu_item_text" appcompat:showAsAction="never" />
+    <item android:icon="@drawable/quantum_ic_hangout_video_white_24" android:id="@id/start_hangout_menu_item" android:visible="false" android:title="@string/realtimechat_conversation_join_hangout_menu_item_text" android:contentDescription="@string/realtimechat_start_hangout_description" appcompat:showAsAction="always" />
+    <item android:icon="@drawable/ic_menu_archive" android:id="@id/realtimechat_conversation_archive_menu_item" android:title="@string/realtimechat_conversation_archive_menu_item_text" />
+    <item android:icon="@drawable/ic_menu_unarchive" android:id="@id/realtimechat_conversation_unarchive_menu_item" android:title="@string/realtimechat_conversation_unarchive_menu_item_text" />
+    <item android:icon="@drawable/ic_menu_delete" android:id="@id/realtimechat_conversation_delete_menu_item" android:title="@string/realtimechat_conversation_delete_menu_item_text" />
+    <item android:icon="@drawable/ic_leave_gray" android:id="@id/realtimechat_conversation_leave_menu_item" android:title="@string/realtimechat_conversation_leave_menu_item_text" />
+    <item android:id="@id/realtimechat_unmerge_menu_item" android:title="@string/realtimechat_unmerge_menu_item_text" />
+    <item android:icon="@drawable/quantum_ic_phone_white_24" android:id="@id/realtimechat_conversation_call_menu_item" android:visible="false" android:title="@string/realtimechat_conversation_call_menu_item_text" appcompat:showAsAction="always" />
+    <item android:id="@id/debug_options" android:orderInCategory="1001" android:title="Debug" />
+</menu>

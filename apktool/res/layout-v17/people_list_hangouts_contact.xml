@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:id="@id/last_seen_container" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="72.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@id/avatar_container" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true">
+        <com.google.android.apps.hangouts.views.AvatarView android:layout_gravity="center" android:id="@id/avatar" android:layout_width="40.0dip" android:layout_height="40.0dip" android:importantForAccessibility="no" />
+        <ImageView android:layout_gravity="center" android:id="@id/checkmark" android:background="@drawable/avatar_checked_background" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/quantum_ic_check_white_24" android:scaleType="center" />
+        <ImageView android:layout_gravity="bottom|center|left" android:id="@id/hangouts_logo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="44.0dip" android:layout_marginBottom="36.0dip" android:src="@drawable/hangouts_badge" android:layout_marginStart="44.0dip" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:layout_toLeftOf="@id/last_seen_view" android:layout_toRightOf="@id/avatar_container" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" android:layout_toStartOf="@id/last_seen_view" android:layout_toEndOf="@id/avatar_container">
+        <TextView android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/PeopleListItemViewNameStyle" />
+        <TextView android:id="@id/detail" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/PeopleListItemViewDetailStyle" />
+    </LinearLayout>
+</RelativeLayout>

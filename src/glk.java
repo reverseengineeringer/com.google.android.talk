@@ -1,0 +1,11 @@
+public abstract interface glk
+  extends fil, fim
+{
+  public abstract gpu a();
+}
+
+/* Location:
+ * Qualified Name:     glk
+ * Java Class Version: 6 (50.0)
+ * JD-Core Version:    0.7.1
+ */

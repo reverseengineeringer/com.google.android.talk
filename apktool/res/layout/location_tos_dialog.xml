@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/promo_header_text_size" android:textColor="@color/quantum_white_text" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/location_tos_title" />
+        <TextView android:textSize="@dimen/promo_body_text_size" android:textColor="@color/quantum_white_secondary_text" android:textColorLink="@color/quantum_white_secondary_text" android:id="@id/location_tos_body" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/location_tos_body" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,7 +1,215 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="messages_read">
-        <item quantity="other">%s messaggi letti</item>
-        <item quantity="one">%s messaggio letto</item>
+    <plurals name="conv_invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">Ti ha invitato a un Hangout con altre %1$d persone</item>
+        <item quantity="one">Ti ha invitato a un Hangout con %1$d altra persona</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation_invite_list">
+        <item quantity="other">Altre %1$d persone vogliono effettuare un Hangout</item>
+        <item quantity="one">%1$d altra persona vuole effettuare un Hangout</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation_invite_list">
+        <item quantity="other">con altre %1$d persone</item>
+        <item quantity="one">con %1$d altra persona</item>
+    </plurals>
+    <plurals name="gallery_picker_max_count_reached_message">
+        <item quantity="other">Puoi selezionare massimo %d allegati alla volta.</item>
+        <item quantity="one">Puoi selezionare massimo un allegato alla volta.</item>
+    </plurals>
+    <plurals name="num_minutes_in_the_past">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="elapsed_minutes">
+        <item quantity="other">%d min fa</item>
+        <item quantity="one">%d m fa</item>
+    </plurals>
+    <plurals name="elapsed_minutes_announce">
+        <item quantity="other">%d minuti fa</item>
+        <item quantity="one">%d minuto fa</item>
+    </plurals>
+    <plurals name="elapsed_hours">
+        <item quantity="other">%d ore fa</item>
+        <item quantity="one">%d h fa</item>
+    </plurals>
+    <plurals name="elapsed_hours_announce">
+        <item quantity="other">%d ore fa</item>
+        <item quantity="one">%d ora fa</item>
+    </plurals>
+    <plurals name="elapsed_days">
+        <item quantity="other">%d gg. fa</item>
+        <item quantity="one">%d g fa</item>
+    </plurals>
+    <plurals name="elapsed_days_announce">
+        <item quantity="other">%d giorni fa</item>
+        <item quantity="one">%d giorno fa</item>
+    </plurals>
+    <plurals name="elapsed_weeks">
+        <item quantity="other">%d sett. fa</item>
+        <item quantity="one">%d s fa</item>
+    </plurals>
+    <plurals name="elapsed_weeks_announce">
+        <item quantity="other">%d settimane fa</item>
+        <item quantity="one">%d settimana fa</item>
+    </plurals>
+    <plurals name="elapsed_months">
+        <item quantity="other">%d mesi fa</item>
+        <item quantity="one">%d me fa</item>
+    </plurals>
+    <plurals name="elapsed_months_announce">
+        <item quantity="other">%d mesi fa</item>
+        <item quantity="one">%d mese fa</item>
+    </plurals>
+    <plurals name="num_seconds_duration">
+        <item quantity="other">%d sec</item>
+        <item quantity="one">%d sec</item>
+    </plurals>
+    <plurals name="a11y_num_seconds_duration">
+        <item quantity="other">%d secondi</item>
+        <item quantity="one">%d secondo</item>
+    </plurals>
+    <plurals name="num_minutes_duration">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_duration">
+        <item quantity="other">%d minuti</item>
+        <item quantity="one">%d minuto</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_in_the_past">
+        <item quantity="other">%d minuti</item>
+        <item quantity="one">%d minuto</item>
+    </plurals>
+    <plurals name="num_hours_in_the_past">
+        <item quantity="other">%d ore</item>
+        <item quantity="one">%d ora</item>
+    </plurals>
+    <plurals name="num_days_in_the_past">
+        <item quantity="other">%d giorni</item>
+        <item quantity="one">%d giorno</item>
+    </plurals>
+    <plurals name="one_up_comment_count">
+        <item quantity="other">%d commenti</item>
+        <item quantity="one">%d commento</item>
+    </plurals>
+    <plurals name="audience_hidden_user_count">
+        <item quantity="other">+ altri %d</item>
+        <item quantity="one">+1 altro</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_attachment">
+        <item quantity="other">Invia %d allegati</item>
+        <item quantity="one">Invia %d allegato</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_message_and_attachment">
+        <item quantity="other">Invia messaggio con %d allegati</item>
+        <item quantity="one">Invia messaggio con %d allegato</item>
+    </plurals>
+    <plurals name="comments">
+        <item quantity="other">%d commenti</item>
+        <item quantity="one">%d commento</item>
+    </plurals>
+    <plurals name="notification_multi_hangout">
+        <item quantity="other">Ti ha invitato a un Hangout con altre %d persone</item>
+        <item quantity="one">"Ti ha invitato a un Hangout con un'altra persona"</item>
+    </plurals>
+    <plurals name="realtimechat_notification_new_messages">
+        <item quantity="other">%d nuovi messaggi</item>
+        <item quantity="one">%d nuovo messaggio</item>
+    </plurals>
+    <plurals name="redacted_multi_convo_text">
+        <item quantity="other">Da %d conversazioni</item>
+        <item quantity="one">Da %d conversazione</item>
+    </plurals>
+    <plurals name="realtimechat_message_num_attachments">
+        <item quantity="other">%d allegati</item>
+        <item quantity="one">%d allegato</item>
+    </plurals>
+    <plurals name="realtimechat_invitation_notification_multiconversation_sender">
+        <item quantity="other">%d nuovi Hangout</item>
+        <item quantity="one">%d nuovo Hangout</item>
+    </plurals>
+    <plurals name="hangout_on_air_viewer_count">
+        <item quantity="other">%d spettatori</item>
+        <item quantity="one">1 spettatore</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">Videochiamata da %2$s con %3$s e altre %1$d persone</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">Videochiamata da %2$s con altre %1$d persone</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">Chiamata vocale da %2$s con %3$s e altre %1$d persone</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">Chiamata vocale da %2$s con altre %1$d persone</item>
+    </plurals>
+    <plurals name="dnd_hours">
+        <item quantity="other">%d ore</item>
+        <item quantity="one">1 ora</item>
+    </plurals>
+    <plurals name="dnd_minutes">
+        <item quantity="other">%d minuti</item>
+        <item quantity="one">1 minuto</item>
+    </plurals>
+    <plurals name="watermark_gallery_label">
+        <item quantity="other">Visto da %s</item>
+        <item quantity="one">Visto da %s</item>
+    </plurals>
+    <plurals name="focus_gallery_label">
+        <item quantity="other">%s hanno letto tutti i messaggi.</item>
+        <item quantity="one">%s ha letto tutti i messaggi.</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="other">%1$d messaggi in %2$d conversazioni</item>
+        <item quantity="one">%d messaggi in una conversazione</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">Ti ha invitato a un Hangout con altre %1$d persone</item>
+        <item quantity="one">Ti ha invitato a un Hangout con %1$d altra persona</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation">
+        <item quantity="other">%2$s e altre %1$d persone vogliono effettuare un Hangout</item>
+        <item quantity="one">%2$s e %1$d altra persona vogliono effettuare un Hangout</item>
+        <item quantity="few">%2$s e altre %1$d persone vogliono effettuare un Hangout</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation">
+        <item quantity="other">Altri %1$d vogliono fare un Hangout</item>
+        <item quantity="one">%1$d altro vuole fare un Hangout</item>
+        <item quantity="few">Altri %1$d vogliono fare un Hangout</item>
+    </plurals>
+    <plurals name="items_attached_count">
+        <item quantity="other">%d elementi allegati</item>
+        <item quantity="zero">%d elementi allegati</item>
+        <item quantity="one">%d elemento allegato</item>
+    </plurals>
+    <plurals name="items_forwarded_count">
+        <item quantity="other">%d elementi inoltrati</item>
+        <item quantity="zero">%d elementi inoltrati</item>
+        <item quantity="one">%d elemento inoltrato</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="other">%d settimane</item>
+        <item quantity="one">una settimana</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="other">%d mesi</item>
+        <item quantity="one">un mese</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="other">%d anni</item>
+        <item quantity="one">un anno</item>
+    </plurals>
+    <plurals name="participant_count">
+        <item quantity="other">%d partecipanti</item>
+        <item quantity="one">%d partecipante</item>
+    </plurals>
+    <plurals name="participant_count_history_off">
+        <item quantity="other">%d partecipanti, cronologia non attiva</item>
+        <item quantity="one">%d partecipante, cronologia non attiva</item>
+    </plurals>
+    <plurals name="group_chat_additional_participant_count">
+        <item quantity="other">e altri %d</item>
+        <item quantity="one">e %d altro</item>
     </plurals>
 </resources>

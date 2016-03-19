@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/contact_permission_banner" />
+    <FrameLayout android:background="@color/application_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.apps.hangouts.peoplelistv2.impl.FastScrollingRecyclerView android:id="@android:id/list" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TextView android:textSize="18.0sp" android:gravity="center" android:id="@id/server_error" android:padding="24.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/people_list_error" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@android:id/empty" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.google.android.apps.hangouts.peoplelistv2.impl.MinHeightImageView android:id="@id/list_empty_image" android:paddingBottom="28.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/empty_contacts" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="16.0sp" android:textColor="@color/text_tertiary_default_color_dark" android:gravity="center" android:id="@id/list_empty_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_contacts_text" android:importantForAccessibility="no" android:fontFamily="sans-serif-light" />
+            <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@id/list_empty_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ProgressBar android:id="@id/list_empty_progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:indeterminate="true" style="?android:attr/progressBarStyle" />
+                <TextView android:textSize="24.0sp" android:textColor="@color/text_tertiary_default_color_dark" android:id="@id/list_empty_progress_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <include layout="@layout/empty_view_layout" />
+    </FrameLayout>
+</LinearLayout>

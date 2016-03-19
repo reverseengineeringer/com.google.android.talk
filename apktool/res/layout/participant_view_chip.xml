@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@android:color/transparent" android:paddingLeft="@dimen/participant_chip_pad_horiz" android:paddingTop="@dimen/participant_chip_pad_vert" android:paddingRight="@dimen/participant_chip_pad_horiz" android:paddingBottom="@dimen/participant_chip_pad_vert" android:layout_width="wrap_content" android:layout_height="wrap_content" android:transformPivotX="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/main_layout" android:background="@drawable/participant_rounded_background" android:layout_width="wrap_content" android:layout_height="@dimen/peoplelistv2_tiny_avatar_dimension"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.google.android.apps.hangouts.views.AvatarView android:id="@id/profile_photo" android:layout_width="@dimen/peoplelistv2_tiny_avatar_dimension" android:layout_height="@dimen/peoplelistv2_tiny_avatar_dimension" />
+            <ImageView android:layout_gravity="bottom|center|right" android:id="@id/lock_image" android:background="@drawable/lock_background" android:padding="@dimen/chip_lock_padding" android:layout_width="@dimen/chip_lock_size" android:layout_height="@dimen/chip_lock_size" android:src="@drawable/quantum_ic_lock_black_18" android:contentDescription="@string/chip_lock_description" />
+            <ImageView android:id="@id/remove_participant_image" android:background="@drawable/remove_participant_background" android:visibility="gone" android:layout_width="@dimen/peoplelistv2_tiny_avatar_dimension" android:layout_height="@dimen/peoplelistv2_tiny_avatar_dimension" android:src="@drawable/quantum_ic_clear_white_24" />
+        </FrameLayout>
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/participant_chip_foreground" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/textview" android:paddingLeft="@dimen/participant_chip_text_pad_horiz" android:paddingTop="@dimen/participant_chip_text_pad_vert" android:paddingRight="@dimen/participant_chip_text_pad_horiz" android:paddingBottom="@dimen/participant_chip_text_pad_vert" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

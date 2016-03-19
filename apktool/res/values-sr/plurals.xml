@@ -1,7 +1,217 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="messages_read">
-        <item quantity="other">Прочитаних порука: %s</item>
-        <item quantity="one">%s прочитана порука</item>
+    <plurals name="conv_invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">Позива вас у Hangout са још %1$d</item>
+        <item quantity="one">Позива вас у Hangout са још %1$d</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation_invite_list">
+        <item quantity="other">У Hangout жели да уђе још %1$d</item>
+        <item quantity="one">У Hangout жели да уђе још %1$d</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation_invite_list">
+        <item quantity="other">са још %1$d</item>
+        <item quantity="one">са још %1$d</item>
+    </plurals>
+    <plurals name="gallery_picker_max_count_reached_message">
+        <item quantity="other">Можете да изаберете највише %d прилог(а).</item>
+        <item quantity="one">Можете да изаберете највише 1 прилог.</item>
+    </plurals>
+    <plurals name="num_minutes_in_the_past">
+        <item quantity="other">%d мин</item>
+        <item quantity="one">%d мин</item>
+    </plurals>
+    <plurals name="elapsed_minutes">
+        <item quantity="other">пре %d мин</item>
+        <item quantity="one">пре %d мин</item>
+    </plurals>
+    <plurals name="elapsed_minutes_announce">
+        <item quantity="other">пре %d минута</item>
+        <item quantity="one">пре %d минут</item>
+    </plurals>
+    <plurals name="elapsed_hours">
+        <item quantity="other">пре %d с</item>
+        <item quantity="one">пре %d с</item>
+    </plurals>
+    <plurals name="elapsed_hours_announce">
+        <item quantity="other">пре %d сата(и)</item>
+        <item quantity="one">пре %d сат</item>
+    </plurals>
+    <plurals name="elapsed_days">
+        <item quantity="other">пре %d д</item>
+        <item quantity="one">пре %d д</item>
+    </plurals>
+    <plurals name="elapsed_days_announce">
+        <item quantity="other">пре %d дана</item>
+        <item quantity="one">пре %d дан</item>
+    </plurals>
+    <plurals name="elapsed_weeks">
+        <item quantity="other">пре %d нед</item>
+        <item quantity="one">пре %d нед</item>
+    </plurals>
+    <plurals name="elapsed_weeks_announce">
+        <item quantity="other">пре %d недеље(а)</item>
+        <item quantity="one">пре %d недељу</item>
+    </plurals>
+    <plurals name="elapsed_months">
+        <item quantity="other">пре %d мес</item>
+        <item quantity="one">пре %d мес</item>
+    </plurals>
+    <plurals name="elapsed_months_announce">
+        <item quantity="other">пре %d месеца(и)</item>
+        <item quantity="one">пре %d месец</item>
+    </plurals>
+    <plurals name="num_seconds_duration">
+        <item quantity="other">%d сек</item>
+        <item quantity="one">%d сек</item>
+    </plurals>
+    <plurals name="a11y_num_seconds_duration">
+        <item quantity="other">%d секунде(и)</item>
+        <item quantity="one">%d секунда</item>
+    </plurals>
+    <plurals name="num_minutes_duration">
+        <item quantity="other">%d мин</item>
+        <item quantity="one">%d мин</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_duration">
+        <item quantity="other">%d минута</item>
+        <item quantity="one">%d минут</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_in_the_past">
+        <item quantity="other">%d минута</item>
+        <item quantity="one">%d минут</item>
+    </plurals>
+    <plurals name="num_hours_in_the_past">
+        <item quantity="other">%d сата(и)</item>
+        <item quantity="one">%d сат</item>
+    </plurals>
+    <plurals name="num_days_in_the_past">
+        <item quantity="other">%d дана</item>
+        <item quantity="one">%d дан</item>
+    </plurals>
+    <plurals name="one_up_comment_count">
+        <item quantity="other">%d коментара</item>
+        <item quantity="one">%d коментар</item>
+        <item quantity="few">%d коментара</item>
+    </plurals>
+    <plurals name="audience_hidden_user_count">
+        <item quantity="other">још %d</item>
+        <item quantity="one">још %d</item>
+        <item quantity="few">још %d</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_attachment">
+        <item quantity="other">Пошаљите %d прилога</item>
+        <item quantity="one">Пошаљите %d прилог</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_message_and_attachment">
+        <item quantity="other">Пошаљите поруку са %d прилога</item>
+        <item quantity="one">Пошаљите поруку са %d прилогом</item>
+    </plurals>
+    <plurals name="comments">
+        <item quantity="other">Коментара: %d</item>
+        <item quantity="one">%d коментар</item>
+    </plurals>
+    <plurals name="notification_multi_hangout">
+        <item quantity="other">Позива вас у Hangout са још %d</item>
+        <item quantity="one">Позива вас у Hangout са још 1 особом</item>
+    </plurals>
+    <plurals name="realtimechat_notification_new_messages">
+        <item quantity="other">Нових порука: %d</item>
+        <item quantity="one">%d нова порука</item>
+    </plurals>
+    <plurals name="redacted_multi_convo_text">
+        <item quantity="other">Из %d конверзације(а)</item>
+        <item quantity="one">Из %d конверзације</item>
+    </plurals>
+    <plurals name="realtimechat_message_num_attachments">
+        <item quantity="other">Прилога: %d</item>
+        <item quantity="one">%d прилог</item>
+    </plurals>
+    <plurals name="realtimechat_invitation_notification_multiconversation_sender">
+        <item quantity="other">Нових Hangouts-а: %d</item>
+        <item quantity="one">%d нови Hangout</item>
+    </plurals>
+    <plurals name="hangout_on_air_viewer_count">
+        <item quantity="other">Гледалаца: %d</item>
+        <item quantity="one">1 гледалац</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">Видео позив корисника %2$s, %3$s и још %1$d њих</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">Видео позив корисника %2$s са још %1$d њих</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">Гласовни позив корисника %2$s, %3$s и још %1$d њих</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">Гласовни позив корисника %2$s и још %1$d њих</item>
+    </plurals>
+    <plurals name="dnd_hours">
+        <item quantity="other">%d сата(и)</item>
+        <item quantity="one">1 сат</item>
+    </plurals>
+    <plurals name="dnd_minutes">
+        <item quantity="other">%d мин</item>
+        <item quantity="one">1 минут</item>
+    </plurals>
+    <plurals name="watermark_gallery_label">
+        <item quantity="other">%s су видели</item>
+        <item quantity="one">%s је видео/ла</item>
+    </plurals>
+    <plurals name="focus_gallery_label">
+        <item quantity="other">%s су прочитали све поруке.</item>
+        <item quantity="one">%s је прочитао/ла све поруке.</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="other">%1$d поруке у конверзацијама (%2$d)</item>
+        <item quantity="one">%d поруке у једној конверзацији</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">Позива вас у Hangout са још %1$d</item>
+        <item quantity="one">Позива вас у Hangout са још %1$d</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation">
+        <item quantity="other">%2$s и још %1$d желе у Hangout</item>
+        <item quantity="one">%2$s и још %1$d желе у Hangout</item>
+        <item quantity="few">%2$s и још %1$d желе у Hangout</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation">
+        <item quantity="other">Још %1$d корисника желе да учествују у Hangout-у</item>
+        <item quantity="one">Још %1$d корисник жели да учествује у Hangout-у</item>
+        <item quantity="few">Још %1$d корисника желе да учествују у Hangout-у</item>
+    </plurals>
+    <plurals name="items_attached_count">
+        <item quantity="other">Приложених ставки: %d</item>
+        <item quantity="zero">Приложених ставки: %d</item>
+        <item quantity="one">Приложена је %d ставка</item>
+    </plurals>
+    <plurals name="items_forwarded_count">
+        <item quantity="other">Прослеђених ставки: %d</item>
+        <item quantity="zero">Прослеђених ставки: %d</item>
+        <item quantity="one">Прослеђена је %d ставка</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="other">%d недеље(а)</item>
+        <item quantity="one">једне недеље</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="other">%d месеца(и)</item>
+        <item quantity="one">једног месеца</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="other">%d год.</item>
+        <item quantity="one">једне године</item>
+    </plurals>
+    <plurals name="participant_count">
+        <item quantity="other">%d учесника</item>
+        <item quantity="one">%d учесник</item>
+    </plurals>
+    <plurals name="participant_count_history_off">
+        <item quantity="other">%d учесника, историја је искључена</item>
+        <item quantity="one">%d учесник, историја је искључена</item>
+    </plurals>
+    <plurals name="group_chat_additional_participant_count">
+        <item quantity="other">и још %d</item>
+        <item quantity="one">и још %d</item>
     </plurals>
 </resources>

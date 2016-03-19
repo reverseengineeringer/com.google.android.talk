@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="end|bottom|center" android:id="@id/floating_action_button_frame" android:padding="@dimen/floating_action_button_margin" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:layout_width="@dimen/floating_action_button_size" android:layout_height="@dimen/floating_action_button_size" android:layout_marginTop="6.0dip" android:src="@drawable/bt_fab_4dpshadow" android:scaleType="centerInside" />
+    <com.google.android.apps.hangouts.floatingactionbutton.impl.FloatingActionButton android:layout_gravity="center" android:id="@id/floating_action_button" android:background="@drawable/floating_action_button_background" android:layout_width="@dimen/floating_action_button_size" android:layout_height="@dimen/floating_action_button_size" android:scaleType="center" />
+</FrameLayout>

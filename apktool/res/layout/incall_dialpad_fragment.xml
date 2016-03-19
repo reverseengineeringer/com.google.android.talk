@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/background_dialpad" android:paddingTop="10.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textSize="@dimen/dialpad_digits_text_size" android:ellipsize="none" android:gravity="center" android:id="@id/incall_dialpad_key_history" android:background="@null" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="47.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" android:maxLines="1" android:scrollHorizontally="true" android:singleLine="true" android:freezesText="true" android:inputType="phone" />
+    <fragment android:id="@id/dialpad_fragment" android:layout_width="fill_parent" android:layout_height="wrap_content" class="com.google.android.apps.hangouts.fragments.dialpad.DialpadFragment" />
+</LinearLayout>

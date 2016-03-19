@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/white_rectangle_with_rounded_corners" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ImageView android:id="@id/offnetwork_invite_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" android:adjustViewBounds="true" />
+        <ScrollView android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:fadeScrollbars="false">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="300.0dip" android:minWidth="200.0dip">
+                <TextView android:textSize="22.0sp" android:textColor="@color/quantum_grey700" android:gravity="center|left" android:id="@id/offnetwork_invite_title" android:padding="24.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/quantum_grey700" android:gravity="center|left" android:id="@id/offnetwork_invite_content" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:paddingBottom="24.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <View android:background="@color/quantum_grey300" android:layout_width="wrap_content" android:layout_height="1.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/offnetwork_invite_button_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="14.0sp" android:id="@id/offnetwork_invite_cancel_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@android:string/cancel" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+        <View android:background="@color/quantum_grey300" android:layout_width="1.0dip" android:layout_height="28.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" />
+        <Button android:textSize="14.0sp" android:id="@id/offnetwork_invite_send_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/offnetwork_invite_send_button_text" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/offnetwork_invite_alt_button_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="14.0sp" android:textColor="@color/quantum_grey700" android:id="@id/offnetwork_invite_alt_cancel_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/offnetwork_invite_sms_continue" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+        <View android:background="@color/quantum_grey300" android:layout_width="1.0dip" android:layout_height="28.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" />
+        <Button android:textSize="14.0sp" android:id="@id/offnetwork_invite_alt_send_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/offnetwork_invite_without_name_title" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

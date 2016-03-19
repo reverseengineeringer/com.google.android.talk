@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="conv_invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">Bauð þér í samtal með %1$d öðrum</item>
+        <item quantity="one">Bauð þér í samtal með %1$d öðrum</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation_invite_list">
+        <item quantity="other">%1$d í viðbót vilja spjalla</item>
+        <item quantity="one">%1$d í viðbót vill spjalla</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation_invite_list">
+        <item quantity="other">með %1$d öðrum</item>
+        <item quantity="one">með %1$d öðrum</item>
+    </plurals>
+    <plurals name="gallery_picker_max_count_reached_message">
+        <item quantity="other">Aðeins er hægt að velja %d viðhengi.</item>
+        <item quantity="one">Aðeins er hægt að velja eitt viðhengi.</item>
+    </plurals>
+    <plurals name="num_minutes_in_the_past">
+        <item quantity="other">%d mín.</item>
+        <item quantity="one">%d mín.</item>
+    </plurals>
+    <plurals name="elapsed_minutes">
+        <item quantity="other">fyrir %d mín.</item>
+        <item quantity="one">fyrir %d mín.</item>
+    </plurals>
+    <plurals name="elapsed_minutes_announce">
+        <item quantity="other">fyrir %d mínútum</item>
+        <item quantity="one">fyrir %d mínútu</item>
+    </plurals>
+    <plurals name="elapsed_hours">
+        <item quantity="other">fyrir %d klst.</item>
+        <item quantity="one">fyrir %d klst.</item>
+    </plurals>
+    <plurals name="elapsed_hours_announce">
+        <item quantity="other">fyrir %d klukkustundum</item>
+        <item quantity="one">fyrir %d klukkustund</item>
+    </plurals>
+    <plurals name="elapsed_days">
+        <item quantity="other">fyrir %d d.</item>
+        <item quantity="one">fyrir %d d.</item>
+    </plurals>
+    <plurals name="elapsed_days_announce">
+        <item quantity="other">fyrir %d dögum</item>
+        <item quantity="one">fyrir %d degi</item>
+    </plurals>
+    <plurals name="elapsed_weeks">
+        <item quantity="other">fyrir %d v.</item>
+        <item quantity="one">fyrir %d v.</item>
+    </plurals>
+    <plurals name="elapsed_weeks_announce">
+        <item quantity="other">fyrir %d vikum</item>
+        <item quantity="one">fyrir %d viku</item>
+    </plurals>
+    <plurals name="elapsed_months">
+        <item quantity="other">fyrir %d mán.</item>
+        <item quantity="one">fyrir %d mán.</item>
+    </plurals>
+    <plurals name="elapsed_months_announce">
+        <item quantity="other">fyrir %d mánuðum</item>
+        <item quantity="one">fyrir %d mánuði</item>
+    </plurals>
+    <plurals name="num_seconds_duration">
+        <item quantity="other">%d sek.</item>
+        <item quantity="one">%d sek.</item>
+    </plurals>
+    <plurals name="a11y_num_seconds_duration">
+        <item quantity="other">%d sekúndur</item>
+        <item quantity="one">%d sekúnda</item>
+    </plurals>
+    <plurals name="num_minutes_duration">
+        <item quantity="other">%d mín.</item>
+        <item quantity="one">%d mín.</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_duration">
+        <item quantity="other">%d mínútur</item>
+        <item quantity="one">%d mínúta</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_in_the_past">
+        <item quantity="other">%d mínútur</item>
+        <item quantity="one">%d mínúta</item>
+    </plurals>
+    <plurals name="num_hours_in_the_past">
+        <item quantity="other">%d klukkustundir</item>
+        <item quantity="one">%d klukkustund</item>
+    </plurals>
+    <plurals name="num_days_in_the_past">
+        <item quantity="other">%d dagar</item>
+        <item quantity="one">%d dagur</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_attachment">
+        <item quantity="other">Senda %d viðhengi</item>
+        <item quantity="one">Senda %d viðhengi</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_message_and_attachment">
+        <item quantity="other">Senda skilaboð með %d viðhengjum</item>
+        <item quantity="one">Senda skilaboð með %d viðhengi</item>
+    </plurals>
+    <plurals name="comments">
+        <item quantity="other">%d ummæli</item>
+        <item quantity="one">%d ummæli</item>
+    </plurals>
+    <plurals name="notification_multi_hangout">
+        <item quantity="other">Bauð þér í samtal með %d í viðbót</item>
+        <item quantity="one">Bauð þér í samtal með einum í viðbót</item>
+    </plurals>
+    <plurals name="realtimechat_notification_new_messages">
+        <item quantity="other">%d ný skilaboð</item>
+        <item quantity="one">%d ný skilaboð</item>
+    </plurals>
+    <plurals name="redacted_multi_convo_text">
+        <item quantity="other">Úr %d samtölum</item>
+        <item quantity="one">Úr %d samtali</item>
+    </plurals>
+    <plurals name="realtimechat_message_num_attachments">
+        <item quantity="other">%d viðhengi</item>
+        <item quantity="one">%d viðhengi</item>
+    </plurals>
+    <plurals name="realtimechat_invitation_notification_multiconversation_sender">
+        <item quantity="other">%d ný samtöl</item>
+        <item quantity="one">%d nýtt samtal</item>
+    </plurals>
+    <plurals name="hangout_on_air_viewer_count">
+        <item quantity="other">%d áhorfendur</item>
+        <item quantity="one">Einn áhorfandi</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">%2$s hringir myndsímtal sem %3$s og %1$d í viðbót taka þátt í</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">%2$s hringir myndsímtal sem %1$d í viðbót taka þátt í</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">%2$s hringir símtal sem %3$s og %1$d í viðbót taka þátt í</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">%2$s hringir símtal sem %1$d í viðbót taka þátt í</item>
+    </plurals>
+    <plurals name="dnd_hours">
+        <item quantity="other">%d klukkustundir</item>
+        <item quantity="one">1 klukkustund</item>
+    </plurals>
+    <plurals name="dnd_minutes">
+        <item quantity="other">%d mínútur</item>
+        <item quantity="one">1 mínúta</item>
+    </plurals>
+    <plurals name="watermark_gallery_label">
+        <item quantity="other">%s hafa séð</item>
+        <item quantity="one">%s hefur séð</item>
+    </plurals>
+    <plurals name="focus_gallery_label">
+        <item quantity="other">%s hafa lesið öll skilaboðin.</item>
+        <item quantity="one">%s hefur lesið öll skilaboðin.</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="other">%1$d skilaboð í %2$d samtölum</item>
+        <item quantity="one">%d skilaboð í einu samtali</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">Bauð þér í samtal með %1$d öðrum</item>
+        <item quantity="one">Bauð þér í samtal með %1$d öðrum</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation">
+        <item quantity="other">%2$s og %1$d í viðbót vilja tala við þig í Hangouts</item>
+        <item quantity="one">%2$s og %1$d í viðbót vilja tala við þig í Hangouts</item>
+        <item quantity="few">%2$s og %1$d í viðbót vilja tala við þig í Hangouts</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation">
+        <item quantity="other">%1$d í viðbót vilja spjalla</item>
+        <item quantity="one">%1$d í viðbót vill spjalla</item>
+        <item quantity="few">%1$d í viðbót vilja spjalla</item>
+    </plurals>
+    <plurals name="items_attached_count">
+        <item quantity="other">%d atriði í viðhengi</item>
+        <item quantity="zero">%d atriði í viðhengi</item>
+        <item quantity="one">%d atriði í viðhengi</item>
+    </plurals>
+    <plurals name="items_forwarded_count">
+        <item quantity="other">%d atriði áframsend</item>
+        <item quantity="zero">%d atriði áframsend</item>
+        <item quantity="one">%d atriði áframsent</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="other">%d vikur</item>
+        <item quantity="one">vika</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="other">%d mánuðir</item>
+        <item quantity="one">mánuður</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="other">%d ár</item>
+        <item quantity="one">ár</item>
+    </plurals>
+    <plurals name="participant_count">
+        <item quantity="other">%d þátttakendur</item>
+        <item quantity="one">%d þátttakandi</item>
+    </plurals>
+    <plurals name="participant_count_history_off">
+        <item quantity="other">%d þátttakendur, slökkt á ferli</item>
+        <item quantity="one">%d þátttakandi, slökkt á ferli</item>
+    </plurals>
+    <plurals name="group_chat_additional_participant_count">
+        <item quantity="other">og %d í viðbót</item>
+        <item quantity="one">og %d í viðbót</item>
+    </plurals>
+</resources>

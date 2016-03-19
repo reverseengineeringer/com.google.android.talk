@@ -1,2 +1,5 @@
-# com.google.android.talk
-https://play.google.com/store/apps/details?id=com.google.android.talk
+DISPLAYNAME: Hangouts
+
+PKGNAME: com.google.android.talk
+
+VERSIONINFO: versionCode=23000962 versionName=8.0.116581895

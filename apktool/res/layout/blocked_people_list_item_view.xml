@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root" android:paddingLeft="@dimen/m_space" android:paddingRight="@dimen/m_space" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:hangouts="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/blocked_people_list_item_height">
+        <FrameLayout android:layout_gravity="center_vertical" android:id="@id/avatar_frame" android:layout_width="@dimen/avatar_dimension" android:layout_height="@dimen/avatar_dimension" android:layout_alignParentLeft="true">
+            <com.google.android.apps.hangouts.views.AvatarView android:id="@id/avatar" android:layout_width="@dimen/avatar_dimension" android:layout_height="@dimen/avatar_dimension" hangouts:avatarViewSize="medium" />
+            <View android:id="@id/availability" android:background="@drawable/blocked_list_avatar_availability_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <TextView android:textSize="18.0sp" android:id="@id/name" android:paddingLeft="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_centerVertical="true" style="@style/RealTimeChat.ParticipantName" />
+        <View style="@style/verticalDividerStyle" />
+        <Button android:textSize="14.0sp" android:textStyle="normal" android:id="@id/unblock" android:background="@drawable/bg_item_selectable" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/unblock_button_text" style="@style/RealTimeChat.UnblockButton" />
+    </LinearLayout>
+    <View style="@style/horizontalDividerStyle" />
+</LinearLayout>

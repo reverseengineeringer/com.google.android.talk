@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/list_layout_parent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/banner_promo_stub" android:inflatedId="@id/banner_promo_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.google.android.apps.hangouts.listui.SwipeableListView android:id="@android:id/list" android:longClickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/conversation_list_item_selector" android:drawSelectorOnTop="true" android:cacheColorHint="@color/realtimechat_empty_background" android:divider="@null" android:dividerHeight="0.0px" android:layout_weight="1.0" android:layout_above="@id/more_invites_button" android:layout_below="@id/banner_promo_stub" android:layout_alignWithParentIfMissing="true" />
+    <Button android:id="@id/more_invites_button" android:background="@drawable/bg_item_selectable" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/more_invites" android:layout_alignParentBottom="true" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_below="@id/banner_promo_stub">
+        <TextView android:textSize="18.0sp" android:gravity="center" android:id="@id/list_empty_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/list_empty_progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:indeterminate="true" style="?android:attr/progressBarStyle" />
+        <RelativeLayout android:id="@android:id/empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/zero_state_image_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="16.0sp" android:textColor="@color/text_tertiary_default_color_dark" android:gravity="center" android:id="@id/zero_state_text" android:paddingTop="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/no_overlap_fab_margin_side" android:layout_marginRight="@dimen/no_overlap_fab_margin_side" />
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>

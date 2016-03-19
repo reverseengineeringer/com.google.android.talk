@@ -1,7 +1,215 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="messages_read">
-        <item quantity="other">%s lästa meddelanden</item>
-        <item quantity="one">%s läst meddelande</item>
+    <plurals name="conv_invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">Bjöd in dig till en Hangout med %1$d till</item>
+        <item quantity="one">Bjöd in dig till en Hangout med %1$d till</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation_invite_list">
+        <item quantity="other">%1$d till vill delta i en Hangout</item>
+        <item quantity="one">%1$d till vill delta i en Hangout</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation_invite_list">
+        <item quantity="other">med %1$d till</item>
+        <item quantity="one">med %1$d till</item>
+    </plurals>
+    <plurals name="gallery_picker_max_count_reached_message">
+        <item quantity="other">Det går endast att välja högst %d bilagor.</item>
+        <item quantity="one">Det går endast att välja en bilaga.</item>
+    </plurals>
+    <plurals name="num_minutes_in_the_past">
+        <item quantity="other">%d minuter</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="elapsed_minutes">
+        <item quantity="other">%d min sedan</item>
+        <item quantity="one">för %d min sedan</item>
+    </plurals>
+    <plurals name="elapsed_minutes_announce">
+        <item quantity="other">för %d minuter sedan</item>
+        <item quantity="one">för %d minut sedan</item>
+    </plurals>
+    <plurals name="elapsed_hours">
+        <item quantity="other">%d h sedan</item>
+        <item quantity="one">för %d h sedan</item>
+    </plurals>
+    <plurals name="elapsed_hours_announce">
+        <item quantity="other">för %d timmar sedan</item>
+        <item quantity="one">för %d timme sedan</item>
+    </plurals>
+    <plurals name="elapsed_days">
+        <item quantity="other">%d d sedan</item>
+        <item quantity="one">för %d d sedan</item>
+    </plurals>
+    <plurals name="elapsed_days_announce">
+        <item quantity="other">för %d dagar sedan</item>
+        <item quantity="one">för %d dag sedan</item>
+    </plurals>
+    <plurals name="elapsed_weeks">
+        <item quantity="other">%d v sedan</item>
+        <item quantity="one">för %d v sedan</item>
+    </plurals>
+    <plurals name="elapsed_weeks_announce">
+        <item quantity="other">för %d veckor sedan</item>
+        <item quantity="one">för %d vecka sedan</item>
+    </plurals>
+    <plurals name="elapsed_months">
+        <item quantity="other">%d må sedan</item>
+        <item quantity="one">för %d må sedan</item>
+    </plurals>
+    <plurals name="elapsed_months_announce">
+        <item quantity="other">för %d månader sedan</item>
+        <item quantity="one">för %d månad sedan</item>
+    </plurals>
+    <plurals name="num_seconds_duration">
+        <item quantity="other">%d sek</item>
+        <item quantity="one">%d sek</item>
+    </plurals>
+    <plurals name="a11y_num_seconds_duration">
+        <item quantity="other">%d sekunder</item>
+        <item quantity="one">%d sekund</item>
+    </plurals>
+    <plurals name="num_minutes_duration">
+        <item quantity="other">%d minuter</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_duration">
+        <item quantity="other">%d minuter</item>
+        <item quantity="one">%d minut</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_in_the_past">
+        <item quantity="other">%d minuter</item>
+        <item quantity="one">%d minut</item>
+    </plurals>
+    <plurals name="num_hours_in_the_past">
+        <item quantity="other">%d timmar</item>
+        <item quantity="one">%d timme</item>
+    </plurals>
+    <plurals name="num_days_in_the_past">
+        <item quantity="other">%d dagar</item>
+        <item quantity="one">%d dag</item>
+    </plurals>
+    <plurals name="one_up_comment_count">
+        <item quantity="other">%d kommentarer</item>
+        <item quantity="one">%d kommentar</item>
+    </plurals>
+    <plurals name="audience_hidden_user_count">
+        <item quantity="other">+%d till</item>
+        <item quantity="one">+1 till</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_attachment">
+        <item quantity="other">Skicka %d bilagor</item>
+        <item quantity="one">Skicka %d bilaga</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_message_and_attachment">
+        <item quantity="other">Skicka meddelande med %d bilagor</item>
+        <item quantity="one">Skicka meddelande med %d bilaga</item>
+    </plurals>
+    <plurals name="comments">
+        <item quantity="other">%d kommentarer</item>
+        <item quantity="one">%d kommentar</item>
+    </plurals>
+    <plurals name="notification_multi_hangout">
+        <item quantity="other">Har bjudit in dig till en Hangout med %d andra personer</item>
+        <item quantity="one">Har bjudit in dig till en Hangout med en annan person</item>
+    </plurals>
+    <plurals name="realtimechat_notification_new_messages">
+        <item quantity="other">%d nya meddelanden</item>
+        <item quantity="one">%d nytt meddelande</item>
+    </plurals>
+    <plurals name="redacted_multi_convo_text">
+        <item quantity="other">Från %d konversationer</item>
+        <item quantity="one">Från %d konversation</item>
+    </plurals>
+    <plurals name="realtimechat_message_num_attachments">
+        <item quantity="other">%d bilagor</item>
+        <item quantity="one">%d bilaga</item>
+    </plurals>
+    <plurals name="realtimechat_invitation_notification_multiconversation_sender">
+        <item quantity="other">%d nya Hangouts</item>
+        <item quantity="one">%d ny Hangout</item>
+    </plurals>
+    <plurals name="hangout_on_air_viewer_count">
+        <item quantity="other">%d tittare</item>
+        <item quantity="one">1 tittare</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">Videosamtal från %2$s med %3$s och %1$d andra</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">Videosamtal från %2$s med %1$d andra</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">Röstsamtal från %2$s med %3$s och %1$d andra</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">Röstsamtal från %2$s med %1$d andra</item>
+    </plurals>
+    <plurals name="dnd_hours">
+        <item quantity="other">%d timmar</item>
+        <item quantity="one">1 timme</item>
+    </plurals>
+    <plurals name="dnd_minutes">
+        <item quantity="other">%d minuter</item>
+        <item quantity="one">1 minut</item>
+    </plurals>
+    <plurals name="watermark_gallery_label">
+        <item quantity="other">Visad av %s</item>
+        <item quantity="one">Visad av %s</item>
+    </plurals>
+    <plurals name="focus_gallery_label">
+        <item quantity="other">%s har läst alla meddelanden.</item>
+        <item quantity="one">%s har läst alla meddelanden.</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="other">%1$d meddelanden i %2$d konversationer</item>
+        <item quantity="one">%d meddelanden i en konversation</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">Bjöd in dig till en Hangout med %1$d till</item>
+        <item quantity="one">Bjöd in dig till en Hangout med %1$d till</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation">
+        <item quantity="other">%2$s och %1$d till vill delta i en Hangout</item>
+        <item quantity="one">%2$s och %1$d till vill delta i en Hangout</item>
+        <item quantity="few">%2$s och %1$d till vill delta i en Hangout</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation">
+        <item quantity="other">%1$d andra vill delta i en Hangout</item>
+        <item quantity="one">%1$d till vill delta i en Hangout</item>
+        <item quantity="few">%1$d andra vill delta i en Hangout</item>
+    </plurals>
+    <plurals name="items_attached_count">
+        <item quantity="other">%d objekt bifogas</item>
+        <item quantity="zero">%d objekt bifogas</item>
+        <item quantity="one">%d objekt bifogas</item>
+    </plurals>
+    <plurals name="items_forwarded_count">
+        <item quantity="other">%d objekt har vidarebefordrats</item>
+        <item quantity="zero">%d objekt har vidarebefordrats</item>
+        <item quantity="one">%d objekt har vidarebefordrats</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="other">%d veckor</item>
+        <item quantity="one">en vecka</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="other">%d månader</item>
+        <item quantity="one">en månad</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="other">%d år</item>
+        <item quantity="one">ett år</item>
+    </plurals>
+    <plurals name="participant_count">
+        <item quantity="other">%d deltagare</item>
+        <item quantity="one">%d deltagare</item>
+    </plurals>
+    <plurals name="participant_count_history_off">
+        <item quantity="other">%d deltagare, historik inaktiverad</item>
+        <item quantity="one">%d deltagare, historik inaktiverad</item>
+    </plurals>
+    <plurals name="group_chat_additional_participant_count">
+        <item quantity="other">och %d andra</item>
+        <item quantity="one">och %d andra</item>
     </plurals>
 </resources>

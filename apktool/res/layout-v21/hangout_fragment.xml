@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.hangouts.hangout.FocusedParticipantView android:id="@id/hangout_focused_participant_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hangout_toast_top_margin">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <com.google.android.apps.hangouts.hangout.BroadcastOverlayView android:layout_gravity="center|right" android:orientation="vertical" android:id="@id/hangout_broadcast_overlay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip">
+                <TextView android:layout_gravity="center|right|top" android:id="@id/hangout_broadcast_indicator" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip" />
+                <TextView android:layout_gravity="bottom|center|right" android:id="@id/hangout_broadcast_viewer_count" android:background="@color/hangout_common_menu_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip" style="@style/Theme.Hangout.Toast" />
+            </com.google.android.apps.hangouts.hangout.BroadcastOverlayView>
+        </FrameLayout>
+        <com.google.android.apps.hangouts.hangout.DebugOverlayTextView android:textAppearance="?android:textAppearanceMediumInverse" android:id="@id/hangout_debug_overlay" android:background="@color/text_shadow_color_light" android:visibility="gone" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/avatar_radius" android:layout_marginBottom="@dimen/hangout_max_thumbnail_height" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/hangout_gradient_overlay" android:background="@drawable/hangout_action_bar_gradient" android:paddingTop="@dimen/hangout_calling_padding_top" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/hangout_gradient_overlay_height" android:layout_alignParentTop="true" android:alpha="0.0">
+        <include layout="@layout/hangout_calling_overlay" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true">
+        <com.google.android.apps.hangouts.hangout.ParticipantTrayView android:layout_gravity="end|bottom|center" android:id="@id/hangout_participant_tray_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.google.android.apps.hangouts.hangout.HangoutSelfMenu android:layout_gravity="bottom|center" android:orientation="horizontal" android:id="@id/hangout_self_menu" android:layout_width="wrap_content" android:layout_height="@dimen/hangout_self_menu_circle_diameter" />
+    </FrameLayout>
+    <RelativeLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/hangout_toolbar" />
+        <LinearLayout android:id="@id/screen_capture_notification_bar" android:background="@color/translucent_black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="?actionBarSize">
+            <FrameLayout android:orientation="vertical" android:id="@id/screen_capture_notification_cover" android:paddingLeft="@dimen/screen_capture_notice_cover_padding_left" android:paddingTop="@dimen/screen_capture_notice_cover_padding_top" android:paddingRight="@dimen/screen_capture_notice_cover_padding_right" android:paddingBottom="@dimen/screen_capture_notice_cover_padding_bottom" android:layout_width="@dimen/screen_capture_notice_cover_layout_width" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_centerVertical="true">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hangout_screen_capture_notice" android:layout_alignParentLeft="true" style="@style/BannerTitleItalicText" />
+            </FrameLayout>
+            <View android:background="@color/translucent_white" android:layout_width="@dimen/screen_capture_notice_separator_layout_width" android:layout_height="fill_parent" android:layout_marginTop="@dimen/screen_capture_notice_separator_margin_top" android:layout_marginBottom="@dimen/screen_capture_notice_separator_margin_bottom" />
+            <Button android:textColor="@color/screen_capture_stop_button_text" android:id="@id/stop_screen_sharing" android:background="@drawable/bg_item_selectable" android:paddingLeft="@dimen/screen_capture_notice_button_padding_left" android:paddingRight="@dimen/screen_capture_notice_button_padding_right" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/hangout_screen_capture_stop_button" android:contentDescription="@string/hangout_screen_capture_stop_button_description" android:textAllCaps="true" style="@style/BannerContentText" />
+        </LinearLayout>
+        <include layout="@layout/hangout_audio_calling_overlay" />
+        <LinearLayout android:orientation="vertical" android:id="@id/join_hangout_greenroom_controls" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <com.google.android.apps.hangouts.hangout.HangoutSelfMenu android:layout_gravity="center" android:orientation="horizontal" android:id="@id/hangout_greenroom_controls" android:layout_width="wrap_content" android:layout_height="@dimen/hangout_self_menu_circle_diameter" android:layout_marginBottom="@dimen/hangout_filmstrip_margin" />
+            <FrameLayout android:background="@color/quantum_black_100" android:layout_width="fill_parent" android:layout_height="@dimen/hangout_controls_divider_height" />
+            <Button android:textAppearance="?android:textAppearanceLarge" android:textSize="@dimen/hangout_join_or_end_button_text_font_size" android:textColor="@color/quantum_white_text" android:layout_gravity="bottom|center" android:id="@id/join_hangout" android:background="@drawable/join_hangout_background" android:layout_width="fill_parent" android:layout_height="@dimen/hangout_join_or_end_button_height" android:text="@string/hangout_enter_greenroom" android:textAllCaps="true" />
+        </LinearLayout>
+        <com.google.android.libraries.quantum.snackbar.Snackbar android:id="@id/hangout_snackbar" android:visibility="invisible" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:translationZ="30.0dip" style="@style/Hangouts.Snackbar" />
+    </RelativeLayout>
+    <view android:id="@id/proximity_cover_view" android:background="@color/quantum_black_100" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.google.android.apps.hangouts.hangout.ProximityCoverView" />
+</RelativeLayout>

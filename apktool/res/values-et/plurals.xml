@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="conv_invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">Kutsus teid Hangouti koos veel %1$d inimesega</item>
+        <item quantity="one">Kutsus teid Hangouti koos veel %1$d inimesega</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation_invite_list">
+        <item quantity="other">Veel %1$d inimest soovivad Hangoutis osaleda</item>
+        <item quantity="one">Veel %1$d inimene soovib Hangoutis osaleda</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation_invite_list">
+        <item quantity="other">veel %1$d inimesega</item>
+        <item quantity="one">veel %1$d inimesega</item>
+    </plurals>
+    <plurals name="gallery_picker_max_count_reached_message">
+        <item quantity="other">Saate valida maksimaalselt %d manust.</item>
+        <item quantity="one">Saate valida maksimaalselt 1 manuse.</item>
+    </plurals>
+    <plurals name="num_minutes_in_the_past">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="elapsed_minutes">
+        <item quantity="other">%d min tagasi</item>
+        <item quantity="one">%d min tagasi</item>
+    </plurals>
+    <plurals name="elapsed_minutes_announce">
+        <item quantity="other">%d minutit tagasi</item>
+        <item quantity="one">%d minut tagasi</item>
+    </plurals>
+    <plurals name="elapsed_hours">
+        <item quantity="other">%d tund(i) tagasi</item>
+        <item quantity="one">%d t tagasi</item>
+    </plurals>
+    <plurals name="elapsed_hours_announce">
+        <item quantity="other">%d tundi tagasi</item>
+        <item quantity="one">%d tund tagasi</item>
+    </plurals>
+    <plurals name="elapsed_days">
+        <item quantity="other">%d päev(a) tagasi</item>
+        <item quantity="one">%d p tagasi</item>
+    </plurals>
+    <plurals name="elapsed_days_announce">
+        <item quantity="other">%d päeva tagasi</item>
+        <item quantity="one">%d päev tagasi</item>
+    </plurals>
+    <plurals name="elapsed_weeks">
+        <item quantity="other">%d nädal(at) tagasi</item>
+        <item quantity="one">%d näd tagasi</item>
+    </plurals>
+    <plurals name="elapsed_weeks_announce">
+        <item quantity="other">%d nädalat tagasi</item>
+        <item quantity="one">%d nädal tagasi</item>
+    </plurals>
+    <plurals name="elapsed_months">
+        <item quantity="other">%d kuu(d) tagasi</item>
+        <item quantity="one">%d k tagasi</item>
+    </plurals>
+    <plurals name="elapsed_months_announce">
+        <item quantity="other">%d kuud tagasi</item>
+        <item quantity="one">%d kuu tagasi</item>
+    </plurals>
+    <plurals name="num_seconds_duration">
+        <item quantity="other">%d s</item>
+        <item quantity="one">%d s</item>
+    </plurals>
+    <plurals name="a11y_num_seconds_duration">
+        <item quantity="other">%d sekundit</item>
+        <item quantity="one">%d sekund</item>
+    </plurals>
+    <plurals name="num_minutes_duration">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_duration">
+        <item quantity="other">%d minutit</item>
+        <item quantity="one">%d minut</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_in_the_past">
+        <item quantity="other">%d minutit</item>
+        <item quantity="one">%d minut</item>
+    </plurals>
+    <plurals name="num_hours_in_the_past">
+        <item quantity="other">%d tundi</item>
+        <item quantity="one">%d tund</item>
+    </plurals>
+    <plurals name="num_days_in_the_past">
+        <item quantity="other">%d päeva</item>
+        <item quantity="one">%d päev</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_attachment">
+        <item quantity="other">%d manuse saatmine</item>
+        <item quantity="one">%d manuse saatmine</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_message_and_attachment">
+        <item quantity="other">Sõnumi saatmine %d manusega</item>
+        <item quantity="one">Sõnumi saatmine %d manusega</item>
+    </plurals>
+    <plurals name="comments">
+        <item quantity="other">%d kommentaari</item>
+        <item quantity="one">%d kommentaar</item>
+    </plurals>
+    <plurals name="notification_multi_hangout">
+        <item quantity="other">Kutsus teid liituma veel %d kasutajaga Hangoutis</item>
+        <item quantity="one">Kutsus teid liituma veel 1 kasutajaga Hangoutis</item>
+    </plurals>
+    <plurals name="realtimechat_notification_new_messages">
+        <item quantity="other">%d uut sõnumit</item>
+        <item quantity="one">%d uus sõnum</item>
+    </plurals>
+    <plurals name="redacted_multi_convo_text">
+        <item quantity="other">%d vestlusest</item>
+        <item quantity="one">%d vestlusest</item>
+    </plurals>
+    <plurals name="realtimechat_message_num_attachments">
+        <item quantity="other">%d manust</item>
+        <item quantity="one">%d manus</item>
+    </plurals>
+    <plurals name="realtimechat_invitation_notification_multiconversation_sender">
+        <item quantity="other">%d uut Hangouti</item>
+        <item quantity="one">%d uus Hangout</item>
+    </plurals>
+    <plurals name="hangout_on_air_viewer_count">
+        <item quantity="other">%d vaatajat</item>
+        <item quantity="one">1 vaataja</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">Videokõne kasutajalt %2$s koos kasutajaga %3$s ja veel %1$d kasutajaga</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">Videokõne kasutajalt %2$s koos veel %1$d kasutajaga</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">Häälkõne kasutajalt %2$s koos kasutajaga %3$s ja veel %1$d kasutajaga</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">Häälkõne kasutajalt %2$s koos veel %1$d kasutajaga</item>
+    </plurals>
+    <plurals name="dnd_hours">
+        <item quantity="other">%d tundi</item>
+        <item quantity="one">1 tund</item>
+    </plurals>
+    <plurals name="dnd_minutes">
+        <item quantity="other">%d minutit</item>
+        <item quantity="one">1 minut</item>
+    </plurals>
+    <plurals name="watermark_gallery_label">
+        <item quantity="other">Nähtav kasutajatele %s</item>
+        <item quantity="one">Nähtav kasutajale %s</item>
+    </plurals>
+    <plurals name="focus_gallery_label">
+        <item quantity="other">%s on lugenud kõiki sõnumeid.</item>
+        <item quantity="one">%s on lugenud kõiki sõnumeid.</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="other">%1$d sõnumit %2$d vestluses</item>
+        <item quantity="one">%d sõnumit ühes vestluses</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">Kutsus teid Hangouti koos veel %1$d inimesega</item>
+        <item quantity="one">Kutsus teid Hangouti koos veel %1$d inimesega</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation">
+        <item quantity="other">%2$s ja veel %1$d inimest soovivad Hangoutis osaleda</item>
+        <item quantity="one">%2$s ja veel %1$d inimene soovivad Hangoutis osaleda</item>
+        <item quantity="few">%2$s ja veel %1$d inimest soovivad Hangoutis osaleda</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation">
+        <item quantity="other">Veel %1$d kasutajat soovib Hangoutis osaleda</item>
+        <item quantity="one">Veel %1$d kasutaja soovib Hangoutis osaleda</item>
+        <item quantity="few">Veel %1$d kasutajat soovib Hangoutis osaleda</item>
+    </plurals>
+    <plurals name="items_attached_count">
+        <item quantity="other">Lisatud on %d üksust</item>
+        <item quantity="zero">Lisatud on %d üksust</item>
+        <item quantity="one">Lisatud on %d üksus</item>
+    </plurals>
+    <plurals name="items_forwarded_count">
+        <item quantity="other">%d üksust on edastatud</item>
+        <item quantity="zero">%d üksust on edastatud</item>
+        <item quantity="one">%d üksus on edastatud</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="other">%d nädalat</item>
+        <item quantity="one">nädal</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="other">%d kuud</item>
+        <item quantity="one">kuu</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="other">%d aastat</item>
+        <item quantity="one">aasta</item>
+    </plurals>
+    <plurals name="participant_count">
+        <item quantity="other">%d osalejat</item>
+        <item quantity="one">%d osaleja</item>
+    </plurals>
+    <plurals name="participant_count_history_off">
+        <item quantity="other">%d osalejat, ajalugu on välja lülitatud</item>
+        <item quantity="one">%d osaleja, ajalugu on välja lülitatud</item>
+    </plurals>
+    <plurals name="group_chat_additional_participant_count">
+        <item quantity="other">ja veel %d</item>
+        <item quantity="one">ja veel %d</item>
+    </plurals>
+</resources>

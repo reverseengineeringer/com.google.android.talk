@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="conv_invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">Elkarrizketa batera gonbidatu zaituzte zu eta beste %1$d erabiltzaile</item>
+        <item quantity="one">Elkarrizketa batera gonbidatu zaituzte zu eta beste %1$d erabiltzaile</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation_invite_list">
+        <item quantity="other">Beste %1$d erabiltzailek elkarrizketa izan nahi dute</item>
+        <item quantity="one">Beste %1$d erabiltzailek elkarrizketa izan nahi du</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation_invite_list">
+        <item quantity="other">eta beste %1$d erabiltzaile</item>
+        <item quantity="one">eta beste %1$d erabiltzaile</item>
+    </plurals>
+    <plurals name="gallery_picker_max_count_reached_message">
+        <item quantity="other">Gehienez ere %d eranskin hauta ditzakezu.</item>
+        <item quantity="one">Gehienez ere eranskin 1 hauta dezakezu.</item>
+    </plurals>
+    <plurals name="num_minutes_in_the_past">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="elapsed_minutes">
+        <item quantity="other">Duela %d minutu</item>
+        <item quantity="one">duela %d minutu</item>
+    </plurals>
+    <plurals name="elapsed_minutes_announce">
+        <item quantity="other">duela %d minutu</item>
+        <item quantity="one">duela %d minutu</item>
+    </plurals>
+    <plurals name="elapsed_hours">
+        <item quantity="other">Duela %d ordu</item>
+        <item quantity="one">duela %d ordu</item>
+    </plurals>
+    <plurals name="elapsed_hours_announce">
+        <item quantity="other">duela %d ordu</item>
+        <item quantity="one">duela %d ordu</item>
+    </plurals>
+    <plurals name="elapsed_days">
+        <item quantity="other">Duela %d egun</item>
+        <item quantity="one">duela %d egun</item>
+    </plurals>
+    <plurals name="elapsed_days_announce">
+        <item quantity="other">duela %d egun</item>
+        <item quantity="one">duela %d egun</item>
+    </plurals>
+    <plurals name="elapsed_weeks">
+        <item quantity="other">Duela %d aste</item>
+        <item quantity="one">duela %d aste</item>
+    </plurals>
+    <plurals name="elapsed_weeks_announce">
+        <item quantity="other">duela %d aste</item>
+        <item quantity="one">duela %d aste</item>
+    </plurals>
+    <plurals name="elapsed_months">
+        <item quantity="other">Duela %d hilabete</item>
+        <item quantity="one">duela %d hilabete</item>
+    </plurals>
+    <plurals name="elapsed_months_announce">
+        <item quantity="other">duela %d hilabete</item>
+        <item quantity="one">duela %d hilabete</item>
+    </plurals>
+    <plurals name="num_seconds_duration">
+        <item quantity="other">%d s</item>
+        <item quantity="one">%d s</item>
+    </plurals>
+    <plurals name="a11y_num_seconds_duration">
+        <item quantity="other">%d segundo</item>
+        <item quantity="one">%d segundo</item>
+    </plurals>
+    <plurals name="num_minutes_duration">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_duration">
+        <item quantity="other">%d minutu</item>
+        <item quantity="one">%d minutu</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_in_the_past">
+        <item quantity="other">%d minutu</item>
+        <item quantity="one">%d minutu</item>
+    </plurals>
+    <plurals name="num_hours_in_the_past">
+        <item quantity="other">%d ordu</item>
+        <item quantity="one">%d ordu</item>
+    </plurals>
+    <plurals name="num_days_in_the_past">
+        <item quantity="other">%d egun</item>
+        <item quantity="one">%d egun</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_attachment">
+        <item quantity="other">Bidali %d eranskin</item>
+        <item quantity="one">Bidali %d eranskin</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_message_and_attachment">
+        <item quantity="other">Bidali mezua %d eranskinekin</item>
+        <item quantity="one">Bidali mezua %d eranskinekin</item>
+    </plurals>
+    <plurals name="comments">
+        <item quantity="other">%d iruzkin</item>
+        <item quantity="one">%d iruzkin</item>
+    </plurals>
+    <plurals name="notification_multi_hangout">
+        <item quantity="other">Elkarrizketa batera gonbidatu zaitu zu eta beste %d erabiltzaile</item>
+        <item quantity="one">Elkarrizketa batera gonbidatu zaituzte beste erabiltzaile bat eta zu</item>
+    </plurals>
+    <plurals name="realtimechat_notification_new_messages">
+        <item quantity="other">%d mezu berri</item>
+        <item quantity="one">%d mezu berri</item>
+    </plurals>
+    <plurals name="redacted_multi_convo_text">
+        <item quantity="other">%d elkarrizketatakoak</item>
+        <item quantity="one">%d elkarrizketakoak</item>
+    </plurals>
+    <plurals name="realtimechat_message_num_attachments">
+        <item quantity="other">%d eranskin</item>
+        <item quantity="one">%d eranskin</item>
+    </plurals>
+    <plurals name="realtimechat_invitation_notification_multiconversation_sender">
+        <item quantity="other">%d elkarrizketa berri</item>
+        <item quantity="one">%d elkarrizketa berri</item>
+    </plurals>
+    <plurals name="hangout_on_air_viewer_count">
+        <item quantity="other">%d ikusle</item>
+        <item quantity="one">1 ikusle</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">Bideo-deia %2$s, %3$s eta beste %1$d erabiltzailerekin</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">%2$s erabiltzailearen bideo-deia, beste %1$d erabiltzailerekin batera</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">%2$s erabiltzaileak ahots-deia hasi du %3$s eta beste %1$d erabiltzailerekin</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">%2$s erabiltzaileak ahots-deia hasi du beste %1$d erabiltzailerekin</item>
+    </plurals>
+    <plurals name="dnd_hours">
+        <item quantity="other">%d ordu</item>
+        <item quantity="one">1 ordu</item>
+    </plurals>
+    <plurals name="dnd_minutes">
+        <item quantity="other">%d minutu</item>
+        <item quantity="one">1 minutu</item>
+    </plurals>
+    <plurals name="watermark_gallery_label">
+        <item quantity="other">Honakoek ikusi dute: %s</item>
+        <item quantity="one">Honakoek ikusi dute: %s</item>
+    </plurals>
+    <plurals name="focus_gallery_label">
+        <item quantity="other">%s parte-hartzaileek mezu guztiak ikusi dituzte.</item>
+        <item quantity="one">%s parte-hartzaileak mezu guztiak ikusi ditu.</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="other">%1$d mezu %2$d elkarrizketatan</item>
+        <item quantity="one">%d mezu elkarrizketa batean</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">Elkarrizketa batera gonbidatu zaituzte zu eta beste %1$d erabiltzaile</item>
+        <item quantity="one">Elkarrizketa batera gonbidatu zaituzte zu eta beste %1$d erabiltzaile</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation">
+        <item quantity="other">%2$s eta beste %1$d erabiltzailek elkarrizketa izan nahi dute</item>
+        <item quantity="one">%2$s eta beste %1$d erabiltzailek elkarrizketa izan nahi dute</item>
+        <item quantity="few">%2$s eta beste %1$d erabiltzailek elkarrizketa izan nahi dute</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation">
+        <item quantity="other">Beste %1$d erabiltzailek elkarrizketa izan nahi dute</item>
+        <item quantity="one">Beste %1$d erabiltzailek elkarrizketa izan nahi du</item>
+        <item quantity="few">Beste %1$d erabiltzailek elkarrizketa izan nahi dute</item>
+    </plurals>
+    <plurals name="items_attached_count">
+        <item quantity="other">%d elementu erantsi dira</item>
+        <item quantity="zero">%d elementu erantsi dira</item>
+        <item quantity="one">%d elementu erantsi da</item>
+    </plurals>
+    <plurals name="items_forwarded_count">
+        <item quantity="other">%d elementu birbidali dira</item>
+        <item quantity="zero">%d elementu birbidali dira</item>
+        <item quantity="one">%d elementu birbidali da</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="other">%d aste</item>
+        <item quantity="one">astebete</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="other">%d hilabete</item>
+        <item quantity="one">hilabete</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="other">%d urte</item>
+        <item quantity="one">urtebete</item>
+    </plurals>
+    <plurals name="participant_count">
+        <item quantity="other">%d parte-hartzaile</item>
+        <item quantity="one">%d parte-hartzaile</item>
+    </plurals>
+    <plurals name="participant_count_history_off">
+        <item quantity="other">%d parte-hartzaile. Historia desaktibatuta dago</item>
+        <item quantity="one">%d parte-hartzaile. Historia desaktibatuta dago</item>
+    </plurals>
+    <plurals name="group_chat_additional_participant_count">
+        <item quantity="other">eta beste %d</item>
+        <item quantity="one">eta beste %d</item>
+    </plurals>
+</resources>

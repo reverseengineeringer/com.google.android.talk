@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="conv_invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">Ukumeme ku-Hangout nabanye abangu-%1$d</item>
+        <item quantity="one">Ukumeme ku-Hangout nomunye ongu-%1$d</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation_invite_list">
+        <item quantity="other">Nabanye abangu-%1$d bafuna ukuba ku-Hangout</item>
+        <item quantity="one">Nomunye ongu-%1$d ufuna ukuba ku-Hangout</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation_invite_list">
+        <item quantity="other">nabanye abangu-%1$d</item>
+        <item quantity="one">nomunye ongu-%1$d</item>
+    </plurals>
+    <plurals name="gallery_picker_max_count_reached_message">
+        <item quantity="other">Ungakwazi ukukhetha okunamathiselwe kwi-imeyili okungu-%d kuphela.</item>
+        <item quantity="one">Ungakwazi ukukhetha okunamathiselwe kwi-imeyili okungu-1 kuphela.</item>
+    </plurals>
+    <plurals name="num_minutes_in_the_past">
+        <item quantity="other">%d amaminithi</item>
+        <item quantity="one">%d iminithi</item>
+    </plurals>
+    <plurals name="elapsed_minutes">
+        <item quantity="other">%damaminithi adlule</item>
+        <item quantity="one">%damaminithi adlule</item>
+    </plurals>
+    <plurals name="elapsed_minutes_announce">
+        <item quantity="other">%d amaminithi adlule</item>
+        <item quantity="one">%d iminithi eledlule</item>
+    </plurals>
+    <plurals name="elapsed_hours">
+        <item quantity="other">%damahora adlule</item>
+        <item quantity="one">%damahora adlule</item>
+    </plurals>
+    <plurals name="elapsed_hours_announce">
+        <item quantity="other">%d amahora adlule</item>
+        <item quantity="one">%d ihora eledlule</item>
+    </plurals>
+    <plurals name="elapsed_days">
+        <item quantity="other">%dizinsuku ezedlule</item>
+        <item quantity="one">%dizinsuku ezedlule</item>
+    </plurals>
+    <plurals name="elapsed_days_announce">
+        <item quantity="other">%d izinsuku ezedlule</item>
+        <item quantity="one">%d usuku oledlule</item>
+    </plurals>
+    <plurals name="elapsed_weeks">
+        <item quantity="other">%diviki eledlule</item>
+        <item quantity="one">%damaviki adlule</item>
+    </plurals>
+    <plurals name="elapsed_weeks_announce">
+        <item quantity="other">%d amaviki adlule</item>
+        <item quantity="one">%d iviki eledlule</item>
+    </plurals>
+    <plurals name="elapsed_months">
+        <item quantity="other">%dinyanga eyedlule</item>
+        <item quantity="one">%dizinyanga ezedlule</item>
+    </plurals>
+    <plurals name="elapsed_months_announce">
+        <item quantity="other">%d izinyanga ezedlule</item>
+        <item quantity="one">%d inyanga yedlule</item>
+    </plurals>
+    <plurals name="num_seconds_duration">
+        <item quantity="other">%d amasekhondi</item>
+        <item quantity="one">%d isekhondi</item>
+    </plurals>
+    <plurals name="a11y_num_seconds_duration">
+        <item quantity="other">%d amasekhondi</item>
+        <item quantity="one">%d isekhondi</item>
+    </plurals>
+    <plurals name="num_minutes_duration">
+        <item quantity="other">%d amaminithi</item>
+        <item quantity="one">%d iminithi</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_duration">
+        <item quantity="other">%d amaminithi</item>
+        <item quantity="one">%d iminithi</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_in_the_past">
+        <item quantity="other">%d amaminithi</item>
+        <item quantity="one">%d iminithi</item>
+    </plurals>
+    <plurals name="num_hours_in_the_past">
+        <item quantity="other">%d amahora</item>
+        <item quantity="one">%d ihora</item>
+    </plurals>
+    <plurals name="num_days_in_the_past">
+        <item quantity="other">%d izinsuku</item>
+        <item quantity="one">%d usuku</item>
+    </plurals>
+    <plurals name="one_up_comment_count">
+        <item quantity="other">%d amazwana</item>
+        <item quantity="one">%d amazwana</item>
+    </plurals>
+    <plurals name="audience_hidden_user_count">
+        <item quantity="other">+%d abanye</item>
+        <item quantity="one">+%d abanye</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_attachment">
+        <item quantity="other">Thumela okunamathiselwe kwi-imeyili okungu-%d</item>
+        <item quantity="one">Thumela okunamathiselwe kwi-imeyili okungu-%d</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_message_and_attachment">
+        <item quantity="other">Thumela umlayezo onokunamathiselwe kwi-imeyili okungu-%d</item>
+        <item quantity="one">Thumela umlayezo onokunamathiselwe kwi-imeyili okungu-%d</item>
+    </plurals>
+    <plurals name="comments">
+        <item quantity="other">%d amazwana</item>
+        <item quantity="one">%d amazwana</item>
+    </plurals>
+    <plurals name="notification_multi_hangout">
+        <item quantity="other">Ukumemele ukuba ku-Hangout nabanye abangu-%d</item>
+        <item quantity="one">Ukumemele ukuba ku-Hangout nomunye ongu-1</item>
+    </plurals>
+    <plurals name="realtimechat_notification_new_messages">
+        <item quantity="other">%d imilayezo emisha</item>
+        <item quantity="one">%d umlayezo omusha</item>
+    </plurals>
+    <plurals name="redacted_multi_convo_text">
+        <item quantity="other">Kusukela kuzingxoxo ezingu-%d</item>
+        <item quantity="one">Kusukela kungxoxo engu-%d</item>
+    </plurals>
+    <plurals name="realtimechat_message_num_attachments">
+        <item quantity="other">%d okunamathiselwe kwi-imeyili</item>
+        <item quantity="one">%d okunamathiselwe kwi-imeyili</item>
+    </plurals>
+    <plurals name="realtimechat_invitation_notification_multiconversation_sender">
+        <item quantity="other">%d ama-Hangout amasha</item>
+        <item quantity="one">%d i-Hangout entsha</item>
+    </plurals>
+    <plurals name="hangout_on_air_viewer_count">
+        <item quantity="other">%d ababukeli</item>
+        <item quantity="one">1 umbukeli</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">Ikholi yevidiyo esuka ku-%2$s no-%3$s nabanye abangu-%1$d</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">Ikholi yevidiyo kusukela ku-%2$s nabanye abangu-%1$d</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">Ikholi yezwi esuka ku-%2$s no-%3$s nabanye abangu-%1$d</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">Ikholi yezwi esuka ku-%2$s nabanye abangu-%1$d</item>
+    </plurals>
+    <plurals name="dnd_hours">
+        <item quantity="other">%d amahora</item>
+        <item quantity="one">1 ihora</item>
+    </plurals>
+    <plurals name="dnd_minutes">
+        <item quantity="other">%d amaminithi</item>
+        <item quantity="one">1 iminithi</item>
+    </plurals>
+    <plurals name="watermark_gallery_label">
+        <item quantity="other">Kubonwe ngu-%s</item>
+        <item quantity="one">Kubonwe ngu-%s</item>
+    </plurals>
+    <plurals name="focus_gallery_label">
+        <item quantity="other">%s bafunde yonke imilayezo.</item>
+        <item quantity="one">%s ufunde yonke imilayezo.</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="other">%1$d imilayezo ezingxoxweni ezingu-%2$d</item>
+        <item quantity="one">%d imilayezo kungxoxo eyodwa</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">Ukumeme ku-Hangout nabanye abangu-%1$d</item>
+        <item quantity="one">Ukumeme ku-Hangout nomunye ongu-%1$d</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation">
+        <item quantity="other">%2$s nabanye abangu-%1$d bafuna ukuba ku-Hangout</item>
+        <item quantity="one">%2$s nomunye ongu-%1$d bafuna ukuba ku-Hangout</item>
+        <item quantity="few">%2$s nabanye abangu-%1$d bafuna ukuba ku-Hangout</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation">
+        <item quantity="other">%1$d abanye abafuna ukuba ku-Hangout</item>
+        <item quantity="one">%1$d nomunye ofuna ukuba ku-Hangout</item>
+        <item quantity="few">%1$d abanye abafuna ukuba ku-Hangout</item>
+    </plurals>
+    <plurals name="items_attached_count">
+        <item quantity="other">%d izinto ezinamathiselwe</item>
+        <item quantity="zero">%d izinto ezinamathiselwe</item>
+        <item quantity="one">%d into enamathiselwe</item>
+    </plurals>
+    <plurals name="items_forwarded_count">
+        <item quantity="other">%d izinto ezidluliselwe</item>
+        <item quantity="zero">%d izinto ezidluliselwe</item>
+        <item quantity="one">%d into edluliselwe</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="other">%d amaviki</item>
+        <item quantity="one">iviki</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="other">%d izinyanga</item>
+        <item quantity="one">inyanga</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="other">%d iminyaka</item>
+        <item quantity="one">unyaka</item>
+    </plurals>
+    <plurals name="participant_count">
+        <item quantity="other">%d ababambi qhaza</item>
+        <item quantity="one">%d umbambi qhaza</item>
+    </plurals>
+    <plurals name="participant_count_history_off">
+        <item quantity="other">%d ababambi qhaza, umlando uvaliwe</item>
+        <item quantity="one">%d umbambi qhaza, umlando uvaliwe</item>
+    </plurals>
+    <plurals name="group_chat_additional_participant_count">
+        <item quantity="other">kanye nabanye abangu-%d</item>
+        <item quantity="one">kanye nomunye ongu-%d</item>
+    </plurals>
+</resources>

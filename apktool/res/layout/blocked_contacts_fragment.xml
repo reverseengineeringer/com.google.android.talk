@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/list_layout_parent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/listview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="18.0sp" android:gravity="center" android:id="@id/list_empty_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/list_empty_progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:indeterminate="true" style="?android:attr/progressBarStyle" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@android:id/empty" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/blocked_contacts_empty">
+            <ImageView android:paddingBottom="28.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/empty_blocked" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/text_tertiary_default_color_dark" android:gravity="center" android:id="@id/block_people_empty_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/blocked_contacts_empty" android:fontFamily="sans-serif-light" />
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

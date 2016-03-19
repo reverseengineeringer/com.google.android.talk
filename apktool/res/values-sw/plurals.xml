@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="conv_invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">Umealikwa kushiriki kwenye Hangout ukiwa na wengine %1$d</item>
+        <item quantity="one">Umealikwa kushiriki kwenye Hangout ukiwa na wengine %1$d</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation_invite_list">
+        <item quantity="other">Wengine %1$d wanataka kushiriki kwenye Hangout</item>
+        <item quantity="one">Wengine %1$d wanataka kushiriki kwenye Hangout</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation_invite_list">
+        <item quantity="other">na wengine %1$d</item>
+        <item quantity="one">na wengine %1$d</item>
+    </plurals>
+    <plurals name="gallery_picker_max_count_reached_message">
+        <item quantity="other">Unaweza kuchagua hadi viambatisho %d.</item>
+        <item quantity="one">Unaweza kuchagua kiambatisho 1 pekee.</item>
+    </plurals>
+    <plurals name="num_minutes_in_the_past">
+        <item quantity="other">Dakika %d</item>
+        <item quantity="one">Dakika %d</item>
+    </plurals>
+    <plurals name="elapsed_minutes">
+        <item quantity="other">Dakika %d zilizopita</item>
+        <item quantity="one">Dakika %d zilizopita</item>
+    </plurals>
+    <plurals name="elapsed_minutes_announce">
+        <item quantity="other">Dakika %d zilizopita</item>
+        <item quantity="one">Dakika %d iliyopita</item>
+    </plurals>
+    <plurals name="elapsed_hours">
+        <item quantity="other">Saa %d iliyopita</item>
+        <item quantity="one">Saa %d zilizopita</item>
+    </plurals>
+    <plurals name="elapsed_hours_announce">
+        <item quantity="other">Saa %d zilizopita</item>
+        <item quantity="one">Saa %d iliyopita</item>
+    </plurals>
+    <plurals name="elapsed_days">
+        <item quantity="other">Siku %d zilizopita</item>
+        <item quantity="one">Siku %d zilizopita</item>
+    </plurals>
+    <plurals name="elapsed_days_announce">
+        <item quantity="other">Siku %d zilizopita</item>
+        <item quantity="one">Siku %d iliyopita</item>
+    </plurals>
+    <plurals name="elapsed_weeks">
+        <item quantity="other">Wiki %d iliyopita</item>
+        <item quantity="one">Wiki %d zilizopita</item>
+    </plurals>
+    <plurals name="elapsed_weeks_announce">
+        <item quantity="other">Wiki %d zilizopita</item>
+        <item quantity="one">Wiki %d iliyopita</item>
+    </plurals>
+    <plurals name="elapsed_months">
+        <item quantity="other">Mwezi %d uliopita</item>
+        <item quantity="one">Miezi %d iliyopita</item>
+    </plurals>
+    <plurals name="elapsed_months_announce">
+        <item quantity="other">Miezi %d iliyopita</item>
+        <item quantity="one">Mwezi %d uliopita</item>
+    </plurals>
+    <plurals name="num_seconds_duration">
+        <item quantity="other">Sekunde %d</item>
+        <item quantity="one">Sekunde %d</item>
+    </plurals>
+    <plurals name="a11y_num_seconds_duration">
+        <item quantity="other">Sekunde %d</item>
+        <item quantity="one">Sekunde %d</item>
+    </plurals>
+    <plurals name="num_minutes_duration">
+        <item quantity="other">Dakika %d</item>
+        <item quantity="one">Dakika %d</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_duration">
+        <item quantity="other">Dakika %d</item>
+        <item quantity="one">Dakika %d</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_in_the_past">
+        <item quantity="other">Dakika %d</item>
+        <item quantity="one">Dakika %d</item>
+    </plurals>
+    <plurals name="num_hours_in_the_past">
+        <item quantity="other">Saa %d</item>
+        <item quantity="one">Saa %d</item>
+    </plurals>
+    <plurals name="num_days_in_the_past">
+        <item quantity="other">Siku %d</item>
+        <item quantity="one">Siku %d</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_attachment">
+        <item quantity="other">Tuma viambatisho %d</item>
+        <item quantity="one">Tuma kiambatisho %d</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_message_and_attachment">
+        <item quantity="other">Tuma ujumbe ulio na viambatisho %d</item>
+        <item quantity="one">Tuma ujumbe ulio na kiambatisho %d</item>
+    </plurals>
+    <plurals name="comments">
+        <item quantity="other">Maoni %d</item>
+        <item quantity="one">Maoni %d</item>
+    </plurals>
+    <plurals name="notification_multi_hangout">
+        <item quantity="other">Alikualika ujiunge kwenye Hangout na wengine %d</item>
+        <item quantity="one">Alikualika ujiunge kwenye Hangout na mtu mwingine 1</item>
+    </plurals>
+    <plurals name="realtimechat_notification_new_messages">
+        <item quantity="other">Mazungumzo %d mapya</item>
+        <item quantity="one">Ujumbe %d mpya</item>
+    </plurals>
+    <plurals name="redacted_multi_convo_text">
+        <item quantity="other">Kutoka mazungumzo %d</item>
+        <item quantity="one">Kutoka mazungumzo %d</item>
+    </plurals>
+    <plurals name="realtimechat_message_num_attachments">
+        <item quantity="other">Viambatisho %d</item>
+        <item quantity="one">Kiambatisho %d</item>
+    </plurals>
+    <plurals name="realtimechat_invitation_notification_multiconversation_sender">
+        <item quantity="other">Hangouts %d mpya</item>
+        <item quantity="one">Hangout %d mpya</item>
+    </plurals>
+    <plurals name="hangout_on_air_viewer_count">
+        <item quantity="other">Watazamaji %d</item>
+        <item quantity="one">Mtazamaji 1</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">Hangout ya video kutoka kwa %2$s na %3$s na wengine %1$d</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">Hangout ya video kutoka %2$s na wengine %1$d</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">Hangout ya sauti kutoka kwa %2$s pamoja na %3$s na wengine %1$d</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">Hangout ya sauti kutoka kwa %2$s pamoja na wengine %1$d</item>
+    </plurals>
+    <plurals name="dnd_hours">
+        <item quantity="other">Saa %d</item>
+        <item quantity="one">Saa 1</item>
+    </plurals>
+    <plurals name="dnd_minutes">
+        <item quantity="other">Dakika %d</item>
+        <item quantity="one">Dakika 1</item>
+    </plurals>
+    <plurals name="watermark_gallery_label">
+        <item quantity="other">Yameonekana na %s</item>
+        <item quantity="one">Yameonekana na %s</item>
+    </plurals>
+    <plurals name="focus_gallery_label">
+        <item quantity="other">%s wamesoma ujumbe wote.</item>
+        <item quantity="one">%s amesoma ujumbe wote.</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="other">Barua %1$d katika mazungumzo %2$d</item>
+        <item quantity="one">Barua %d katika mazungumzo 1</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">"Umealikwa kushiriki kwenye  Hangout ukiwa na wengine %1$d"</item>
+        <item quantity="one">Umealikwa kushiriki kwenye Hangout ukiwa na wengine %1$d</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation">
+        <item quantity="other">%2$s na wengine %1$d wangependa kushiriki kwenye Hangout</item>
+        <item quantity="one">%2$s na wengine %1$d wangependa kushiriki kwenye Hangout</item>
+        <item quantity="few">%2$s na wengine %1$d wangependa kushiriki kwenye Hangout</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation">
+        <item quantity="other">%1$d wengine wanataka kushiriki kwenye Hangout</item>
+        <item quantity="one">%1$d wengine wanataka kushiriki kwenye Hangout</item>
+        <item quantity="few">%1$d wengine wanataka kushiriki kwenye Hangout</item>
+    </plurals>
+    <plurals name="items_attached_count">
+        <item quantity="other">Vipengee %d vimeambatishwa</item>
+        <item quantity="zero">Vipengee %d vimeambatishwa</item>
+        <item quantity="one">Kipengee %d kimeambatishwa</item>
+    </plurals>
+    <plurals name="items_forwarded_count">
+        <item quantity="other">Vipengee %d vimesambazwa</item>
+        <item quantity="zero">Vipengee %d vimesambazwa</item>
+        <item quantity="one">Kipengee %d kimesambazwa</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="other">Wiki %d</item>
+        <item quantity="one">wiki</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="other">Miezi %d</item>
+        <item quantity="one">mwezi</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="other">Miaka %d</item>
+        <item quantity="one">mwaka</item>
+    </plurals>
+    <plurals name="participant_count">
+        <item quantity="other">Washiriki %d</item>
+        <item quantity="one">Mshiriki %d</item>
+    </plurals>
+    <plurals name="participant_count_history_off">
+        <item quantity="other">Washiriki %d, historia imezimwa</item>
+        <item quantity="one">Mshiriki %d, historia imezimwa</item>
+    </plurals>
+    <plurals name="group_chat_additional_participant_count">
+        <item quantity="other">na wengine %d</item>
+        <item quantity="one">na mwingine %d</item>
+    </plurals>
+</resources>

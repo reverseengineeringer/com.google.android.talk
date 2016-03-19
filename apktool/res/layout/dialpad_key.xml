@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:background="@drawable/dialpad_key_colors" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/dialpad_key_button_height" android:soundEffectsEnabled="false" class="com.google.android.apps.hangouts.fragments.dialpad.DialpadKeyButton"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/dialpad_key_numbers_size" android:textColor="@color/dialpad_primary_text_color" android:gravity="center" android:layout_gravity="center|top" android:id="@id/dialpad_key_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-light" />
+    <TextView android:textSize="@dimen/dialpad_key_letters_size" android:textColor="@color/dialpad_secondary_text_color" android:layout_gravity="bottom|center" android:id="@id/dialpad_key_letters" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif" />
+</view>

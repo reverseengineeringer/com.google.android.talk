@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/toolbar" />
+    <ScrollView android:background="@color/conversation_bg_color" android:padding="@dimen/l_space" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:fadeScrollbars="false">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/voice_tos_title_size" android:textColor="@color/text_secondary_default_color_dark" android:id="@id/tos_first_paragraph_title" android:paddingTop="@dimen/s_space" android:paddingBottom="@dimen/m_space" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/voice_tos_first_paragraph_title" />
+            <TextView android:textSize="@dimen/voice_tos_text_size" android:textColor="@color/text_secondary_default_color_dark" android:textColorLink="@color/solid_green" android:id="@id/tos_first_paragraph_text" android:paddingBottom="@dimen/m_space" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="6.0dip" />
+            <TextView android:textSize="@dimen/voice_tos_title_size" android:textColor="@color/text_secondary_default_color_dark" android:id="@id/tos_second_paragraph_title" android:paddingTop="@dimen/l_space" android:paddingBottom="@dimen/m_space" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/voice_tos_second_paragraph_title" />
+            <TextView android:textSize="@dimen/voice_tos_text_size" android:textColor="@color/text_secondary_default_color_dark" android:textColorLink="@color/solid_green" android:id="@id/tos_second_paragraph_text" android:paddingBottom="@dimen/m_space" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="6.0dip" />
+            <TextView android:textSize="@dimen/voice_tos_title_size" android:textColor="@color/text_secondary_default_color_dark" android:id="@id/tos_third_paragraph_title" android:paddingTop="@dimen/l_space" android:paddingBottom="@dimen/s_space" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/voice_tos_third_paragraph_title" />
+            <TextView android:textSize="@dimen/voice_tos_text_size" android:textColor="@color/text_secondary_default_color_dark" android:textColorLink="@color/solid_green" android:id="@id/tos_third_paragraph_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="6.0dip" />
+            <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/l_space">
+                <Button android:textSize="@dimen/voice_tos_text_size" android:textColor="@color/quantum_white_100" android:id="@id/tos_maybe_later_button" android:background="@drawable/voice_tos_button_selector" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/m_space" android:text="@string/voice_tos_decline_text" android:layout_weight="1.0" />
+                <Button android:textSize="@dimen/voice_tos_text_size" android:textColor="@color/quantum_white_100" android:id="@id/tos_accept_button" android:background="@drawable/voice_tos_button_selector" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/m_space" android:text="@string/voice_tos_accept_text" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

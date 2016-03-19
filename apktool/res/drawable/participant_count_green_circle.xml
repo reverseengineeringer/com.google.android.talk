@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:gravity="center" android:shape="oval" android:color="@color/hangout_calling_participants_count"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/hangout_calling_avatar_size" android:width="@dimen/hangout_calling_avatar_size" />
+    <solid android:color="@color/hangout_calling_participants_count" />
+</shape>

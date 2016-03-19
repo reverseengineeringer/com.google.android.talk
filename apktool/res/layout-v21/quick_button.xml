@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/quick_button_container" style="@style/quick_button_container"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/quick_button_text" style="@style/quick_button_text" />
+    <ImageView android:id="@id/quick_button_icon" android:background="@drawable/quick_button_background" android:scaleType="center" android:stateListAnimator="@anim/floating_action_button_raise" style="@style/quick_button_avatar" />
+</LinearLayout>

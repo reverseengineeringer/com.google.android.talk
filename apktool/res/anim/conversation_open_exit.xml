@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:shareInterpolator="false" android:zAdjustment="top"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <alpha android:interpolator="@interpolator/conversation_activity_transition_interpolator" android:duration="@integer/conversation_activity_transition_duration" android:fillBefore="false" android:fillAfter="true" android:fromAlpha="1.0" android:toAlpha="0.0" android:fillEnabled="true" />
+    <translate android:interpolator="@interpolator/conversation_activity_transition_interpolator" android:duration="@integer/conversation_activity_transition_duration" android:fromYDelta="0.0%" android:toYDelta="-14.999998%" />
+</set>

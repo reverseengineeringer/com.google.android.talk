@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.hangouts.conversation.v2.FauxConversationSnackbar android:id="@id/snackbar" android:visibility="gone" android:clickable="true" android:layout_below="@id/ongoing_hangout_bar" style="@style/Hangouts.Fauxbar"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:id="@id/drawer_layout" android:background="@android:color/white" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/main_content_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/hangouts_toolbar" />
+            <com.google.android.apps.hangouts.util.TabHostEx android:id="@android:id/tabhost" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TabWidget android:orientation="horizontal" android:id="@android:id/tabs" android:background="@color/primary" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_weight="0.0" android:showDividers="none" />
+                    <FrameLayout android:id="@android:id/tabcontent" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="0.0" />
+                    <com.google.android.apps.hangouts.views.MainViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                </LinearLayout>
+            </com.google.android.apps.hangouts.util.TabHostEx>
+        </LinearLayout>
+        <FrameLayout android:layout_gravity="bottom" android:id="@id/floating_button_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/snackbar_stub" android:layout="@layout/hangouts_snackbar" android:inflatedId="@id/snackbar" style="@style/Hangouts.Snackbar" />
+    </FrameLayout>
+    <fragment android:name="com.google.android.apps.hangouts.navigation.NavigationDrawerFragment" android:layout_gravity="start" android:id="@id/navigation_drawer" android:fitsSystemWindows="true" android:layout_width="@dimen/nav_drawer_width" android:layout_height="fill_parent" />
+</android.support.v4.widget.DrawerLayout>

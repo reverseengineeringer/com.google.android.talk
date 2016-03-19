@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.Design.TabLayout" parent="@style/Base.Widget.Design.TabLayout">
+        <item name="tabMode">fixed</item>
+        <item name="tabGravity">center</item>
+    </style>
+    <style name="Hangouts.Snackbar" parent="@style/Snackbar">
+        <item name="android:layout_gravity">bottom|center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxWidth">568.0dip</item>
+        <item name="android:minWidth">288.0dip</item>
+        <item name="actionTextColor">@color/accent_light</item>
+    </style>
+    <style name="Hangouts.Fauxbar" parent="@style/Hangouts.Snackbar">
+        <item name="android:background">@color/quantum_white_100</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:minHeight">56.0dip</item>
+        <item name="messageTextColor">@color/quantum_bluegrey800</item>
+        <item name="actionTextColor">@color/quantum_googgreen700</item>
+    </style>
+</resources>

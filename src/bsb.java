@@ -1,0 +1,13 @@
+final class bsb
+{
+  public bsa a()
+  {
+    return new bsc(this);
+  }
+}
+
+/* Location:
+ * Qualified Name:     bsb
+ * Java Class Version: 6 (50.0)
+ * JD-Core Version:    0.7.1
+ */

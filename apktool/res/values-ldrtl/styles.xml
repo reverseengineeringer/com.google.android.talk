@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ConversationListItemAvatarViewStyle" />
+    <style name="AutoMirroredImageView">
+        <item name="android:scaleX">-1.0</item>
+    </style>
+    <style name="LayoutAlignParentEndStyle" />
+    <style name="ComposeMessageViewTextCounterStyle">
+        <item name="android:gravity">end|bottom|center</item>
+        <item name="android:paddingBottom">0.0dip</item>
+    </style>
+    <style name="InvitationFragmentParticipantsGalleryViewStyle" />
+    <style name="InvitationFragmentNameTextViewStyle" />
+    <style name="InvitationFragmentOrganizationStyle" />
+    <style name="PhoneNumberItemViewPhoneStyle" />
+    <style name="PhoneNumberItemViewPhoneTypeStyle" parent="@style/RealTimeChat.ConversationList.ConversationName">
+        <item name="android:paddingLeft">@dimen/avatar_dimension</item>
+        <item name="android:layout_toLeftOf">@id/sms_icon</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+    <style name="ConversationListItemViewMarginEndStyle" />
+    <style name="ConversationListItemViewConversationNameStyle" parent="@style/RealTimeChat.ConversationList.ConversationName" />
+    <style name="ConversationListItemViewHangoutButtonStyle" />
+    <style name="GravityStartStyle">
+        <item name="android:gravity">start</item>
+    </style>
+    <style name="ConversationListItemViewMessageSnippetStyle" parent="@style/RealTimeChat.ConversationList.LastMessage">
+        <item name="android:gravity">start</item>
+    </style>
+    <style name="SystemMessageListItemViewStyle">
+        <item name="android:gravity">start</item>
+    </style>
+</resources>

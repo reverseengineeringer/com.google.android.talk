@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="avatar_container">
+        <item name="android:paddingEnd">@dimen/header_item_avatar_container_right_padding</item>
+    </style>
+    <style name="avatar">
+        <item name="android:layout_marginEnd">@dimen/header_item_avatar_right_margin</item>
+    </style>
+    <style name="last_seen">
+        <item name="android:layout_marginEnd">@dimen/header_item_last_seen_margin</item>
+    </style>
+    <style name="header_item_container">
+        <item name="android:paddingStart">@dimen/header_item_padding</item>
+        <item name="android:paddingEnd">@dimen/header_item_padding</item>
+    </style>
+    <style name="InviteListItemAcceptInviteButtonStyle" parent="@style/ConvInviteListItemBorderlessButton">
+        <item name="android:layout_toEndOf">@id/ignore_button</item>
+    </style>
+    <style name="BottomSheetAcceptButton" parent="@style/Widget.AppCompat.Button">
+        <item name="android:layout_marginStart">@dimen/bottom_sheet_padding_bottom</item>
+    </style>
+    <style name="BottomSheetButtonsContainer">
+        <item name="android:gravity">end</item>
+    </style>
+    <style name="BottomSheetDialogContentWrapper">
+        <item name="android:paddingEnd">@dimen/bottom_sheet_dialog_margin</item>
+    </style>
+    <style name="BottomSheetDialogMessageText">
+        <item name="android:gravity">start</item>
+    </style>
+    <style name="BottomSheetDialogTitleText">
+        <item name="android:gravity">start</item>
+    </style>
+</resources>

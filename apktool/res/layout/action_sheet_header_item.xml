@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/header_item_container" android:paddingTop="@dimen/header_item_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/header_item_container"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:paddingBottom="@dimen/header_item_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_gravity="center|top" android:id="@id/avatar_container" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/avatar_container">
+            <com.google.android.apps.hangouts.views.AvatarView android:layout_gravity="start|center|top" android:id="@id/avatar" android:layout_width="@dimen/header_item_avatar_diameter" android:layout_height="@dimen/header_item_avatar_diameter" android:layout_marginTop="@dimen/header_item_avatar_top_margin" android:importantForAccessibility="no" style="@style/avatar" />
+            <ImageView android:layout_gravity="end|center|top" android:id="@id/hangouts_logo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <LinearLayout android:gravity="start|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/header_item_name_text_size" android:textColor="@color/action_sheet_primary_color" android:gravity="start" android:id="@id/header_item_name_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout android:textColor="@color/action_sheet_secondary_color" android:orientation="horizontal" android:id="@id/last_seen_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/header_item_last_seen_size" android:textColor="@color/action_sheet_secondary_color" android:id="@id/last_seen" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/on_hangouts" style="@style/last_seen" />
+                <TextView android:textSize="@dimen/header_item_last_seen_size" android:textColor="@color/action_sheet_secondary_color" android:id="@id/last_seen_time" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/header_item_status_size" android:textColor="@color/action_sheet_secondary_color" android:ellipsize="end" android:gravity="start" android:id="@id/header_item_status_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/header_item_padding" android:maxLines="2" android:singleLine="false" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_gravity="center" android:background="@color/action_sheet_line_color" android:paddingBottom="@dimen/header_item_padding" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

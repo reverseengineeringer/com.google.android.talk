@@ -1,0 +1,7 @@
+public final class cz {}
+
+/* Location:
+ * Qualified Name:     cz
+ * Java Class Version: 6 (50.0)
+ * JD-Core Version:    0.7.1
+ */

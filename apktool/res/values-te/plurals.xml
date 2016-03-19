@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="conv_invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">%1$d మంది ఇతర వ్యక్తులతో Hangoutకి మిమ్మల్ని ఆహ్వానించారు</item>
+        <item quantity="one">%1$d ఇతర వ్యక్తితో Hangoutకి మిమ్మల్ని ఆహ్వానించారు</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation_invite_list">
+        <item quantity="other">%1$d మంది ఇతర వ్యక్తులు Hangoutలో పాల్గొనాలనుకుంటున్నారు</item>
+        <item quantity="one">%1$d ఇతర వ్యక్తి Hangoutలో పాల్గొనాలనుకుంటున్నారు</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation_invite_list">
+        <item quantity="other">%1$d మంది ఇతర వ్యక్తులతో</item>
+        <item quantity="one">%1$d ఇతర వ్యక్తితో</item>
+    </plurals>
+    <plurals name="gallery_picker_max_count_reached_message">
+        <item quantity="other">మీరు గరిష్టంగా %d జోడింపులను మాత్రమే ఎంచుకోగలరు.</item>
+        <item quantity="one">మీరు గరిష్టంగా 1 జోడింపును మాత్రమే ఎంచుకోగలరు.</item>
+    </plurals>
+    <plurals name="num_minutes_in_the_past">
+        <item quantity="other">%d నిమి</item>
+        <item quantity="one">%d నిమి</item>
+    </plurals>
+    <plurals name="elapsed_minutes">
+        <item quantity="other">%dని క్రితం</item>
+        <item quantity="one">%dని క్రితం</item>
+    </plurals>
+    <plurals name="elapsed_minutes_announce">
+        <item quantity="other">%d నిమిషాల క్రితం</item>
+        <item quantity="one">%d నిమిషం క్రితం</item>
+    </plurals>
+    <plurals name="elapsed_hours">
+        <item quantity="other">%dగం క్రితం</item>
+        <item quantity="one">%dగం క్రితం</item>
+    </plurals>
+    <plurals name="elapsed_hours_announce">
+        <item quantity="other">%d గంటల క్రితం</item>
+        <item quantity="one">%d గంట క్రితం</item>
+    </plurals>
+    <plurals name="elapsed_days">
+        <item quantity="other">%dరో క్రితం</item>
+        <item quantity="one">%dరో క్రితం</item>
+    </plurals>
+    <plurals name="elapsed_days_announce">
+        <item quantity="other">%d రోజుల క్రితం</item>
+        <item quantity="one">%d రోజు క్రితం</item>
+    </plurals>
+    <plurals name="elapsed_weeks">
+        <item quantity="other">%dవా క్రితం</item>
+        <item quantity="one">%dవా క్రితం</item>
+    </plurals>
+    <plurals name="elapsed_weeks_announce">
+        <item quantity="other">%d వారాల క్రితం</item>
+        <item quantity="one">%d వారం క్రితం</item>
+    </plurals>
+    <plurals name="elapsed_months">
+        <item quantity="other">%dనె క్రితం</item>
+        <item quantity="one">%dనె క్రితం</item>
+    </plurals>
+    <plurals name="elapsed_months_announce">
+        <item quantity="other">%d నెలల క్రితం</item>
+        <item quantity="one">%d నెల క్రితం</item>
+    </plurals>
+    <plurals name="num_seconds_duration">
+        <item quantity="other">%d సెక</item>
+        <item quantity="one">%d సెక</item>
+    </plurals>
+    <plurals name="a11y_num_seconds_duration">
+        <item quantity="other">%d సెకన్లు</item>
+        <item quantity="one">%d సెకను</item>
+    </plurals>
+    <plurals name="num_minutes_duration">
+        <item quantity="other">%d నిమి</item>
+        <item quantity="one">%d నిమి</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_duration">
+        <item quantity="other">%d నిమిషాలు</item>
+        <item quantity="one">%d నిమిషం</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_in_the_past">
+        <item quantity="other">%d నిమిషాలు</item>
+        <item quantity="one">%d నిమిషం</item>
+    </plurals>
+    <plurals name="num_hours_in_the_past">
+        <item quantity="other">%d గంటలు</item>
+        <item quantity="one">%d గంట</item>
+    </plurals>
+    <plurals name="num_days_in_the_past">
+        <item quantity="other">%d రోజులు</item>
+        <item quantity="one">%d రోజు</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_attachment">
+        <item quantity="other">%d జోడింపులను పంపుతుంది</item>
+        <item quantity="one">%d జోడింపును పంపుతుంది</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_message_and_attachment">
+        <item quantity="other">%d జోడింపులతో సందేశాన్ని పంపుతుంది</item>
+        <item quantity="one">%d జోడింపుతో సందేశాన్ని పంపుతుంది</item>
+    </plurals>
+    <plurals name="comments">
+        <item quantity="other">%d వ్యాఖ్యలు</item>
+        <item quantity="one">%d వ్యాఖ్య</item>
+    </plurals>
+    <plurals name="notification_multi_hangout">
+        <item quantity="other">మరో %d మందితో Hangout చేయడానికి మిమ్మల్ని ఆహ్వానించారు</item>
+        <item quantity="one">మరో 1తో Hangout చేయడానికి మిమ్మల్ని ఆహ్వానించారు</item>
+    </plurals>
+    <plurals name="realtimechat_notification_new_messages">
+        <item quantity="other">%d కొత్త సందేశాలు</item>
+        <item quantity="one">%d కొత్త సందేశం</item>
+    </plurals>
+    <plurals name="redacted_multi_convo_text">
+        <item quantity="other">%d సంభాషణల నుండి</item>
+        <item quantity="one">%d సంభాషణ నుండి</item>
+    </plurals>
+    <plurals name="realtimechat_message_num_attachments">
+        <item quantity="other">%d జోడింపులు</item>
+        <item quantity="one">%d జోడింపు</item>
+    </plurals>
+    <plurals name="realtimechat_invitation_notification_multiconversation_sender">
+        <item quantity="other">%d కొత్త Hangouts</item>
+        <item quantity="one">%d కొత్త Hangout</item>
+    </plurals>
+    <plurals name="hangout_on_air_viewer_count">
+        <item quantity="other">%d మంది వీక్షకులు</item>
+        <item quantity="one">1 వీక్షకుడు</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">%2$s నుండి %3$s మరియు మరో %1$d మందికి వీడియో కాల్</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">%2$s నుండి మరో %1$d మందికి వీడియో కాల్</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">%2$s నుండి %3$s మరియు మరో %1$d మందికి వాయిస్ కాల్</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">%2$s నుండి మరో %1$d మందికి వాయిస్ కాల్</item>
+    </plurals>
+    <plurals name="dnd_hours">
+        <item quantity="other">%d గంటలు</item>
+        <item quantity="one">1 గంట</item>
+    </plurals>
+    <plurals name="dnd_minutes">
+        <item quantity="other">%d నిమిషాలు</item>
+        <item quantity="one">1 నిమిషం</item>
+    </plurals>
+    <plurals name="watermark_gallery_label">
+        <item quantity="other">చూసినవారు %s</item>
+        <item quantity="one">చూసినవారు %s</item>
+    </plurals>
+    <plurals name="focus_gallery_label">
+        <item quantity="other">%s అన్ని సందేశాలను చదివారు.</item>
+        <item quantity="one">%s అన్ని సందేశాలను చదివారు.</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="other">%1$d సంభాషణల్లో %2$d సందేశాలు</item>
+        <item quantity="one">ఒక సంభాషణలో %d సందేశాలు</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">%1$d మంది ఇతర వ్యక్తులతో Hangoutకి మిమ్మల్ని ఆహ్వానించారు</item>
+        <item quantity="one">%1$d ఇతర వ్యక్తితో Hangoutకి మిమ్మల్ని ఆహ్వానించారు</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation">
+        <item quantity="other">%2$s మరియు %1$d మంది ఇతర వ్యక్తులు Hangoutలో పాల్గొనాలనుకుంటున్నారు</item>
+        <item quantity="one">%2$s మరియు %1$d ఇతర వ్యక్తి Hangoutలో పాల్గొనాలనుకుంటున్నారు</item>
+        <item quantity="few">%2$s మరియు %1$d మంది ఇతర వ్యక్తులు Hangoutలో పాల్గొనాలనుకుంటున్నారు</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation">
+        <item quantity="other">మరో %1$d మంది Hangout చేయాలనుకుంటున్నారు</item>
+        <item quantity="one">మరో %1$d Hangout చేయాలనుకుంటున్నారు</item>
+        <item quantity="few">మరో %1$d మంది Hangout చేయాలనుకుంటున్నారు</item>
+    </plurals>
+    <plurals name="items_attached_count">
+        <item quantity="other">%d అంశాలు జోడించబడ్డాయి</item>
+        <item quantity="zero">%d అంశాలు జోడించబడ్డాయి</item>
+        <item quantity="one">%d అంశం జోడించబడింది</item>
+    </plurals>
+    <plurals name="items_forwarded_count">
+        <item quantity="other">%d అంశాలు ఫార్వార్డ్ చేయబడ్డాయి</item>
+        <item quantity="zero">%d అంశాలు ఫార్వార్డ్ చేయబడ్డాయి</item>
+        <item quantity="one">%d అంశం ఫార్వార్డ్ చేయబడింది</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="other">%d వారాలు</item>
+        <item quantity="one">ఒక వారం</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="other">%d నెలలు</item>
+        <item quantity="one">ఒక నెల</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="other">%d సంవత్సరాలు</item>
+        <item quantity="one">ఒక సంవత్సరం</item>
+    </plurals>
+    <plurals name="participant_count">
+        <item quantity="other">%d మంది పాల్గొన్నారు</item>
+        <item quantity="one">%d పాల్గొన్నారు</item>
+    </plurals>
+    <plurals name="participant_count_history_off">
+        <item quantity="other">%d మంది పాల్గొన్నారు, చరిత్ర ఆఫ్‌లో ఉంది</item>
+        <item quantity="one">%d పాల్గొన్నారు, చరిత్ర ఆఫ్‌లో ఉంది</item>
+    </plurals>
+    <plurals name="group_chat_additional_participant_count">
+        <item quantity="other">మరియు %d మంది ఇతరులు</item>
+        <item quantity="one">మరియు %d ఇతర వ్యక్తి</item>
+    </plurals>
+</resources>

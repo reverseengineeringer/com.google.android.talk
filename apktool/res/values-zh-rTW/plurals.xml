@@ -1,7 +1,215 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="messages_read">
-        <item quantity="other">%s 封已讀取的郵件</item>
-        <item quantity="one">%s 封已讀取的郵件</item>
+    <plurals name="conv_invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">邀請您與另外 %1$d 人加入 Hangouts</item>
+        <item quantity="one">邀請您與另外 %1$d 人加入 Hangouts</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation_invite_list">
+        <item quantity="other">另外 %1$d 人想邀您加入 Hangouts</item>
+        <item quantity="one">另外 %1$d 人想邀您加入 Hangouts</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation_invite_list">
+        <item quantity="other">與另外 %1$d 人</item>
+        <item quantity="one">與另外 %1$d 人</item>
+    </plurals>
+    <plurals name="gallery_picker_max_count_reached_message">
+        <item quantity="other">最多只能選取 %d 個附件。</item>
+        <item quantity="one">最多只能選取 1 個附件。</item>
+    </plurals>
+    <plurals name="num_minutes_in_the_past">
+        <item quantity="other">%d 分鐘</item>
+        <item quantity="one">%d 分鐘</item>
+    </plurals>
+    <plurals name="elapsed_minutes">
+        <item quantity="other">%d 分鐘前</item>
+        <item quantity="one">%d 分鐘前</item>
+    </plurals>
+    <plurals name="elapsed_minutes_announce">
+        <item quantity="other">%d 分鐘前</item>
+        <item quantity="one">%d 分鐘前</item>
+    </plurals>
+    <plurals name="elapsed_hours">
+        <item quantity="other">%d 小時前</item>
+        <item quantity="one">%d 小時前</item>
+    </plurals>
+    <plurals name="elapsed_hours_announce">
+        <item quantity="other">%d 小時前</item>
+        <item quantity="one">%d 小時前</item>
+    </plurals>
+    <plurals name="elapsed_days">
+        <item quantity="other">%d 天前</item>
+        <item quantity="one">%d 天前</item>
+    </plurals>
+    <plurals name="elapsed_days_announce">
+        <item quantity="other">%d 天前</item>
+        <item quantity="one">%d 天前</item>
+    </plurals>
+    <plurals name="elapsed_weeks">
+        <item quantity="other">%d 週前</item>
+        <item quantity="one">%d 週前</item>
+    </plurals>
+    <plurals name="elapsed_weeks_announce">
+        <item quantity="other">%d 週前</item>
+        <item quantity="one">%d 週前</item>
+    </plurals>
+    <plurals name="elapsed_months">
+        <item quantity="other">%d 個月前</item>
+        <item quantity="one">%d 個月前</item>
+    </plurals>
+    <plurals name="elapsed_months_announce">
+        <item quantity="other">%d 個月前</item>
+        <item quantity="one">%d 個月前</item>
+    </plurals>
+    <plurals name="num_seconds_duration">
+        <item quantity="other">%d 秒</item>
+        <item quantity="one">%d 秒</item>
+    </plurals>
+    <plurals name="a11y_num_seconds_duration">
+        <item quantity="other">%d 秒</item>
+        <item quantity="one">%d 秒</item>
+    </plurals>
+    <plurals name="num_minutes_duration">
+        <item quantity="other">%d 分鐘</item>
+        <item quantity="one">%d 分鐘</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_duration">
+        <item quantity="other">%d 分鐘</item>
+        <item quantity="one">%d 分鐘</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_in_the_past">
+        <item quantity="other">%d 分鐘</item>
+        <item quantity="one">%d 分鐘</item>
+    </plurals>
+    <plurals name="num_hours_in_the_past">
+        <item quantity="other">%d 小時</item>
+        <item quantity="one">%d 小時</item>
+    </plurals>
+    <plurals name="num_days_in_the_past">
+        <item quantity="other">%d 天</item>
+        <item quantity="one">%d 天</item>
+    </plurals>
+    <plurals name="one_up_comment_count">
+        <item quantity="other">%d 則留言</item>
+        <item quantity="one">%d 則留言</item>
+    </plurals>
+    <plurals name="audience_hidden_user_count">
+        <item quantity="other">和另外 %d 人</item>
+        <item quantity="one">和另外 1 人</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_attachment">
+        <item quantity="other">傳送 %d 個附件</item>
+        <item quantity="one">傳送 %d 個附件</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_message_and_attachment">
+        <item quantity="other">傳送含有 %d 個附件的訊息</item>
+        <item quantity="one">傳送含有 %d 個附件的訊息</item>
+    </plurals>
+    <plurals name="comments">
+        <item quantity="other">%d 則留言</item>
+        <item quantity="one">%d 則留言</item>
+    </plurals>
+    <plurals name="notification_multi_hangout">
+        <item quantity="other">邀請您與另外 %d 人一起加入 Hangouts</item>
+        <item quantity="one">邀請您與另外 1 人一起加入 Hangouts</item>
+    </plurals>
+    <plurals name="realtimechat_notification_new_messages">
+        <item quantity="other">%d 則新訊息</item>
+        <item quantity="one">%d 則新訊息</item>
+    </plurals>
+    <plurals name="redacted_multi_convo_text">
+        <item quantity="other">來自 %d 個對話</item>
+        <item quantity="one">來自 %d 個對話</item>
+    </plurals>
+    <plurals name="realtimechat_message_num_attachments">
+        <item quantity="other">%d 個附件</item>
+        <item quantity="one">%d 個附件</item>
+    </plurals>
+    <plurals name="realtimechat_invitation_notification_multiconversation_sender">
+        <item quantity="other">%d 個新的 Hangouts</item>
+        <item quantity="one">%d 個新的 Hangouts</item>
+    </plurals>
+    <plurals name="hangout_on_air_viewer_count">
+        <item quantity="other">%d 位觀眾</item>
+        <item quantity="one">1 位觀眾</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">%2$s邀請您、%3$s和另外 %1$d 人加入視訊通話</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">%2$s和另外 %1$d 人邀請您加入視訊通話</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">%2$s邀請您、%3$s和另外 %1$d 人加入語音通話</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">%2$s邀請您和另外 %1$d 人加入語音通話</item>
+    </plurals>
+    <plurals name="dnd_hours">
+        <item quantity="other">%d 小時</item>
+        <item quantity="one">1 小時</item>
+    </plurals>
+    <plurals name="dnd_minutes">
+        <item quantity="other">%d 分鐘</item>
+        <item quantity="one">1 分鐘</item>
+    </plurals>
+    <plurals name="watermark_gallery_label">
+        <item quantity="other">%s已讀</item>
+        <item quantity="one">%s已讀</item>
+    </plurals>
+    <plurals name="focus_gallery_label">
+        <item quantity="other">%s已讀了所有訊息。</item>
+        <item quantity="one">%s已讀了所有訊息。</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="other">%1$d 個對話中的 %2$d 則訊息</item>
+        <item quantity="one">一個對話中的 %d 則訊息</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">邀請您與另外 %1$d 人加入 Hangouts</item>
+        <item quantity="one">邀請您與另外 %1$d 人加入 Hangouts</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation">
+        <item quantity="other">%2$s和另外 %1$d 人想邀您加入 Hangouts</item>
+        <item quantity="one">%2$s和另外 %1$d 人想邀您加入 Hangouts</item>
+        <item quantity="few">%2$s和另外 %1$d 人想邀您加入 Hangouts</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation">
+        <item quantity="other">另外 %1$d 人想邀您加入 Hangouts</item>
+        <item quantity="one">另外 %1$d 人想邀您加入 Hangouts</item>
+        <item quantity="few">另外 %1$d 人想邀您加入 Hangouts</item>
+    </plurals>
+    <plurals name="items_attached_count">
+        <item quantity="other">附加了 %d 個項目</item>
+        <item quantity="zero">附加了 %d 個項目</item>
+        <item quantity="one">附加了 %d 個項目</item>
+    </plurals>
+    <plurals name="items_forwarded_count">
+        <item quantity="other">轉寄了 %d 個項目</item>
+        <item quantity="zero">轉寄了 %d 個項目</item>
+        <item quantity="one">轉寄了 %d 個項目</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="other">%d 週</item>
+        <item quantity="one">1 週</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="other">%d 個月</item>
+        <item quantity="one">1 個月</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="other">%d 年</item>
+        <item quantity="one">1 年</item>
+    </plurals>
+    <plurals name="participant_count">
+        <item quantity="other">%d 位參與者</item>
+        <item quantity="one">%d 位參與者</item>
+    </plurals>
+    <plurals name="participant_count_history_off">
+        <item quantity="other">%d 位參與者，記錄功能已關閉</item>
+        <item quantity="one">%d 位參與者，記錄功能已關閉</item>
+    </plurals>
+    <plurals name="group_chat_additional_participant_count">
+        <item quantity="other">和另外 %d 人</item>
+        <item quantity="one">和另外 %d 人</item>
     </plurals>
 </resources>

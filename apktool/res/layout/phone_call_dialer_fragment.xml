@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/top" android:background="@color/background_dialpad" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/dialpad_separator_line_color" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    <view android:id="@id/rates_balance_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" class="com.google.android.apps.hangouts.views.VoiceRatesAndBalanceView" />
+    <View android:clickable="true" android:layout_width="fill_parent" android:layout_height="10.0dip" android:importantForAccessibility="no" />
+    <include layout="@layout/dialpad_digits" />
+    <View android:clickable="true" android:layout_width="fill_parent" android:layout_height="8.0dip" android:importantForAccessibility="no" />
+    <FrameLayout android:id="@id/dialpad_fragment_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:layout_width="fill_parent" android:layout_height="8.0dip" />
+    <View android:background="@color/dialpad_separator_line_color" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+</LinearLayout>

@@ -1,7 +1,215 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="messages_read">
-        <item quantity="other">%s olvasott üzenet</item>
-        <item quantity="one">%s olvasott üzenet</item>
+    <plurals name="conv_invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">Meghívott egy Hangouts-beszélgetésbe %1$d másik felhasználóval együtt</item>
+        <item quantity="one">Meghívott egy Hangouts-beszélgetésbe %1$d másik felhasználóval együtt</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation_invite_list">
+        <item quantity="other">%1$d másik személy szeretne Hangouts-beszélgetést folytatni</item>
+        <item quantity="one">%1$d másik személy szeretne Hangouts-beszélgetést folytatni</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation_invite_list">
+        <item quantity="other">további %1$d személlyel</item>
+        <item quantity="one">további %1$d személlyel</item>
+    </plurals>
+    <plurals name="gallery_picker_max_count_reached_message">
+        <item quantity="other">Legfeljebb %d mellékletet jelölhet ki.</item>
+        <item quantity="one">Legfeljebb 1 mellékletet jelölhet ki.</item>
+    </plurals>
+    <plurals name="num_minutes_in_the_past">
+        <item quantity="other">%d p</item>
+        <item quantity="one">%d p</item>
+    </plurals>
+    <plurals name="elapsed_minutes">
+        <item quantity="other">%d perce</item>
+        <item quantity="one">%d perce</item>
+    </plurals>
+    <plurals name="elapsed_minutes_announce">
+        <item quantity="other">%d perce</item>
+        <item quantity="one">%d perce</item>
+    </plurals>
+    <plurals name="elapsed_hours">
+        <item quantity="other">%d órája</item>
+        <item quantity="one">%d órája</item>
+    </plurals>
+    <plurals name="elapsed_hours_announce">
+        <item quantity="other">%d órája</item>
+        <item quantity="one">%d órája</item>
+    </plurals>
+    <plurals name="elapsed_days">
+        <item quantity="other">%d napja</item>
+        <item quantity="one">%d napja</item>
+    </plurals>
+    <plurals name="elapsed_days_announce">
+        <item quantity="other">%d napja</item>
+        <item quantity="one">%d napja</item>
+    </plurals>
+    <plurals name="elapsed_weeks">
+        <item quantity="other">%d hete</item>
+        <item quantity="one">%d hete</item>
+    </plurals>
+    <plurals name="elapsed_weeks_announce">
+        <item quantity="other">%d hete</item>
+        <item quantity="one">%d hete</item>
+    </plurals>
+    <plurals name="elapsed_months">
+        <item quantity="other">%d hónapja</item>
+        <item quantity="one">%d hónapja</item>
+    </plurals>
+    <plurals name="elapsed_months_announce">
+        <item quantity="other">%d hónapja</item>
+        <item quantity="one">%d hónapja</item>
+    </plurals>
+    <plurals name="num_seconds_duration">
+        <item quantity="other">%d mp</item>
+        <item quantity="one">%d mp</item>
+    </plurals>
+    <plurals name="a11y_num_seconds_duration">
+        <item quantity="other">%d másodperc</item>
+        <item quantity="one">%d másodperc</item>
+    </plurals>
+    <plurals name="num_minutes_duration">
+        <item quantity="other">%d p</item>
+        <item quantity="one">%d p</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_duration">
+        <item quantity="other">%d perc</item>
+        <item quantity="one">%d perc</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_in_the_past">
+        <item quantity="other">%d perc</item>
+        <item quantity="one">%d perc</item>
+    </plurals>
+    <plurals name="num_hours_in_the_past">
+        <item quantity="other">%d óra</item>
+        <item quantity="one">%d óra</item>
+    </plurals>
+    <plurals name="num_days_in_the_past">
+        <item quantity="other">%d nap</item>
+        <item quantity="one">%d nap</item>
+    </plurals>
+    <plurals name="one_up_comment_count">
+        <item quantity="other">%d megjegyzés</item>
+        <item quantity="one">%d megjegyzés</item>
+    </plurals>
+    <plurals name="audience_hidden_user_count">
+        <item quantity="other">+%d személy</item>
+        <item quantity="one">+1 személy</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_attachment">
+        <item quantity="other">%d melléklet küldése</item>
+        <item quantity="one">%d melléklet küldése</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_message_and_attachment">
+        <item quantity="other">%d mellékletet tartalmazó üzenet küldése</item>
+        <item quantity="one">%d mellékletet tartalmazó üzenet küldése</item>
+    </plurals>
+    <plurals name="comments">
+        <item quantity="other">%d megjegyzés</item>
+        <item quantity="one">%d megjegyzés</item>
+    </plurals>
+    <plurals name="notification_multi_hangout">
+        <item quantity="other">Meghívott téged egy Hangouts-beszélgetésbe %d további személlyel</item>
+        <item quantity="one">Meghívott téged egy Hangouts-beszélgetésbe 1 további személlyel</item>
+    </plurals>
+    <plurals name="realtimechat_notification_new_messages">
+        <item quantity="other">%d új üzenet</item>
+        <item quantity="one">%d új üzenet</item>
+    </plurals>
+    <plurals name="redacted_multi_convo_text">
+        <item quantity="other">%d beszélgetésből</item>
+        <item quantity="one">%d beszélgetésből</item>
+    </plurals>
+    <plurals name="realtimechat_message_num_attachments">
+        <item quantity="other">%d melléklet</item>
+        <item quantity="one">%d melléklet</item>
+    </plurals>
+    <plurals name="realtimechat_invitation_notification_multiconversation_sender">
+        <item quantity="other">%d új Hangouts-beszélgetés</item>
+        <item quantity="one">%d új Hangouts-beszélgetés</item>
+    </plurals>
+    <plurals name="hangout_on_air_viewer_count">
+        <item quantity="other">%d néző</item>
+        <item quantity="one">1 néző</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">%2$s, %3$s és %1$d további személy videohívást kezdeményezett</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">Videohívás %2$s részéről %1$d további személy részvételével</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">%2$s, %3$s és %1$d további személy hívást kezdeményezett</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">%2$s és %1$d további személy hívást kezdeményezett</item>
+    </plurals>
+    <plurals name="dnd_hours">
+        <item quantity="other">%d óra</item>
+        <item quantity="one">1 óra</item>
+    </plurals>
+    <plurals name="dnd_minutes">
+        <item quantity="other">%d perc</item>
+        <item quantity="one">1 perc</item>
+    </plurals>
+    <plurals name="watermark_gallery_label">
+        <item quantity="other">Látta: %s</item>
+        <item quantity="one">Látta: %s</item>
+    </plurals>
+    <plurals name="focus_gallery_label">
+        <item quantity="other">%s az összes üzenetet olvasta.</item>
+        <item quantity="one">%s az összes üzenetet olvasta.</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="other">%1$d üzenet %2$d beszélgetésben</item>
+        <item quantity="one">%d üzenet egy beszélgetésben</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">Meghívott egy Hangouts-beszélgetésbe %1$d másik felhasználóval együtt</item>
+        <item quantity="one">Meghívott egy Hangouts-beszélgetésbe %1$d másik felhasználóval együtt</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation">
+        <item quantity="other">%2$s és %1$d másik felhasználó szeretne Hangouts-beszélgetést indítani</item>
+        <item quantity="one">%2$s és %1$d másik felhasználó szeretne Hangouts-beszélgetést indítani</item>
+        <item quantity="few">%2$s és %1$d másik felhasználó szeretne Hangouts-beszélgetést indítani</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation">
+        <item quantity="other">%1$d további személy Hangouts-beszélgetést szeretne indítani</item>
+        <item quantity="one">%1$d további személy Hangouts-beszélgetést szeretne indítani</item>
+        <item quantity="few">%1$d további személy Hangouts-beszélgetést szeretne indítani</item>
+    </plurals>
+    <plurals name="items_attached_count">
+        <item quantity="other">%d elem csatolva</item>
+        <item quantity="zero">%d elem csatolva</item>
+        <item quantity="one">%d elem csatolva</item>
+    </plurals>
+    <plurals name="items_forwarded_count">
+        <item quantity="other">%d elem továbbítva</item>
+        <item quantity="zero">%d elem továbbítva</item>
+        <item quantity="one">%d elem továbbítva</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="other">%d hét</item>
+        <item quantity="one">egy hét</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="other">%d hónap</item>
+        <item quantity="one">egy hónap</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="other">%d év</item>
+        <item quantity="one">egy év</item>
+    </plurals>
+    <plurals name="participant_count">
+        <item quantity="other">%d résztvevő</item>
+        <item quantity="one">%d résztvevő</item>
+    </plurals>
+    <plurals name="participant_count_history_off">
+        <item quantity="other">%d résztvevő, előzmények rögzítése kikapcsolva</item>
+        <item quantity="one">%d résztvevő, előzmények rögzítése kikapcsolva</item>
+    </plurals>
+    <plurals name="group_chat_additional_participant_count">
+        <item quantity="other">és további %d személy</item>
+        <item quantity="one">és további %d személy</item>
     </plurals>
 </resources>

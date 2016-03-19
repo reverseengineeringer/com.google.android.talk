@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:layout_width="@dimen/hangout_self_menu_button_spacing" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:layout_gravity="center" android:id="@id/action_icon" android:background="@drawable/hangout_self_menu_item_circle" android:layout_width="@dimen/hangout_self_menu_circle_diameter" android:layout_height="@dimen/hangout_self_menu_circle_diameter" />
+</FrameLayout>

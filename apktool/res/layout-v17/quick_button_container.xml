@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.hangouts.floatingactionbutton.impl.QuickButtonContainer android:id="@id/quick_button_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="end" android:layout_gravity="end|bottom|center" android:orientation="vertical" android:id="@id/quick_button_list" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:id="@id/primary_action_group" android:clipChildren="false" android:layout_height="@dimen/floating_action_button_size" android:layout_marginTop="12.0dip" android:layout_marginBottom="8.0dip" style="@style/quick_button_container">
+            <TextView android:textColor="@color/quantum_bluegrey500" android:id="@id/quick_button_text" android:layout_marginRight="@dimen/primary_action_right_margin" android:layout_marginEnd="@dimen/primary_action_right_margin" style="@style/quick_button_text" />
+        </LinearLayout>
+        <Space android:id="@id/extra_space_to_raise_views" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    </LinearLayout>
+</com.google.android.apps.hangouts.floatingactionbutton.impl.QuickButtonContainer>

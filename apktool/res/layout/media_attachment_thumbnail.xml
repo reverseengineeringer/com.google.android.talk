@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="right" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image_ellipsis" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:layout_centerInParent="true" android:contentDescription="@string/ephemeral_message_sending" />
+    <com.google.android.apps.hangouts.views.FixedAspectRatioImageView android:id="@id/image_thumbnail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" android:maxWidth="400.0dip" />
+    <ImageView android:id="@id/image_status_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <TextView android:id="@id/attachment_name_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="50.0dip" android:layout_alignLeft="@id/image_thumbnail" android:layout_alignRight="@id/image_thumbnail" android:layout_alignBottom="@id/image_thumbnail" style="@style/AttachmentHandler.Name" />
+    <FrameLayout android:id="@id/media_attachment_frame" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</RelativeLayout>

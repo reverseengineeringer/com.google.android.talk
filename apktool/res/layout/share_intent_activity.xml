@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/conversation_list_fragment_container" android:background="@color/quantum_white_100" android:paddingTop="@dimen/abc_dialog_padding_top_material" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/conversation_list_fragment" android:tag="top_level" android:background="@color/conversation_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <View android:id="@id/divider" style="@style/horizontalDividerStyle" />
+    <Button android:gravity="center" android:id="@id/button_start_new_conversation" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="44.0dip" android:text="@string/new_hangout_label" android:onClick="onStartNewHangoutButtonClick" style="@style/borderlessButtonStyle" />
+    <Button android:gravity="center" android:id="@id/button_start_new_sms" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="44.0dip" android:text="@string/new_sms_label" android:onClick="onStartNewSmsButtonClick" style="@style/borderlessButtonStyle" />
+</LinearLayout>

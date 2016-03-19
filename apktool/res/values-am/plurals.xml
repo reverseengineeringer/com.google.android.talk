@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="conv_invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">እርስዎን ከ %1$d ሌሎች ጋር ወደ Hangout ጋብዞውታል</item>
+        <item quantity="one">እርስዎን ከ %1$d ሌላ ጋር ወደ Hangout ጋብዞውታል</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation_invite_list">
+        <item quantity="other">%1$d ሌሎች Hangout ይፈልጋሉ</item>
+        <item quantity="one">%1$d ሌላ Hangout ይፈልጋል</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation_invite_list">
+        <item quantity="other">ከ %1$d ሌሎች</item>
+        <item quantity="one">ከ %1$d ሌላ</item>
+    </plurals>
+    <plurals name="gallery_picker_max_count_reached_message">
+        <item quantity="other">ከፍተኛ %d አባሪዎች ብቻ መምረጥ ይችላሉ።</item>
+        <item quantity="one">ከፍተኛ 1 አባሪ ብቻ መምረጥ ይችላሉ።</item>
+    </plurals>
+    <plurals name="num_minutes_in_the_past">
+        <item quantity="other">%d ደቂቃዎች</item>
+        <item quantity="one">%d ደቂቃ</item>
+    </plurals>
+    <plurals name="elapsed_minutes">
+        <item quantity="other">ከ%d ደ በፊት</item>
+        <item quantity="one">ከ%d ደ በፊት</item>
+    </plurals>
+    <plurals name="elapsed_minutes_announce">
+        <item quantity="other">ከ%d ደቂቃዎች በፊት</item>
+        <item quantity="one">ከ%d ደቂቃ በፊት</item>
+    </plurals>
+    <plurals name="elapsed_hours">
+        <item quantity="other">ከ%d ሰ በፊት</item>
+        <item quantity="one">ከ%d ሰ በፊት</item>
+    </plurals>
+    <plurals name="elapsed_hours_announce">
+        <item quantity="other">ከ%d ሰዓቶች በፊት</item>
+        <item quantity="one">ከ%d ሰዓት በፊት</item>
+    </plurals>
+    <plurals name="elapsed_days">
+        <item quantity="other">ከ%d ቀ በፊት</item>
+        <item quantity="one">ከ%d ቀ በፊት</item>
+    </plurals>
+    <plurals name="elapsed_days_announce">
+        <item quantity="other">ከ%d ቀኖች በፊት</item>
+        <item quantity="one">ከ%d ቀን በፊት</item>
+    </plurals>
+    <plurals name="elapsed_weeks">
+        <item quantity="other">ከ%d ሳ በፊት</item>
+        <item quantity="one">ከ%d ሳ በፊት</item>
+    </plurals>
+    <plurals name="elapsed_weeks_announce">
+        <item quantity="other">ከ%d ሳምንቶች በፊት</item>
+        <item quantity="one">ከ%d ሳምንት በፊት</item>
+    </plurals>
+    <plurals name="elapsed_months">
+        <item quantity="other">ከ%d ወር በፊት</item>
+        <item quantity="one">ከ%d ወር በፊት</item>
+    </plurals>
+    <plurals name="elapsed_months_announce">
+        <item quantity="other">ከ%d ወሮች በፊት</item>
+        <item quantity="one">ከ%d ወር በፊት</item>
+    </plurals>
+    <plurals name="num_seconds_duration">
+        <item quantity="other">%d ሰከ</item>
+        <item quantity="one">%d ሰከ</item>
+    </plurals>
+    <plurals name="a11y_num_seconds_duration">
+        <item quantity="other">%d ሰከንዶች</item>
+        <item quantity="one">%d ሰከንድ</item>
+    </plurals>
+    <plurals name="num_minutes_duration">
+        <item quantity="other">%d ደቂቃዎች</item>
+        <item quantity="one">%d ደቂቃ</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_duration">
+        <item quantity="other">%d ደቂቃዎች</item>
+        <item quantity="one">%d ደቂቃ</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_in_the_past">
+        <item quantity="other">%d ደቂቃዎች</item>
+        <item quantity="one">%d ደቂቃ</item>
+    </plurals>
+    <plurals name="num_hours_in_the_past">
+        <item quantity="other">%d ሰዓቶች</item>
+        <item quantity="one">%d ሰዓት</item>
+    </plurals>
+    <plurals name="num_days_in_the_past">
+        <item quantity="other">%d ቀኖች</item>
+        <item quantity="one">%d ቀን</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_attachment">
+        <item quantity="other">%d አባሪዎች ላክ</item>
+        <item quantity="one">%d አባሪ ላክ</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_message_and_attachment">
+        <item quantity="other">መልዕክትን ከ %d አባሪዎች ጋር ይላኩ</item>
+        <item quantity="one">መልዕክትን ከ %d አባሪ ጋር ይላኩ</item>
+    </plurals>
+    <plurals name="comments">
+        <item quantity="other">%d አስተያየቶች</item>
+        <item quantity="one">%d አስተያየት</item>
+    </plurals>
+    <plurals name="notification_multi_hangout">
+        <item quantity="other">ከ%d ሌሎች ጋር አንድ Hangout እንዲቀላቀሉ ጋብዘውዎታል</item>
+        <item quantity="one">ከ1 ሌላ ጋር አንድ Hangout እንዲቀላቀሉ ጋብዘውዎታል</item>
+    </plurals>
+    <plurals name="realtimechat_notification_new_messages">
+        <item quantity="other">%d አዲስ መልዕክቶች</item>
+        <item quantity="one">%d አዲስ መልዕክት</item>
+    </plurals>
+    <plurals name="redacted_multi_convo_text">
+        <item quantity="other">ከ%d ውይይቶች</item>
+        <item quantity="one">ከ%d ውይይት</item>
+    </plurals>
+    <plurals name="realtimechat_message_num_attachments">
+        <item quantity="other">%d አባሪዎች</item>
+        <item quantity="one">%d አባሪ</item>
+    </plurals>
+    <plurals name="realtimechat_invitation_notification_multiconversation_sender">
+        <item quantity="other">%d አዲስ Hangouts</item>
+        <item quantity="one">%d አዲስ Hangout</item>
+    </plurals>
+    <plurals name="hangout_on_air_viewer_count">
+        <item quantity="other">%d ተመልካቾች</item>
+        <item quantity="one">1 ተመልካች</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">%2$s ከ%3$s እና %1$d ሌሎች ጋር ሆነው ያደረጉት የቪዲዮ ጥሪ</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">የቪዲዮ ጥሪ ከ%2$s ከ%1$d ሌሎች ጋር</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">የድምጽ ጥሪ ከ%2$s ከ%3$s እና %1$d ሌሎች ጋር</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">የድምጽ ጥሪ ከ%2$s ከ%1$d ሌሎች ጋር</item>
+    </plurals>
+    <plurals name="dnd_hours">
+        <item quantity="other">%d ሰዓቶች</item>
+        <item quantity="one">1 ሰዓት</item>
+    </plurals>
+    <plurals name="dnd_minutes">
+        <item quantity="other">%d ደቂቃዎች</item>
+        <item quantity="one">1 ደቂቃ</item>
+    </plurals>
+    <plurals name="watermark_gallery_label">
+        <item quantity="other">በ%s ታይቷል</item>
+        <item quantity="one">በ%s ታይቷል</item>
+    </plurals>
+    <plurals name="focus_gallery_label">
+        <item quantity="other">%s ሁሉንም መልዕክቶች አንብበውታል።</item>
+        <item quantity="one">%s ሁሉንም መልዕክቶች አንብቦታል።</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="other">%1$d መልዕክቶች በ%2$d ውይይቶች ውስጥ</item>
+        <item quantity="one">%d መልዕክቶች በአንድ ውይይት ውስጥ</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">እርስዎን ከ %1$d ሌሎች ጋር ወደ Hangout ጋብዞውታል</item>
+        <item quantity="one">እርስዎን ከ %1$d ሌላ ጋር ወደ Hangout ጋብዞውታል</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation">
+        <item quantity="other">%2$s እና %1$d ሌሎች Hangout ማድረግ ይፈልጋሉ</item>
+        <item quantity="one">%2$s እና %1$d ሌላ Hangout ማድረግ ይፈልጋል</item>
+        <item quantity="few">%2$s እና %1$d ሌሎች Hangout ማድረግ ይፈልጋሉ</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation">
+        <item quantity="other">%1$d ሌሎች Hangout ማድረግ ይፈልጋሉ</item>
+        <item quantity="one">%1$d ሌላ Hangout ማድረግ ይፈልጋሉ</item>
+        <item quantity="few">%1$d ሌሎች Hangout ማድረግ ይፈልጋሉ</item>
+    </plurals>
+    <plurals name="items_attached_count">
+        <item quantity="other">%d ንጥል ነገሮች አባሪ ተደርገዋል</item>
+        <item quantity="zero">%d ንጥል ነገሮች አባሪ ተደርገዋል</item>
+        <item quantity="one">%d ንጥል ነገር አባሪ ተደርጓል</item>
+    </plurals>
+    <plurals name="items_forwarded_count">
+        <item quantity="other">%d ንጥል ነገሮች ተላልፈዋል</item>
+        <item quantity="zero">%d ንጥል ነገሮች ተላልፈዋል</item>
+        <item quantity="one">%d ንጥል ነገር ተላልፏል</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="other">%d ሳምንታት</item>
+        <item quantity="one">አንድ ሳምንት</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="other">%d ወራት</item>
+        <item quantity="one">አንድ ወር</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="other">%d ዓመታት</item>
+        <item quantity="one">አንድ ዓመት</item>
+    </plurals>
+    <plurals name="participant_count">
+        <item quantity="other">%d ተሳታፊዎች</item>
+        <item quantity="one">%d ተሳታፊ</item>
+    </plurals>
+    <plurals name="participant_count_history_off">
+        <item quantity="other">የ%d ተሳታፊዎች፣ ታሪክ ጠፍቷል</item>
+        <item quantity="one">የ%d ተሳታፊ፣ ታሪክ ጠፍቷል</item>
+    </plurals>
+    <plurals name="group_chat_additional_participant_count">
+        <item quantity="other">እና %d ሌሎች</item>
+        <item quantity="one">እና %d ሌላ</item>
+    </plurals>
+</resources>

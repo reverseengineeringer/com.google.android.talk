@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/widget" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:paddingTop="24.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/quantum_logo_hangouts_launcher_color_48" android:contentDescription="@string/app_name" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/quantum_bluegrey800" android:gravity="center_horizontal" android:paddingTop="24.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/widget_unavailable" />
+</LinearLayout>

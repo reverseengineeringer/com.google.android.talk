@@ -1,7 +1,219 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="messages_read">
-        <item quantity="other">Прочит. повід.: %s</item>
-        <item quantity="one">Прочит. повід.: %s</item>
+    <plurals name="conv_invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">Запрошує вас у чат ще зі стількома учасниками: %1$d</item>
+        <item quantity="one">Запрошує вас у чат ще з %1$d учасником</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation_invite_list">
+        <item quantity="other">Ще %1$d хочуть поспілкуватися в Hangouts</item>
+        <item quantity="one">Ще %1$d хоче поспілкуватися в Hangouts</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation_invite_list">
+        <item quantity="other">ще з кількома людьми (%1$d)</item>
+        <item quantity="one">ще з %1$d людиною</item>
+    </plurals>
+    <plurals name="gallery_picker_max_count_reached_message">
+        <item quantity="other">Максимальна кількість вкладених файлів, що можна вибрати: %d.</item>
+        <item quantity="one">Можна вибрати лише 1 вкладений файл.</item>
+    </plurals>
+    <plurals name="num_minutes_in_the_past">
+        <item quantity="other">%d хв</item>
+        <item quantity="one">%d хв</item>
+    </plurals>
+    <plurals name="elapsed_minutes">
+        <item quantity="other">%d хв тому</item>
+        <item quantity="one">%d хв тому</item>
+    </plurals>
+    <plurals name="elapsed_minutes_announce">
+        <item quantity="other">%d хв тому</item>
+        <item quantity="one">%d хвилину тому</item>
+    </plurals>
+    <plurals name="elapsed_hours">
+        <item quantity="other">%d год тому</item>
+        <item quantity="one">%d год тому</item>
+    </plurals>
+    <plurals name="elapsed_hours_announce">
+        <item quantity="other">%d год тому</item>
+        <item quantity="one">%d годину тому</item>
+    </plurals>
+    <plurals name="elapsed_days">
+        <item quantity="other">%d дн. тому</item>
+        <item quantity="one">%d дн. тому</item>
+    </plurals>
+    <plurals name="elapsed_days_announce">
+        <item quantity="other">%d дн. тому</item>
+        <item quantity="one">%d день тому</item>
+    </plurals>
+    <plurals name="elapsed_weeks">
+        <item quantity="other">%d тижн. тому</item>
+        <item quantity="one">%d тижн. тому</item>
+    </plurals>
+    <plurals name="elapsed_weeks_announce">
+        <item quantity="other">%d тижн. тому</item>
+        <item quantity="one">%d тиждень тому</item>
+    </plurals>
+    <plurals name="elapsed_months">
+        <item quantity="other">%d міс. тому</item>
+        <item quantity="one">%d міс. тому</item>
+    </plurals>
+    <plurals name="elapsed_months_announce">
+        <item quantity="other">%d міс. тому</item>
+        <item quantity="one">%d місяць тому</item>
+    </plurals>
+    <plurals name="num_seconds_duration">
+        <item quantity="other">%d с</item>
+        <item quantity="one">%d с</item>
+    </plurals>
+    <plurals name="a11y_num_seconds_duration">
+        <item quantity="other">%d с</item>
+        <item quantity="one">%d секунда</item>
+    </plurals>
+    <plurals name="num_minutes_duration">
+        <item quantity="other">%d хв</item>
+        <item quantity="one">%d хв</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_duration">
+        <item quantity="other">%d хв</item>
+        <item quantity="one">%d хвилина</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_in_the_past">
+        <item quantity="other">%d хв</item>
+        <item quantity="one">%d хвилина</item>
+    </plurals>
+    <plurals name="num_hours_in_the_past">
+        <item quantity="other">%d год</item>
+        <item quantity="one">%d година</item>
+    </plurals>
+    <plurals name="num_days_in_the_past">
+        <item quantity="other">%d дн.</item>
+        <item quantity="one">%d день</item>
+    </plurals>
+    <plurals name="one_up_comment_count">
+        <item quantity="other">%d comments</item>
+        <item quantity="one">%d коментар</item>
+        <item quantity="few">%d коментарі</item>
+        <item quantity="many">%d коментарів</item>
+    </plurals>
+    <plurals name="audience_hidden_user_count">
+        <item quantity="other">+%d others</item>
+        <item quantity="one">і ще %d особа</item>
+        <item quantity="few">і ще %d особи</item>
+        <item quantity="many">і ще %d осіб</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_attachment">
+        <item quantity="other">Надсилання вкладених файлів (%d)</item>
+        <item quantity="one">Надсилання %d вкладеного файлу</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_message_and_attachment">
+        <item quantity="other">Надсилання повідомлення з вкладеними файлами (%d)</item>
+        <item quantity="one">Надсилання повідомлення з %d вкладеним файлом</item>
+    </plurals>
+    <plurals name="comments">
+        <item quantity="other">Коментарів: %d</item>
+        <item quantity="one">Коментарів: %d</item>
+    </plurals>
+    <plurals name="notification_multi_hangout">
+        <item quantity="other">Запрошує вас у чат ще зі стількома учасниками: %d</item>
+        <item quantity="one">Запрошує вас у чат ще з 1 учасником</item>
+    </plurals>
+    <plurals name="realtimechat_notification_new_messages">
+        <item quantity="other">Нових повідомлень: %d</item>
+        <item quantity="one">%d нове повідомлення</item>
+    </plurals>
+    <plurals name="redacted_multi_convo_text">
+        <item quantity="other">У такій кількості бесід: %d</item>
+        <item quantity="one">В %d бесіді</item>
+    </plurals>
+    <plurals name="realtimechat_message_num_attachments">
+        <item quantity="other">Вкладених файлів: %d</item>
+        <item quantity="one">Вкладених файлів: %d</item>
+    </plurals>
+    <plurals name="realtimechat_invitation_notification_multiconversation_sender">
+        <item quantity="other">Нових сеансів Hangouts: %d</item>
+        <item quantity="one">Нових сеансів Hangouts: %d</item>
+    </plurals>
+    <plurals name="hangout_on_air_viewer_count">
+        <item quantity="other">Глядачів: %d</item>
+        <item quantity="one">1 глядач</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">%2$s запрошує на відеодзвінок, інші учасники: %3$s і ще %1$d</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">Учасники відеодзвінка: %2$s і ще %1$d</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">Голосовий чат користувача %2$s з користувачем %3$s і ще %1$d</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">Голосовий чат користувача %2$s зі стількома користувачами: %1$d</item>
+    </plurals>
+    <plurals name="dnd_hours">
+        <item quantity="other">%d год</item>
+        <item quantity="one">1 год.</item>
+    </plurals>
+    <plurals name="dnd_minutes">
+        <item quantity="other">%d хв</item>
+        <item quantity="one">1 хвилина</item>
+    </plurals>
+    <plurals name="watermark_gallery_label">
+        <item quantity="other">%s дочитали до цього повідомлення</item>
+        <item quantity="one">%s дочитує до цього повідомлення</item>
+    </plurals>
+    <plurals name="focus_gallery_label">
+        <item quantity="other">%s дочитали всі повідомлення.</item>
+        <item quantity="one">%s дочитує всі повідомлення.</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="other">Повідомлення (%1$d) у бесідах (%2$d)</item>
+        <item quantity="one">Повідомлення (%d) в 1 бесіді</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">Запрошує вас у чат ще зі стількома учасниками: %1$d</item>
+        <item quantity="one">Запрошує вас у чат ще з %1$d учасником</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation">
+        <item quantity="other">%2$s та ще %1$d хочуть поспілкуватися в Hangouts</item>
+        <item quantity="one">%2$s та ще %1$d хочуть поспілкуватися в Hangouts</item>
+        <item quantity="few">%2$s та ще %1$d хочуть поспілкуватися в Hangouts</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation">
+        <item quantity="other">Ще %1$d хочуть поспілкуватися в Hangouts</item>
+        <item quantity="one">І ще %1$d хоче поспілкуватися в Hangouts</item>
+        <item quantity="few">Ще %1$d хочуть поспілкуватися в Hangouts</item>
+    </plurals>
+    <plurals name="items_attached_count">
+        <item quantity="other">Вкладень: %d</item>
+        <item quantity="zero">Вкладень: %d</item>
+        <item quantity="one">Вкладень: %d</item>
+    </plurals>
+    <plurals name="items_forwarded_count">
+        <item quantity="other">Переслано вкладень: %d</item>
+        <item quantity="zero">Переслано вкладень: %d</item>
+        <item quantity="one">Переслано вкладень: %d</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="other">%d тижн.</item>
+        <item quantity="one">тиждень</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="other">%d міс.</item>
+        <item quantity="one">місяць</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="other">%d р.</item>
+        <item quantity="one">рік</item>
+    </plurals>
+    <plurals name="participant_count">
+        <item quantity="other">Учасників: %d</item>
+        <item quantity="one">%d учасник</item>
+    </plurals>
+    <plurals name="participant_count_history_off">
+        <item quantity="other">Учасників: %d, історію вимкнено</item>
+        <item quantity="one">%d учасник, історію вимкнено</item>
+    </plurals>
+    <plurals name="group_chat_additional_participant_count">
+        <item quantity="other">і ще %d</item>
+        <item quantity="one">і ще %d</item>
     </plurals>
 </resources>

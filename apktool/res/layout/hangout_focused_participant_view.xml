@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/quantum_black_100" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/hangout_focused_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/focused_avatar_background" android:background="@color/quantum_black_100" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/focused_avatar_image_group" android:background="@color/transparent" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:id="@id/focused_avatar_image_view" android:background="@drawable/hangout_avatar_border" android:padding="@dimen/hangout_avatar_border_thickness" android:layout_width="@dimen/hangout_avatar_border_diameter" android:layout_height="@dimen/hangout_avatar_border_diameter" />
+        </FrameLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/pstn_meta_data_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pstn_call_info_top_margin">
+            <TextView android:textSize="@dimen/pstn_call_info_font_size" android:textColor="@color/pstn_call_info" android:layout_gravity="center_horizontal" android:id="@id/cost_of_call_text_view" android:background="@color/transparent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/pstn_call_info_font_size" android:textColor="@color/pstn_call_info" android:layout_gravity="center_horizontal" android:id="@id/tycho_service_provider_view" android:background="@color/transparent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tycho_service_provider" />
+        </LinearLayout>
+        <com.google.android.apps.hangouts.util.modulized.ChronometerAccessible android:textSize="@dimen/hangout_time_in_call_font_size" android:textColor="@color/quantum_white_100" android:layout_gravity="center_horizontal" android:id="@id/chronometer_view" android:background="@color/transparent" android:focusable="true" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hangout_avatar_subscript_top_margin" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/hangout_volume_circle_color" />
+    <size android:height="@dimen/hangout_volume_circle_init_diameter" android:width="@dimen/hangout_volume_circle_init_diameter" />
+</shape>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="emoji_gallery_column_size">80.0dip</dimen>
+    <dimen name="emoji_gallery_height">346.0dip</dimen>
+    <dimen name="new_conversation_port_side_border">16.0dip</dimen>
+    <dimen name="new_conversation_land_top_border">100.0dip</dimen>
+    <dimen name="new_conversation_port_top_border">200.0dip</dimen>
+    <dimen name="emoji_gallery_vertical_spacing">16.0dip</dimen>
+</resources>

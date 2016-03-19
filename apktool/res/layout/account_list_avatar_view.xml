@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/avatar_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/avatar_placeholder" />
+    <ImageView android:id="@id/avatar_overlay" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/avatar_gray_overlay" />
+    <ImageView android:layout_gravity="bottom|center|right" android:id="@id/smsBadge" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:paddingBottom="@dimen/xs_space" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_carrier_sms_status_badge" />
+</merge>

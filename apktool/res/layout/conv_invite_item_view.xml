@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/invite_card_margins_horizontal" android:paddingTop="@dimen/invite_card_margins_vertical" android:paddingRight="@dimen/invite_card_margins_horizontal" android:paddingBottom="@dimen/invite_card_margins_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <view android:id="@id/conversationContent" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground" app:cardCornerRadius="4.0dip" app:cardElevation="2.0dip" app:cardUseCompatPadding="true" app:cardPreventCornerOverlap="true" class="com.google.android.apps.hangouts.invites.conversationinvitelist.impl.InviteItemView">
+        <LinearLayout android:orientation="vertical" android:id="@id/invite_card" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/inviter_info" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="top" android:id="@id/inviter_avatar" android:layout_width="@dimen/inviter_avatar_size" android:layout_height="@dimen/inviter_avatar_size" android:layout_margin="@dimen/inviter_avatar_margins" />
+                <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:id="@id/inviter_info_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:layout_toRightOf="@id/inviter_avatar">
+                    <TextView android:textStyle="@integer/appcompat_sans_serif_medium_textStyle" android:textColor="@color/text_black_87_percent" android:id="@id/inviter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@string/appcompat_sans_serif_medium_fontFamily" style="@style/ConvInviteListItemViewInviterStyle" />
+                    <TextView android:textColor="@color/text_black_54_percent" android:id="@id/inviter_details" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/inviter_details_margin_top" android:maxWidth="@dimen/inviter_info_max_width" android:maxLines="2" android:layout_below="@id/inviter" style="@style/ConvInviteListItemViewInviterDetailsStyle" />
+                    <TextView android:textColor="@color/text_black_54_percent" android:id="@id/inviter_details_extra" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/inviter_info_max_width" android:maxLines="1" android:layout_below="@id/inviter_details" android:layout_alignWithParentIfMissing="true" style="@style/ConvInviteListItemViewInviterDetailsStyle" />
+                    <FrameLayout android:id="@id/invite_text_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/inviter_text_margin_top" android:layout_below="@id/inviter_details_extra" android:layout_alignWithParentIfMissing="true" style="@style/ConvInviteListItemViewInviteTextWrapperStyle">
+                        <TextView android:textColor="@color/quantum_bluegrey900" android:id="@id/invite_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif" style="@style/RealTimeChat.ConversationList.LastMessage" />
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <RelativeLayout android:id="@id/ignore_accept_buttons" android:paddingLeft="@dimen/invite_card_inner_margin_left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/inviter_info">
+                <View android:id="@id/invite_divider" android:background="@color/quantum_bluegrey50" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <Button android:textColor="@color/text_black_54_percent" android:id="@id/ignore_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ignore_button" android:layout_below="@id/invite_divider" style="@style/ConvInviteListItemBorderlessButton" />
+                <Button android:textColor="@color/accept_button_text_color" android:id="@id/accept_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/accept_button" style="@style/InviteListItemAcceptInviteButtonStyle" />
+            </RelativeLayout>
+        </LinearLayout>
+    </view>
+</RelativeLayout>

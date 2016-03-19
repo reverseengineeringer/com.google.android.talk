@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="start|center" android:orientation="horizontal" android:id="@android:id/title" android:paddingTop="@dimen/dialog_text_view_padding" android:paddingBottom="@dimen/dialog_text_view_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Verifying Number" android:paddingStart="@dimen/dialog_text_view_padding" android:paddingEnd="@dimen/dialog_text_view_padding" style="@style/DialogWindowTitle" />
+    <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/progress_dialog_padding" android:paddingBottom="@dimen/progress_dialog_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/progress_dialog_padding" android:paddingEnd="@dimen/progress_dialog_padding">
+        <TextView android:id="@android:id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" style="@android:style/TextAppearance.Medium" />
+        <Space android:visibility="invisible" android:layout_width="@dimen/progress_dialog_spinner_spacing" android:layout_height="0.0dip" />
+        <ProgressBar android:id="@android:id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

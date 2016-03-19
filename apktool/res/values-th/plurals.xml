@@ -1,7 +1,215 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="messages_read">
-        <item quantity="other">%s ข้อความที่อ่านแล้ว</item>
-        <item quantity="one">%s ข้อความที่อ่านแล้ว</item>
+    <plurals name="conv_invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">เชิญให้คุณเข้าร่วมแฮงเอาท์กับอีก %1$d คน</item>
+        <item quantity="one">เชิญให้คุณเข้าร่วมแฮงเอาท์กับอีก %1$d คน</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation_invite_list">
+        <item quantity="other">อีก %1$d คนอยากจะแฮงเอาท์</item>
+        <item quantity="one">อีก %1$d คนอยากจะแฮงเอาท์</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation_invite_list">
+        <item quantity="other">กับอีก %1$d คน</item>
+        <item quantity="one">กับอีก %1$d คน</item>
+    </plurals>
+    <plurals name="gallery_picker_max_count_reached_message">
+        <item quantity="other">คุณสามารถเลือกไฟล์แนบได้ไม่เกิน %d ไฟล์</item>
+        <item quantity="one">คุณสามารถเลือกไฟล์แนบได้ไม่เกิน 1 ไฟล์</item>
+    </plurals>
+    <plurals name="num_minutes_in_the_past">
+        <item quantity="other">%d นาที</item>
+        <item quantity="one">%d นาที</item>
+    </plurals>
+    <plurals name="elapsed_minutes">
+        <item quantity="other">%d นาทีที่ผ่านมา</item>
+        <item quantity="one">%d นาทีที่ผ่านมา</item>
+    </plurals>
+    <plurals name="elapsed_minutes_announce">
+        <item quantity="other">%d นาทีที่ผ่านมา</item>
+        <item quantity="one">%d นาทีที่ผ่านมา</item>
+    </plurals>
+    <plurals name="elapsed_hours">
+        <item quantity="other">%d ชั่วโมงที่ผ่านมา</item>
+        <item quantity="one">%d ชั่วโมงที่ผ่านมา</item>
+    </plurals>
+    <plurals name="elapsed_hours_announce">
+        <item quantity="other">%d ชั่วโมงที่ผ่านมา</item>
+        <item quantity="one">%d ชั่วโมงที่ผ่านมา</item>
+    </plurals>
+    <plurals name="elapsed_days">
+        <item quantity="other">%d วันที่ผ่านมา</item>
+        <item quantity="one">%d วันที่ผ่านมา</item>
+    </plurals>
+    <plurals name="elapsed_days_announce">
+        <item quantity="other">%d วันที่ผ่านมา</item>
+        <item quantity="one">%d วันที่ผ่านมา</item>
+    </plurals>
+    <plurals name="elapsed_weeks">
+        <item quantity="other">%d สัปดาห์ที่ผ่านมา</item>
+        <item quantity="one">%d สัปดาห์ที่ผ่านมา</item>
+    </plurals>
+    <plurals name="elapsed_weeks_announce">
+        <item quantity="other">%d สัปดาห์ที่ผ่านมา</item>
+        <item quantity="one">%d สัปดาห์ที่ผ่านมา</item>
+    </plurals>
+    <plurals name="elapsed_months">
+        <item quantity="other">%d เดือนที่ผ่านมา</item>
+        <item quantity="one">%d เดือนที่ผ่านมา</item>
+    </plurals>
+    <plurals name="elapsed_months_announce">
+        <item quantity="other">%d เดือนที่ผ่านมา</item>
+        <item quantity="one">%d เดือนที่ผ่านมา</item>
+    </plurals>
+    <plurals name="num_seconds_duration">
+        <item quantity="other">%d วินาที</item>
+        <item quantity="one">%d วินาที</item>
+    </plurals>
+    <plurals name="a11y_num_seconds_duration">
+        <item quantity="other">%d วินาที</item>
+        <item quantity="one">%d วินาที</item>
+    </plurals>
+    <plurals name="num_minutes_duration">
+        <item quantity="other">%d นาที</item>
+        <item quantity="one">%d นาที</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_duration">
+        <item quantity="other">%d นาที</item>
+        <item quantity="one">%d นาที</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_in_the_past">
+        <item quantity="other">%d นาที</item>
+        <item quantity="one">%d นาที</item>
+    </plurals>
+    <plurals name="num_hours_in_the_past">
+        <item quantity="other">%d ชั่วโมง</item>
+        <item quantity="one">%d ชั่วโมง</item>
+    </plurals>
+    <plurals name="num_days_in_the_past">
+        <item quantity="other">%d วัน</item>
+        <item quantity="one">%d วัน</item>
+    </plurals>
+    <plurals name="one_up_comment_count">
+        <item quantity="other">%d ความคิดเห็น</item>
+        <item quantity="one">%d ความคิดเห็น</item>
+    </plurals>
+    <plurals name="audience_hidden_user_count">
+        <item quantity="other">และอีก %d</item>
+        <item quantity="one">และอีก 1</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_attachment">
+        <item quantity="other">ส่งไฟล์แนบ %d ไฟล์</item>
+        <item quantity="one">ส่งไฟล์แนบ %d ไฟล์</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_message_and_attachment">
+        <item quantity="other">ส่งข้อความพร้อมไฟล์แนบ %d ไฟล์</item>
+        <item quantity="one">ส่งข้อความพร้อมไฟล์แนบ %d ไฟล์</item>
+    </plurals>
+    <plurals name="comments">
+        <item quantity="other">%d ความคิดเห็น</item>
+        <item quantity="one">%d ความคิดเห็น</item>
+    </plurals>
+    <plurals name="notification_multi_hangout">
+        <item quantity="other">เชิญให้คุณเข้าร่วมแฮงเอาท์กับอีก %d คน</item>
+        <item quantity="one">เชิญให้คุณเข้าร่วมแฮงเอาท์กับอีก 1 คน</item>
+    </plurals>
+    <plurals name="realtimechat_notification_new_messages">
+        <item quantity="other">%d ข้อความใหม่</item>
+        <item quantity="one">%d ข้อความใหม่</item>
+    </plurals>
+    <plurals name="redacted_multi_convo_text">
+        <item quantity="other">จาก %d การสนทนา</item>
+        <item quantity="one">จาก %d การสนทนา</item>
+    </plurals>
+    <plurals name="realtimechat_message_num_attachments">
+        <item quantity="other">%d ไฟล์แนบ</item>
+        <item quantity="one">%d ไฟล์แนบ</item>
+    </plurals>
+    <plurals name="realtimechat_invitation_notification_multiconversation_sender">
+        <item quantity="other">แฮงเอาท์ใหม่ %d รายการ</item>
+        <item quantity="one">แฮงเอาท์ใหม่ %d รายการ</item>
+    </plurals>
+    <plurals name="hangout_on_air_viewer_count">
+        <item quantity="other">ผู้ดู %d ราย</item>
+        <item quantity="one">ผู้ดู 1 ราย</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">แฮงเอาท์วิดีโอจาก %2$s กับ %3$s และคนอื่นๆ อีก %1$d คน</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">แฮงเอาท์วิดีโอจาก %2$s กับอีก %1$d คน</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">การโทรด้วยเสียงจาก %2$s กับ %3$s และอีก %1$d คน</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">การโทรด้วยเสียงจาก %2$s กับอีก %1$d คน</item>
+    </plurals>
+    <plurals name="dnd_hours">
+        <item quantity="other">%d ชั่วโมง</item>
+        <item quantity="one">1 ชั่วโมง</item>
+    </plurals>
+    <plurals name="dnd_minutes">
+        <item quantity="other">%d นาที</item>
+        <item quantity="one">1 นาที</item>
+    </plurals>
+    <plurals name="watermark_gallery_label">
+        <item quantity="other">%s เห็นแล้ว</item>
+        <item quantity="one">%s เห็นแล้ว</item>
+    </plurals>
+    <plurals name="focus_gallery_label">
+        <item quantity="other">%s อ่านข้อความทั้งหมดแล้ว</item>
+        <item quantity="one">%s อ่านข้อความทั้งหมดแล้ว</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="other">%1$d ข้อความในการสนทนา %2$d รายการ</item>
+        <item quantity="one">%d ข้อความในการสนทนาเดียว</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">เชิญให้คุณเข้าร่วมแฮงเอาท์กับอีก %1$d คน</item>
+        <item quantity="one">เชิญให้คุณเข้าร่วมแฮงเอาท์กับอีก %1$d คน</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation">
+        <item quantity="other">%2$s และอีก %1$d คนอยากจะแฮงเอาท์</item>
+        <item quantity="one">%2$s และอีก %1$d คนอยากจะแฮงเอาท์</item>
+        <item quantity="few">%2$s และอีก %1$d คนอยากจะแฮงเอาท์</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation">
+        <item quantity="other">อีก %1$d คนต้องการแฮงเอาท์</item>
+        <item quantity="one">อีก %1$d คนต้องการแฮงเอาท์</item>
+        <item quantity="few">อีก %1$d คนต้องการแฮงเอาท์</item>
+    </plurals>
+    <plurals name="items_attached_count">
+        <item quantity="other">แนบแล้ว %d รายการ</item>
+        <item quantity="zero">แนบแล้ว %d รายการ</item>
+        <item quantity="one">แนบแล้ว %d รายการ</item>
+    </plurals>
+    <plurals name="items_forwarded_count">
+        <item quantity="other">ส่งต่อแล้ว %d รายการ</item>
+        <item quantity="zero">ส่งต่อแล้ว %d รายการ</item>
+        <item quantity="one">ส่งต่อแล้ว %d รายการ</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="other">%d สัปดาห์</item>
+        <item quantity="one">หนึ่งสัปดาห์</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="other">%d เดือน</item>
+        <item quantity="one">หนึ่งเดือน</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="other">%d ปี</item>
+        <item quantity="one">หนึ่งปี</item>
+    </plurals>
+    <plurals name="participant_count">
+        <item quantity="other">ผู้เข้าร่วม %d คน</item>
+        <item quantity="one">ผู้เข้าร่วม %d คน</item>
+    </plurals>
+    <plurals name="participant_count_history_off">
+        <item quantity="other">ผู้เข้าร่วม %d คน ปิดประวัติ</item>
+        <item quantity="one">ผู้เข้าร่วม %d คน ปิดประวัติ</item>
+    </plurals>
+    <plurals name="group_chat_additional_participant_count">
+        <item quantity="other">และอีก %d คน</item>
+        <item quantity="one">และอีก %d คน</item>
     </plurals>
 </resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/clickablearea" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/expander_icon_width" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/account_address" android:background="@drawable/account_spinner" android:paddingLeft="@dimen/account_item_horiz_padding" android:paddingRight="@dimen/account_item_horiz_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" />
+</FrameLayout>

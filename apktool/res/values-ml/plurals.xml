@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="conv_invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">മറ്റ് %1$d പേരുമായുള്ള ഒരു Hangout-ലേക്ക് ക്ഷണിച്ചു</item>
+        <item quantity="one">മറ്റ് %1$d പേരുമായുള്ള ഒരു Hangout-ലേക്ക് നിങ്ങളെ ക്ഷണിച്ചു</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation_invite_list">
+        <item quantity="other">മറ്റ് %1$d പേർ Hangout ചെയ്യാൻ താൽപ്പര്യപ്പെടുന്നു</item>
+        <item quantity="one">മറ്റ് %1$d ആൾ Hangout ചെയ്യാൻ താൽപ്പര്യപ്പെടുന്നു</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation_invite_list">
+        <item quantity="other">മറ്റ് %1$d പേർക്കൊപ്പം</item>
+        <item quantity="one">മറ്റ് %1$d ആൾക്കൊപ്പം</item>
+    </plurals>
+    <plurals name="gallery_picker_max_count_reached_message">
+        <item quantity="other">നിങ്ങൾക്ക് %d അറ്റാച്ചുമെന്റുകൾ മാത്രമേ തിരഞ്ഞെടുക്കാനാവൂ.</item>
+        <item quantity="one">നിങ്ങൾക്ക് ഒരു അറ്റാച്ചുമെന്റ് മാത്രമേ തിരഞ്ഞെടുക്കാനാവൂ.</item>
+    </plurals>
+    <plurals name="num_minutes_in_the_past">
+        <item quantity="other">%d മി.</item>
+        <item quantity="one">%d മി.</item>
+    </plurals>
+    <plurals name="elapsed_minutes">
+        <item quantity="other">%dമി. മുമ്പ്</item>
+        <item quantity="one">%dമി. മുമ്പ്</item>
+    </plurals>
+    <plurals name="elapsed_minutes_announce">
+        <item quantity="other">%d മിനിറ്റ് മുമ്പ്</item>
+        <item quantity="one">%d മിനിറ്റ് മുമ്പ്</item>
+    </plurals>
+    <plurals name="elapsed_hours">
+        <item quantity="other">%dമ. മുമ്പ്</item>
+        <item quantity="one">%dമ. മുമ്പ്</item>
+    </plurals>
+    <plurals name="elapsed_hours_announce">
+        <item quantity="other">%d മണിക്കൂർ മുമ്പ്</item>
+        <item quantity="one">%d മണിക്കൂർ മുമ്പ്</item>
+    </plurals>
+    <plurals name="elapsed_days">
+        <item quantity="other">%dദി. മുമ്പ്</item>
+        <item quantity="one">%dദി. മുമ്പ്</item>
+    </plurals>
+    <plurals name="elapsed_days_announce">
+        <item quantity="other">%d ദിവസം മുമ്പ്</item>
+        <item quantity="one">%d ദിവസം മുമ്പ്</item>
+    </plurals>
+    <plurals name="elapsed_weeks">
+        <item quantity="other">%dആഴ്‌ച മുമ്പ്</item>
+        <item quantity="one">%d ആഴ്‌ച മുമ്പ്</item>
+    </plurals>
+    <plurals name="elapsed_weeks_announce">
+        <item quantity="other">%d ആഴ്‌ച മുമ്പ്</item>
+        <item quantity="one">%d ആഴ്‌ച മുമ്പ്</item>
+    </plurals>
+    <plurals name="elapsed_months">
+        <item quantity="other">%dമാസം മുമ്പ്</item>
+        <item quantity="one">%d മാസം മുമ്പ്</item>
+    </plurals>
+    <plurals name="elapsed_months_announce">
+        <item quantity="other">%d മാസം മുമ്പ്</item>
+        <item quantity="one">%d മാസം മുമ്പ്</item>
+    </plurals>
+    <plurals name="num_seconds_duration">
+        <item quantity="other">%d സെ.</item>
+        <item quantity="one">%d സെ.</item>
+    </plurals>
+    <plurals name="a11y_num_seconds_duration">
+        <item quantity="other">%d സെക്കൻഡ്</item>
+        <item quantity="one">%d സെക്കൻഡ്</item>
+    </plurals>
+    <plurals name="num_minutes_duration">
+        <item quantity="other">%d മി.</item>
+        <item quantity="one">%d മി.</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_duration">
+        <item quantity="other">%d മിനിറ്റ്</item>
+        <item quantity="one">%d മിനിറ്റ്</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_in_the_past">
+        <item quantity="other">%d മിനിറ്റ്</item>
+        <item quantity="one">%d മിനിറ്റ്</item>
+    </plurals>
+    <plurals name="num_hours_in_the_past">
+        <item quantity="other">%d മണിക്കൂർ</item>
+        <item quantity="one">%d മണിക്കൂർ</item>
+    </plurals>
+    <plurals name="num_days_in_the_past">
+        <item quantity="other">%d ദിവസം</item>
+        <item quantity="one">%d ദിവസം</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_attachment">
+        <item quantity="other">%d അറ്റാച്ചുമെന്റുകൾ അയയ്‌ക്കുക</item>
+        <item quantity="one">%d അറ്റാച്ചുമെന്റ് അയയ്‌ക്കുക</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_message_and_attachment">
+        <item quantity="other">%d അറ്റാച്ചുമെന്റുകൾ ഉൾപ്പെടെ അയയ്‌ക്കുക</item>
+        <item quantity="one">%d അറ്റാച്ചുമെന്റ് ഉൾപ്പെടെ സന്ദേശം അയയ്‌ക്കുക</item>
+    </plurals>
+    <plurals name="comments">
+        <item quantity="other">%d അഭിപ്രായങ്ങൾ</item>
+        <item quantity="one">%d അഭിപ്രായം</item>
+    </plurals>
+    <plurals name="notification_multi_hangout">
+        <item quantity="other">മറ്റ് %d പേർക്കൊപ്പം ഒരു Hangout-ലേക്ക് നിങ്ങളെ ക്ഷണിച്ചു</item>
+        <item quantity="one">മറ്റൊരാൾക്കൊപ്പം ഒരു Hangout-ലേക്ക് നിങ്ങളെ ക്ഷണിച്ചു</item>
+    </plurals>
+    <plurals name="realtimechat_notification_new_messages">
+        <item quantity="other">%d പുതിയ സന്ദേശങ്ങൾ</item>
+        <item quantity="one">%d പുതിയ സന്ദേശം</item>
+    </plurals>
+    <plurals name="redacted_multi_convo_text">
+        <item quantity="other">%d സംഭാഷണങ്ങളിൽ നിന്ന്</item>
+        <item quantity="one">%d സംഭാഷണത്തിൽ നിന്ന്</item>
+    </plurals>
+    <plurals name="realtimechat_message_num_attachments">
+        <item quantity="other">%d അറ്റാച്ചുമെന്റുകൾ</item>
+        <item quantity="one">%d അറ്റാച്ചുമെന്റ്</item>
+    </plurals>
+    <plurals name="realtimechat_invitation_notification_multiconversation_sender">
+        <item quantity="other">%d പുതിയ Hangouts</item>
+        <item quantity="one">%d പുതിയ Hangout</item>
+    </plurals>
+    <plurals name="hangout_on_air_viewer_count">
+        <item quantity="other">%d കാഴ്‌ചക്കാർ</item>
+        <item quantity="one">1 കാഴ്‌ചക്കാരന്‍‍</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">%3$s എന്നയാളിൽ നിന്നും മറ്റ് %1$d പേർക്കുമൊപ്പമുള്ള %2$s എന്നയാളുടെ വീഡിയോ കോൾ</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">%2$s എന്നയാൾ മറ്റ് %1$d പേർക്കൊപ്പം നടത്തിയ വീഡിയോ കോൾ</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">%3$s എന്നയാൾക്കും മറ്റ് %1$d പേർക്കുമൊപ്പമുള്ള %2$s എന്നയാളുടെ വോയ്‌സ് കോൾ</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">%1$d പേർക്കൊപ്പമുള്ള %2$s എന്നയാളുടെ വോയ്‌സ് കോൾ</item>
+    </plurals>
+    <plurals name="dnd_hours">
+        <item quantity="other">%d മണിക്കൂർ</item>
+        <item quantity="one">ഒരു മണിക്കൂർ</item>
+    </plurals>
+    <plurals name="dnd_minutes">
+        <item quantity="other">%d മിനിറ്റ്</item>
+        <item quantity="one">ഒരു മിനിറ്റ്</item>
+    </plurals>
+    <plurals name="watermark_gallery_label">
+        <item quantity="other">%s കണ്ടു</item>
+        <item quantity="one">%s കണ്ടു</item>
+    </plurals>
+    <plurals name="focus_gallery_label">
+        <item quantity="other">%s എല്ലാ സന്ദേശങ്ങളും വായിച്ചു.</item>
+        <item quantity="one">%s എല്ലാ സന്ദേശങ്ങളും വായിച്ചു.</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="other">%1$d സംഭാഷണങ്ങളിലെ %2$d സന്ദേശങ്ങൾ</item>
+        <item quantity="one">ഒരു സംഭാഷണത്തിലെ %d സന്ദേശങ്ങൾ</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">മറ്റ് %1$d പേരുമായുള്ള ഒരു Hangout-ലേക്ക് ക്ഷണിച്ചു</item>
+        <item quantity="one">മറ്റ് %1$d പേരുമായുള്ള ഒരു Hangout-ലേക്ക് നിങ്ങളെ ക്ഷണിച്ചു</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation">
+        <item quantity="other">%2$s എന്നയാളും മറ്റ് %1$d പേരും Hangout ചെയ്യാൻ താൽപ്പര്യപ്പെടുന്നു</item>
+        <item quantity="one">%2$s എന്നയാളും മറ്റ് %1$d ആളും Hangout ചെയ്യാൻ താൽപ്പര്യപ്പെടുന്നു</item>
+        <item quantity="few">%2$s എന്നയാളും മറ്റ് %1$d പേരും Hangout ചെയ്യാൻ താൽപ്പര്യപ്പെടുന്നു</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation">
+        <item quantity="other">മറ്റ് %1$d പേർ Hangout ചെയ്യാൻ താൽപ്പര്യപ്പെടുന്നു</item>
+        <item quantity="one">മറ്റ് %1$d എന്നയാൾ Hangout ചെയ്യാൻ താൽപ്പര്യപ്പെടുന്നു</item>
+        <item quantity="few">മറ്റ് %1$d പേർ Hangout ചെയ്യാൻ താൽപ്പര്യപ്പെടുന്നു</item>
+    </plurals>
+    <plurals name="items_attached_count">
+        <item quantity="other">%d ഇനങ്ങൾ അറ്റാച്ചുചെയ്‌തു</item>
+        <item quantity="zero">%d ഇനങ്ങൾ അറ്റാച്ചുചെയ്‌തു</item>
+        <item quantity="one">%d ഇനം അറ്റാച്ചുചെയ്‌തു</item>
+    </plurals>
+    <plurals name="items_forwarded_count">
+        <item quantity="other">%d ഇനങ്ങൾ കൈമാറി</item>
+        <item quantity="zero">%d ഇനങ്ങൾ കൈമാറി</item>
+        <item quantity="one">%d ഇനം കൈമാറി</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="other">%d ആഴ്ച</item>
+        <item quantity="one">ഒരു ആഴ്‌ച</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="other">%d മാസം</item>
+        <item quantity="one">ഒരു മാസം</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="other">%d വർഷം</item>
+        <item quantity="one">ഒരു വർഷം</item>
+    </plurals>
+    <plurals name="participant_count">
+        <item quantity="other">പങ്കെടുക്കുന്ന %d പേർ</item>
+        <item quantity="one">പങ്കെടുക്കുന്ന %d ആൾ</item>
+    </plurals>
+    <plurals name="participant_count_history_off">
+        <item quantity="other">പങ്കെടുക്കുന്ന %d പേർ, ചരിത്രം ഓഫാണ്</item>
+        <item quantity="one">പങ്കെടുക്കുന്ന %d ആൾ, ചരിത്രം ഓഫാണ്</item>
+    </plurals>
+    <plurals name="group_chat_additional_participant_count">
+        <item quantity="other">ഒപ്പം മറ്റ് %d പേരും</item>
+        <item quantity="one">ഒപ്പം മറ്റ് %d പേരും</item>
+    </plurals>
+</resources>

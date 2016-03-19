@@ -1,7 +1,219 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="messages_read">
-        <item quantity="other">Прочитанных сообщений: %s</item>
-        <item quantity="one">Прочитанных сообщений: %s</item>
+    <plurals name="conv_invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">Приглашает вас в чат, где есть ещё %1$d чел.</item>
+        <item quantity="one">Приглашает вас в чат, где есть ещё %1$d чел.</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation_invite_list">
+        <item quantity="other">%1$d чел. приглашают вас пообщаться в Hangouts</item>
+        <item quantity="one">%1$d чел. приглашает вас пообщаться в Hangouts</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation_invite_list">
+        <item quantity="other">и ещё %1$d чел.</item>
+        <item quantity="one">и ещё %1$d чел.</item>
+    </plurals>
+    <plurals name="gallery_picker_max_count_reached_message">
+        <item quantity="other">Прикреплять можно не более %d файлов.</item>
+        <item quantity="one">Нельзя прикреплять несколько файлов.</item>
+    </plurals>
+    <plurals name="num_minutes_in_the_past">
+        <item quantity="other">%d мин.</item>
+        <item quantity="one">%d мин.</item>
+    </plurals>
+    <plurals name="elapsed_minutes">
+        <item quantity="other">%d мин. назад</item>
+        <item quantity="one">%d мин. назад</item>
+    </plurals>
+    <plurals name="elapsed_minutes_announce">
+        <item quantity="other">%d мин. назад</item>
+        <item quantity="one">%d мин. назад</item>
+    </plurals>
+    <plurals name="elapsed_hours">
+        <item quantity="other">%d ч. назад</item>
+        <item quantity="one">%d ч. назад</item>
+    </plurals>
+    <plurals name="elapsed_hours_announce">
+        <item quantity="other">%d ч. назад</item>
+        <item quantity="one">%d ч. назад</item>
+    </plurals>
+    <plurals name="elapsed_days">
+        <item quantity="other">%d дн. назад</item>
+        <item quantity="one">%d день назад</item>
+    </plurals>
+    <plurals name="elapsed_days_announce">
+        <item quantity="other">%d дн. назад</item>
+        <item quantity="one">%d день назад</item>
+    </plurals>
+    <plurals name="elapsed_weeks">
+        <item quantity="other">%d нед. назад</item>
+        <item quantity="one">%d нед. назад</item>
+    </plurals>
+    <plurals name="elapsed_weeks_announce">
+        <item quantity="other">%d нед. назад</item>
+        <item quantity="one">%d нед. назад</item>
+    </plurals>
+    <plurals name="elapsed_months">
+        <item quantity="other">%d мес. назад</item>
+        <item quantity="one">%d мес. назад</item>
+    </plurals>
+    <plurals name="elapsed_months_announce">
+        <item quantity="other">%d мес. назад</item>
+        <item quantity="one">%d мес. назад</item>
+    </plurals>
+    <plurals name="num_seconds_duration">
+        <item quantity="other">%d сек.</item>
+        <item quantity="one">%d сек.</item>
+    </plurals>
+    <plurals name="a11y_num_seconds_duration">
+        <item quantity="other">%d сек.</item>
+        <item quantity="one">%d сек.</item>
+    </plurals>
+    <plurals name="num_minutes_duration">
+        <item quantity="other">%d мин.</item>
+        <item quantity="one">%d мин.</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_duration">
+        <item quantity="other">%d мин.</item>
+        <item quantity="one">%d мин.</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_in_the_past">
+        <item quantity="other">%d мин.</item>
+        <item quantity="one">%d мин.</item>
+    </plurals>
+    <plurals name="num_hours_in_the_past">
+        <item quantity="other">%d ч.</item>
+        <item quantity="one">%d ч.</item>
+    </plurals>
+    <plurals name="num_days_in_the_past">
+        <item quantity="other">%d дн.</item>
+        <item quantity="one">%d день</item>
+    </plurals>
+    <plurals name="one_up_comment_count">
+        <item quantity="other">%d comments</item>
+        <item quantity="one">%d комментарий</item>
+        <item quantity="few">%d комментария</item>
+        <item quantity="many">%d комментариев</item>
+    </plurals>
+    <plurals name="audience_hidden_user_count">
+        <item quantity="other">+%d others</item>
+        <item quantity="one">И ещё %d человек</item>
+        <item quantity="few">И ещё %d человека</item>
+        <item quantity="many">И ещё %d человек</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_attachment">
+        <item quantity="other">Отправить прикрепленные файлы (%d)</item>
+        <item quantity="one">Отправить %d прикрепленный файл</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_message_and_attachment">
+        <item quantity="other">Отправить сообщение с прикрепленными файлами (%d)</item>
+        <item quantity="one">Отправить сообщение с %d прикрепленным файлом</item>
+    </plurals>
+    <plurals name="comments">
+        <item quantity="other">Комментариев: %d</item>
+        <item quantity="one">Комментариев: %d</item>
+    </plurals>
+    <plurals name="notification_multi_hangout">
+        <item quantity="other">Приглашает вас в чат, где есть ещё %d чел.</item>
+        <item quantity="one">Приглашает вас в чат, где есть ещё 1 чел.</item>
+    </plurals>
+    <plurals name="realtimechat_notification_new_messages">
+        <item quantity="other">Новых сообщений: %d</item>
+        <item quantity="one">Новых сообщений: %d</item>
+    </plurals>
+    <plurals name="redacted_multi_convo_text">
+        <item quantity="other">В нескольких чатах (%d)</item>
+        <item quantity="one">В %d чате</item>
+    </plurals>
+    <plurals name="realtimechat_message_num_attachments">
+        <item quantity="other">Файлов: %d</item>
+        <item quantity="one">Файлов: %d</item>
+    </plurals>
+    <plurals name="realtimechat_invitation_notification_multiconversation_sender">
+        <item quantity="other">Новых чатов: %d</item>
+        <item quantity="one">Новых чатов: %d</item>
+    </plurals>
+    <plurals name="hangout_on_air_viewer_count">
+        <item quantity="other">Зрителей: %d</item>
+        <item quantity="one">Зрителей: 1</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">%2$s приглашает вас на видеовстречу (также участвуют %3$s и ещё %1$d чел.)</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">%2$s приглашает вас на видеовстречу (ещё участников: %1$d)</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">%2$s приглашает вас в голосовой чат (также участвуют %3$s и ещё %1$d чел.)</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">%2$s приглашает вас в голосовой чат (также участвует ещё %1$d чел.)</item>
+    </plurals>
+    <plurals name="dnd_hours">
+        <item quantity="other">%d ч.</item>
+        <item quantity="one">1 ч.</item>
+    </plurals>
+    <plurals name="dnd_minutes">
+        <item quantity="other">%d мин.</item>
+        <item quantity="one">1 мин.</item>
+    </plurals>
+    <plurals name="watermark_gallery_label">
+        <item quantity="other">Кто прочитал: %s</item>
+        <item quantity="one">Кто прочитал: %s</item>
+    </plurals>
+    <plurals name="focus_gallery_label">
+        <item quantity="other">%s прочитали все сообщения.</item>
+        <item quantity="one">Пользователь %s прочитал все сообщения.</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="other">Чатов: %1$d. Сообщений: %2$d.</item>
+        <item quantity="one">Сообщений в чате: %d</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">Приглашает вас в чат, где есть ещё %1$d чел.</item>
+        <item quantity="one">Приглашает вас в чат, где есть ещё %1$d чел.</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation">
+        <item quantity="other">%2$s и ещё %1$d чел. приглашают вас пообщаться в Hangouts</item>
+        <item quantity="one">%2$s и ещё %1$d чел. приглашают вас пообщаться в Hangouts</item>
+        <item quantity="few">%2$s и ещё %1$d чел. приглашают вас пообщаться в Hangouts</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation">
+        <item quantity="other">Приглашают пообщаться в Hangouts: ещё %1$d чел.</item>
+        <item quantity="one">Приглашают пообщаться в Hangouts: ещё %1$d чел.</item>
+        <item quantity="few">Приглашают пообщаться в Hangouts: ещё %1$d чел.</item>
+    </plurals>
+    <plurals name="items_attached_count">
+        <item quantity="other">Прикреплено файлов: %d</item>
+        <item quantity="zero">Прикреплено файлов: %d</item>
+        <item quantity="one">Прикреплено файлов: %d</item>
+    </plurals>
+    <plurals name="items_forwarded_count">
+        <item quantity="other">Переслали файлов: %d</item>
+        <item quantity="zero">Переслали файлов: %d</item>
+        <item quantity="one">Переслали файлов: %d</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="other">%d нед.</item>
+        <item quantity="one">недели</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="other">%d мес.</item>
+        <item quantity="one">месяца</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="other">%d лет</item>
+        <item quantity="one">года</item>
+    </plurals>
+    <plurals name="participant_count">
+        <item quantity="other">Участников: %d</item>
+        <item quantity="one">%d участник</item>
+    </plurals>
+    <plurals name="participant_count_history_off">
+        <item quantity="other">Участников: %d, история отключена</item>
+        <item quantity="one">%d участник, история отключена</item>
+    </plurals>
+    <plurals name="group_chat_additional_participant_count">
+        <item quantity="other">и ещё %d</item>
+        <item quantity="one">и ещё %d</item>
     </plurals>
 </resources>

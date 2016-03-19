@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/settings_label"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:title="@string/wifi_calling_enabled_title" android:key="wifi_calling_enabled_key" android:summary="@string/wifi_calling_enabled_summary" />
+    <Preference android:title="@string/selected_account_title" android:key="account_key" />
+    <SwitchPreference android:title="@string/ask_each_call_title" android:key="ask_each_call_key" />
+    <SwitchPreference android:title="@string/request_feedback_title" android:key="request_feedback_key" />
+</PreferenceScreen>

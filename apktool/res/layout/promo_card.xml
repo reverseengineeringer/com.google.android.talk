@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.hangouts.promo.AnnouncingRelativeLayout android:id="@id/promo_root" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/promo_buttons_stub" android:inflatedId="@id/promo_buttons" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <com.google.android.libraries.quantum.snackbar.Snackbar android:id="@id/promo_snackbar" android:background="@color/snackbar_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/promo_buttons" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_above="@id/promo_snackbar" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:fadeScrollbars="false">
+        <LinearLayout android:paddingLeft="@dimen/promo_edge_padding" android:paddingTop="@dimen/promo_edge_padding" android:paddingRight="@dimen/promo_edge_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ViewStub android:id="@id/promo_content_stub" android:inflatedId="@id/promo_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </ScrollView>
+</com.google.android.apps.hangouts.promo.AnnouncingRelativeLayout>

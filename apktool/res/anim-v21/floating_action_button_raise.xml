@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <objectAnimator android:duration="@android:integer/config_shortAnimTime" android:valueFrom="@dimen/floating_action_button_elevation_unpressed" android:valueTo="@dimen/floating_action_button_elevation_pressed" android:valueType="floatType" android:propertyName="translationZ" />
+    </item>
+    <item>
+        <objectAnimator android:duration="@android:integer/config_shortAnimTime" android:valueFrom="@dimen/floating_action_button_elevation_pressed" android:valueTo="@dimen/floating_action_button_elevation_unpressed" android:valueType="floatType" android:propertyName="translationZ" />
+    </item>
+</selector>

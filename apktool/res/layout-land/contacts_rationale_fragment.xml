@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_horizontal" android:paddingTop="24.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/contacts_rationale_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:paddingRight="@dimen/promo_edge_padding" android:paddingBottom="@dimen/promo_edge_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/promo_header_text_size" android:textColor="@color/quantum_black_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/contacts_rationale_title" />
+        <TextView android:textSize="@dimen/promo_body_text_size" android:textColor="@color/quantum_black_text" android:textColorLink="@color/quantum_black_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/contacts_rationale_explanation" />
+    </LinearLayout>
+</LinearLayout>

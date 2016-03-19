@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/new_conversation_root" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.Toolbar android:id="@id/hangouts_toolbar" android:background="@color/primary" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize" android:layout_alignParentTop="true" android:elevation="@dimen/toolbar_elevation" app:contentInsetStart="@dimen/content_inset" app:contentInsetLeft="@dimen/content_inset" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" style="?attr/toolbarStyle" logo="@android:color/transparent" xmlns:app="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/hangouts_toolbar" android:layout_alignParentBottom="true">
+        <FrameLayout android:id="@id/edit_participants_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.google.android.libraries.quantum.snackbar.Snackbar android:layout_gravity="bottom|center" android:id="@id/snackbar" android:background="@drawable/flat_snackbar_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:translationZ="30.0dip"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+    </FrameLayout>
+    <include layout="@layout/proceed_button_container" />
+</RelativeLayout>

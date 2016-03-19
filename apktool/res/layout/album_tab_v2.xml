@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/album_tab_image" android:paddingBottom="2.0dip" android:layout_width="@dimen/sticker_album_size_v2" android:layout_height="@dimen/sticker_album_size_v2" android:scaleType="fitCenter" android:contentDescription="image" />
+    <TextView android:gravity="bottom" android:id="@id/album_text" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:paddingBottom="15.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+</LinearLayout>

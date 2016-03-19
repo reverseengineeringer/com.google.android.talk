@@ -1,7 +1,219 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="messages_read">
-        <item quantity="other">Přečtené zprávy: %s</item>
-        <item quantity="one">Přečtené zprávy: %s</item>
+    <plurals name="conv_invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">Zve vás na Hangout s %1$d dalšími lidmi</item>
+        <item quantity="one">Zve vás na Hangout s %1$d dalším člověkem</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation_invite_list">
+        <item quantity="other">Hangoutu se chtějí účastnit další lidé (%1$d)</item>
+        <item quantity="one">Hangoutu se chtějí účastnit další lidé (%1$d)</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation_invite_list">
+        <item quantity="other">s %1$d dalšími lidmi</item>
+        <item quantity="one">s %1$d dalším člověkem</item>
+    </plurals>
+    <plurals name="gallery_picker_max_count_reached_message">
+        <item quantity="other">Maximální počet příloh, které můžete vybrat, je %d.</item>
+        <item quantity="one">Můžete vybrat pouze jednu přílohu.</item>
+    </plurals>
+    <plurals name="num_minutes_in_the_past">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="elapsed_minutes">
+        <item quantity="other">Před %d minutami</item>
+        <item quantity="one">před %d min</item>
+    </plurals>
+    <plurals name="elapsed_minutes_announce">
+        <item quantity="other">před %d min</item>
+        <item quantity="one">před %d min</item>
+    </plurals>
+    <plurals name="elapsed_hours">
+        <item quantity="other">Před %d hodinami</item>
+        <item quantity="one">před %d h</item>
+    </plurals>
+    <plurals name="elapsed_hours_announce">
+        <item quantity="other">před %d h</item>
+        <item quantity="one">před %d h</item>
+    </plurals>
+    <plurals name="elapsed_days">
+        <item quantity="other">Před %d dny</item>
+        <item quantity="one">před %d d</item>
+    </plurals>
+    <plurals name="elapsed_days_announce">
+        <item quantity="other">před %d d</item>
+        <item quantity="one">před %d d</item>
+    </plurals>
+    <plurals name="elapsed_weeks">
+        <item quantity="other">Před %d týdny</item>
+        <item quantity="one">před %d týd.</item>
+    </plurals>
+    <plurals name="elapsed_weeks_announce">
+        <item quantity="other">před %d týd.</item>
+        <item quantity="one">před %d týd.</item>
+    </plurals>
+    <plurals name="elapsed_months">
+        <item quantity="other">Před %d měsíci</item>
+        <item quantity="one">před %d měs.</item>
+    </plurals>
+    <plurals name="elapsed_months_announce">
+        <item quantity="other">před %d měs.</item>
+        <item quantity="one">před %d měs.</item>
+    </plurals>
+    <plurals name="num_seconds_duration">
+        <item quantity="other">%d s</item>
+        <item quantity="one">%d s</item>
+    </plurals>
+    <plurals name="a11y_num_seconds_duration">
+        <item quantity="other">%d s</item>
+        <item quantity="one">%d s</item>
+    </plurals>
+    <plurals name="num_minutes_duration">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_duration">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_in_the_past">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="num_hours_in_the_past">
+        <item quantity="other">%d h</item>
+        <item quantity="one">%d h</item>
+    </plurals>
+    <plurals name="num_days_in_the_past">
+        <item quantity="other">%d d</item>
+        <item quantity="one">%d d</item>
+    </plurals>
+    <plurals name="one_up_comment_count">
+        <item quantity="other">%d komentářů</item>
+        <item quantity="one">%d komentář</item>
+        <item quantity="few">%d komentáře</item>
+        <item quantity="many">%d comments</item>
+    </plurals>
+    <plurals name="audience_hidden_user_count">
+        <item quantity="other">+%d dalších</item>
+        <item quantity="one">+1 další</item>
+        <item quantity="few">+%d další</item>
+        <item quantity="many">+%d others</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_attachment">
+        <item quantity="other">Odeslat přílohy (celkem %d)</item>
+        <item quantity="one">Odeslat %d přílohu</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_message_and_attachment">
+        <item quantity="other">Odeslat zprávu s %d přílohami</item>
+        <item quantity="one">Odeslat zprávu s %d přílohou</item>
+    </plurals>
+    <plurals name="comments">
+        <item quantity="other">Komentáře: %d</item>
+        <item quantity="one">Komentáře: %d</item>
+    </plurals>
+    <plurals name="notification_multi_hangout">
+        <item quantity="other">Vás zve na Hangout s %d dalšími uživateli</item>
+        <item quantity="one">Vás zve na Hangout s jedním dalším uživatelem.</item>
+    </plurals>
+    <plurals name="realtimechat_notification_new_messages">
+        <item quantity="other">Nové zprávy: %d</item>
+        <item quantity="one">Nové zprávy: %d</item>
+    </plurals>
+    <plurals name="redacted_multi_convo_text">
+        <item quantity="other">Z %d konverzací</item>
+        <item quantity="one">Z %d konverzace</item>
+    </plurals>
+    <plurals name="realtimechat_message_num_attachments">
+        <item quantity="other">Přílohy: %d</item>
+        <item quantity="one">Přílohy: %d</item>
+    </plurals>
+    <plurals name="realtimechat_invitation_notification_multiconversation_sender">
+        <item quantity="other">Nové Hangouty: %d</item>
+        <item quantity="one">Nové Hangouty: %d</item>
+    </plurals>
+    <plurals name="hangout_on_air_viewer_count">
+        <item quantity="other">Diváci: %d</item>
+        <item quantity="one">1 divák</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">Videohovor od uživatele %2$s s uživatelem %3$s a %1$d dalšími</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">Videohovor od uživatele %2$s a %1$d dalších</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">Hlasový hovor od uživatele %2$s s uživatelem %3$s a %1$d dalšími uživateli</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">Hlasový hovor od uživatele %2$s s %1$d dalšími uživateli</item>
+    </plurals>
+    <plurals name="dnd_hours">
+        <item quantity="other">%d h</item>
+        <item quantity="one">1 h</item>
+    </plurals>
+    <plurals name="dnd_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">1 minuta</item>
+    </plurals>
+    <plurals name="watermark_gallery_label">
+        <item quantity="other">Zobrazeno uživateli %s</item>
+        <item quantity="one">Zobrazeno uživatelem %s</item>
+    </plurals>
+    <plurals name="focus_gallery_label">
+        <item quantity="other">%s si přečetli všechny zprávy.</item>
+        <item quantity="one">%s si přečetl(a) všechny zprávy.</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="other">Počet zpráv ve %1$d konverzacích: %2$d</item>
+        <item quantity="one">Počet zpráv v jedné konverzaci: %d</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">Zve vás na Hangout s %1$d dalšími lidmi</item>
+        <item quantity="one">Zve vás na Hangout s %1$d dalším člověkem</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation">
+        <item quantity="other">%2$s a %1$d dalších lidí vás zve na Hangout</item>
+        <item quantity="one">%2$s a %1$d další člověk vás zvou na Hangout</item>
+        <item quantity="few">%2$s a %1$d další lidé vás zvou na Hangout</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation">
+        <item quantity="other">Počet dalších uživatelů, kteří se chtějí setkat na Hangoutu: %1$d</item>
+        <item quantity="one">%1$d další se chce setkat na Hangoutu.</item>
+        <item quantity="few">Počet dalších uživatelů, kteří se chtějí setkat na Hangoutu: %1$d</item>
+    </plurals>
+    <plurals name="items_attached_count">
+        <item quantity="other">Přiložené položky: %d</item>
+        <item quantity="zero">Přiložené položky: %d</item>
+        <item quantity="one">Přiložené položky: %d</item>
+    </plurals>
+    <plurals name="items_forwarded_count">
+        <item quantity="other">Přeposlané položky: %d</item>
+        <item quantity="zero">Přeposlané položky: %d</item>
+        <item quantity="one">Přeposlané položky: %d</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="other">%d týd.</item>
+        <item quantity="one">jeden týden</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="other">%d měs.</item>
+        <item quantity="one">jeden měsíc</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="other">%d r.</item>
+        <item quantity="one">jeden rok</item>
+    </plurals>
+    <plurals name="participant_count">
+        <item quantity="other">Počet účastníků: %d</item>
+        <item quantity="one">Počet účastníků: %d</item>
+    </plurals>
+    <plurals name="participant_count_history_off">
+        <item quantity="other">Počet účastníků: %d, historie vypnuta</item>
+        <item quantity="one">Počet účastníků: %d, historie vypnuta</item>
+    </plurals>
+    <plurals name="group_chat_additional_participant_count">
+        <item quantity="other">a další účastníci: %d</item>
+        <item quantity="one">a další účastníci: %d</item>
     </plurals>
 </resources>

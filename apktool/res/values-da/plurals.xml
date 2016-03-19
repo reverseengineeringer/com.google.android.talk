@@ -1,7 +1,215 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="messages_read">
-        <item quantity="other">%s læste beskeder</item>
-        <item quantity="one">%s læst besked</item>
+    <plurals name="conv_invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">Inviterede dig til et Hangout med %1$d andre</item>
+        <item quantity="one">Inviterede dig til et Hangout med %1$d anden</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation_invite_list">
+        <item quantity="other">%1$d andre vil gerne starte et Hangout med dig</item>
+        <item quantity="one">%1$d anden vil gerne starte et Hangout med dig</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation_invite_list">
+        <item quantity="other">med %1$d andre</item>
+        <item quantity="one">med %1$d anden</item>
+    </plurals>
+    <plurals name="gallery_picker_max_count_reached_message">
+        <item quantity="other">Du kan kun vælge maksimalt %d vedhæftede filer.</item>
+        <item quantity="one">Du kan kun vælge maksimalt 1 vedhæftet fil.</item>
+    </plurals>
+    <plurals name="num_minutes_in_the_past">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">%d minut</item>
+    </plurals>
+    <plurals name="elapsed_minutes">
+        <item quantity="other">for %d min. siden</item>
+        <item quantity="one">for %d min. siden</item>
+    </plurals>
+    <plurals name="elapsed_minutes_announce">
+        <item quantity="other">for %d minutter siden</item>
+        <item quantity="one">for %d minut siden</item>
+    </plurals>
+    <plurals name="elapsed_hours">
+        <item quantity="other">for %d t. siden</item>
+        <item quantity="one">for %d t. siden</item>
+    </plurals>
+    <plurals name="elapsed_hours_announce">
+        <item quantity="other">for %d timer siden</item>
+        <item quantity="one">for %d time siden</item>
+    </plurals>
+    <plurals name="elapsed_days">
+        <item quantity="other">for %d dage siden</item>
+        <item quantity="one">for %d dag siden</item>
+    </plurals>
+    <plurals name="elapsed_days_announce">
+        <item quantity="other">for %d dage siden</item>
+        <item quantity="one">for %d dag siden</item>
+    </plurals>
+    <plurals name="elapsed_weeks">
+        <item quantity="other">for %d uger siden</item>
+        <item quantity="one">for %d uge siden</item>
+    </plurals>
+    <plurals name="elapsed_weeks_announce">
+        <item quantity="other">for %d uger siden</item>
+        <item quantity="one">for %d uge siden</item>
+    </plurals>
+    <plurals name="elapsed_months">
+        <item quantity="other">for %d mdr. siden</item>
+        <item quantity="one">for %d md. siden</item>
+    </plurals>
+    <plurals name="elapsed_months_announce">
+        <item quantity="other">for %d måneder siden</item>
+        <item quantity="one">for %d måned siden</item>
+    </plurals>
+    <plurals name="num_seconds_duration">
+        <item quantity="other">%d sekunder</item>
+        <item quantity="one">%d sekund</item>
+    </plurals>
+    <plurals name="a11y_num_seconds_duration">
+        <item quantity="other">%d sekunder</item>
+        <item quantity="one">%d sekund</item>
+    </plurals>
+    <plurals name="num_minutes_duration">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">%d minut</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_duration">
+        <item quantity="other">%d minutter</item>
+        <item quantity="one">%d minut</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_in_the_past">
+        <item quantity="other">%d minutter</item>
+        <item quantity="one">%d minut</item>
+    </plurals>
+    <plurals name="num_hours_in_the_past">
+        <item quantity="other">%d timer</item>
+        <item quantity="one">%d time</item>
+    </plurals>
+    <plurals name="num_days_in_the_past">
+        <item quantity="other">%d dage</item>
+        <item quantity="one">%d dag</item>
+    </plurals>
+    <plurals name="one_up_comment_count">
+        <item quantity="other">%d kommentarer</item>
+        <item quantity="one">%d kommentarer</item>
+    </plurals>
+    <plurals name="audience_hidden_user_count">
+        <item quantity="other">+%d andre</item>
+        <item quantity="one">+%d andre</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_attachment">
+        <item quantity="other">Send %d vedhæftede filer</item>
+        <item quantity="one">Send %d vedhæftet fil</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_message_and_attachment">
+        <item quantity="other">Send besked med %d vedhæftede filer</item>
+        <item quantity="one">Send besked med %d vedhæftet fil</item>
+    </plurals>
+    <plurals name="comments">
+        <item quantity="other">%d kommentarer</item>
+        <item quantity="one">%d kommentar</item>
+    </plurals>
+    <plurals name="notification_multi_hangout">
+        <item quantity="other">Har inviteret dig til et Hangout med %d andre</item>
+        <item quantity="one">Har inviteret dig til et Hangout med 1 anden</item>
+    </plurals>
+    <plurals name="realtimechat_notification_new_messages">
+        <item quantity="other">%d nye beskeder</item>
+        <item quantity="one">%d ny besked</item>
+    </plurals>
+    <plurals name="redacted_multi_convo_text">
+        <item quantity="other">Fra %d samtaler</item>
+        <item quantity="one">Fra %d samtale</item>
+    </plurals>
+    <plurals name="realtimechat_message_num_attachments">
+        <item quantity="other">%d vedhæftede filer</item>
+        <item quantity="one">%d vedhæftet fil</item>
+    </plurals>
+    <plurals name="realtimechat_invitation_notification_multiconversation_sender">
+        <item quantity="other">%d nye Hangouts</item>
+        <item quantity="one">%d nyt Hangout</item>
+    </plurals>
+    <plurals name="hangout_on_air_viewer_count">
+        <item quantity="other">%d passive brugere</item>
+        <item quantity="one">1 seer</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">Videoopkald fra %2$s med %3$s og %1$d andre</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">Videoopkald fra %2$s med %1$d andre</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">Taleopkald fra %2$s med %3$s og %1$d andre</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">Taleopkald fra %2$s med %1$d andre</item>
+    </plurals>
+    <plurals name="dnd_hours">
+        <item quantity="other">%d timer</item>
+        <item quantity="one">1 time</item>
+    </plurals>
+    <plurals name="dnd_minutes">
+        <item quantity="other">%d minutter</item>
+        <item quantity="one">1 minut</item>
+    </plurals>
+    <plurals name="watermark_gallery_label">
+        <item quantity="other">Set af %s</item>
+        <item quantity="one">Set af %s</item>
+    </plurals>
+    <plurals name="focus_gallery_label">
+        <item quantity="other">%s har læst alle beskeder.</item>
+        <item quantity="one">%s har læst alle beskeder.</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="other">%1$d beskeder i %2$d samtaler</item>
+        <item quantity="one">%d beskeder i 1 samtale</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">Inviterede dig til et Hangout med %1$d andre</item>
+        <item quantity="one">Inviterede dig til et Hangout med %1$d anden</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation">
+        <item quantity="other">%2$s og %1$d andrevil gerne starte et Hangout med dig</item>
+        <item quantity="one">%2$s og %1$d anden vil gerne starte et Hangout med dig</item>
+        <item quantity="few">%2$s og %1$d andrevil gerne starte et Hangout med dig</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation">
+        <item quantity="other">%1$d andre vil starte et Hangout</item>
+        <item quantity="one">%1$d anden vil starte et Hangout</item>
+        <item quantity="few">%1$d andre vil starte et Hangout</item>
+    </plurals>
+    <plurals name="items_attached_count">
+        <item quantity="other">%d elementer er vedhæftet</item>
+        <item quantity="zero">%d elementer er vedhæftet</item>
+        <item quantity="one">%d element er vedhæftet</item>
+    </plurals>
+    <plurals name="items_forwarded_count">
+        <item quantity="other">%d elementer er videresendt</item>
+        <item quantity="zero">%d elementer er videresendt</item>
+        <item quantity="one">%d element er videresendt</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="other">%d uger</item>
+        <item quantity="one">en uge</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="other">%d måneder</item>
+        <item quantity="one">en måned</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="other">%d år</item>
+        <item quantity="one">et år</item>
+    </plurals>
+    <plurals name="participant_count">
+        <item quantity="other">%d deltagere</item>
+        <item quantity="one">%d deltager</item>
+    </plurals>
+    <plurals name="participant_count_history_off">
+        <item quantity="other">%d deltagere, historik er slået fra</item>
+        <item quantity="one">%d deltager, historik er slået fra</item>
+    </plurals>
+    <plurals name="group_chat_additional_participant_count">
+        <item quantity="other">og %d andre</item>
+        <item quantity="one">og %d anden</item>
     </plurals>
 </resources>

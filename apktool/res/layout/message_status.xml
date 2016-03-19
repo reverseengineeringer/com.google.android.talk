@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.hangouts.views.MessageStatusView android:paddingTop="2.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="30.0dip" android:importantForAccessibility="noHideDescendants"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:id="@id/byline" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/RealTimeChat.Message.TimeSince" />
+        <TextView android:id="@id/separator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" · " style="@style/RealTimeChat.Message.TimeSince" />
+        <com.google.android.apps.hangouts.views.ScalingTextView android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/RealTimeChat.Message.TimeSince" />
+        <ImageView android:layout_gravity="center" android:id="@id/smsDeliveredBadge" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/s_space" android:src="@drawable/ic_sms_delivery_ok" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:id="@id/sendingStatusLine" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.google.android.apps.hangouts.views.ScalingTextView android:id="@id/sendingStatusText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ephemeral_message_sending" style="@style/RealTimeChat.Message.TimeSince" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:id="@id/smsNotDeliveredLine" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/smsNotDeliveredBadge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/s_space" android:src="@drawable/ic_sms_delivery_not_delivered" />
+        <TextView android:id="@id/smsNotDeliveredText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sms_not_delivered" style="@style/RealTimeChat.Message.BylineForFailure" />
+    </LinearLayout>
+</com.google.android.apps.hangouts.views.MessageStatusView>

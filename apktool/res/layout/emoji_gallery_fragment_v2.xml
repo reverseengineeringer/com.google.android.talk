@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v4.view.ViewPager android:id="@id/emoji_pager" android:background="@drawable/emoji_v2_top_bottom_border" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <com.google.android.apps.hangouts.views.EmojiCategoryPageIndicatorView android:id="@id/emoji_category_page_id_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/emoji_keyboard_key_btn_text_size" android:textStyle="bold" android:textColor="@color/quantum_bluegrey500" android:gravity="center" android:id="@id/emoji_keyboard_alphabet" android:background="@drawable/emoji_v2_alphabet_button" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/emoji_keyboard_key_btn_label" android:layout_weight="1.0" />
+            <TabHost android:id="@id/emoji_category_tabhost" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="6.0">
+                <TabWidget android:id="@android:id/tabs" android:layout_width="fill_parent" android:layout_height="42.0dip" android:tabStripEnabled="false" />
+                <FrameLayout android:id="@android:id/tabcontent" android:layout_width="0.0dip" android:layout_height="0.0dip">
+                    <View android:id="@id/recentEmojiFakeGrid" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+                    <View android:id="@id/facesEmojiFakeGrid" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+                    <View android:id="@id/objectsEmojiFakeGrid" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+                    <View android:id="@id/natureEmojiFakeGrid" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+                    <View android:id="@id/placesEmojiFakeGrid" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+                    <View android:id="@id/symbolsEmojiFakeGrid" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+                </FrameLayout>
+            </TabHost>
+            <ImageButton android:id="@id/emoji_keyboard_backspace" android:background="@drawable/emoji_v2_backspace_button" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/quantum_ic_backspace_grey600_24" android:layout_weight="1.0" android:contentDescription="@string/emoji_keyboard_backspace_content_description" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

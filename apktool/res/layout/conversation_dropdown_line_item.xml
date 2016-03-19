@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/contentFrame" android:background="@drawable/bg_transport_spinner_item" android:paddingLeft="4.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/transport_spinner_height" android:minWidth="@dimen/account_item_min_width" android:layout_centerVertical="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="@dimen/transport_spinner_height" android:layout_height="@dimen/transport_spinner_height">
+        <ImageView android:layout_gravity="center" android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" />
+        <TextView android:textSize="10.0dip" android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/sms_mms_hint_text" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextShadowLight4dpPaddingStyle" />
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/RealTimeChat.ConversationSwitcher.main" />
+        <TextView android:id="@id/subtext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/RealTimeChat.ConversationSwitcher.sub" />
+    </LinearLayout>
+</LinearLayout>

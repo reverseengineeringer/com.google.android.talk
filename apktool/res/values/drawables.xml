@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="notification_template_icon_bg">#3333b5e5</item>
+    <item type="drawable" name="photo_home_item_divider_color">#ff000000</item>
+    <item type="drawable" name="exit_hangout_active_state">#fff22121</item>
+    <item type="drawable" name="exit_hangout_pressed_state">#ffff4e4e</item>
+    <item type="drawable" name="exit_hangout_disabled_state">#ff303030</item>
+    <item type="drawable" name="join_hangout_active_state">@color/quantum_googgreen400</item>
+    <item type="drawable" name="join_hangout_pressed_state">@color/quantum_googgreen300</item>
+    <item type="drawable" name="class_zero_background">#7f040000</item>
+</resources>

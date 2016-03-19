@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="new_conversation_land_side_border_percentage">12</integer>
+</resources>

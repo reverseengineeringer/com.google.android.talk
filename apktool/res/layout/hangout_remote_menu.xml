@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/hangout_remote_menu_item_divider_height" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:layout_gravity="center" android:id="@id/action_icon" android:background="@drawable/remote_participant_menu_item_ring" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

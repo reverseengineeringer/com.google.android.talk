@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/promo_text" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/promo_header_text_size" android:textColor="@color/quantum_black_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/contacts_rationale_title" />
+        <TextView android:textSize="@dimen/promo_body_text_size" android:textColor="@color/quantum_black_text" android:textColorLink="@color/quantum_black_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/contacts_rationale_explanation" />
+    </LinearLayout>
+    <RelativeLayout android:paddingTop="@dimen/image_padding_top" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/promo_text" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/contacts_rationale_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,7 +1,217 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="messages_read">
-        <item quantity="other">%s (de) mesaje citite</item>
-        <item quantity="one">%s mesaj citit</item>
+    <plurals name="conv_invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">Te-a invitat la un Hangout cu încă %1$d persoane</item>
+        <item quantity="one">Te-a invitat la un Hangout cu încă %1$d persoană</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation_invite_list">
+        <item quantity="other">Încă %1$d (de) persoane vor să participe la Hangout</item>
+        <item quantity="one">Încă %1$d persoană vrea să participe la Hangout</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation_invite_list">
+        <item quantity="other">cu încă %1$d (de) persoane</item>
+        <item quantity="one">cu încă %1$d persoană</item>
+    </plurals>
+    <plurals name="gallery_picker_max_count_reached_message">
+        <item quantity="other">Poți să selectezi maximum %d (de) atașamente.</item>
+        <item quantity="one">Poți să selectezi maximum un atașament.</item>
+    </plurals>
+    <plurals name="num_minutes_in_the_past">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">%d min.</item>
+    </plurals>
+    <plurals name="elapsed_minutes">
+        <item quantity="other">Acum %d min.</item>
+        <item quantity="one">acum %d min.</item>
+    </plurals>
+    <plurals name="elapsed_minutes_announce">
+        <item quantity="other">acum %d minute</item>
+        <item quantity="one">acum %d minut</item>
+    </plurals>
+    <plurals name="elapsed_hours">
+        <item quantity="other">Acum %d ore</item>
+        <item quantity="one">acum %d oră</item>
+    </plurals>
+    <plurals name="elapsed_hours_announce">
+        <item quantity="other">acum %d ore</item>
+        <item quantity="one">acum %d oră</item>
+    </plurals>
+    <plurals name="elapsed_days">
+        <item quantity="other">Acum %d zile</item>
+        <item quantity="one">acum %d zi</item>
+    </plurals>
+    <plurals name="elapsed_days_announce">
+        <item quantity="other">acum %d zile</item>
+        <item quantity="one">acum %d zi</item>
+    </plurals>
+    <plurals name="elapsed_weeks">
+        <item quantity="other">Acum %d săpt.</item>
+        <item quantity="one">acum %d săpt.</item>
+    </plurals>
+    <plurals name="elapsed_weeks_announce">
+        <item quantity="other">acum %d săptămâni</item>
+        <item quantity="one">acum %d săptămână</item>
+    </plurals>
+    <plurals name="elapsed_months">
+        <item quantity="other">Acum %d luni</item>
+        <item quantity="one">acum %d lună</item>
+    </plurals>
+    <plurals name="elapsed_months_announce">
+        <item quantity="other">acum %d luni</item>
+        <item quantity="one">acum %d lună</item>
+    </plurals>
+    <plurals name="num_seconds_duration">
+        <item quantity="other">%d sec.</item>
+        <item quantity="one">%d sec.</item>
+    </plurals>
+    <plurals name="a11y_num_seconds_duration">
+        <item quantity="other">%d secunde</item>
+        <item quantity="one">%d secundă</item>
+    </plurals>
+    <plurals name="num_minutes_duration">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">%d min.</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_duration">
+        <item quantity="other">%d minute</item>
+        <item quantity="one">%d minut</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_in_the_past">
+        <item quantity="other">%d minute</item>
+        <item quantity="one">%d minut</item>
+    </plurals>
+    <plurals name="num_hours_in_the_past">
+        <item quantity="other">%d ore</item>
+        <item quantity="one">%d oră</item>
+    </plurals>
+    <plurals name="num_days_in_the_past">
+        <item quantity="other">%d zile</item>
+        <item quantity="one">%d zi</item>
+    </plurals>
+    <plurals name="one_up_comment_count">
+        <item quantity="other">%d de comentarii</item>
+        <item quantity="one">%d comentariu</item>
+        <item quantity="few">%d comentarii</item>
+    </plurals>
+    <plurals name="audience_hidden_user_count">
+        <item quantity="other">Încă %d de persoane</item>
+        <item quantity="one">Încă o persoană</item>
+        <item quantity="few">Încă %d persoane</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_attachment">
+        <item quantity="other">Trimite %d (de) atașamente</item>
+        <item quantity="one">Trimite %d atașament</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_message_and_attachment">
+        <item quantity="other">Trimite mesajul cu %d (de) atașamente</item>
+        <item quantity="one">Trimite mesajul cu %d atașament</item>
+    </plurals>
+    <plurals name="comments">
+        <item quantity="other">%d (de) comentarii</item>
+        <item quantity="one">%d comentariu</item>
+    </plurals>
+    <plurals name="notification_multi_hangout">
+        <item quantity="other">Te-a invitat la un Hangout împreună cu încă %d persoane</item>
+        <item quantity="one">Te-a invitat la un Hangout împreună cu încă o persoană</item>
+    </plurals>
+    <plurals name="realtimechat_notification_new_messages">
+        <item quantity="other">%d (de) mesaje noi</item>
+        <item quantity="one">%d mesaj nou</item>
+    </plurals>
+    <plurals name="redacted_multi_convo_text">
+        <item quantity="other">Din %d (de) conversații</item>
+        <item quantity="one">Din %d conversație</item>
+    </plurals>
+    <plurals name="realtimechat_message_num_attachments">
+        <item quantity="other">%d (de) atașamente</item>
+        <item quantity="one">%d atașament</item>
+    </plurals>
+    <plurals name="realtimechat_invitation_notification_multiconversation_sender">
+        <item quantity="other">%d (de) Hangouts noi</item>
+        <item quantity="one">%d Hangout nou</item>
+    </plurals>
+    <plurals name="hangout_on_air_viewer_count">
+        <item quantity="other">%d (de) spectatori</item>
+        <item quantity="one">1 spectator</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">Apel video de la %2$s cu %3$s și încă %1$d persoane</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">Apel video de la %2$s cu încă %1$d persoane</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">Apel vocal de la %2$s cu %3$s și încă %1$d persoane</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">Apel vocal de la %2$s cu încă %1$d persoane</item>
+    </plurals>
+    <plurals name="dnd_hours">
+        <item quantity="other">%d (de) ore</item>
+        <item quantity="one">1 oră</item>
+    </plurals>
+    <plurals name="dnd_minutes">
+        <item quantity="other">%d (de) minute</item>
+        <item quantity="one">Un minut</item>
+    </plurals>
+    <plurals name="watermark_gallery_label">
+        <item quantity="other">Văzută de %s</item>
+        <item quantity="one">Văzută de %s</item>
+    </plurals>
+    <plurals name="focus_gallery_label">
+        <item quantity="other">%s au citit toate mesajele.</item>
+        <item quantity="one">%s a citit toate mesajele.</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="other">%1$d (de) mesaje în %2$d (de) conversații</item>
+        <item quantity="one">%d (de) mesaje într-o conversație</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">Te-a invitat la un Hangout cu încă %1$d persoane</item>
+        <item quantity="one">Te-a invitat la un Hangout cu încă %1$d persoană</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation">
+        <item quantity="other">%2$s și încă %1$d de persoane vor să te invite la un Hangout</item>
+        <item quantity="one">%2$s și încă %1$d persoană vor să te invite la un Hangout</item>
+        <item quantity="few">%2$s și încă %1$d persoane vor să te invite la un Hangout</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation">
+        <item quantity="other">Încă %1$d doresc să participe la Hangout</item>
+        <item quantity="one">Încă %1$d dorește să participe la Hangout</item>
+        <item quantity="few">Încă %1$d doresc să participe la Hangout</item>
+    </plurals>
+    <plurals name="items_attached_count">
+        <item quantity="other">%d (de) articole atașate</item>
+        <item quantity="zero">%d articole atașate</item>
+        <item quantity="one">%d articol atașat</item>
+    </plurals>
+    <plurals name="items_forwarded_count">
+        <item quantity="other">%d (de) articole redirecționate</item>
+        <item quantity="zero">%d articole redirecționate</item>
+        <item quantity="one">%d articol redirecționat</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="other">%d (de) săptămâni</item>
+        <item quantity="one">o săptămână</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="other">%d (de) luni</item>
+        <item quantity="one">o lună</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="other">%d (de) ani</item>
+        <item quantity="one">un an</item>
+    </plurals>
+    <plurals name="participant_count">
+        <item quantity="other">%d (de) participanți</item>
+        <item quantity="one">%d participant</item>
+    </plurals>
+    <plurals name="participant_count_history_off">
+        <item quantity="other">%d (de) participanți, istoric dezactivat</item>
+        <item quantity="one">%d participant, istoric dezactivat</item>
+    </plurals>
+    <plurals name="group_chat_additional_participant_count">
+        <item quantity="other">și încă %d (de) participanți</item>
+        <item quantity="one">și încă %d participant</item>
     </plurals>
 </resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.hangouts.hangout.RemoteParticipantPopupMenu android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/popup_menu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/hangout_participant_display_area" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageButton android:id="@id/hangout_participant_button" android:background="@drawable/hangout_participant_view_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" android:importantForAccessibility="yes" style="@style/borderlessButtonStyle" />
+        <TextureView android:id="@id/hangout_participant_textureview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/hangout_participant_imageview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="@color/quantum_white_100" android:ellipsize="end" android:layout_gravity="center" android:id="@id/hangout_participant_name_view" android:padding="@dimen/hangout_pinned_participant_padding" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hangout_launch_signing_in" android:singleLine="true" android:importantForAccessibility="no" />
+        <com.google.android.apps.hangouts.hangout.ParticipantOverlays android:orientation="horizontal" android:id="@id/participant_overlay" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

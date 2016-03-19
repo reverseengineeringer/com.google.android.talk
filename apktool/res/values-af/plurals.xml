@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="conv_invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">"Het jou na 'n Hangout met %1$d ander mense genooi"</item>
+        <item quantity="one">"Het jou na 'n Hangout met %1$d ander persoon genooi"</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation_invite_list">
+        <item quantity="other">"%1$d ander mense wil aan 'n Hangout deelneem"</item>
+        <item quantity="one">"%1$d ander persoon wil aan 'n Hangout deelneem"</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation_invite_list">
+        <item quantity="other">met %1$d ander mense</item>
+        <item quantity="one">met %1$d ander persoon</item>
+    </plurals>
+    <plurals name="gallery_picker_max_count_reached_message">
+        <item quantity="other">"Jy kan 'n maksimum van %d aanhegsels kies."</item>
+        <item quantity="one">"Jy kan 'n maksimum van 1 aanhegsel kies."</item>
+    </plurals>
+    <plurals name="num_minutes_in_the_past">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">%d min.</item>
+    </plurals>
+    <plurals name="elapsed_minutes">
+        <item quantity="other">%d min. gelede</item>
+        <item quantity="one">%d min. gelede</item>
+    </plurals>
+    <plurals name="elapsed_minutes_announce">
+        <item quantity="other">%d minute gelede</item>
+        <item quantity="one">%d minuut gelede</item>
+    </plurals>
+    <plurals name="elapsed_hours">
+        <item quantity="other">%d u. gelede</item>
+        <item quantity="one">%d u. gelede</item>
+    </plurals>
+    <plurals name="elapsed_hours_announce">
+        <item quantity="other">%d uur gelede</item>
+        <item quantity="one">%d uur gelede</item>
+    </plurals>
+    <plurals name="elapsed_days">
+        <item quantity="other">%d d. gelede</item>
+        <item quantity="one">%d d. gelede</item>
+    </plurals>
+    <plurals name="elapsed_days_announce">
+        <item quantity="other">%d dae gelede</item>
+        <item quantity="one">%d dag gelede</item>
+    </plurals>
+    <plurals name="elapsed_weeks">
+        <item quantity="other">%d w. gelede</item>
+        <item quantity="one">%d w. gelede</item>
+    </plurals>
+    <plurals name="elapsed_weeks_announce">
+        <item quantity="other">%d weke gelede</item>
+        <item quantity="one">%d week gelede</item>
+    </plurals>
+    <plurals name="elapsed_months">
+        <item quantity="other">%d md. gelede</item>
+        <item quantity="one">%d md. gelede</item>
+    </plurals>
+    <plurals name="elapsed_months_announce">
+        <item quantity="other">%d maande gelede</item>
+        <item quantity="one">%d maand gelede</item>
+    </plurals>
+    <plurals name="num_seconds_duration">
+        <item quantity="other">%d sek.</item>
+        <item quantity="one">%d sek.</item>
+    </plurals>
+    <plurals name="a11y_num_seconds_duration">
+        <item quantity="other">%d sekondes</item>
+        <item quantity="one">%d sekonde</item>
+    </plurals>
+    <plurals name="num_minutes_duration">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">%d min.</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_duration">
+        <item quantity="other">%d minute</item>
+        <item quantity="one">%d minuut</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_in_the_past">
+        <item quantity="other">%d minute</item>
+        <item quantity="one">%d minuut</item>
+    </plurals>
+    <plurals name="num_hours_in_the_past">
+        <item quantity="other">%d uur</item>
+        <item quantity="one">%d uur</item>
+    </plurals>
+    <plurals name="num_days_in_the_past">
+        <item quantity="other">%d dae</item>
+        <item quantity="one">%d dag</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_attachment">
+        <item quantity="other">Stuur %d aanhegsels</item>
+        <item quantity="one">Stuur %d aanhegsel</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_message_and_attachment">
+        <item quantity="other">Stuur boodskap met %d aanhegsels</item>
+        <item quantity="one">Stuur boodskap met %d aanhegsel</item>
+    </plurals>
+    <plurals name="comments">
+        <item quantity="other">%d opmerkings</item>
+        <item quantity="one">%d opmerking</item>
+    </plurals>
+    <plurals name="notification_multi_hangout">
+        <item quantity="other">"Het jou na 'n Hangout saam met %d ander mense genooi"</item>
+        <item quantity="one">"Het jou na 'n Hangout saam met 1 ander persoon genooi"</item>
+    </plurals>
+    <plurals name="realtimechat_notification_new_messages">
+        <item quantity="other">%d nuwe boodskappe</item>
+        <item quantity="one">%d nuwe boodskap</item>
+    </plurals>
+    <plurals name="redacted_multi_convo_text">
+        <item quantity="other">Vanaf %d gesprekke</item>
+        <item quantity="one">Vanaf %d gesprek</item>
+    </plurals>
+    <plurals name="realtimechat_message_num_attachments">
+        <item quantity="other">%d aanhegsels</item>
+        <item quantity="one">%d aanhegsel</item>
+    </plurals>
+    <plurals name="realtimechat_invitation_notification_multiconversation_sender">
+        <item quantity="other">%d nuwe Hangouts</item>
+        <item quantity="one">%d nuwe Hangout</item>
+    </plurals>
+    <plurals name="hangout_on_air_viewer_count">
+        <item quantity="other">%d kykers</item>
+        <item quantity="one">1 kyker</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">Video-oproep van %2$s af met %3$s en %1$d ander mense</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">Video-oproep van %2$s af met %1$d ander mense</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">Stemoproep van %2$s af saam met %3$s en %1$d ander mense</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">Stemoproep van %2$s af saam met %1$d ander mense</item>
+    </plurals>
+    <plurals name="dnd_hours">
+        <item quantity="other">%d uur</item>
+        <item quantity="one">1 uur</item>
+    </plurals>
+    <plurals name="dnd_minutes">
+        <item quantity="other">%d minute</item>
+        <item quantity="one">1 minuut</item>
+    </plurals>
+    <plurals name="watermark_gallery_label">
+        <item quantity="other">Gesien deur %s</item>
+        <item quantity="one">Gesien deur %s</item>
+    </plurals>
+    <plurals name="focus_gallery_label">
+        <item quantity="other">%s het al die boodskappe gelees.</item>
+        <item quantity="one">%s het al die boodskappe gelees.</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="other">%1$d boodskappe in %2$d gesprekke</item>
+        <item quantity="one">%d boodskappe in een gesprek</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">"Het jou na 'n Hangout met %1$d ander mense genooi"</item>
+        <item quantity="one">"Het jou na 'n Hangout met %1$d ander persoon genooi"</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation">
+        <item quantity="other">"%2$s en %1$d ander mense wil 'n Hangout hou"</item>
+        <item quantity="one">"%2$s en %1$d ander persoon wil 'n Hangout hou"</item>
+        <item quantity="few">"%2$s en %1$d ander mense wil 'n Hangout hou"</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation">
+        <item quantity="other">"%1$d ander mense wil deelneem aan 'n Hangout"</item>
+        <item quantity="one">"%1$d ander persoon wil deelneem aan 'n Hangout"</item>
+        <item quantity="few">"%1$d ander mense wil deelneem aan 'n Hangout"</item>
+    </plurals>
+    <plurals name="items_attached_count">
+        <item quantity="other">%d items aangeheg</item>
+        <item quantity="zero">%d items aangeheg</item>
+        <item quantity="one">%d item aangeheg</item>
+    </plurals>
+    <plurals name="items_forwarded_count">
+        <item quantity="other">%d items aangestuur</item>
+        <item quantity="zero">%d items aangestuur</item>
+        <item quantity="one">%d item aangestuur</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="other">%d weke</item>
+        <item quantity="one">"'n week"</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="other">%d maande</item>
+        <item quantity="one">"'n maand"</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="other">%d jaar</item>
+        <item quantity="one">"'n jaar"</item>
+    </plurals>
+    <plurals name="participant_count">
+        <item quantity="other">%d deelnemers</item>
+        <item quantity="one">%d deelnemer</item>
+    </plurals>
+    <plurals name="participant_count_history_off">
+        <item quantity="other">%d deelnemers, geskiedenis af</item>
+        <item quantity="one">%d deelnemer, geskiedenis af</item>
+    </plurals>
+    <plurals name="group_chat_additional_participant_count">
+        <item quantity="other">en %d ander</item>
+        <item quantity="one">en %d ander</item>
+    </plurals>
+</resources>

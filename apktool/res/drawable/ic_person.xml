@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="false">
+        <bitmap android:src="@drawable/quantum_ic_person_black_24" android:alpha="@dimen/action_bar_tab_image_alpha_not_selected" />
+    </item>
+    <item android:state_selected="true">
+        <bitmap android:src="@drawable/quantum_ic_person_black_24" android:alpha="@dimen/action_bar_tab_image_alpha_selected" />
+    </item>
+</selector>

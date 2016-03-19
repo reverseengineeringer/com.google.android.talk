@@ -1,7 +1,223 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="messages_read">
-        <item quantity="other">%s من الرسائل المقروءة</item>
-        <item quantity="one">%s رسالة مقروءة</item>
+    <plurals name="conv_invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">‏دعوتك إلى جلسة Hangout مع %1$d آخرين</item>
+        <item quantity="one">‏دعوتك إلى جلسة Hangout مع %1$d آخرين</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation_invite_list">
+        <item quantity="other">‏%1$d آخرون يريدون إجراء Hangout</item>
+        <item quantity="one">‏%1$d آخر يريد إجراء Hangout</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation_invite_list">
+        <item quantity="other">مع %1$d آخرين</item>
+        <item quantity="one">مع %1$d آخر</item>
+    </plurals>
+    <plurals name="gallery_picker_max_count_reached_message">
+        <item quantity="other">يمكنك تحديد %d فقط كحد أقصى من المرفقات.</item>
+        <item quantity="one">يمكنك تحديد مرفق واحد فقط كحد أقصى.</item>
+    </plurals>
+    <plurals name="num_minutes_in_the_past">
+        <item quantity="other">%d دقائق</item>
+        <item quantity="one">%d دقيقة</item>
+    </plurals>
+    <plurals name="elapsed_minutes">
+        <item quantity="other">قبل %d دقيقة</item>
+        <item quantity="one">قبل %d دقيقة</item>
+    </plurals>
+    <plurals name="elapsed_minutes_announce">
+        <item quantity="other">قبل %d دقيقة (دقائق) مضت</item>
+        <item quantity="one">قبل %d دقيقة (دقائق) مضت</item>
+    </plurals>
+    <plurals name="elapsed_hours">
+        <item quantity="other">قبل %d ساعة</item>
+        <item quantity="one">قبل %d ساعة (ساعات) مضت</item>
+    </plurals>
+    <plurals name="elapsed_hours_announce">
+        <item quantity="other">قبل %d ساعة (ساعات) مضت</item>
+        <item quantity="one">قبل %d ساعة (ساعات) مضت</item>
+    </plurals>
+    <plurals name="elapsed_days">
+        <item quantity="other">قبل %d يوم</item>
+        <item quantity="one">قبل %d يوم (أيام) مضى</item>
+    </plurals>
+    <plurals name="elapsed_days_announce">
+        <item quantity="other">قبل %d يوم (أيام) مضى</item>
+        <item quantity="one">قبل %d يوم (أيام) مضى</item>
+    </plurals>
+    <plurals name="elapsed_weeks">
+        <item quantity="other">قبل %d ثانية</item>
+        <item quantity="one">قبل %d ثانية (ثوانٍ) مضت</item>
+    </plurals>
+    <plurals name="elapsed_weeks_announce">
+        <item quantity="other">قبل %d أسبوع (أسابيع) مضى</item>
+        <item quantity="one">قبل %d أسبوع (أسابيع) مضى</item>
+    </plurals>
+    <plurals name="elapsed_months">
+        <item quantity="other">قبل %d شهر</item>
+        <item quantity="one">قبل %d شهر (أشهر) مضى</item>
+    </plurals>
+    <plurals name="elapsed_months_announce">
+        <item quantity="other">قبل %d شهر (أشهر) مضى</item>
+        <item quantity="one">قبل %d شهر (أشهر) مضى</item>
+    </plurals>
+    <plurals name="num_seconds_duration">
+        <item quantity="other">%d ثوانٍ</item>
+        <item quantity="one">%d ثانية</item>
+    </plurals>
+    <plurals name="a11y_num_seconds_duration">
+        <item quantity="other">%d ثوانٍ</item>
+        <item quantity="one">%d ثانية</item>
+    </plurals>
+    <plurals name="num_minutes_duration">
+        <item quantity="other">%d دقائق</item>
+        <item quantity="one">%d دقيقة</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_duration">
+        <item quantity="other">%d دقائق</item>
+        <item quantity="one">%d دقيقة</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_in_the_past">
+        <item quantity="other">%d دقائق</item>
+        <item quantity="one">%d دقيقة</item>
+    </plurals>
+    <plurals name="num_hours_in_the_past">
+        <item quantity="other">%d ساعات</item>
+        <item quantity="one">%d ساعة</item>
+    </plurals>
+    <plurals name="num_days_in_the_past">
+        <item quantity="other">%d أيام</item>
+        <item quantity="one">%d يوم</item>
+    </plurals>
+    <plurals name="one_up_comment_count">
+        <item quantity="other">عدد التعليقات: %d</item>
+        <item quantity="zero">عدد التعليقات: %d</item>
+        <item quantity="one">عدد التعليقات: %d</item>
+        <item quantity="two">عدد التعليقات: %d</item>
+        <item quantity="few">عدد التعليقات: %d</item>
+        <item quantity="many">عدد التعليقات: %d</item>
+    </plurals>
+    <plurals name="audience_hidden_user_count">
+        <item quantity="other">عدد الأشخاص الإضافيين: %d</item>
+        <item quantity="zero">عدد الأشخاص الإضافيين: %d</item>
+        <item quantity="one">عدد الأشخاص الإضافيين: 1</item>
+        <item quantity="two">عدد الأشخاص الإضافيين: %d</item>
+        <item quantity="few">عدد الأشخاص الإضافيين: %d</item>
+        <item quantity="many">عدد الأشخاص الإضافيين: %d</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_attachment">
+        <item quantity="other">إرسال %d من المرفقات</item>
+        <item quantity="one">إرسال مرفق واحد (%d)</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_message_and_attachment">
+        <item quantity="other">إرسال الرسالة مع %d من المرفقات</item>
+        <item quantity="one">إرسال الرسالة مع مرفق واحد (%d)</item>
+    </plurals>
+    <plurals name="comments">
+        <item quantity="other">عدد التعليقات: %d</item>
+        <item quantity="one">عدد التعليقات: %d</item>
+    </plurals>
+    <plurals name="notification_multi_hangout">
+        <item quantity="other">‏تلقيت دعوة إلى Hangout مع %d من الأشخاص الآخرين</item>
+        <item quantity="one">‏أرسل إليك دعوة للانضمام إلى Hangout مع شخص آخر</item>
+    </plurals>
+    <plurals name="realtimechat_notification_new_messages">
+        <item quantity="other">%d من الرسائل الجديدة</item>
+        <item quantity="one">%d من الرسائل الجديدة</item>
+    </plurals>
+    <plurals name="redacted_multi_convo_text">
+        <item quantity="other">من %d محادثة (محادثات)</item>
+        <item quantity="one">من %d محادثة (محادثات)</item>
+    </plurals>
+    <plurals name="realtimechat_message_num_attachments">
+        <item quantity="other">عدد المرفقات: %d</item>
+        <item quantity="one">عدد المرفقات: %d</item>
+    </plurals>
+    <plurals name="realtimechat_invitation_notification_multiconversation_sender">
+        <item quantity="other">‏عدد جلسات Hangout الجديدة: %d</item>
+        <item quantity="one">‏عدد جلسات Hangout الجديدة: %d</item>
+    </plurals>
+    <plurals name="hangout_on_air_viewer_count">
+        <item quantity="other">%d من المشاهدين</item>
+        <item quantity="one">مشاهد واحد</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">مكالمة فيديو من %2$s مع %3$s و%1$d من الأشخاص الآخرين</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">مكالمة فيديو من %2$s مع %1$d من الأشخاص الآخرين</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">مكالمة صوتية من %2$s مع %3$s و%1$d من الأشخاص الآخرين</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">مكالمة صوتية من %2$s مع %1$d من الأشخاص الآخرين</item>
+    </plurals>
+    <plurals name="dnd_hours">
+        <item quantity="other">%d من الساعات</item>
+        <item quantity="one">ساعة واحدة</item>
+    </plurals>
+    <plurals name="dnd_minutes">
+        <item quantity="other">%d من الدقائق</item>
+        <item quantity="one">دقيقة واحدة</item>
+    </plurals>
+    <plurals name="watermark_gallery_label">
+        <item quantity="other">تمت رؤيته من قِبل %s</item>
+        <item quantity="one">تمت رؤيته من قِبل %s</item>
+    </plurals>
+    <plurals name="focus_gallery_label">
+        <item quantity="other">%s قرأوا جميع الرسائل.</item>
+        <item quantity="one">%s قرأوا جميع الرسائل.</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="other">رسائل %1$d في محادثات %2$d</item>
+        <item quantity="one">رسائل %d في محادثة واحدة</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">‏دعوتك إلى جلسة Hangout مع %1$d آخرين</item>
+        <item quantity="one">‏دعوتك إلى جلسة Hangout مع %1$d آخرين</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation">
+        <item quantity="other">‏%2$s و%1$d آخرون يريدون إجراء جلسة Hangout</item>
+        <item quantity="one">‏%2$s و %1$d آخرون يريدون إجراء جلسة Hangout</item>
+        <item quantity="few">‏%2$s و%1$d آخرون يريدون إجراء جلسة Hangout</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation">
+        <item quantity="other">‏%1$d من الأشخاص الآخرين يريدون إجراء Hangout</item>
+        <item quantity="one">‏%1$d آخر يريد إجراء Hangout</item>
+        <item quantity="few">‏%1$d أشخاص آخرين يريدون إجراء Hangout</item>
+    </plurals>
+    <plurals name="items_attached_count">
+        <item quantity="other">عدد العناصر المرفقة: %d</item>
+        <item quantity="zero">عدد العناصر المرفقة: %d</item>
+        <item quantity="one">عدد العناصر المرفقة: %d</item>
+    </plurals>
+    <plurals name="items_forwarded_count">
+        <item quantity="other">عدد العناصر التي تمت إعادة توجيهها: %d</item>
+        <item quantity="zero">عدد العناصر التي تمت إعادة توجيهها: %d</item>
+        <item quantity="one">عدد العناصر التي تمت إعادة توجيهها: %d</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="other">%d من الأسابيع</item>
+        <item quantity="one">أسبوع</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="other">%d من الأشهر</item>
+        <item quantity="one">شهر</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="other">%d من الأعوام</item>
+        <item quantity="one">عام</item>
+    </plurals>
+    <plurals name="participant_count">
+        <item quantity="other">%d من المشاركين</item>
+        <item quantity="one">%d مشارك</item>
+    </plurals>
+    <plurals name="participant_count_history_off">
+        <item quantity="other">%d من المشاركين، تم إيقاف السجل</item>
+        <item quantity="one">%d مشارك، تم إيقاف السجل</item>
+    </plurals>
+    <plurals name="group_chat_additional_participant_count">
+        <item quantity="other">و%d آخرون...</item>
+        <item quantity="one">و%d آخرون</item>
     </plurals>
 </resources>

@@ -1,6 +1,8 @@
 package com.google.common.collect;
 
-abstract interface MapMakerInternalMap$ReferenceEntry<K, V>
+import kwb;
+
+public abstract interface MapMakerInternalMap$ReferenceEntry<K, V>
 {
   public abstract long getExpirationTime();
   
@@ -18,7 +20,7 @@ abstract interface MapMakerInternalMap$ReferenceEntry<K, V>
   
   public abstract ReferenceEntry<K, V> getPreviousExpirable();
   
-  public abstract MapMakerInternalMap.ValueReference<K, V> getValueReference();
+  public abstract kwb<K, V> getValueReference();
   
   public abstract void setExpirationTime(long paramLong);
   
@@ -30,7 +32,7 @@ abstract interface MapMakerInternalMap$ReferenceEntry<K, V>
   
   public abstract void setPreviousExpirable(ReferenceEntry<K, V> paramReferenceEntry);
   
-  public abstract void setValueReference(MapMakerInternalMap.ValueReference<K, V> paramValueReference);
+  public abstract void setValueReference(kwb<K, V> paramkwb);
 }
 
 /* Location:

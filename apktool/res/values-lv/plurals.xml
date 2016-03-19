@@ -1,7 +1,217 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="messages_read">
-        <item quantity="other">%s izlasīti ziņojumi</item>
-        <item quantity="one">%s izlasīts ziņojums</item>
+    <plurals name="conv_invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">Uzaicināja jūs pievienoties Hangout sesijai ar vēl %1$d personām</item>
+        <item quantity="one">Uzaicināja jūs pievienoties Hangout sesijai ar vēl %1$d personu</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation_invite_list">
+        <item quantity="other">Vēl %1$d personas vēlas pievienoties Hangout sesijai</item>
+        <item quantity="one">Vēl %1$d persona vēlas pievienoties Hangout sesijai</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation_invite_list">
+        <item quantity="other">un vēl %1$d personas</item>
+        <item quantity="one">un vēl %1$d persona</item>
+    </plurals>
+    <plurals name="gallery_picker_max_count_reached_message">
+        <item quantity="other">Varat atlasīt tikai %d pielikumus.</item>
+        <item quantity="one">Varat atlasīt tikai 1 pielikumu.</item>
+    </plurals>
+    <plurals name="num_minutes_in_the_past">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="elapsed_minutes">
+        <item quantity="other">Pirms %d min</item>
+        <item quantity="one">pirms %d min</item>
+    </plurals>
+    <plurals name="elapsed_minutes_announce">
+        <item quantity="other">pirms %d minūtēm</item>
+        <item quantity="one">pirms %d minūtes</item>
+    </plurals>
+    <plurals name="elapsed_hours">
+        <item quantity="other">Pirms %d h</item>
+        <item quantity="one">pirms %d h</item>
+    </plurals>
+    <plurals name="elapsed_hours_announce">
+        <item quantity="other">pirms %d stundām</item>
+        <item quantity="one">pirms %d stundas</item>
+    </plurals>
+    <plurals name="elapsed_days">
+        <item quantity="other">Pirms %d dien.</item>
+        <item quantity="one">pirms %d dien.</item>
+    </plurals>
+    <plurals name="elapsed_days_announce">
+        <item quantity="other">pirms %d dienām</item>
+        <item quantity="one">pirms %d dienas</item>
+    </plurals>
+    <plurals name="elapsed_weeks">
+        <item quantity="other">Pirms %d ned.</item>
+        <item quantity="one">pirms %d ned.</item>
+    </plurals>
+    <plurals name="elapsed_weeks_announce">
+        <item quantity="other">pirms %d nedēļām</item>
+        <item quantity="one">pirms %d nedēļas</item>
+    </plurals>
+    <plurals name="elapsed_months">
+        <item quantity="other">Pirms %d mēn.</item>
+        <item quantity="one">pirms %d mēn.</item>
+    </plurals>
+    <plurals name="elapsed_months_announce">
+        <item quantity="other">pirms %d mēnešiem</item>
+        <item quantity="one">pirms %d mēneša</item>
+    </plurals>
+    <plurals name="num_seconds_duration">
+        <item quantity="other">%d s</item>
+        <item quantity="one">%d s</item>
+    </plurals>
+    <plurals name="a11y_num_seconds_duration">
+        <item quantity="other">%d sekundes</item>
+        <item quantity="one">%d sekunde</item>
+    </plurals>
+    <plurals name="num_minutes_duration">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_duration">
+        <item quantity="other">%d minūtes</item>
+        <item quantity="one">%d minūte</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_in_the_past">
+        <item quantity="other">%d minūtes</item>
+        <item quantity="one">%d minūte</item>
+    </plurals>
+    <plurals name="num_hours_in_the_past">
+        <item quantity="other">%d stundas</item>
+        <item quantity="one">%d stunda</item>
+    </plurals>
+    <plurals name="num_days_in_the_past">
+        <item quantity="other">%d dienas</item>
+        <item quantity="one">%d diena</item>
+    </plurals>
+    <plurals name="one_up_comment_count">
+        <item quantity="other">%d komentāri</item>
+        <item quantity="zero">%d komentāri</item>
+        <item quantity="one">%d komentārs</item>
+    </plurals>
+    <plurals name="audience_hidden_user_count">
+        <item quantity="other">+%d citi lietotāji</item>
+        <item quantity="zero">+%d citi lietotāji</item>
+        <item quantity="one">+%d cits lietotājs</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_attachment">
+        <item quantity="other">Sūtīt šādu skaitu pielikumu: %d</item>
+        <item quantity="one">Sūtīt šādu skaitu pielikumu: %d</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_message_and_attachment">
+        <item quantity="other">Sūtīt ziņu un šādu skaitu pielikumu: %d</item>
+        <item quantity="one">Sūtīt ziņu un šādu skaitu pielikumu: %d</item>
+    </plurals>
+    <plurals name="comments">
+        <item quantity="other">%d komentāri</item>
+        <item quantity="one">%d komentārs</item>
+    </plurals>
+    <plurals name="notification_multi_hangout">
+        <item quantity="other">uzaicināja jūs piedalīties Hangout sesijā ar vēl %d personām</item>
+        <item quantity="one">Uzaicināja jūs piedalīties Hangout sesijā ar vēl 1 personu</item>
+    </plurals>
+    <plurals name="realtimechat_notification_new_messages">
+        <item quantity="other">%d jauni ziņojumi</item>
+        <item quantity="one">%d jauns ziņojums</item>
+    </plurals>
+    <plurals name="redacted_multi_convo_text">
+        <item quantity="other">No %d sarunām</item>
+        <item quantity="one">No %d sarunas</item>
+    </plurals>
+    <plurals name="realtimechat_message_num_attachments">
+        <item quantity="other">%d pielikumi</item>
+        <item quantity="one">%d pielikums</item>
+    </plurals>
+    <plurals name="realtimechat_invitation_notification_multiconversation_sender">
+        <item quantity="other">%d jaunas Hangout sesijas</item>
+        <item quantity="one">%d jauna Hangout sesija</item>
+    </plurals>
+    <plurals name="hangout_on_air_viewer_count">
+        <item quantity="other">%d skatītāji</item>
+        <item quantity="one">1 skatītājs</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">Videozvans no lietotāja %2$s ar lietotāju %3$s un %1$d citiem lietotājiem</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">Videozvans no %2$s un %1$d citām personām.</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">Balss zvans no lietotājiem %2$s, %3$s un %1$d citiem lietotājiem</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">Balss zvans no lietotāja %2$s un %1$d citiem lietotājiem</item>
+    </plurals>
+    <plurals name="dnd_hours">
+        <item quantity="other">%d stundas</item>
+        <item quantity="one">1 stunda</item>
+    </plurals>
+    <plurals name="dnd_minutes">
+        <item quantity="other">%d minūtes</item>
+        <item quantity="one">1 minūte</item>
+    </plurals>
+    <plurals name="watermark_gallery_label">
+        <item quantity="other">Redzēja: %s</item>
+        <item quantity="one">Redzēja: %s</item>
+    </plurals>
+    <plurals name="focus_gallery_label">
+        <item quantity="other">%s izlasīja visus ziņojumus.</item>
+        <item quantity="one">%s izlasīja visus ziņojumus.</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="other">%1$d ziņojumi %2$d sarunās</item>
+        <item quantity="one">%d ziņojumi vienā sarunā</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">Uzaicināja jūs pievienoties Hangout sesijai ar vēl %1$d personām</item>
+        <item quantity="one">Uzaicināja jūs pievienoties Hangout sesijai ar vēl %1$d personu</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation">
+        <item quantity="other">%2$s un vēl %1$d personas vēlas pievienoties Hangout sesijai</item>
+        <item quantity="one">%2$s un vēl %1$d persona vēlas pievienoties Hangout sesijai</item>
+        <item quantity="few">%2$s un vēl %1$d personas vēlas pievienoties Hangout sesijai</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation">
+        <item quantity="other">Vēl %1$d personas vēlas piedalīties Hangout sesijā.</item>
+        <item quantity="one">Vēl %1$d persona vēlas piedalīties Hangout sesijā.</item>
+        <item quantity="few">Vēl %1$d personas vēlas piedalīties Hangout sesijā.</item>
+    </plurals>
+    <plurals name="items_attached_count">
+        <item quantity="other">Pievienoti %d vienumi</item>
+        <item quantity="zero">Pievienota %d vienumu</item>
+        <item quantity="one">Pievienots %d vienums</item>
+    </plurals>
+    <plurals name="items_forwarded_count">
+        <item quantity="other">Pārsūtīti %d vienumi</item>
+        <item quantity="zero">Pārsūtīta %d vienumu</item>
+        <item quantity="one">Pārsūtīts %d vienums</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="other">%d nedēļām</item>
+        <item quantity="one">nedēļu</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="other">%d mēnešiem</item>
+        <item quantity="one">mēnesi</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="other">%d gadiem</item>
+        <item quantity="one">gadu</item>
+    </plurals>
+    <plurals name="participant_count">
+        <item quantity="other">%d dalībnieki</item>
+        <item quantity="one">%d dalībnieks</item>
+    </plurals>
+    <plurals name="participant_count_history_off">
+        <item quantity="other">%d dalībnieki, vēsture netiek reģistrēta</item>
+        <item quantity="one">%d dalībnieks, vēsture netiek reģistrēta</item>
+    </plurals>
+    <plurals name="group_chat_additional_participant_count">
+        <item quantity="other">un vēl %d dalībnieki</item>
+        <item quantity="one">un vēl %d dalībnieks</item>
     </plurals>
 </resources>

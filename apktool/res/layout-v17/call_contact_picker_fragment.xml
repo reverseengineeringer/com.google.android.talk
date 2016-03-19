@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textSize="14.0sp" android:textColorHint="@color/make_phone_call_hint_color" android:id="@id/contact_searchbox" android:background="@color/quantum_white_100" android:paddingLeft="@dimen/m_space" android:paddingTop="@dimen/m_space" android:paddingRight="@dimen/m_space" android:paddingBottom="@dimen/m_space" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dialpad_edit_text_minimum_height" android:hint="@string/make_phone_call_hint_text_contacts" android:singleLine="true" />
+    <View style="@style/horizontalDividerStyle" />
+    <FrameLayout android:id="@id/recent_calls_list_fragment_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <FrameLayout android:id="@id/local_contacts_list_fragment_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <ImageView android:id="@id/dialpad_results_placeholder" android:background="@color/primary" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:src="@drawable/ic_dialpad_header" android:scaleType="centerInside" android:layout_weight="1.0" android:importantForAccessibility="no" />
+    <FrameLayout android:id="@id/phone_call_dialer_fragment_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="yes" />
+    <LinearLayout android:gravity="center" android:id="@id/invoke_dialer_container" android:background="@drawable/bg_btn_call" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/fake_action_bar_height" android:contentDescription="@string/dialpad_button" android:layoutDirection="locale">
+        <ImageButton android:layout_gravity="center" android:id="@id/invoke_dialer_button" android:background="@drawable/btn_call" android:clickable="false" android:layout_width="@dimen/fake_menu_button_min_width" android:layout_height="fill_parent" android:src="@drawable/ic_dialpad" android:importantForAccessibility="no" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/dialButtonContainer" android:background="@drawable/bg_btn_call" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/fake_action_bar_height" android:layoutDirection="locale">
+        <ImageButton android:state_enabled="false" android:id="@id/dialButton" android:background="@drawable/btn_call" android:clickable="false" android:layout_width="@dimen/fake_menu_button_min_width" android:layout_height="fill_parent" android:src="@drawable/ic_dial_action_call" android:contentDescription="@string/description_dial_button" />
+    </LinearLayout>
+</LinearLayout>

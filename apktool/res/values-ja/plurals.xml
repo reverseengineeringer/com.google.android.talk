@@ -1,7 +1,215 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="messages_read">
-        <item quantity="other">%s件の既読メッセージ</item>
-        <item quantity="one">%s件の既読メッセージ</item>
+    <plurals name="conv_invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">%1$d 人のユーザーが参加しているハングアウトにあなたを招待しました</item>
+        <item quantity="one">%1$d 人のユーザーが参加しているハングアウトにあなたを招待しました</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation_invite_list">
+        <item quantity="other">他%1$d人がハングアウトでの会話を希望しています</item>
+        <item quantity="one">他%1$d人がハングアウトでの会話を希望しています</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation_invite_list">
+        <item quantity="other">他%1$d人が参加</item>
+        <item quantity="one">他%1$d人が参加</item>
+    </plurals>
+    <plurals name="gallery_picker_max_count_reached_message">
+        <item quantity="other">選択できる添付ファイルは最大 %d 個です。</item>
+        <item quantity="one">選択できる添付ファイルは最大 1 個です。</item>
+    </plurals>
+    <plurals name="num_minutes_in_the_past">
+        <item quantity="other">%d分</item>
+        <item quantity="one">%d分</item>
+    </plurals>
+    <plurals name="elapsed_minutes">
+        <item quantity="other">%d分前</item>
+        <item quantity="one">%d分前</item>
+    </plurals>
+    <plurals name="elapsed_minutes_announce">
+        <item quantity="other">%d分前</item>
+        <item quantity="one">%d分前</item>
+    </plurals>
+    <plurals name="elapsed_hours">
+        <item quantity="other">%d時間前</item>
+        <item quantity="one">%d時間前</item>
+    </plurals>
+    <plurals name="elapsed_hours_announce">
+        <item quantity="other">%d時間前</item>
+        <item quantity="one">%d時間前</item>
+    </plurals>
+    <plurals name="elapsed_days">
+        <item quantity="other">%d日前</item>
+        <item quantity="one">%d日前</item>
+    </plurals>
+    <plurals name="elapsed_days_announce">
+        <item quantity="other">%d日前</item>
+        <item quantity="one">%d日前</item>
+    </plurals>
+    <plurals name="elapsed_weeks">
+        <item quantity="other">%d週間前</item>
+        <item quantity="one">%d週間前</item>
+    </plurals>
+    <plurals name="elapsed_weeks_announce">
+        <item quantity="other">%d週間前</item>
+        <item quantity="one">%d週間前</item>
+    </plurals>
+    <plurals name="elapsed_months">
+        <item quantity="other">%dか月前</item>
+        <item quantity="one">%dか月前</item>
+    </plurals>
+    <plurals name="elapsed_months_announce">
+        <item quantity="other">%dか月前</item>
+        <item quantity="one">%dか月前</item>
+    </plurals>
+    <plurals name="num_seconds_duration">
+        <item quantity="other">%d秒</item>
+        <item quantity="one">%d秒</item>
+    </plurals>
+    <plurals name="a11y_num_seconds_duration">
+        <item quantity="other">%d秒</item>
+        <item quantity="one">%d秒</item>
+    </plurals>
+    <plurals name="num_minutes_duration">
+        <item quantity="other">%d分</item>
+        <item quantity="one">%d分</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_duration">
+        <item quantity="other">%d分</item>
+        <item quantity="one">%d分</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_in_the_past">
+        <item quantity="other">%d分</item>
+        <item quantity="one">%d分</item>
+    </plurals>
+    <plurals name="num_hours_in_the_past">
+        <item quantity="other">%d時間</item>
+        <item quantity="one">%d時間</item>
+    </plurals>
+    <plurals name="num_days_in_the_past">
+        <item quantity="other">%d日</item>
+        <item quantity="one">%d日</item>
+    </plurals>
+    <plurals name="one_up_comment_count">
+        <item quantity="other">コメント%d件</item>
+        <item quantity="one">コメント%d件</item>
+    </plurals>
+    <plurals name="audience_hidden_user_count">
+        <item quantity="other">他%d人</item>
+        <item quantity="one">他1人</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_attachment">
+        <item quantity="other">%d個の添付ファイルを送信</item>
+        <item quantity="one">%d個の添付ファイルを送信</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_message_and_attachment">
+        <item quantity="other">メッセージと%d個の添付ファイルを送信</item>
+        <item quantity="one">メッセージと%d個の添付ファイルを送信</item>
+    </plurals>
+    <plurals name="comments">
+        <item quantity="other">%d件のコメント</item>
+        <item quantity="one">%d件のコメント</item>
+    </plurals>
+    <plurals name="notification_multi_hangout">
+        <item quantity="other">%d 人のユーザーが参加しているハングアウトにあなたを招待しました</item>
+        <item quantity="one">1 人のユーザーが参加しているハングアウトにあなたを招待しました</item>
+    </plurals>
+    <plurals name="realtimechat_notification_new_messages">
+        <item quantity="other">%d件の新しいメッセージ</item>
+        <item quantity="one">%d件の新しいメッセージ</item>
+    </plurals>
+    <plurals name="redacted_multi_convo_text">
+        <item quantity="other">%d件の会話</item>
+        <item quantity="one">%d件の会話</item>
+    </plurals>
+    <plurals name="realtimechat_message_num_attachments">
+        <item quantity="other">%d個の添付ファイル</item>
+        <item quantity="one">%d個の添付ファイル</item>
+    </plurals>
+    <plurals name="realtimechat_invitation_notification_multiconversation_sender">
+        <item quantity="other">新しいハングアウト%d件</item>
+        <item quantity="one">新しいハングアウト%d件</item>
+    </plurals>
+    <plurals name="hangout_on_air_viewer_count">
+        <item quantity="other">%d人の閲覧者</item>
+        <item quantity="one">1人の閲覧者</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">%2$sさん、%3$sさん、他%1$d人からのビデオハングアウト</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">%2$sさん、他%1$d人からのビデオハングアウト</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">%2$sさん、%3$sさん、他%1$d人からの音声通話</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">%2$sさん、他%1$d人からの音声通話</item>
+    </plurals>
+    <plurals name="dnd_hours">
+        <item quantity="other">%d時間</item>
+        <item quantity="one">1時間</item>
+    </plurals>
+    <plurals name="dnd_minutes">
+        <item quantity="other">%d分</item>
+        <item quantity="one">1分</item>
+    </plurals>
+    <plurals name="watermark_gallery_label">
+        <item quantity="other">%sが読みました</item>
+        <item quantity="one">%sが読みました</item>
+    </plurals>
+    <plurals name="focus_gallery_label">
+        <item quantity="other">%sはすべてのメッセージを読みました。</item>
+        <item quantity="one">%sはすべてのメッセージを読みました。</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="other">%1$d件の会話のメッセージ%2$d件</item>
+        <item quantity="one">1件の会話のメッセージ%d件</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">%1$d 人のユーザーが参加しているハングアウトにあなたを招待しました</item>
+        <item quantity="one">%1$d 人のユーザーが参加しているハングアウトにあなたを招待しました</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation">
+        <item quantity="other">%2$sさんと他%1$d人がハングアウトでの会話を希望しています</item>
+        <item quantity="one">%2$sさんと他%1$d人がハングアウトでの会話を希望しています</item>
+        <item quantity="few">%2$sさんと他%1$d人がハングアウトでの会話を希望しています</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation">
+        <item quantity="other">他%1$d人がハングアウトを希望しています</item>
+        <item quantity="one">他%1$d人がハングアウトを希望しています</item>
+        <item quantity="few">他%1$d人がハングアウトを希望しています</item>
+    </plurals>
+    <plurals name="items_attached_count">
+        <item quantity="other">%d件のアイテムを添付しました</item>
+        <item quantity="zero">%d件のアイテムを添付しました</item>
+        <item quantity="one">%d件のアイテムを添付しました</item>
+    </plurals>
+    <plurals name="items_forwarded_count">
+        <item quantity="other">%d件のアイテムを転送しました</item>
+        <item quantity="zero">%d件のアイテムを転送しました</item>
+        <item quantity="one">%d件のアイテムを転送しました</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="other">%d週間</item>
+        <item quantity="one">1週間</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="other">%dか月</item>
+        <item quantity="one">1か月</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="other">%d年</item>
+        <item quantity="one">1年</item>
+    </plurals>
+    <plurals name="participant_count">
+        <item quantity="other">参加者%d人</item>
+        <item quantity="one">参加者%d人</item>
+    </plurals>
+    <plurals name="participant_count_history_off">
+        <item quantity="other">参加者%d人、履歴OFF</item>
+        <item quantity="one">参加者%d人、履歴OFF</item>
+    </plurals>
+    <plurals name="group_chat_additional_participant_count">
+        <item quantity="other">他%d人</item>
+        <item quantity="one">他%d人</item>
     </plurals>
 </resources>

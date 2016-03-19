@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/hangout_volume_circle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/hangout_volume_circle" android:alpha="@dimen/hangout_volume_circle_init_alpha" />
+    <ImageView android:layout_gravity="center" android:id="@id/hangout_ping_circle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/hangout_ping_circle" android:alpha="@dimen/hangout_ping_circle_init_alpha" />
+</FrameLayout>

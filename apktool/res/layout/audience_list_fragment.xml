@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@android:id/list" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@color/conversation_bg_color" android:fastScrollEnabled="true" android:headerDividersEnabled="false" />
+    <View android:layout_gravity="bottom" android:background="@drawable/shadow_up_small" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="18.0sp" android:gravity="center" android:id="@id/server_error" android:padding="24.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/people_list_server_error" />
+    <include layout="@layout/empty_layout" />
+</FrameLayout>

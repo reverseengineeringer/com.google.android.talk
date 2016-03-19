@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="bottom" android:id="@id/hangout_calling_overlay" android:paddingLeft="@dimen/hangout_calling_padding" android:paddingRight="@dimen/hangout_calling_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/hangout_calling_margin_bottom" android:translationY="@dimen/hangout_calling_translation"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.hangouts.views.FixedParticipantsView android:id="@id/group_avatars" android:layout_width="wrap_content" android:layout_height="wrap_content" hangouts:avatarSize="@dimen/hangout_calling_avatar_size" hangouts:largeAvatarSize="@dimen/hangout_calling_large_avatar_size" xmlns:hangouts="http://schemas.android.com/apk/res-auto" />
+    <TextView android:textSize="@dimen/hangout_calling_participant_text_size" android:layout_gravity="center_vertical" android:id="@id/overlay_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="@dimen/hangout_calling_line_spacing" style="@style/Theme.Hangout.Overlay" />
+</LinearLayout>

@@ -1,7 +1,219 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="messages_read">
-        <item quantity="other">%s הודעות שנקראו</item>
-        <item quantity="one">הודעה %s שנקראה</item>
+    <plurals name="conv_invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">‏הזמין/ה אותך ל-Hangout עם %1$d אחרים</item>
+        <item quantity="one">‏הזמין/ה אותך ל-Hangout עם %1$d אחר</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation_invite_list">
+        <item quantity="other">‏%1$d רוצים להיפגש ב-Hangout</item>
+        <item quantity="one">‏%1$d רוצים להיפגש ב-Hangout</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation_invite_list">
+        <item quantity="other">עם %1$d אחרים</item>
+        <item quantity="one">עם %1$d אחר</item>
+    </plurals>
+    <plurals name="gallery_picker_max_count_reached_message">
+        <item quantity="other">ניתן לבחור %d מסמכים מצורפים בלבד לכל היותר.</item>
+        <item quantity="one">ניתן לבחור מסמך מצורף אחד בלבד לכל היותר.</item>
+    </plurals>
+    <plurals name="num_minutes_in_the_past">
+        <item quantity="other">%d דקות</item>
+        <item quantity="one">דקה %d</item>
+    </plurals>
+    <plurals name="elapsed_minutes">
+        <item quantity="other">לפני %d דקות</item>
+        <item quantity="one">לפני דקה %d</item>
+    </plurals>
+    <plurals name="elapsed_minutes_announce">
+        <item quantity="other">לפני %d דקות</item>
+        <item quantity="one">לפני דקה %d</item>
+    </plurals>
+    <plurals name="elapsed_hours">
+        <item quantity="other">לפני %d שעות</item>
+        <item quantity="one">לפני שעה %d</item>
+    </plurals>
+    <plurals name="elapsed_hours_announce">
+        <item quantity="other">לפני %d שעות</item>
+        <item quantity="one">לפני שעה %d</item>
+    </plurals>
+    <plurals name="elapsed_days">
+        <item quantity="other">לפני %d ימים</item>
+        <item quantity="one">לפני יום %d</item>
+    </plurals>
+    <plurals name="elapsed_days_announce">
+        <item quantity="other">לפני %d ימים</item>
+        <item quantity="one">לפני יום %d</item>
+    </plurals>
+    <plurals name="elapsed_weeks">
+        <item quantity="other">לפני %d שבועות</item>
+        <item quantity="one">לפני שבוע %d</item>
+    </plurals>
+    <plurals name="elapsed_weeks_announce">
+        <item quantity="other">לפני %d שבועות</item>
+        <item quantity="one">לפני שבוע %d</item>
+    </plurals>
+    <plurals name="elapsed_months">
+        <item quantity="other">לפני %d חודשים</item>
+        <item quantity="one">לפני חודש %d</item>
+    </plurals>
+    <plurals name="elapsed_months_announce">
+        <item quantity="other">לפני %d חודשים</item>
+        <item quantity="one">לפני חודש %d</item>
+    </plurals>
+    <plurals name="num_seconds_duration">
+        <item quantity="other">%d שניות</item>
+        <item quantity="one">שנייה %d</item>
+    </plurals>
+    <plurals name="a11y_num_seconds_duration">
+        <item quantity="other">%d שניות</item>
+        <item quantity="one">שנייה %d</item>
+    </plurals>
+    <plurals name="num_minutes_duration">
+        <item quantity="other">%d דקות</item>
+        <item quantity="one">דקה %d</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_duration">
+        <item quantity="other">%d דקות</item>
+        <item quantity="one">דקה %d</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_in_the_past">
+        <item quantity="other">%d דקות</item>
+        <item quantity="one">דקה %d</item>
+    </plurals>
+    <plurals name="num_hours_in_the_past">
+        <item quantity="other">%d שעות</item>
+        <item quantity="one">שעה %d</item>
+    </plurals>
+    <plurals name="num_days_in_the_past">
+        <item quantity="other">%d ימים</item>
+        <item quantity="one">יום %d</item>
+    </plurals>
+    <plurals name="one_up_comment_count">
+        <item quantity="other">%d תגובות</item>
+        <item quantity="one">תגובה %d</item>
+        <item quantity="two">%d תגובות</item>
+        <item quantity="many">%d תגובות</item>
+    </plurals>
+    <plurals name="audience_hidden_user_count">
+        <item quantity="other">+‏%d נוספים</item>
+        <item quantity="one">+1 נוסף</item>
+        <item quantity="two">+‏%d נוספים</item>
+        <item quantity="many">+‏%d נוספים</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_attachment">
+        <item quantity="other">שלח %d קבצים מצורפים</item>
+        <item quantity="one">שלח קובץ מצורף %d</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_message_and_attachment">
+        <item quantity="other">שלח הודעה עם %d קבצים מצורפים</item>
+        <item quantity="one">שלח הודעה עם קובץ מצורף %d</item>
+    </plurals>
+    <plurals name="comments">
+        <item quantity="other">%d תגובות</item>
+        <item quantity="one">%d תגובות</item>
+    </plurals>
+    <plurals name="notification_multi_hangout">
+        <item quantity="other">‏קיבלת הזמנה ל-Hangout עם עוד %d אנשים</item>
+        <item quantity="one">‏קיבלת הזמנה ל-Hangout עם אדם נוסף</item>
+    </plurals>
+    <plurals name="realtimechat_notification_new_messages">
+        <item quantity="other">%d הודעות חדשות</item>
+        <item quantity="one">הודעה חדשה %d</item>
+    </plurals>
+    <plurals name="redacted_multi_convo_text">
+        <item quantity="other">מ-%d שיחות</item>
+        <item quantity="one">משיחה %d</item>
+    </plurals>
+    <plurals name="realtimechat_message_num_attachments">
+        <item quantity="other">%d קבצים מצורפים</item>
+        <item quantity="one">קובץ מצורף %d</item>
+    </plurals>
+    <plurals name="realtimechat_invitation_notification_multiconversation_sender">
+        <item quantity="other">‏%d Hangouts חדשים</item>
+        <item quantity="one">‏Hangout חדש %d</item>
+    </plurals>
+    <plurals name="hangout_on_air_viewer_count">
+        <item quantity="other">%d צופים</item>
+        <item quantity="one">צופה אחד</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">שיחת וידאו מאת %2$s עם %3$s ועוד %1$d נוספים</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">שיחת וידאו מ-%2$s עם %1$d נוספים</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">שיחה קולית מ-%2$s עם %3$s ו-%1$d אחרים</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">שיחה קולית מ-%2$s עם %1$d אחרים</item>
+    </plurals>
+    <plurals name="dnd_hours">
+        <item quantity="other">%d שעות</item>
+        <item quantity="one">שעה אחת</item>
+    </plurals>
+    <plurals name="dnd_minutes">
+        <item quantity="other">%d דקות</item>
+        <item quantity="one">דקה אחת</item>
+    </plurals>
+    <plurals name="watermark_gallery_label">
+        <item quantity="other">נראה על ידי %s</item>
+        <item quantity="one">נראה על ידי %s</item>
+    </plurals>
+    <plurals name="focus_gallery_label">
+        <item quantity="other">%s קראו את כל ההודעות.</item>
+        <item quantity="one">%s קרא את כל ההודעות.</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="other">%1$d הודעות ב-%2$d שיחות</item>
+        <item quantity="one">%d הודעות בשיחה אחת</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">‏הזמין/ה אותך ל-Hangout עם %1$d אחרים</item>
+        <item quantity="one">‏הזמין/ה אותך ל-Hangout עם %1$d אחר</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation">
+        <item quantity="other">‏%2$s ו-%1$d אחרים רוצים להשתתף ב-Hangout</item>
+        <item quantity="one">‏%2$s ו-%1$d אחרים רוצים להשתתף ב-Hangout</item>
+        <item quantity="few">‏%2$s ו-%1$d אחרים רוצים להשתתף ב-Hangout</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation">
+        <item quantity="other">‏%1$d נוספים רוצים להתחיל Hangout</item>
+        <item quantity="one">‏%1$d נוסף רוצה להתחיל Hangout</item>
+        <item quantity="few">‏%1$d נוספים רוצים להתחיל Hangout</item>
+    </plurals>
+    <plurals name="items_attached_count">
+        <item quantity="other">%d פריטים מצורפים</item>
+        <item quantity="zero">%d פריטים מצורפים</item>
+        <item quantity="one">פריט מצורף %d</item>
+    </plurals>
+    <plurals name="items_forwarded_count">
+        <item quantity="other">%d פריטים הועברו</item>
+        <item quantity="zero">%d פריטים הועברו</item>
+        <item quantity="one">פריט %d הועבר</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="other">%d שבועות</item>
+        <item quantity="one">שבוע</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="other">%d חודשים</item>
+        <item quantity="one">חודש</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="other">%d שנים</item>
+        <item quantity="one">שנה</item>
+    </plurals>
+    <plurals name="participant_count">
+        <item quantity="other">%d משתתפים</item>
+        <item quantity="one">משתתף %d</item>
+    </plurals>
+    <plurals name="participant_count_history_off">
+        <item quantity="other">%d משתתפים, היסטוריה כבויה</item>
+        <item quantity="one">משתתף %d, היסטוריה כבויה</item>
+    </plurals>
+    <plurals name="group_chat_additional_participant_count">
+        <item quantity="other">ועוד %d נוספים</item>
+        <item quantity="one">ועוד %d נוסף</item>
     </plurals>
 </resources>

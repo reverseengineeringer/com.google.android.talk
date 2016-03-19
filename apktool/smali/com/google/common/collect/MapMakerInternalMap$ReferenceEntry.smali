@@ -1,18 +1,9 @@
-.class interface abstract Lcom/google/common/collect/MapMakerInternalMap$ReferenceEntry;
+.class public interface abstract Lcom/google/common/collect/MapMakerInternalMap$ReferenceEntry;
 .super Ljava/lang/Object;
-.source "MapMakerInternalMap.java"
+.source "SourceFile"
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/collect/MapMakerInternalMap;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x608
-    name = "ReferenceEntry"
-.end annotation
-
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "<K:",
@@ -90,11 +81,11 @@
     .end annotation
 .end method
 
-.method public abstract getValueReference()Lcom/google/common/collect/MapMakerInternalMap$ValueReference;
+.method public abstract getValueReference()Lkwb;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/google/common/collect/MapMakerInternalMap$ValueReference",
+            "Lkwb",
             "<TK;TV;>;"
         }
     .end annotation
@@ -143,11 +134,11 @@
     .end annotation
 .end method
 
-.method public abstract setValueReference(Lcom/google/common/collect/MapMakerInternalMap$ValueReference;)V
+.method public abstract setValueReference(Lkwb;)V
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/google/common/collect/MapMakerInternalMap$ValueReference",
+            "Lkwb",
             "<TK;TV;>;)V"
         }
     .end annotation

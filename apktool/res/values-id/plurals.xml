@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="conv_invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">Mengundang Anda ke Hangout dengan %1$d orang lainnya</item>
+        <item quantity="one">Mengundang Anda ke Hangout dengan %1$d orang lainnya</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation_invite_list">
+        <item quantity="other">%1$d lainnya ingin melakukan Hangout</item>
+        <item quantity="one">%1$d lainnya ingin melakukan Hangout</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation_invite_list">
+        <item quantity="other">dengan %1$d lainnya</item>
+        <item quantity="one">dengan %1$d lainnya</item>
+    </plurals>
+    <plurals name="gallery_picker_max_count_reached_message">
+        <item quantity="other">Anda hanya dapat memilih maksimum %d lampiran.</item>
+        <item quantity="one">Anda hanya dapat memilih maksimum 1 lampiran.</item>
+    </plurals>
+    <plurals name="num_minutes_in_the_past">
+        <item quantity="other">%d mnt</item>
+        <item quantity="one">%d mnt</item>
+    </plurals>
+    <plurals name="elapsed_minutes">
+        <item quantity="other">%d menit yang lalu</item>
+        <item quantity="one">%d menit yang lalu</item>
+    </plurals>
+    <plurals name="elapsed_minutes_announce">
+        <item quantity="other">%d menit yang lalu</item>
+        <item quantity="one">%d menit yang lalu</item>
+    </plurals>
+    <plurals name="elapsed_hours">
+        <item quantity="other">%d jam yang lalu</item>
+        <item quantity="one">%d jam yang lalu</item>
+    </plurals>
+    <plurals name="elapsed_hours_announce">
+        <item quantity="other">%d jam yang lalu</item>
+        <item quantity="one">%d jam yang lalu</item>
+    </plurals>
+    <plurals name="elapsed_days">
+        <item quantity="other">%d hari yang lalu</item>
+        <item quantity="one">%d hari yang lalu</item>
+    </plurals>
+    <plurals name="elapsed_days_announce">
+        <item quantity="other">%d hari yang lalu</item>
+        <item quantity="one">%d hari yang lalu</item>
+    </plurals>
+    <plurals name="elapsed_weeks">
+        <item quantity="other">%d minggu yang lalu</item>
+        <item quantity="one">%d minggu yang lalu</item>
+    </plurals>
+    <plurals name="elapsed_weeks_announce">
+        <item quantity="other">%d minggu yang lalu</item>
+        <item quantity="one">%d minggu yang lalu</item>
+    </plurals>
+    <plurals name="elapsed_months">
+        <item quantity="other">%d bulan yang lalu</item>
+        <item quantity="one">%d bulan yang lalu</item>
+    </plurals>
+    <plurals name="elapsed_months_announce">
+        <item quantity="other">%d bulan yang lalu</item>
+        <item quantity="one">%d bulan yang lalu</item>
+    </plurals>
+    <plurals name="num_seconds_duration">
+        <item quantity="other">%d dtk</item>
+        <item quantity="one">%d dtk</item>
+    </plurals>
+    <plurals name="a11y_num_seconds_duration">
+        <item quantity="other">%d detik</item>
+        <item quantity="one">%d detik</item>
+    </plurals>
+    <plurals name="num_minutes_duration">
+        <item quantity="other">%d mnt</item>
+        <item quantity="one">%d mnt</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_duration">
+        <item quantity="other">%d menit</item>
+        <item quantity="one">%d menit</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_in_the_past">
+        <item quantity="other">%d menit</item>
+        <item quantity="one">%d menit</item>
+    </plurals>
+    <plurals name="num_hours_in_the_past">
+        <item quantity="other">%d jam</item>
+        <item quantity="one">%d jam</item>
+    </plurals>
+    <plurals name="num_days_in_the_past">
+        <item quantity="other">%d hari</item>
+        <item quantity="one">%d hari</item>
+    </plurals>
+    <plurals name="one_up_comment_count">
+        <item quantity="other">%d komentar</item>
+        <item quantity="one">%d komentar</item>
+    </plurals>
+    <plurals name="audience_hidden_user_count">
+        <item quantity="other">+%d lainnya</item>
+        <item quantity="one">+1 lainnya</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_attachment">
+        <item quantity="other">Kirim %d lampiran</item>
+        <item quantity="one">Kirim %d lampiran</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_message_and_attachment">
+        <item quantity="other">Kirim pesan dengan %d lampiran</item>
+        <item quantity="one">Kirim pesan dengan %d lampiran</item>
+    </plurals>
+    <plurals name="comments">
+        <item quantity="other">%d komentar</item>
+        <item quantity="one">%d komentar</item>
+    </plurals>
+    <plurals name="notification_multi_hangout">
+        <item quantity="other">Mengundang Anda untuk Hangout dengan %d orang lainnya</item>
+        <item quantity="one">Mengundang Anda untuk Hangout dengan 1 orang lainnya</item>
+    </plurals>
+    <plurals name="realtimechat_notification_new_messages">
+        <item quantity="other">%d pesan baru</item>
+        <item quantity="one">%d pesan baru</item>
+    </plurals>
+    <plurals name="redacted_multi_convo_text">
+        <item quantity="other">Dari %d percakapan</item>
+        <item quantity="one">Dari %d percakapan</item>
+    </plurals>
+    <plurals name="realtimechat_message_num_attachments">
+        <item quantity="other">%d lampiran</item>
+        <item quantity="one">%d lampiran</item>
+    </plurals>
+    <plurals name="realtimechat_invitation_notification_multiconversation_sender">
+        <item quantity="other">%d Hangouts baru</item>
+        <item quantity="one">%d Hangout baru</item>
+    </plurals>
+    <plurals name="hangout_on_air_viewer_count">
+        <item quantity="other">%d pemirsa</item>
+        <item quantity="one">1 pemirsa</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">Video call dari %2$s dengan %3$s dan %1$d lainnya</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">Video call dari %2$s dengan %1$d lainnya</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">Panggilan suara dari %2$s dengan %3$s dan %1$d lainnya</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">Panggilan suara dari %2$s dengan %1$d lainnya</item>
+    </plurals>
+    <plurals name="dnd_hours">
+        <item quantity="other">%d jam</item>
+        <item quantity="one">1 jam</item>
+    </plurals>
+    <plurals name="dnd_minutes">
+        <item quantity="other">%d menit</item>
+        <item quantity="one">1 menit</item>
+    </plurals>
+    <plurals name="watermark_gallery_label">
+        <item quantity="other">Dilihat oleh %s</item>
+        <item quantity="one">Dilihat oleh %s</item>
+    </plurals>
+    <plurals name="focus_gallery_label">
+        <item quantity="other">%s telah membaca semua pesan.</item>
+        <item quantity="one">%s telah membaca semua pesan.</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="other">%1$d pesan dalam %2$d percakapan</item>
+        <item quantity="one">%d pesan dalam satu percakapan</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">Mengundang Anda ke Hangout dengan %1$d orang lainnya</item>
+        <item quantity="one">Mengundang Anda ke Hangout dengan %1$d orang lainnya</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation">
+        <item quantity="other">%2$s dan %1$d lainnya ingin melakukan Hangout</item>
+        <item quantity="one">%2$s dan %1$d lainnya ingin melakukan Hangout</item>
+        <item quantity="few">%2$s dan %1$d lainnya ingin melakukan Hangout</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation">
+        <item quantity="other">%1$d lainnya ingin Hangout</item>
+        <item quantity="one">%1$d lainnya ingin Hangout</item>
+        <item quantity="few">%1$d lainnya ingin Hangout</item>
+    </plurals>
+    <plurals name="items_attached_count">
+        <item quantity="other">%d item terlampir</item>
+        <item quantity="zero">%d item terlampir</item>
+        <item quantity="one">%d item terlampir</item>
+    </plurals>
+    <plurals name="items_forwarded_count">
+        <item quantity="other">%d item diteruskan</item>
+        <item quantity="zero">%d item diteruskan</item>
+        <item quantity="one">%d item diteruskan</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="other">%d minggu</item>
+        <item quantity="one">seminggu</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="other">%d bulan</item>
+        <item quantity="one">sebulan</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="other">%d tahun</item>
+        <item quantity="one">setahun</item>
+    </plurals>
+    <plurals name="participant_count">
+        <item quantity="other">%d peserta</item>
+        <item quantity="one">%d peserta</item>
+    </plurals>
+    <plurals name="participant_count_history_off">
+        <item quantity="other">%d peserta, riwayat tidak aktif</item>
+        <item quantity="one">%d peserta, riwayat tidak aktif</item>
+    </plurals>
+    <plurals name="group_chat_additional_participant_count">
+        <item quantity="other">dan %d lainnya</item>
+        <item quantity="one">dan %d lainnya</item>
+    </plurals>
+</resources>

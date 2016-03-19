@@ -1,7 +1,215 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="messages_read">
-        <item quantity="other">%s okunmuş ileti</item>
-        <item quantity="one">%s okunmuş ileti</item>
+    <plurals name="conv_invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">"Sizi diğer %1$d kişiyle birlikte bir Hangout'a davet etti"</item>
+        <item quantity="one">"Sizi diğer %1$d kişiyle birlikte bir Hangout'a davet etti"</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation_invite_list">
+        <item quantity="other">%1$d kullanıcı daha Hangout yapmak istiyor</item>
+        <item quantity="one">%1$d kullanıcı daha Hangout yapmak istiyor</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation_invite_list">
+        <item quantity="other">%1$d kullanıcıyla birlikte</item>
+        <item quantity="one">%1$d kullanıcıyla birlikte</item>
+    </plurals>
+    <plurals name="gallery_picker_max_count_reached_message">
+        <item quantity="other">Maksimum %d ek seçebilirsiniz.</item>
+        <item quantity="one">Maksimum 1 ek seçebilirsiniz.</item>
+    </plurals>
+    <plurals name="num_minutes_in_the_past">
+        <item quantity="other">%d dk.</item>
+        <item quantity="one">%d dk.</item>
+    </plurals>
+    <plurals name="elapsed_minutes">
+        <item quantity="other">%d dk. önce</item>
+        <item quantity="one">%d dk. önce</item>
+    </plurals>
+    <plurals name="elapsed_minutes_announce">
+        <item quantity="other">%d dakika önce</item>
+        <item quantity="one">%d dakika önce</item>
+    </plurals>
+    <plurals name="elapsed_hours">
+        <item quantity="other">%d sa. önce</item>
+        <item quantity="one">%d sa. önce</item>
+    </plurals>
+    <plurals name="elapsed_hours_announce">
+        <item quantity="other">%d saat önce</item>
+        <item quantity="one">%d saat önce</item>
+    </plurals>
+    <plurals name="elapsed_days">
+        <item quantity="other">%d gün önce</item>
+        <item quantity="one">%d gün önce</item>
+    </plurals>
+    <plurals name="elapsed_days_announce">
+        <item quantity="other">%d gün önce</item>
+        <item quantity="one">%d gün önce</item>
+    </plurals>
+    <plurals name="elapsed_weeks">
+        <item quantity="other">%d hafta önce</item>
+        <item quantity="one">%d hafta önce</item>
+    </plurals>
+    <plurals name="elapsed_weeks_announce">
+        <item quantity="other">%d hafta önce</item>
+        <item quantity="one">%d hafta önce</item>
+    </plurals>
+    <plurals name="elapsed_months">
+        <item quantity="other">%d ay önce</item>
+        <item quantity="one">%d ay önce</item>
+    </plurals>
+    <plurals name="elapsed_months_announce">
+        <item quantity="other">%d ay önce</item>
+        <item quantity="one">%d ay önce</item>
+    </plurals>
+    <plurals name="num_seconds_duration">
+        <item quantity="other">%d sn.</item>
+        <item quantity="one">%d sn.</item>
+    </plurals>
+    <plurals name="a11y_num_seconds_duration">
+        <item quantity="other">%d saniye</item>
+        <item quantity="one">%d saniye</item>
+    </plurals>
+    <plurals name="num_minutes_duration">
+        <item quantity="other">%d dk.</item>
+        <item quantity="one">%d dk.</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_duration">
+        <item quantity="other">%d dakika</item>
+        <item quantity="one">%d dakika</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_in_the_past">
+        <item quantity="other">%d dakika</item>
+        <item quantity="one">%d dakika</item>
+    </plurals>
+    <plurals name="num_hours_in_the_past">
+        <item quantity="other">%d saat</item>
+        <item quantity="one">%d saat</item>
+    </plurals>
+    <plurals name="num_days_in_the_past">
+        <item quantity="other">%d gün</item>
+        <item quantity="one">%d gün</item>
+    </plurals>
+    <plurals name="one_up_comment_count">
+        <item quantity="other">%d yorum</item>
+        <item quantity="one">%d yorum</item>
+    </plurals>
+    <plurals name="audience_hidden_user_count">
+        <item quantity="other">+%d kullanıcı daha</item>
+        <item quantity="one">+1 kullanıcı daha</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_attachment">
+        <item quantity="other">%d eki gönder</item>
+        <item quantity="one">%d eki gönder</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_message_and_attachment">
+        <item quantity="other">İletiyi ve %d eki gönder</item>
+        <item quantity="one">İletiyi ve %d eki gönder</item>
+    </plurals>
+    <plurals name="comments">
+        <item quantity="other">%d yorum</item>
+        <item quantity="one">%d yorum</item>
+    </plurals>
+    <plurals name="notification_multi_hangout">
+        <item quantity="other">"Sizi diğer %d kişiyle birlikte bir Hangout'a davet etti"</item>
+        <item quantity="one">"Sizi diğer 1 kişiyle birlikte bir Hangout'a davet etti"</item>
+    </plurals>
+    <plurals name="realtimechat_notification_new_messages">
+        <item quantity="other">%d yeni ileti</item>
+        <item quantity="one">%d yeni ileti</item>
+    </plurals>
+    <plurals name="redacted_multi_convo_text">
+        <item quantity="other">%d görüşmeden</item>
+        <item quantity="one">%d görüşmeden</item>
+    </plurals>
+    <plurals name="realtimechat_message_num_attachments">
+        <item quantity="other">%d ek</item>
+        <item quantity="one">%d ek</item>
+    </plurals>
+    <plurals name="realtimechat_invitation_notification_multiconversation_sender">
+        <item quantity="other">%d yeni Hangout</item>
+        <item quantity="one">%d yeni Hangout</item>
+    </plurals>
+    <plurals name="hangout_on_air_viewer_count">
+        <item quantity="other">%d görüntüleyen</item>
+        <item quantity="one">1 görüntüleyen</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">%2$s adlı kişiden gelen, %3$s ve diğer %1$d kişinin de bulunduğu video görüşmesi</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">%2$s adlı kişiden gelen ve diğer %1$d kişinin bulunduğu video görüşmesi</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">%3$s ve diğer %1$d kişiyle birlikte %2$s adlı kişiden gelen sesli görüşme isteği</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">Diğer %1$d kişiyle birlikte %2$s adlı kişiden gelen sesli görüşme isteği</item>
+    </plurals>
+    <plurals name="dnd_hours">
+        <item quantity="other">%d saat</item>
+        <item quantity="one">1 saat</item>
+    </plurals>
+    <plurals name="dnd_minutes">
+        <item quantity="other">%d dakika</item>
+        <item quantity="one">1 dakika</item>
+    </plurals>
+    <plurals name="watermark_gallery_label">
+        <item quantity="other">Şu kullanıcılar tarafından görüldü: %s</item>
+        <item quantity="one">Şu kullanıcılar tarafından görüldü: %s</item>
+    </plurals>
+    <plurals name="focus_gallery_label">
+        <item quantity="other">%s tüm iletileri okudu.</item>
+        <item quantity="one">%s tüm iletileri okudu.</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="other">%1$d ileti dizisinde %2$d ileti</item>
+        <item quantity="one">Bir ileti dizisinde %d ileti</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">"Sizi diğer %1$d kişiyle birlikte bir Hangout'a davet etti"</item>
+        <item quantity="one">"Sizi diğer %1$d kişiyle birlikte bir Hangout'a davet etti"</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation">
+        <item quantity="other">%2$s ve %1$d kullanıcı daha Hangout yapmak istiyor</item>
+        <item quantity="one">%2$s ve %1$d kullanıcı daha Hangout yapmak istiyor</item>
+        <item quantity="few">%2$s ve %1$d kullanıcı daha Hangout yapmak istiyor</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation">
+        <item quantity="other">%1$d kişi daha Hangout yapmak istiyor</item>
+        <item quantity="one">%1$d kişi daha Hangout yapmak istiyor</item>
+        <item quantity="few">%1$d kişi daha Hangout yapmak istiyor</item>
+    </plurals>
+    <plurals name="items_attached_count">
+        <item quantity="other">%d öğe ekli</item>
+        <item quantity="zero">%d öğe ekli</item>
+        <item quantity="one">%d öğe ekli</item>
+    </plurals>
+    <plurals name="items_forwarded_count">
+        <item quantity="other">%d öğe yönlendirildi</item>
+        <item quantity="zero">%d öğe yönlendirildi</item>
+        <item quantity="one">%d öğe yönlendirildi</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="other">%d hafta</item>
+        <item quantity="one">Bir haftadan</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="other">%d ay</item>
+        <item quantity="one">Bir aydan</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="other">%d yıl</item>
+        <item quantity="one">Bir yıldan</item>
+    </plurals>
+    <plurals name="participant_count">
+        <item quantity="other">%d katılımcı</item>
+        <item quantity="one">%d katılımcı</item>
+    </plurals>
+    <plurals name="participant_count_history_off">
+        <item quantity="other">%d katılımcı, geçmiş kapalı</item>
+        <item quantity="one">%d katılımcı, geçmiş kapalı</item>
+    </plurals>
+    <plurals name="group_chat_additional_participant_count">
+        <item quantity="other">ve %d kullanıcı daha</item>
+        <item quantity="one">ve %d kullanıcı daha</item>
     </plurals>
 </resources>

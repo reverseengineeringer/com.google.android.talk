@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@id/avatarFrame" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/avatar" android:src="@drawable/avatar_placeholder" style="@style/AccountsSwitcher.AccountDetailsAvatarStyle" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/avatar_overlay" android:layout_width="@dimen/avatar_dimension" android:layout_height="@dimen/avatar_dimension" android:src="@drawable/avatar_gray_overlay" />
+        <ImageView android:layout_gravity="bottom|center|right" android:id="@id/smsBadge" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:paddingBottom="@dimen/xs_space" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_carrier_sms_status_badge" />
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:ellipsize="end" android:gravity="start" android:id="@id/account_address" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" style="@style/AccountsSwitcher.AccountDetailsStyle" />
+    </LinearLayout>
+</merge>

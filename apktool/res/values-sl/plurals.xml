@@ -1,7 +1,219 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="messages_read">
-        <item quantity="other">Število prebranih sporočil: %s</item>
-        <item quantity="one">%s prebrano sporočilo</item>
+    <plurals name="conv_invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">Ta oseba vas je povabila v pogovor Hangout z več drugimi osebami (%1$d)</item>
+        <item quantity="one">Ta oseba vas je povabila v pogovor Hangout z %1$d drugo osebo</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation_invite_list">
+        <item quantity="other">Več drugih oseb (%1$d) se želi pridružiti pogovoru Hangout</item>
+        <item quantity="one">%1$d druga oseba se želi pridružiti pogovoru Hangout</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation_invite_list">
+        <item quantity="other">z več drugimi osebami (%1$d)</item>
+        <item quantity="one">z %1$d drugo osebo</item>
+    </plurals>
+    <plurals name="gallery_picker_max_count_reached_message">
+        <item quantity="other">Izberete lahko največ toliko prilog: %d.</item>
+        <item quantity="one">Izberete lahko največ 1 prilogo.</item>
+    </plurals>
+    <plurals name="num_minutes_in_the_past">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="elapsed_minutes">
+        <item quantity="other">Pred toliko min.: %d</item>
+        <item quantity="one">pred %d min</item>
+    </plurals>
+    <plurals name="elapsed_minutes_announce">
+        <item quantity="other">pred %d min</item>
+        <item quantity="one">pred %d minuto</item>
+    </plurals>
+    <plurals name="elapsed_hours">
+        <item quantity="other">Pred toliko urami: %d</item>
+        <item quantity="one">pred %d uro</item>
+    </plurals>
+    <plurals name="elapsed_hours_announce">
+        <item quantity="other">pred %d h</item>
+        <item quantity="one">pred %d uro</item>
+    </plurals>
+    <plurals name="elapsed_days">
+        <item quantity="other">Pred toliko dnevi: %d</item>
+        <item quantity="one">pred %d dnevi</item>
+    </plurals>
+    <plurals name="elapsed_days_announce">
+        <item quantity="other">pred toliko dnevi: %d</item>
+        <item quantity="one">pred %d dnem</item>
+    </plurals>
+    <plurals name="elapsed_weeks">
+        <item quantity="other">Pred toliko tedni: %d</item>
+        <item quantity="one">pred %d tednom</item>
+    </plurals>
+    <plurals name="elapsed_weeks_announce">
+        <item quantity="other">pred toliko tedni: %d</item>
+        <item quantity="one">pred %d tednom</item>
+    </plurals>
+    <plurals name="elapsed_months">
+        <item quantity="other">Pred toliko meseci: %d</item>
+        <item quantity="one">pred %d mesecem</item>
+    </plurals>
+    <plurals name="elapsed_months_announce">
+        <item quantity="other">pred toliko meseci: %d</item>
+        <item quantity="one">pred %d mesecem</item>
+    </plurals>
+    <plurals name="num_seconds_duration">
+        <item quantity="other">%d s</item>
+        <item quantity="one">%d s</item>
+    </plurals>
+    <plurals name="a11y_num_seconds_duration">
+        <item quantity="other">%d s</item>
+        <item quantity="one">%d s</item>
+    </plurals>
+    <plurals name="num_minutes_duration">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_duration">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_in_the_past">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="num_hours_in_the_past">
+        <item quantity="other">%d h</item>
+        <item quantity="one">%d h</item>
+    </plurals>
+    <plurals name="num_days_in_the_past">
+        <item quantity="other">%d dni</item>
+        <item quantity="one">%d dan</item>
+    </plurals>
+    <plurals name="one_up_comment_count">
+        <item quantity="other">%d komentarjev</item>
+        <item quantity="one">%d komentar</item>
+        <item quantity="two">%d komentarja</item>
+        <item quantity="few">%d komentarji</item>
+    </plurals>
+    <plurals name="audience_hidden_user_count">
+        <item quantity="other">%d dodatnih oseb</item>
+        <item quantity="one">%d dodatna oseba</item>
+        <item quantity="two">%d dodatni osebi</item>
+        <item quantity="few">%d dodatne osebe</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_attachment">
+        <item quantity="other">Pošlji priloge (%d)</item>
+        <item quantity="one">Pošlji %d prilogo</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_message_and_attachment">
+        <item quantity="other">Pošlji sporočilo in priloge (%d)</item>
+        <item quantity="one">Pošlji sporočilo in %d prilogo</item>
+    </plurals>
+    <plurals name="comments">
+        <item quantity="other">Št. komentarjev: %d</item>
+        <item quantity="one">%d komentar</item>
+    </plurals>
+    <plurals name="notification_multi_hangout">
+        <item quantity="other">Uporabnik vas je povabil v klepetalnico Hangout s toliko drugimi: %d</item>
+        <item quantity="one">Uporabnik vas je povabil v pogovor Hangout še z enim drugim</item>
+    </plurals>
+    <plurals name="realtimechat_notification_new_messages">
+        <item quantity="other">Št. novih sporočil: %d</item>
+        <item quantity="one">%d novo sporočilo</item>
+    </plurals>
+    <plurals name="redacted_multi_convo_text">
+        <item quantity="other">Iz %d pogovorov</item>
+        <item quantity="one">Iz %d pogovora</item>
+    </plurals>
+    <plurals name="realtimechat_message_num_attachments">
+        <item quantity="other">Št. prilog: %d</item>
+        <item quantity="one">%d priloga</item>
+    </plurals>
+    <plurals name="realtimechat_invitation_notification_multiconversation_sender">
+        <item quantity="other">Novih pogovorov Hangouts: %d</item>
+        <item quantity="one">%d novi pogovor Hangout</item>
+    </plurals>
+    <plurals name="hangout_on_air_viewer_count">
+        <item quantity="other">Št. gledalcev: %d</item>
+        <item quantity="one">1 gledalec</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">Videoklic osebe %2$s z osebo %3$s in toliko drugimi: %1$d</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">Videoklic osebe %2$s s toliko drugimi: %1$d</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">Glasovni klic osebe %2$s z osebo %3$s in toliko drugimi: %1$d</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">Glasovni klic osebe %2$s s toliko drugimi: %1$d</item>
+    </plurals>
+    <plurals name="dnd_hours">
+        <item quantity="other">%d h</item>
+        <item quantity="one">1 h</item>
+    </plurals>
+    <plurals name="dnd_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">1 min</item>
+    </plurals>
+    <plurals name="watermark_gallery_label">
+        <item quantity="other">Ogled: %s</item>
+        <item quantity="one">Ogled: %s</item>
+    </plurals>
+    <plurals name="focus_gallery_label">
+        <item quantity="other">Več oseb (%s) je prebralo vsa sporočila.</item>
+        <item quantity="one">Oseba %s je prebrala vsa sporočila.</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="other">Sporočil (%1$d) v toliko pogovorih: %2$d</item>
+        <item quantity="one">Sporočil v enem pogovoru: %d</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">Ta oseba vas je povabila v pogovor Hangout z več drugimi osebami (%1$d)</item>
+        <item quantity="one">Ta oseba vas je povabila v pogovor Hangout z %1$d drugo osebo</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation">
+        <item quantity="other">%2$s in več drugih oseb (%1$d) želijo, da se pridružite pogovoru Hangout</item>
+        <item quantity="one">%2$s in %1$d druga oseba želita, da se pridružite pogovoru Hangout</item>
+        <item quantity="few">%2$s in %1$d druge osebe želijo, da se pridružite pogovoru Hangout</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation">
+        <item quantity="other">V pogovoru Hangout želi sodelovati še toliko drugih: %1$d</item>
+        <item quantity="one">Še %1$d drug želi sodelovati v pogovoru Hangout</item>
+        <item quantity="few">V pogovoru Hangout želi sodelovati še toliko drugih: %1$d</item>
+    </plurals>
+    <plurals name="items_attached_count">
+        <item quantity="other">Št. priloženih elementov: %d</item>
+        <item quantity="zero">%d priloženih elementov</item>
+        <item quantity="one">%d priložen element</item>
+    </plurals>
+    <plurals name="items_forwarded_count">
+        <item quantity="other">Št. posredovanih elementov: %d</item>
+        <item quantity="zero">%d posredovanih elementov</item>
+        <item quantity="one">%d posredovan element</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="other">Št. tednov: %d</item>
+        <item quantity="one">teden</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="other">Št. mesecev: %d</item>
+        <item quantity="one">mesec</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="other">Št. let: %d</item>
+        <item quantity="one">leto</item>
+    </plurals>
+    <plurals name="participant_count">
+        <item quantity="other">Št. udeležencev: %d</item>
+        <item quantity="one">%d udeleženec</item>
+    </plurals>
+    <plurals name="participant_count_history_off">
+        <item quantity="other">Št. udeležencev: %d, zgodovina izklopljena</item>
+        <item quantity="one">%d udeleženec, zgodovina izklopljena</item>
+    </plurals>
+    <plurals name="group_chat_additional_participant_count">
+        <item quantity="other">in več drugih oseb (%d)</item>
+        <item quantity="one">in %d druga oseba</item>
     </plurals>
 </resources>

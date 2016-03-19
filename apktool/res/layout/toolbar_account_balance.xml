@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.hangouts.views.BalanceView android:gravity="center_vertical" android:id="@id/toolbar_balance_container" android:clickable="true" android:longClickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="48.0dip" android:minHeight="48.0dip" android:layout_centerVertical="true" style="@style/AccountBalanceStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/dialpad_rate_balance_text_size" android:textStyle="@integer/appcompat_sans_serif_medium_textStyle" android:textColor="@android:color/white" android:layout_gravity="center_vertical" android:id="@id/toolbar_balance_value" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="@string/appcompat_sans_serif_medium_fontFamily" />
+    <ImageView android:id="@id/toolbar_balance_value_plus_icon" android:paddingLeft="4.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/quantum_ic_add_circle_white_24" />
+</com.google.android.apps.hangouts.views.BalanceView>

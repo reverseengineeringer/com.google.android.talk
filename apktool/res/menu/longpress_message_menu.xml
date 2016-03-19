@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/copy_text" android:title="@string/menu_copy_text" />
+    <item android:id="@id/save_attachment_menu" android:title="@string/menu_save_media" />
+    <item android:id="@id/forward_message_menu" android:title="@string/menu_forward_message" />
+    <item android:id="@id/details_menu" android:title="@string/menu_view_details" />
+    <item android:id="@id/delete_message_menu" android:title="@string/menu_delete_message" />
+</menu>

@@ -1,7 +1,215 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="messages_read">
-        <item quantity="other">%s missatges llegits</item>
-        <item quantity="one">%s missatge llegit</item>
+    <plurals name="conv_invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">"T'han convidat a una conversa amb %1$d persones més"</item>
+        <item quantity="one">"T'han convidat a una conversa amb %1$d persona més"</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation_invite_list">
+        <item quantity="other">%1$d persones més volen parlar amb tu</item>
+        <item quantity="one">%1$d persona més vol parlar amb tu</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation_invite_list">
+        <item quantity="other">amb %1$d més</item>
+        <item quantity="one">amb %1$d més</item>
+    </plurals>
+    <plurals name="gallery_picker_max_count_reached_message">
+        <item quantity="other">Només pots seleccionar %d fitxers adjunts com a màxim.</item>
+        <item quantity="one">Només pots seleccionar 1 fitxer adjunt com a màxim.</item>
+    </plurals>
+    <plurals name="num_minutes_in_the_past">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="elapsed_minutes">
+        <item quantity="other">Fa %d min</item>
+        <item quantity="one">Fa %d min</item>
+    </plurals>
+    <plurals name="elapsed_minutes_announce">
+        <item quantity="other">fa %d minuts</item>
+        <item quantity="one">fa %d minut</item>
+    </plurals>
+    <plurals name="elapsed_hours">
+        <item quantity="other">Fa %d h</item>
+        <item quantity="one">Fa %d h</item>
+    </plurals>
+    <plurals name="elapsed_hours_announce">
+        <item quantity="other">fa %d hores</item>
+        <item quantity="one">fa %d hora</item>
+    </plurals>
+    <plurals name="elapsed_days">
+        <item quantity="other">Fa %d dies</item>
+        <item quantity="one">Fa %d dies</item>
+    </plurals>
+    <plurals name="elapsed_days_announce">
+        <item quantity="other">fa %d dies</item>
+        <item quantity="one">fa %d dia</item>
+    </plurals>
+    <plurals name="elapsed_weeks">
+        <item quantity="other">Fa %d setmanes</item>
+        <item quantity="one">Fa %d setmanes</item>
+    </plurals>
+    <plurals name="elapsed_weeks_announce">
+        <item quantity="other">fa %d setmanes</item>
+        <item quantity="one">fa %d setmana</item>
+    </plurals>
+    <plurals name="elapsed_months">
+        <item quantity="other">Fa %d mesos</item>
+        <item quantity="one">Fa %d mesos</item>
+    </plurals>
+    <plurals name="elapsed_months_announce">
+        <item quantity="other">fa %d mesos</item>
+        <item quantity="one">fa %d mes</item>
+    </plurals>
+    <plurals name="num_seconds_duration">
+        <item quantity="other">%d s</item>
+        <item quantity="one">%d s</item>
+    </plurals>
+    <plurals name="a11y_num_seconds_duration">
+        <item quantity="other">%d segons</item>
+        <item quantity="one">%d segon</item>
+    </plurals>
+    <plurals name="num_minutes_duration">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_duration">
+        <item quantity="other">%d minuts</item>
+        <item quantity="one">%d minut</item>
+    </plurals>
+    <plurals name="a11y_num_minutes_in_the_past">
+        <item quantity="other">%d minuts</item>
+        <item quantity="one">%d minut</item>
+    </plurals>
+    <plurals name="num_hours_in_the_past">
+        <item quantity="other">%d hores</item>
+        <item quantity="one">%d hora</item>
+    </plurals>
+    <plurals name="num_days_in_the_past">
+        <item quantity="other">%d dies</item>
+        <item quantity="one">%d dia</item>
+    </plurals>
+    <plurals name="one_up_comment_count">
+        <item quantity="other">%d comentaris</item>
+        <item quantity="one">%d comentari</item>
+    </plurals>
+    <plurals name="audience_hidden_user_count">
+        <item quantity="other">%d persones més</item>
+        <item quantity="one">Una persona més</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_attachment">
+        <item quantity="other">Envia %d fitxers adjunts</item>
+        <item quantity="one">Envia %d fitxer adjunt</item>
+    </plurals>
+    <plurals name="content_description_floating_action_button_send_message_and_attachment">
+        <item quantity="other">Envia el missatge amb %d fitxers adjunts</item>
+        <item quantity="one">Envia el missatge amb %d fitxer adjunt</item>
+    </plurals>
+    <plurals name="comments">
+        <item quantity="other">%d comentaris</item>
+        <item quantity="one">%d comentari</item>
+    </plurals>
+    <plurals name="notification_multi_hangout">
+        <item quantity="other">"T'ha convidat a una conversa amb %d persones més"</item>
+        <item quantity="one">"T'ha convidat a una conversa amb una altra persona"</item>
+    </plurals>
+    <plurals name="realtimechat_notification_new_messages">
+        <item quantity="other">%d missatges nous</item>
+        <item quantity="one">%d missatge nou</item>
+    </plurals>
+    <plurals name="redacted_multi_convo_text">
+        <item quantity="other">De %d converses</item>
+        <item quantity="one">"D'%d conversa"</item>
+    </plurals>
+    <plurals name="realtimechat_message_num_attachments">
+        <item quantity="other">%d fitxers adjunts</item>
+        <item quantity="one">%d fitxer adjunt</item>
+    </plurals>
+    <plurals name="realtimechat_invitation_notification_multiconversation_sender">
+        <item quantity="other">%d converses noves</item>
+        <item quantity="one">%d conversa nova</item>
+    </plurals>
+    <plurals name="hangout_on_air_viewer_count">
+        <item quantity="other">%d espectadors</item>
+        <item quantity="one">1 espectador</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">Videotrucada de %2$s amb %3$s i %1$d persones més</item>
+    </plurals>
+    <plurals name="hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">Videotrucada de %2$s amb %1$d persones més</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_more_than_two_unnamed">
+        <item quantity="other">Trucada de veu de %2$s amb %3$s i %1$d persones més</item>
+    </plurals>
+    <plurals name="voice_hangout_incoming_invitation_text_noinfo_more_than_two_unnamed">
+        <item quantity="other">Trucada de veu de %2$s amb %1$d persones més</item>
+    </plurals>
+    <plurals name="dnd_hours">
+        <item quantity="other">%d hores</item>
+        <item quantity="one">1 hora</item>
+    </plurals>
+    <plurals name="dnd_minutes">
+        <item quantity="other">%d minuts</item>
+        <item quantity="one">1 minut</item>
+    </plurals>
+    <plurals name="watermark_gallery_label">
+        <item quantity="other">Vista per %s</item>
+        <item quantity="one">Vista per %s</item>
+    </plurals>
+    <plurals name="focus_gallery_label">
+        <item quantity="other">%s han llegit tots els missatges.</item>
+        <item quantity="one">%s ha llegit tots els missatges.</item>
+    </plurals>
+    <plurals name="notification_send_failures">
+        <item quantity="other">%1$d missatges en %2$d converses</item>
+        <item quantity="one">%d missatges en una conversa</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_unnamed_group_conversation">
+        <item quantity="other">"T'han convidat a una conversa amb %1$d persones més"</item>
+        <item quantity="one">"T'han convidat a una conversa amb %1$d persona més"</item>
+    </plurals>
+    <plurals name="invite_wants_you_to_join_named_group_conversation">
+        <item quantity="other">%2$s i %1$d persones més volen parlar amb tu</item>
+        <item quantity="one">%2$s i %1$d persona més volen parlar amb tu</item>
+        <item quantity="few">%2$s i %1$d persones més volen parlar amb tu</item>
+    </plurals>
+    <plurals name="invite_unknown_wants_you_to_join_group_conversation">
+        <item quantity="other">%1$d persones més volen iniciar una conversa.</item>
+        <item quantity="one">%1$d persona més vol iniciar una conversa.</item>
+        <item quantity="few">%1$d persones més volen iniciar una conversa.</item>
+    </plurals>
+    <plurals name="items_attached_count">
+        <item quantity="other">%d elements adjunts</item>
+        <item quantity="zero">%d elements adjunts</item>
+        <item quantity="one">%d element adjunt</item>
+    </plurals>
+    <plurals name="items_forwarded_count">
+        <item quantity="other">%d elements reenviats</item>
+        <item quantity="zero">%d elements reenviats</item>
+        <item quantity="one">%d element reenviat</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="other">%d setmanes</item>
+        <item quantity="one">una setmana</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="other">%d mesos</item>
+        <item quantity="one">un mes</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="other">%d anys</item>
+        <item quantity="one">un any</item>
+    </plurals>
+    <plurals name="participant_count">
+        <item quantity="other">%d participants</item>
+        <item quantity="one">%d participant</item>
+    </plurals>
+    <plurals name="participant_count_history_off">
+        <item quantity="other">%d participants, historial desactivat</item>
+        <item quantity="one">%d participant, historial desactivat</item>
+    </plurals>
+    <plurals name="group_chat_additional_participant_count">
+        <item quantity="other">i %d participants més</item>
+        <item quantity="one">i %d participant més</item>
     </plurals>
 </resources>

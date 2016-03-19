@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.hangouts.views.OverlayedAvatarView android:background="@drawable/stream_list_selector" android:paddingRight="8.0dip" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:hangouts="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.hangouts.views.AvatarView android:id="@id/avatar_image" android:layout_width="@dimen/extra_tiny_avatar_dimension" android:layout_height="@dimen/extra_tiny_avatar_dimension" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" hangouts:avatarViewSize="tiny" />
+    <com.google.android.apps.hangouts.views.RichStatusView android:orientation="horizontal" android:id="@id/rich_status_list" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/avatar_image" android:layout_toEndOf="@id/avatar_image">
+        <FrameLayout android:layout_gravity="center" android:id="@id/rich_status_typing_container" android:background="@drawable/type_indicator" android:visibility="gone" android:clipChildren="true" android:layout_width="wrap_content" android:layout_height="@dimen/rich_status_view_icon_size" android:layout_marginLeft="4.0dip">
+            <ImageView android:layout_gravity="center" android:id="@id/ellipsis" android:background="@drawable/dancing_ellipsis" android:layout_width="wrap_content" android:layout_height="@dimen/rich_status_view_device_icon_size" android:contentDescription="@string/rich_status_typing_description" />
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="center" android:id="@id/rich_status_in_call_container" android:background="@drawable/device_indicator" android:visibility="gone" android:clipChildren="true" android:layout_width="wrap_content" android:layout_height="@dimen/rich_status_view_icon_size" android:layout_marginLeft="4.0dip">
+            <ImageView android:layout_gravity="center" android:id="@id/rich_status_in_call" android:layout_width="@dimen/rich_status_view_device_icon_size" android:layout_height="@dimen/rich_status_view_device_icon_size" android:scaleType="center" android:contentDescription="@string/rich_status_in_call_description" />
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="center" android:id="@id/rich_status_device_status_container" android:background="@drawable/device_indicator" android:visibility="gone" android:clipChildren="true" android:layout_width="wrap_content" android:layout_height="@dimen/rich_status_view_icon_size" android:layout_marginLeft="4.0dip">
+            <ImageView android:layout_gravity="center" android:id="@id/rich_status_device_status" android:layout_width="@dimen/rich_status_view_device_icon_size" android:layout_height="@dimen/rich_status_view_device_icon_size" android:scaleType="center" android:importantForAccessibility="no" />
+        </FrameLayout>
+    </com.google.android.apps.hangouts.views.RichStatusView>
+</com.google.android.apps.hangouts.views.OverlayedAvatarView>

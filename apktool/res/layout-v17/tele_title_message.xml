@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="start|center" android:orientation="horizontal" android:id="@android:id/title" android:paddingTop="@dimen/dialog_text_view_padding" android:paddingBottom="@dimen/dialog_text_view_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dialog_text_view_padding" android:paddingEnd="@dimen/dialog_text_view_padding" style="@style/DialogWindowTitle" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/title_message_min_height">
+        <ScrollView android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@android:id/message" android:paddingTop="@dimen/dialog_text_view_padding" android:paddingBottom="@dimen/dialog_text_view_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dialog_text_view_padding" android:paddingEnd="@dimen/dialog_text_view_padding" style="@android:style/TextAppearance.Medium" />
+        </ScrollView>
+    </LinearLayout>
+    <include layout="@layout/tele_button_bar" />
+</LinearLayout>

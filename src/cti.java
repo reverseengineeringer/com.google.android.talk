@@ -1,0 +1,9 @@
+final class cti
+  implements csr<ctj>
+{}
+
+/* Location:
+ * Qualified Name:     cti
+ * Java Class Version: 6 (50.0)
+ * JD-Core Version:    0.7.1
+ */

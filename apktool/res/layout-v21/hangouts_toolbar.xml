@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.hangouts.views.HangoutsToolbar android:id="@id/hangouts_toolbar" android:background="@color/primary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize" android:elevation="@dimen/toolbar_elevation" app:contentInsetStart="@dimen/content_inset" app:contentInsetLeft="@dimen/content_inset" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" style="?attr/toolbarStyle" logo="@android:color/transparent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/container_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="11.0dip">
+        <LinearLayout android:orientation="vertical" android:id="@id/toolbar_view" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:ellipsize="end" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" style="@style/ToolbarTitle" />
+            <TextView android:ellipsize="end" android:id="@id/subtitle" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-3.0sp" android:singleLine="true" style="@style/ToolbarSubtitle" />
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.apps.hangouts.views.HangoutsToolbar>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingBottom="@dimen/button_bar_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="locale" android:paddingStart="@dimen/button_bar_padding" android:paddingEnd="@dimen/button_bar_padding" style="?android:attr/buttonBarStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Space android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <Button android:id="@id/negative_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/button_bar_height" android:text="@android:string/cancel" style="?android:attr/buttonBarButtonStyle" />
+    <Button android:id="@id/positive_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/button_bar_height" android:text="@android:string/ok" style="?android:attr/buttonBarButtonStyle" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <EditText android:id="@id/query" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Enter query" android:inputType="phone" />
+        <RadioGroup android:id="@id/query_type" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@id/phone_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="phone" />
+            <RadioButton android:id="@id/email_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="email" />
+        </RadioGroup>
+        <CheckBox android:id="@id/appReachabilityCheckBox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Only fetch app reachability" />
+        <Button android:id="@id/send" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="query" />
+        <TextView android:id="@id/response" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textIsSelectable="true" />
+    </LinearLayout>
+</ScrollView>
